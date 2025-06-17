@@ -1,5 +1,6 @@
 # 🚀 DevSnips – Frontend Snippet Library
-![image](https://github.com/user-attachments/assets/30291b78-4135-4cf9-87d1-be0ad0b8325c)
+![image](https://github.com/user-attachments/assets/dcda6dd3-85cb-4685-abc2-cf0bf1f5c7bd)
+
 
 
 
