@@ -1,0 +1,23 @@
+<!-- Modal Popup -->
+<button id="openModal">Open Modal</button>
+<div id="modal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.4);align-items:center;justify-content:center;">
+  <div style="background:#fff;padding:2em;border-radius:8px;min-width:250px;position:relative;">
+    <button id="closeModal" style="position:absolute;top:8px;right:8px;">&times;</button>
+    <h2>Modal Title</h2>
+    <p>This is a modal popup.</p>
+  </div>
+</div>
+
+<style>
+#modal { display: flex; }
+#modal[style*='display:none'] { display: none !important; }
+</style>
+
+<script>
+const openBtn = document.getElementById('openModal');
+const closeBtn = document.getElementById('closeModal');
+const modal = document.getElementById('modal');
+openBtn.onclick = () => modal.style.display = 'flex';
+closeBtn.onclick = () => modal.style.display = 'none';
+window.onclick = e => { if (e.target === modal) modal.style.display = 'none'; };
+</script>

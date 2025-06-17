@@ -1,0 +1,23 @@
+<!-- Toast Notification -->
+<button id="showToast">Show Toast</button>
+<div id="toast" style="display:none;position:fixed;bottom:2em;right:2em;background:#6366f1;color:#fff;padding:1em 2em;border-radius:8px;box-shadow:0 2px 8px #0003;z-index:1000;">This is a toast notification!</div>
+
+<style>
+#showToast {
+  padding: 0.5em 1em;
+  border: none;
+  background: #6366f1;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+</style>
+
+<script>
+const showToast = document.getElementById('showToast');
+const toast = document.getElementById('toast');
+showToast.onclick = () => {
+  toast.style.display = 'block';
+  setTimeout(() => toast.style.display = 'none', 2000);
+};
+</script>

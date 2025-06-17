@@ -1,0 +1,12 @@
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" style="display:none;position:fixed;bottom:2em;right:2em;background:#6366f1;color:#fff;border:none;border-radius:50%;width:2.5em;height:2.5em;font-size:1.5em;cursor:pointer;z-index:1000;">&#8679;</button>
+
+<script>
+const scrollBtn = document.getElementById('scrollTopBtn');
+window.onscroll = () => {
+  scrollBtn.style.display = window.scrollY > 200 ? 'block' : 'none';
+};
+scrollBtn.onclick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+</script>

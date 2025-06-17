@@ -1,0 +1,26 @@
+<!-- Dark Mode Toggle -->
+<button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+
+<style>
+body.dark-mode {
+  background: #18181b;
+  color: #f4f4f5;
+}
+#darkModeToggle {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border: none;
+  background: #6366f1;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+</style>
+
+<script>
+// Toggle dark mode class on body
+const toggle = document.getElementById('darkModeToggle');
+toggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});
+</script>

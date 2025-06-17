@@ -1,0 +1,44 @@
+<!-- Accordion: Expand/collapse UI using :checked selector (CSS-only) -->
+<div class="accordion">
+  <input type="checkbox" id="section1">
+  <label for="section1">Accordion Title</label>
+  <div class="content">
+    <p>This is the accordion content. It expands and collapses smoothly.</p>
+  </div>
+</div>
+<style>
+.accordion {
+  max-width: 400px;
+  margin: 2em auto;
+  font-family: Arial, sans-serif;
+}
+.accordion input[type="checkbox"] {
+  display: none;
+}
+.accordion label {
+  display: block;
+  background: #6a5af9;
+  color: #fff;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  font-weight: bold;
+}
+.accordion .content {
+  max-height: 0;
+  overflow: hidden;
+  background: #f3f3f3;
+  transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1);
+  border-radius: 0 0 8px 8px;
+  padding: 0 1em;
+}
+.accordion input:checked ~ .content {
+  max-height: 100px;
+  padding: 1em;
+}
+@media (max-width: 500px) {
+  .accordion {
+    max-width: 95vw;
+  }
+}
+</style>

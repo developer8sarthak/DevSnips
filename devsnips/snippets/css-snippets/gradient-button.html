@@ -1,0 +1,25 @@
+<!-- Gradient Button: A hover-animated button with linear-gradient background -->
+<button class="gradient-btn">Gradient Button</button>
+<style>
+.gradient-btn {
+  padding: 0.75em 2em;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #6a5af9, #f857a6);
+  color: #fff;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(80, 80, 200, 0.1);
+}
+.gradient-btn:hover {
+  background: linear-gradient(90deg, #f857a6, #6a5af9);
+  transform: translateY(-2px) scale(1.04);
+}
+/* Responsive: Full width on small screens */
+@media (max-width: 500px) {
+  .gradient-btn {
+    width: 100%;
+  }
+}
+</style>

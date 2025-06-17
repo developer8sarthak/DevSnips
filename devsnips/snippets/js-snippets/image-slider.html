@@ -1,0 +1,51 @@
+<!-- Image Slider/Carousel -->
+<div class="slider">
+  <button class="prev">&#8592;</button>
+  <img class="slide" src="https://placehold.co/300x180?text=1" alt="Slide 1">
+  <img class="slide" src="https://placehold.co/300x180?text=2" alt="Slide 2" style="display:none;">
+  <img class="slide" src="https://placehold.co/300x180?text=3" alt="Slide 3" style="display:none;">
+  <button class="next">&#8594;</button>
+</div>
+
+<style>
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin: 2em auto;
+  max-width: 350px;
+}
+.slide {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0002;
+}
+button.prev, button.next {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+</style>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let idx = 0;
+document.querySelector('.next').onclick = () => {
+  slides[idx].style.display = 'none';
+  idx = (idx + 1) % slides.length;
+  slides[idx].style.display = '';
+};
+document.querySelector('.prev').onclick = () => {
+  slides[idx].style.display = 'none';
+  idx = (idx - 1 + slides.length) % slides.length;
+  slides[idx].style.display = '';
+};
+</script>

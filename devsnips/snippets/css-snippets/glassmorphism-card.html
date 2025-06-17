@@ -1,0 +1,25 @@
+<!-- Glassmorphism Card: Frosted glass effect with blur and transparency -->
+<div class="glass-card">
+  <h2>Glassmorphism Card</h2>
+  <p>This card uses a frosted glass effect with blur and transparency.</p>
+</div>
+<style>
+.glass-card {
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 2em;
+  max-width: 350px;
+  margin: 2em auto;
+  color: #222;
+}
+@media (max-width: 500px) {
+  .glass-card {
+    padding: 1em;
+    max-width: 95vw;
+  }
+}
+</style>
