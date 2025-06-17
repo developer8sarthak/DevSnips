@@ -1,4 +1,7 @@
 # 🚀 DevSnips – Frontend Snippet Library
+![image](https://github.com/user-attachments/assets/ec9d980f-8b4f-411d-ad55-576fe444a972)
+
+
 
 A curated collection of reusable **HTML**, **CSS**, and **JavaScript** code snippets to help you build faster, cleaner, and more efficient frontend interfaces.
 
