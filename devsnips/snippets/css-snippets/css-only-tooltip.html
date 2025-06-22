@@ -1,0 +1,36 @@
+<!-- CSS-Only Tooltip -->
+<button class="tooltip-btn">Hover me
+  <span class="tooltip-text">Tooltip text</span>
+</button>
+<style>
+.tooltip-btn {
+  position: relative;
+  background: #6a5af9;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  width: 120px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.5em;
+  position: absolute;
+  left: 50%;
+  bottom: 125%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  pointer-events: none;
+  z-index: 2;
+}
+.tooltip-btn:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+</style>

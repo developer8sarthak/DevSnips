@@ -1,0 +1,35 @@
+<!-- CSS-Only Accordion -->
+<div class="accordion">
+  <input type="checkbox" id="section1">
+  <label for="section1">Section 1</label>
+  <div class="content">Accordion content 1</div>
+  <input type="checkbox" id="section2">
+  <label for="section2">Section 2</label>
+  <div class="content">Accordion content 2</div>
+</div>
+<style>
+.accordion label {
+  display: block;
+  background: #6a5af9;
+  color: #fff;
+  padding: 0.7em 1em;
+  cursor: pointer;
+  margin-bottom: 2px;
+  border-radius: 4px 4px 0 0;
+}
+.accordion input[type="checkbox"] {
+  display: none;
+}
+.accordion .content {
+  max-height: 0;
+  overflow: hidden;
+  background: #f5f5f5;
+  transition: max-height 0.3s ease;
+  padding: 0 1em;
+  border-radius: 0 0 4px 4px;
+}
+.accordion input[type="checkbox"]:checked + label + .content {
+  max-height: 100px;
+  padding: 1em;
+}
+</style>

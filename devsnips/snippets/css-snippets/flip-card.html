@@ -1,0 +1,48 @@
+<!-- 3D Flip Card -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      Front
+    </div>
+    <div class="flip-card-back">
+      Back
+    </div>
+  </div>
+</div>
+<style>
+.flip-card {
+  background: transparent;
+  width: 200px;
+  height: 120px;
+  perspective: 1000px;
+  margin: 2rem auto;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.flip-card-back {
+  background: #6a5af9;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+</style>

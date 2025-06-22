@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevSnips - Code Snippets Library</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevSnips – Code Snippets Library</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 </head>
+<style>
+  body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.snippets-section {
+  padding: 2rem;
+}
+
+.snippet-list {
+  list-style: none;
+  padding: 0;
+}
+
+.snippet-list li {
+  margin: 0.5rem 0;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f1f1f1;
+  font-size: 0.9rem;
+}
+</style>
 <body>
-  <header>
-    <img src="assets/images/devsnips-logo.svg" alt="DevSnips Logo" width="64">
-    <h1>DevSnips</h1>
-    <p>A collection of useful HTML/CSS snippets</p>
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="assets/images/devsnips-logo.svg" alt="DevSnips Logo" width="64" height="64" />
+      <div>
+        <h1>DevSnips</h1>
+        <p>Your personal HTML/CSS snippets library</p>
+      </div>
+    </div>
   </header>
-  <main>
-    <section>
-      <h2>Snippets</h2>
-      <ul>
-        <li>Buttons</li>
-        <li>Cards</li>
-        <li>Loaders</li>
-        <li>Modals</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 DevSnips</p>
+  <footer class="site-footer">
+    <p>&copy; 2025 <strong>DevSnips</strong> — Built with ❤️ by Sarthak</p>
   </footer>
 </body>
 </html>
