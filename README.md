@@ -1,6 +1,10 @@
 # 🚀 DevSnips – Frontend Snippet Library
 ![image](https://github.com/user-attachments/assets/dcda6dd3-85cb-4685-abc2-cf0bf1f5c7bd)
 
+[![DevSnips – Frontend Snippet Library](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1013339&theme=dark)](https://www.producthunt.com/products/devsnips-frontend-snippet-library?utm_source=badge-featured&utm_medium=badge&utm_source=badge-devsnips-frontend-snippet-library)
+[![Featured on DevHub](https://devhub.best/images/badges/featured-on-light.svg)](https://devhub.best)
+[![Featured on Twelve Tools](https://twelve.tools/badge3-dark.svg)](https://twelve.tools)
+
 
 
 
