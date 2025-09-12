@@ -1,0 +1,93 @@
+<div class="collapsible-accordion">
+  <div class="accordion-item">
+    <button class="accordion-header" aria-expanded="false">
+      <span>Section 1</span>
+      <svg class="icon" viewBox="0 0 24 24">
+        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+      </svg>
+    </button>
+    <div class="accordion-content">
+      <p>Content for section 1 goes here.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-header" aria-expanded="false">
+      <span>Section 2</span>
+      <svg class="icon" viewBox="0 0 24 24">
+        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+      </svg>
+    </button>
+    <div class="accordion-content">
+      <p>Content for section 2 goes here.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+.collapsible-accordion {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+.accordion-header:hover {
+  background: #e4e4e4;
+}
+
+.accordion-content {
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-header[aria-expanded="true"] + .accordion-content {
+  max-height: 100px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.accordion-header[aria-expanded="true"] .icon {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 480px) {
+  .accordion-header {
+    padding: 10px;
+  }
+  
+  .accordion-content {
+    padding: 0 10px;
+  }
+}
+</style>
+
+<script>
+document.querySelectorAll('.accordion-header').forEach(button => {
+  button.addEventListener('click', () => {
+    const expanded = button.getAttribute('aria-expanded') === 'true';
+    button.setAttribute('aria-expanded', !expanded);
+  });
+});
+</script>

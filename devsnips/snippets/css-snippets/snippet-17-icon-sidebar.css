@@ -1,0 +1,235 @@
+/*
+ * Icon Sidebar Menu with Tooltips
+ * Collapsible sidebar navigation with icon-only mode
+ * 
+ * Features:
+ * - Expandable/collapsible sidebar
+ * - CSS-only tooltips
+ * - Smooth transitions
+ * - Keyboard accessible
+ * - Mobile responsive
+ * 
+ * Usage:
+ * <nav class="icon-sidebar">
+ *   <button class="icon-sidebar__toggle">Toggle</button>
+ *   <div class="icon-sidebar__content">
+ *     <a href="#" class="icon-sidebar__item" data-tooltip="Home">
+ *       <svg class="icon-sidebar__icon">...</svg>
+ *       <span class="icon-sidebar__label">Home</span>
+ *     </a>
+ *   </div>
+ * </nav>
+ */
+
+/* Root variables */
+:root {
+  --sidebar-bg: #1a1a1a;
+  --sidebar-color: #fff;
+  --sidebar-hover: rgba(255, 255, 255, 0.1);
+  --sidebar-active: #4a90e2;
+  --sidebar-width: 240px;
+  --sidebar-collapsed-width: 64px;
+  --sidebar-timing: 0.3s;
+  --tooltip-bg: rgba(0, 0, 0, 0.8);
+}
+
+/* Base sidebar */
+.icon-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: var(--sidebar-width);
+  background: var(--sidebar-bg);
+  color: var(--sidebar-color);
+  transition: width var(--sidebar-timing) ease;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+/* Collapsed state */
+.icon-sidebar--collapsed {
+  width: var(--sidebar-collapsed-width);
+}
+
+/* Content container */
+.icon-sidebar__content {
+  height: 100%;
+  padding: 1rem 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Navigation items */
+.icon-sidebar__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  color: inherit;
+  text-decoration: none;
+  transition: background var(--sidebar-timing) ease;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.icon-sidebar__item:hover {
+  background: var(--sidebar-hover);
+}
+
+/* Active state */
+.icon-sidebar__item--active {
+  background: var(--sidebar-active);
+}
+
+/* Icons */
+.icon-sidebar__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+/* Labels */
+.icon-sidebar__label {
+  white-space: nowrap;
+  opacity: 1;
+  transition: opacity var(--sidebar-timing) ease;
+}
+
+/* Hide labels when collapsed */
+.icon-sidebar--collapsed .icon-sidebar__label {
+  opacity: 0;
+}
+
+/* Toggle button */
+.icon-sidebar__toggle {
+  position: absolute;
+  top: 1rem;
+  right: -12px;
+  width: 24px;
+  height: 24px;
+  background: var(--sidebar-active);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--sidebar-timing) ease;
+  z-index: 1;
+}
+
+/* Rotate toggle icon when collapsed */
+.icon-sidebar--collapsed .icon-sidebar__toggle {
+  transform: rotate(180deg);
+}
+
+/* Tooltip */
+.icon-sidebar__item::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5rem 0.75rem;
+  background: var(--tooltip-bg);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--sidebar-timing) ease,
+              visibility var(--sidebar-timing) ease;
+  pointer-events: none;
+}
+
+/* Show tooltip only in collapsed state */
+.icon-sidebar--collapsed .icon-sidebar__item:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Section divider */
+.icon-sidebar__divider {
+  margin: 0.5rem 1rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Nested items */
+.icon-sidebar__submenu {
+  padding-left: calc(24px + 2rem);
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height var(--sidebar-timing) ease,
+              opacity var(--sidebar-timing) ease;
+}
+
+.icon-sidebar__item--expanded + .icon-sidebar__submenu {
+  height: auto;
+  opacity: 1;
+}
+
+/* Header section */
+.icon-sidebar__header {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+}
+
+/* Footer section */
+.icon-sidebar__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: inherit;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .icon-sidebar {
+    transform: translateX(-100%);
+  }
+  
+  .icon-sidebar--mobile-visible {
+    transform: translateX(0);
+  }
+  
+  .icon-sidebar__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--sidebar-timing) ease,
+                visibility var(--sidebar-timing) ease;
+  }
+  
+  .icon-sidebar--mobile-visible ~ .icon-sidebar__overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* High contrast mode */
+@media (forced-colors: active) {
+  .icon-sidebar {
+    border-right: 1px solid CanvasText;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .icon-sidebar {
+    --sidebar-timing: 0s;
+  }
+}
