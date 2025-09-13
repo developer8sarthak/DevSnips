@@ -1,0 +1,12 @@
+<img src="low.jpg" data-high="high.jpg" class="progressive" alt="">
+
+
+<script>
+document.querySelectorAll('.progressive').forEach(img=>{const hi=img.dataset.high;const tmp=new Image();tmp.onload=()=>img.src=hi;tmp.src=hi;});
+</script>
+
+
+<style>
+.progressive{filter:blur(8px);transition:filter .5s}
+.progressive[src$="high.jpg"]{filter:blur(0)}
+</style>
