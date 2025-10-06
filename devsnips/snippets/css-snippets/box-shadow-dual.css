@@ -1,0 +1,10 @@
+/*
+Snippet Name: Combined Inset and Outer Box-Shadow
+Use Case: To create a more complex and layered visual effect on elements like buttons or cards by combining both an outer shadow and an inner (inset) shadow.
+Description: This snippet applies two comma-separated `box-shadow` values to an element: a standard outer shadow for a lifting effect and an inset shadow for an inner embossed or pressed effect.
+*/
+.box-shadow-dual {
+  box-shadow:
+    0 4px 6px rgba(0,0,0,0.1),
+    inset 0 2px 4px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,8 @@
+/*
+Snippet Name: Simple Gradient Background
+Use Case: Applying a smooth color transition as a background for elements like headers, cards, or entire pages.
+Description: This class applies a horizontal linear gradient. The colors can be easily customized to fit any design palette.
+*/
+.gradient-bg {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
