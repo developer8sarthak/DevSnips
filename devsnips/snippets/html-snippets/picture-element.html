@@ -1,0 +1,10 @@
+<!--
+  Snippet Name: Picture Element
+  Use Case: Providing different image sources for different devices or screen sizes.
+  Description: The <picture> element allows you to display different pictures for different devices or screen sizes. It contains <source> elements and one <img> element.
+-->
+<picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>

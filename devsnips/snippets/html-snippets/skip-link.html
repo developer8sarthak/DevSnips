@@ -1,0 +1,26 @@
+<!--
+  Snippet Name: Skip Link
+  Use Case: Aiding keyboard users to skip to the main content of the page.
+  Description: A "skip to main content" link that is often hidden until focused.
+-->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<div id="main-content">
+  <!-- Your main content here -->
+  <p>This is the main content area.</p>
+</div>
+
+<style>
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+</style>

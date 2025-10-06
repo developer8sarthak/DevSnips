@@ -1,0 +1,50 @@
+<!--
+  Snippet Name: Responsive Image Gallery
+  Use Case: Creating a responsive image gallery.
+  Description: A responsive image gallery that uses CSS Flexbox to create a flexible grid of images.
+-->
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+  </div>
+  <div class="gallery-item">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+  </div>
+  <div class="gallery-item">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+  </div>
+  <div class="gallery-item">
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+  </div>
+</div>
+
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery-item {
+  flex: 1 1 calc(25% - 1rem); /* Adjust the percentage for the number of columns */
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    flex: 1 1 calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    flex: 1 1 100%;
+  }
+}
+</style>
