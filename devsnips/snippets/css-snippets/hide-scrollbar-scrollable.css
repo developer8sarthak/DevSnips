@@ -1,0 +1,15 @@
+/*
+Snippet Name: Hide Scrollbar but Keep Scrolling
+Use Case: To hide the browser's scrollbar from view on a scrollable element while still allowing the user to scroll with a mouse wheel or touch gesture.
+Description: This snippet uses standard and vendor-prefixed properties to hide the scrollbar. `scrollbar-width: none;` is for Firefox, while the `::-webkit-scrollbar` pseudo-element is for WebKit browsers like Chrome, Safari, and Edge.
+*/
+
+/* Hides scrollbar for Firefox */
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Hides scrollbar for WebKit browsers */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

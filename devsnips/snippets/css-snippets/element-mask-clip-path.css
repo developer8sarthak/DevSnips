@@ -1,0 +1,8 @@
+/*
+Snippet Name: Element Mask with clip-path
+Use Case: For creating non-rectangular shapes by clipping an element to a specific polygon or shape, such as a hexagon, star, or custom shape.
+Description: This snippet uses the `clip-path` property to mask an element's visible area. The polygon points can be customized to create any shape. You can use an online clip-path generator to create complex shapes.
+*/
+.masked {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}

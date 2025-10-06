@@ -1,0 +1,20 @@
+/*
+Snippet Name: Custom Scrollbar (WebKit)
+Use Case: To style the browser scrollbar in WebKit-based browsers like Chrome, Safari, and Edge for a more branded or visually consistent experience.
+Description: This snippet targets WebKit's proprietary pseudo-elements to customize the appearance of the scrollbar track, thumb, and hover states. It will not work in Firefox.
+*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

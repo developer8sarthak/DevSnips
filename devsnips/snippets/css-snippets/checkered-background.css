@@ -1,0 +1,15 @@
+/*
+Snippet Name: Checkered Background
+Use Case: To create a repeating checkered or checkerboard pattern, often used as a background to display transparent images or as a decorative pattern itself.
+Description: This snippet uses a repeating conic gradient to create a checkered pattern. The size of the checkerboard can be easily adjusted by changing the `background-size` property.
+*/
+.checkered-background {
+  background-color: #eee;
+  background-image:
+    linear-gradient(45deg, #ccc 25%, transparent 25%),
+    linear-gradient(-45deg, #ccc 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #ccc 75%),
+    linear-gradient(-45deg, transparent 75%, #ccc 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}

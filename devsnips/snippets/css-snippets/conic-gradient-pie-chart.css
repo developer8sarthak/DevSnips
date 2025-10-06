@@ -1,0 +1,15 @@
+/*
+Snippet Name: Conic Gradient Pie Chart
+Use Case: To create simple pie charts or color wheels for data visualization or decorative purposes without needing images or JavaScript libraries.
+Description: This snippet uses a `conic-gradient` to create a circular chart. The color stops define the percentage of each segment. Applying `border-radius: 50%` makes the element a circle.
+*/
+.pie-chart {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    #3498db 0% 35%,      /* Blue segment: 35% */
+    #2ecc71 35% 70%,      /* Green segment: 35% */
+    #e74c3c 70% 100%     /* Red segment: 30% */
+  );
+}
