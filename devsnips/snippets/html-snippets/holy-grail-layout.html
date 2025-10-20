@@ -1,0 +1,35 @@
+<!-- Snippet Name: Holy Grail Layout | Use Case: Layout | Description: A responsive holy grail layout. -->
+<style>
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header, .footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+.main {
+  display: flex;
+  flex: 1;
+}
+.nav, .aside {
+  background: #f4f4f4;
+  padding: 10px;
+}
+.content {
+  flex: 1;
+  padding: 10px;
+}
+</style>
+
+<div class="container">
+  <header class="header">Header</header>
+  <main class="main">
+    <nav class="nav">Navigation</nav>
+    <article class="content">Main Content</article>
+    <aside class="aside">Sidebar</aside>
+  </main>
+  <footer class="footer">Footer</footer>
+</div>

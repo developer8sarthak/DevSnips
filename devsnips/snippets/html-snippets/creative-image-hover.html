@@ -1,0 +1,40 @@
+<!-- Snippet Name: Creative Image Hover | Use Case: Image galleries, portfolios | Description: An image with a creative hover effect. -->
+<style>
+.image-container {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+}
+.image-container img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+.image-container:hover img {
+  transform: scale(1.1);
+}
+.image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-container:hover .overlay {
+  opacity: 1;
+}
+</style>
+<div class="image-container">
+  <img src="https://via.placeholder.com/300" alt="Placeholder">
+  <div class="overlay">
+    <h3>Image Title</h3>
+    <p>A short description.</p>
+  </div>
+</div>

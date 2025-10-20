@@ -1,0 +1,32 @@
+<!-- Snippet Name: Circular Menu | Use Case: Navigation | Description: A circular navigation menu. -->
+<style>
+.menu {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.menu-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: 0 0;
+  width: 50px;
+  height: 50px;
+  background: #333;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+}
+</style>
+
+<div class="menu">
+  <div class="menu-item" style="transform: rotate(0deg) translate(100px) rotate(0deg);">1</div>
+  <div class="menu-item" style="transform: rotate(60deg) translate(100px) rotate(-60deg);">2</div>
+  <div class="menu-item" style="transform: rotate(120deg) translate(100px) rotate(-120deg);">3</div>
+  <div class="menu-item" style="transform: rotate(180deg) translate(100px) rotate(-180deg);">4</div>
+  <div class="menu-item" style="transform: rotate(240deg) translate(100px) rotate(-240deg);">5</div>
+  <div class="menu-item" style="transform: rotate(300deg) translate(100px) rotate(-300deg);">6</div>
+</div>

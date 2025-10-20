@@ -1,0 +1,28 @@
+<!-- Snippet Name: Back to Top Button | Use Case: Long pages | Description: A button that appears after scrolling and takes the user to the top of the page. -->
+<style>
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4a90e2;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
+</style>
+<a id="back-to-top" class="back-to-top">TOP</a>
+<script>
+window.onscroll = function() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+};
+document.getElementById("back-to-top").onclick = function() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
