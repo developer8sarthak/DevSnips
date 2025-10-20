@@ -1,0 +1,37 @@
+<!-- Snippet Name: Progress Steps | Use Case: Multi-step forms, tutorials | Description: A progress indicator with steps. -->
+<style>
+.progress-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
+}
+.progress-steps::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #eee;
+  z-index: -1;
+}
+.step {
+  width: 30px;
+  height: 30px;
+  background: #eee;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step.active {
+  background: #4a90e2;
+  color: white;
+}
+</style>
+<div class="progress-steps">
+  <div class="step active">1</div>
+  <div class="step">2</div>
+  <div class="step">3</div>
+</div>

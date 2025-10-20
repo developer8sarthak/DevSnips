@@ -1,0 +1,45 @@
+<!-- Snippet Name: Split Button | Use Case: Buttons | Description: A button with a dropdown menu. -->
+<style>
+.btn-group {
+  position: relative;
+  display: inline-block;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.btn-group:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<div class="btn-group">
+  <button class="btn">Action</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
