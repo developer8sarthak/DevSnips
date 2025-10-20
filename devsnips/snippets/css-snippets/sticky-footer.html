@@ -1,0 +1,45 @@
+<!-- Snippet Name: Sticky Footer | Use Case: Creating a footer that stays fixed at the bottom of the viewport | Description: Uses `position: fixed` to keep the footer visible at all times. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Footer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-bottom: 60px; /* Adjust this value to match the footer's height */
+            line-height: 1.6;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            z-index: 1000;
+        }
+        .content {
+            padding: 2rem;
+            height: 150vh; /* Make page scrollable */
+        }
+    </style>
+</head>
+<body>
+
+    <main class="content">
+        <h2>Scroll down the page.</h2>
+        <p>The footer will remain at the bottom.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... </p>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Sticky Footer</p>
+    </footer>
+
+</body>
+</html>

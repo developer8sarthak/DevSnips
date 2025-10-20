@@ -1,0 +1,41 @@
+<!-- Snippet Name: Sticky Header | Use Case: Creating a header that stays fixed at the top of the viewport while scrolling | Description: Uses `position: sticky` to keep the header visible. A fallback to `position: fixed` can be used for older browsers. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .header {
+            position: sticky;
+            top: 0;
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            z-index: 1000;
+        }
+        .content {
+            padding: 2rem;
+            height: 200vh; /* Make page scrollable to demonstrate stickiness */
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Sticky Header</h1>
+    </header>
+
+    <main class="content">
+        <h2>Scroll down to see the header stick.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... </p>
+    </main>
+
+</body>
+</html>
