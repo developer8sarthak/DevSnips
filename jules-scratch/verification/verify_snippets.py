@@ -2,20 +2,31 @@ from playwright.sync_api import sync_playwright
 import os
 
 def run():
+    files_to_capture = [
+        'center-anything-flexbox.html',
+        'center-anything-grid.html',
+        'sticky-header.html',
+        'sticky-footer.html',
+        'responsive-two-column-layout.html',
+        'holy-grail-layout.html',
+        'equal-height-cards-flexbox.html',
+        'equal-height-cards-grid.html',
+        'css-masonry-layout.html',
+        'aspect-ratio-boxes.html',
+        'responsive-video-container.html'
+    ]
+
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
+        page.set_viewport_size({"width": 800, "height": 600})
 
-        snippets_dir = "devsnips/snippets/html-snippets"
+        for file in files_to_capture:
+            filepath = f"file://{os.getcwd()}/devsnips/snippets/css-snippets/{file}"
+            screenshot_path = f"jules-scratch/verification/{os.path.splitext(file)[0]}.png"
 
-        # Get all html files in the directory
-        all_files = os.listdir(snippets_dir)
-        new_snippets = [f for f in all_files if f.endswith('.html')]
-
-        for i, snippet_file in enumerate(new_snippets):
-            filepath = os.path.join(snippets_dir, snippet_file)
-            page.goto(f"file://{os.path.abspath(filepath)}")
-            page.screenshot(path=f"jules-scratch/verification/snippet_{i}.png")
+            page.goto(filepath)
+            page.screenshot(path=screenshot_path)
 
         browser.close()
 

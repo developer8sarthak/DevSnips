@@ -1,0 +1,47 @@
+<!-- Snippet Name: Equal Height Cards (Grid) | Use Case: Ensuring all cards in a row have the same height. | Description: Uses CSS Grid's `grid-auto-rows` property to ensure all cards in the grid have the same height. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equal Height Cards with Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>This card has a small amount of content.</p>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>This card has much more content than the first one. CSS Grid automatically makes all items in a row the same height, so no extra properties are needed.</p>
+        </div>
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>This is another card with a medium amount of content, demonstrating the equal height effect.</p>
+        </div>
+    </div>
+</body>
+</html>
