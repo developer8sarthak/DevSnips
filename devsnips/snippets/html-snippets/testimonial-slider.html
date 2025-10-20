@@ -1,0 +1,49 @@
+<!-- Snippet Name: Testimonial Slider | Use Case: Displaying customer testimonials | Description: A simple testimonial slider. -->
+<style>
+.testimonial-slider {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.testimonial {
+  display: none;
+}
+.testimonial.active {
+  display: block;
+}
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+</style>
+<div class="testimonial-slider">
+  <div class="testimonial active">
+    <img src="https://via.placeholder.com/100" alt="Avatar">
+    <p>"This is a great product!"</p>
+    <h4>- Customer 1</h4>
+  </div>
+  <div class="testimonial">
+    <img src="https://via.placeholder.com/100" alt="Avatar">
+    <p>"I highly recommend it."</p>
+    <h4>- Customer 2</h4>
+  </div>
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("testimonial");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>

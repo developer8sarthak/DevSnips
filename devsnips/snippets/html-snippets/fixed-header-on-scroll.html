@@ -1,0 +1,41 @@
+<!-- Snippet Name: Fixed Header on Scroll | Use Case: Headers | Description: A header that becomes fixed on scroll. -->
+<style>
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+</style>
+
+<div id="myHeader" class="header">
+  <h2>My Header</h2>
+</div>
+
+<div class="content">
+  <p>Scroll down to see the sticky effect.</p>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>

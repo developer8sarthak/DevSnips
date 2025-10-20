@@ -1,0 +1,39 @@
+<!-- Snippet Name: Fixed Sidebar | Use Case: Navigation | Description: A fixed sidebar that stays in place on scroll. -->
+<style>
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+</style>
+
+<div class="sidebar">
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+  <h2>Fixed Sidebar</h2>
+  <p>This sidebar is fixed (stays in place on scroll).</p>
+</div>

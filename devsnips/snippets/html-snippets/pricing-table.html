@@ -1,0 +1,55 @@
+<!-- Snippet Name: Pricing Table | Use Case: Displaying subscription plans | Description: A responsive pricing table. -->
+<style>
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pricing-plan {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+}
+.pricing-plan h3 {
+  margin-top: 0;
+}
+.pricing-plan .price {
+  font-size: 24px;
+  font-weight: bold;
+}
+.pricing-plan ul {
+  list-style: none;
+  padding: 0;
+}
+.pricing-plan .btn {
+  background: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+</style>
+<div class="pricing-table">
+  <div class="pricing-plan">
+    <h3>Basic</h3>
+    <div class="price">$10/mo</div>
+    <ul>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+    </ul>
+    <a href="#" class="btn">Select</a>
+  </div>
+  <div class="pricing-plan">
+    <h3>Pro</h3>
+    <div class="price">$20/mo</div>
+    <ul>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+      <li>Feature 3</li>
+    </ul>
+    <a href="#" class="btn">Select</a>
+  </div>
+</div>

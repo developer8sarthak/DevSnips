@@ -1,0 +1,54 @@
+<!-- Snippet Name: Full Screen Search | Use Case: Search functionality | Description: A full screen search overlay. -->
+<style>
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.9);
+}
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+<div id="myOverlay" class="overlay">
+  <span class="closebtn" onclick="closeSearch()" style="cursor:pointer; color:white; font-size: 60px; position: absolute; top: 20px; right: 45px;">&times;</span>
+  <div class="overlay-content">
+    <input type="text" placeholder="Search..">
+    <button type="submit">Search</button>
+  </div>
+</div>
+<button onclick="openSearch()">Open Search</button>
+<script>
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>

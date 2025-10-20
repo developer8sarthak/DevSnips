@@ -1,0 +1,70 @@
+<!-- Snippet Name: Calendar Widget | Use Case: Calendars, date pickers | Description: A simple calendar widget. -->
+<style>
+.calendar {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.month {
+  padding: 10px;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.days {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  text-align: center;
+}
+</style>
+
+<div class="calendar">
+  <div class="month">
+    <h3 id="month-name"></h3>
+  </div>
+  <div class="days" id="days-grid">
+  </div>
+</div>
+
+<script>
+  const monthNameEl = document.getElementById('month-name');
+  const daysGridEl = document.getElementById('days-grid');
+
+  const date = new Date();
+  const month = date.toLocaleString('default', { month: 'long' });
+  const year = date.getFullYear();
+
+  monthNameEl.innerText = `${month} ${year}`;
+
+  const daysInMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+  const firstDayOfMonth = new Date(date.getFullYear(), date.getMonth(), 1).getDay();
+
+  const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  weekdays.forEach(day => {
+    const dayEl = document.createElement('div');
+    dayEl.classList.add('day');
+    dayEl.innerText = day;
+    daysGridEl.appendChild(dayEl);
+  });
+
+  for (let i = 0; i < firstDayOfMonth; i++) {
+    const dayEl = document.createElement('div');
+    dayEl.classList.add('day');
+    daysGridEl.appendChild(dayEl);
+  }
+
+  for (let i = 1; i <= daysInMonth; i++) {
+    const dayEl = document.createElement('div');
+    dayEl.classList.add('day');
+    dayEl.innerText = i;
+    daysGridEl.appendChild(dayEl);
+  }
+</script>

@@ -1,0 +1,27 @@
+<!-- Snippet Name: Diagonal Background | Use Case: Sections, headers | Description: A section with a diagonal background. -->
+<style>
+.diagonal-box {
+  background: #333;
+  color: white;
+  padding: 50px;
+  position: relative;
+}
+
+.diagonal-box:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -50px;
+  right: 0;
+  bottom: 0;
+  transform: skewY(-5deg);
+  transform-origin: 50% 0;
+  outline: 1px solid transparent;
+  background: inherit;
+  backface-visibility: hidden;
+}
+</style>
+
+<div class="diagonal-box">
+  <h2>Diagonal Background</h2>
+</div>

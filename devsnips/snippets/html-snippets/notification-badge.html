@@ -1,0 +1,30 @@
+<!-- Snippet Name: Notification Badge | Use Case: Notifications | Description: A notification badge. -->
+<style>
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+</style>
+
+<a href="#" class="notification">
+  <span>Inbox</span>
+  <span class="badge">3</span>
+</a>

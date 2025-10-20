@@ -1,0 +1,27 @@
+<!-- Snippet Name: Hamburger Menu | Use Case: Mobile navigation | Description: A hamburger menu icon that animates to a close icon. -->
+<style>
+.hamburger {
+  cursor: pointer;
+}
+.hamburger .line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.hamburger.active .line:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.hamburger.active .line:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active .line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+</style>
+<div class="hamburger" onclick="this.classList.toggle('active')">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
