@@ -1,0 +1,24 @@
+<!--
+Snippet Name: Toast Notification Markup
+Description: Non-blocking toast notification container with ARIA live region.
+Author: DevSnips Contributors
+Usage Example: Inject toast messages into the list at runtime with JavaScript.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toast Notification Markup</title>
+  </head>
+  <body>
+    <section aria-label="Notifications">
+      <ul aria-live="polite" aria-atomic="true">
+        <li role="status">
+          <p>Profile updated successfully.</p>
+          <button type="button" aria-label="Dismiss notification">Dismiss</button>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
