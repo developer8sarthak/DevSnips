@@ -1,3 +1,10 @@
+/**
+ * Snippet Name: Focus Trap (Modal)
+ * Description: Reusable focus trap (modal) JavaScript utility snippet for frontend projects.
+ * Author: DevSnips Contributors
+ * Usage Example: Open `devsnips/snippets/js-snippets/Focus Trap (modal).js` and copy the snippet into your project.
+ */
+
 function trapFocus(container){const focusable='a[href],button,input,textarea,select,[tabindex]:not([tabindex="-1"])';
 const nodes=[...container.querySelectorAll(focusable)];if(!nodes.length) return;
 const first=nodes[0],last=nodes[nodes.length-1];
