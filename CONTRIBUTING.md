@@ -1,79 +1,70 @@
 # 🤝 Contributing to DevSnips
 
-Thank you for considering a contribution to **DevSnips** — a curated collection of reusable frontend code snippets in HTML, CSS, and JavaScript.
+Thanks for helping improve **DevSnips**! This repository is a lightweight collection of framework-free frontend snippets.
 
-We welcome clean, functional, and well-documented snippets that can help developers build faster and smarter.
+## Contribution flow
 
----
+1. Fork the repository.
+2. Create a descriptive branch, for example `feat/modal-snippet`.
+3. Add or update snippets in:
+   - `devsnips/snippets/html-snippets/`
+   - `devsnips/snippets/css-snippets/`
+   - `devsnips/snippets/js-snippets/`
+4. Update `snippets-index.json` when you add/remove snippets.
+5. Run local checks and open a PR.
 
-## 📦 What You Can Contribute
+## Code style rules
 
-You can contribute by:
+- Use **2-space indentation** for HTML, CSS, and JS.
+- Keep snippets focused on one idea/component.
+- Use semantic HTML (`main`, `section`, `button`, etc.) where applicable.
+- Include accessibility support (labels, ARIA attributes, keyboard-friendly behavior).
+- Prefer modern JavaScript (`const`/`let`, arrow functions, array methods).
+- Avoid external dependencies unless absolutely necessary.
 
-- Adding a new HTML, CSS, or JavaScript snippet
-- Improving or refactoring an existing snippet
-- Fixing typos or improving documentation (README or snippet comments)
-- Organizing snippets with better naming or folder structure
-- Suggesting ideas via GitHub Issues
+## Standard snippet comment header
 
----
+Use this header at the top of every snippet file.
 
-## 📁 File Structure Overview
-devsnips/
-├── html/ → UI layouts, components, forms
-├── css/ → Effects, animations, UI styling
-├── js/ → Functional utilities, interactivity
+### HTML
 
+```html
+<!--
+Snippet Name: <name>
+Description: <one-line purpose>
+Author: <github handle or DevSnips Contributors>
+Usage Example: <short usage instruction>
+-->
+```
 
----
+### CSS
 
-## 🛠 How to Contribute
+```css
+/*
+Snippet Name: <name>
+Description: <one-line purpose>
+Author: <github handle or DevSnips Contributors>
+Usage Example: <short usage instruction>
+*/
+```
 
-1. **Fork the repository**  
-2. **Create a new branch**  
-   Use a descriptive name like `feature/navbar-snippet` or `fix/readme-typo`
+### JavaScript
 
-3. **Add or edit your snippet**
-   - Place it in the correct folder: `html/`, `css/`, or `js/`
-   - Use **descriptive file names** like `animated-button.css`, not `button1.css`
-   - Add a **comment header** in your file like this:
-     ```html
-     <!--
-     Snippet: Responsive Navbar
-     Description: A fully responsive navbar with hamburger menu for mobile view.
-     Author: @your-github-username
-     -->
-     ```
+```js
+/**
+ * Snippet Name: <name>
+ * Description: <one-line purpose>
+ * Author: <github handle or DevSnips Contributors>
+ * Usage Example: <short usage instruction>
+ */
+```
 
-4. **Test your snippet**
-   Ensure it works well in a basic HTML test file or browser.
+## Contributor checklist
 
-5. **Commit with a clear message**
-   Example: `feat: add responsive navbar snippet`
-
-6. **Push and open a Pull Request**
-   - Explain what you added and why
-   - If it's based on an open issue, mention it with `Closes #issue-number`
-
----
-
-## 📌 Code Style Guidelines
-
-- Keep code readable and consistently indented (2 or 4 spaces)
-- Avoid unnecessary libraries or frameworks
-- Keep JS snippets modular and functional (no global variables)
-- Use only **vanilla HTML/CSS/JS** — no dependencies
-- Keep snippets focused and minimal
-
----
-
-## 🛡 License
-
-By contributing, you agree that your submissions will be licensed under the [MIT License](LICENSE) of this repository.
-
----
-
-## 🙌 Thank You
-
-Your contributions make DevSnips better for everyone.  
-Feel free to open an issue if you need help or have questions before contributing.
+- [ ] Snippet includes the standard comment header.
+- [ ] Snippet follows 2-space indentation.
+- [ ] HTML snippets include `<!DOCTYPE html>`, `lang`, `charset`, and viewport meta.
+- [ ] Accessibility has been reviewed (semantic tags + ARIA where needed).
+- [ ] JavaScript uses `const`/`let` and modern syntax.
+- [ ] Snippet added to `snippets-index.json`.
+- [ ] Tested in at least two modern browsers.

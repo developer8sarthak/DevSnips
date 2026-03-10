@@ -1,20 +1,25 @@
-## 🚀 Pull Request Overview
+## 🚀 Pull Request Summary
 
-### What does this PR do?
-<!-- Brief description of the feature or fix -->
+### What does this PR change?
+<!-- Describe the snippet(s) or documentation updates in 2-4 bullets. -->
 
-### Related Issue
-Closes #[issue-number] (if applicable)
+### Related issue
+Closes #<issue-number> (if applicable)
 
-### Changes Made
-- [ ] Added new snippet: [name]
-- [ ] Refactored existing code
-- [ ] Updated documentation
+## ✅ PR Checklist
 
-### Screenshots/Preview
-<!-- Optional: Add image or link to demo -->
+- [ ] My snippet(s) include the standard comment header.
+- [ ] I followed project formatting and code style rules.
+- [ ] I reviewed snippet accessibility (semantic HTML + ARIA where needed).
+- [ ] I tested in multiple browsers.
+- [ ] I updated `snippets-index.json` for added/removed snippets.
+- [ ] I added/updated documentation where necessary.
 
-### Checklist
-- [ ] My code follows the code style
-- [ ] I have tested this snippet
-- [ ] I have added a meaningful comment header
+## 🧪 Validation
+
+- [ ] I ran lint checks locally (HTMLHint / ESLint).
+- [ ] I tested snippet behavior manually.
+
+## 📸 Screenshots / Preview
+
+<!-- Optional for visual changes: include screenshots or a demo link. -->
