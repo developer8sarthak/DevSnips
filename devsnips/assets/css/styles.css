@@ -79,7 +79,7 @@ body {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
@@ -142,3 +142,10 @@ body {
   .header-inner { flex-direction: column; align-items: flex-start; }
   .hero-grid { grid-template-columns: 1fr; }
 }
+
+
+.section-head p { color: var(--muted); margin-top: 0; max-width: 70ch; }
+.category-chip { display:inline-block; font-size:.75rem; letter-spacing:.04em; text-transform:uppercase; color:#cfe0ff; border:1px solid rgba(116,164,255,.45); background: rgba(116,164,255,.14); border-radius:999px; padding:.25rem .6rem; margin-bottom:.6rem;}
+.category-card { transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+.category-card:hover { transform: translateY(-4px); border-color: rgba(110,231,217,.55); box-shadow: 0 14px 28px rgba(0,0,0,.35); }
+.category-card a { display:inline-flex; align-items:center; gap:.25rem;}
