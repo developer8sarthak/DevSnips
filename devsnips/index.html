@@ -4,79 +4,83 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DevSnips – Code Snippets Library</title>
+  <meta name="description" content="DevSnips is a clean and searchable library of HTML, CSS, and JavaScript snippets." />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 </head>
-<style>
-  body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
-}
-
-.site-header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.site-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 1.5rem;
-  padding: 0;
-  margin-top: 1rem;
-}
-
-.site-nav a {
-  text-decoration: none;
-  color: #007acc;
-}
-
-.snippets-section {
-  padding: 2rem;
-}
-
-.snippet-list {
-  list-style: none;
-  padding: 0;
-}
-
-.snippet-list li {
-  margin: 0.5rem 0;
-}
-
-.site-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #f1f1f1;
-  font-size: 0.9rem;
-}
-</style>
 <body>
   <header class="site-header">
-    <div class="logo-container">
-      <img src="assets/images/devsnips-logo.svg" alt="DevSnips Logo" width="64" height="64" />
-      <div>
-        <h1>DevSnips</h1>
-        <p>Your personal HTML/CSS snippets library</p>
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/images/devsnips-logo.svg" alt="DevSnips Logo" width="56" height="56" />
+        <div>
+          <h1>DevSnips</h1>
+          <p>Practical snippets for faster front-end shipping</p>
+        </div>
       </div>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#snippets">Snippets</a></li>
+          <li><a href="snippets/html-snippets/">HTML</a></li>
+          <li><a href="snippets/css-snippets/">CSS</a></li>
+          <li><a href="snippets/js-snippets/">JavaScript</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <article class="hero-card">
+          <h2 id="hero-title">A better snippets page: cleaner structure, better placement, improved UI.</h2>
+          <p>
+            Browse reusable snippets grouped by category so you can quickly find patterns for layout,
+            components, effects, accessibility, and interactions.
+          </p>
+          <div class="badges" aria-label="Library highlights">
+            <span>100+ snippets</span>
+            <span>Organized by topic</span>
+            <span>Ready to copy &amp; adapt</span>
+          </div>
+        </article>
+
+        
+      </div>
+    </section>
+
+    <section id="snippets" class="snippets-section" aria-labelledby="snippet-title">
+      <div class="section-head">
+        <h3 id="snippet-title" class="section-title">Snippet Categories</h3>
+        <p>Choose a category to browse well-organized snippets with clean previews and reusable code patterns.</p>
+      </div>
+      <div class="snippet-grid">
+        <article class="category-card">
+          <span class="category-chip">Markup</span>
+          <h4>HTML Snippets</h4>
+          <p>Semantic layouts, forms, cards, modals, and structure-first UI building blocks.</p>
+          <a href="snippets/html-snippets/">Browse HTML snippets <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="category-card">
+          <span class="category-chip">Styling</span>
+          <h4>CSS Snippets</h4>
+          <p>Responsive layouts, animations, effects, accessibility utilities, and modern CSS patterns.</p>
+          <a href="snippets/css-snippets/">Browse CSS snippets <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="category-card">
+          <span class="category-chip">Behavior</span>
+          <h4>JavaScript Snippets</h4>
+          <p>Interactive helpers and UI behaviors to make components dynamic and production-friendly.</p>
+          <a href="snippets/js-snippets/">Browse JavaScript snippets <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </section>
+  </main>
+
   <footer class="site-footer">
-    <p>&copy; 2025 <strong>DevSnips</strong> — Built with ❤️ by Sarthak</p>
+    <div class="container">
+      <p>&copy; 2026 <strong>DevSnips</strong> — Built with ❤️ by Sarthak</p>
+    </div>
   </footer>
 </body>
 </html>
