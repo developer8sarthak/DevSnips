@@ -1,0 +1,22 @@
+{
+  "id": "responsive-pricing-grid-001",
+  "name": "Responsive Pricing Grid",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "pricing",
+  "tags": [
+    "grid",
+    "html",
+    "pricing",
+    "responsive"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "has-selector-parent-styling-001",
+  "name": "Has Selector Parent Styling",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "theming",
+  "tags": [
+    "css",
+    "has",
+    "parent",
+    "selector",
+    "styling"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

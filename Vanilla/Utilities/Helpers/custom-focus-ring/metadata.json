@@ -1,0 +1,22 @@
+{
+  "id": "custom-focus-ring-001",
+  "name": "Custom Focus Ring",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "css",
+    "custom",
+    "focus",
+    "ring"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

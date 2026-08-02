@@ -1,0 +1,23 @@
+{
+  "id": "text-reveal-on-hover-001",
+  "name": "Text Reveal On Hover",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "typography",
+  "tags": [
+    "hover",
+    "html",
+    "on",
+    "reveal",
+    "text"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

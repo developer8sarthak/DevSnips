@@ -1,0 +1,22 @@
+{
+  "id": "is-date-valid-001",
+  "name": "Is Date Valid",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "date",
+    "is",
+    "js",
+    "valid"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

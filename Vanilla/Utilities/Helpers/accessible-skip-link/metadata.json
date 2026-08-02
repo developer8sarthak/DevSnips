@@ -1,0 +1,21 @@
+{
+  "id": "accessible-skip-link-001",
+  "name": "Accessible Skip Link",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "vanilla",
+    "utilities",
+    "helpers"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

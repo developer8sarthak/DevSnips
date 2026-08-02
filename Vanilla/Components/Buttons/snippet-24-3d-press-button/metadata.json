@@ -1,0 +1,24 @@
+{
+  "id": "snippet-24-3d-press-button-001",
+  "name": "Snippet 24 3D Press Button",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "24",
+    "3d",
+    "button",
+    "css",
+    "press",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

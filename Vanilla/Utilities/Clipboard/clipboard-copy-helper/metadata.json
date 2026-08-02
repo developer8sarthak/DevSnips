@@ -1,0 +1,22 @@
+{
+  "id": "clipboard-copy-helper-001",
+  "name": "Clipboard Copy Helper",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "clipboard",
+  "tags": [
+    "clipboard",
+    "copy",
+    "helper",
+    "js"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

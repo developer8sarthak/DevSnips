@@ -1,0 +1,22 @@
+{
+  "id": "future-css-color-contrast-001",
+  "name": "Future Css Color Contrast",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "theming",
+  "tags": [
+    "color",
+    "contrast",
+    "css",
+    "future"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

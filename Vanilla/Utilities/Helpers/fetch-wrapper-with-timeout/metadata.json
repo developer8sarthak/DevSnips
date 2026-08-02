@@ -1,0 +1,21 @@
+{
+  "id": "fetch-wrapper-with-timeout-001",
+  "name": "Fetch Wrapper With Timeout",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "vanilla",
+    "utilities",
+    "helpers"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

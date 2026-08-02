@@ -1,0 +1,22 @@
+{
+  "id": "typing-caret-animation-001",
+  "name": "Typing Caret Animation",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animation",
+    "caret",
+    "css",
+    "typing"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "css-only-accordion-001",
+  "name": "Css Only Accordion",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "accordions",
+  "tags": [
+    "accordion",
+    "css",
+    "only"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

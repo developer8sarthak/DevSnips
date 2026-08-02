@@ -1,0 +1,22 @@
+{
+  "id": "wavy-underline-text-001",
+  "name": "Wavy Underline Text",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "typography",
+  "tags": [
+    "css",
+    "text",
+    "underline",
+    "wavy"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

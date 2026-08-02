@@ -1,0 +1,21 @@
+{
+  "id": "centered-loader-001",
+  "name": "Centered Loader",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "centered",
+    "css",
+    "loader"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

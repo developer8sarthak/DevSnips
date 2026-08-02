@@ -1,0 +1,21 @@
+{
+  "id": "center-absolute-001",
+  "name": "Center Absolute",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "absolute",
+    "center",
+    "css"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

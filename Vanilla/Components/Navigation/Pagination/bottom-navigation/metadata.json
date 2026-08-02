@@ -1,0 +1,21 @@
+{
+  "id": "bottom-navigation-001",
+  "name": "Bottom Navigation",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "pagination",
+  "tags": [
+    "bottom",
+    "html",
+    "navigation"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

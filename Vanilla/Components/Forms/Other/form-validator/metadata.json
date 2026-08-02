@@ -1,0 +1,21 @@
+{
+  "id": "form-validator-001",
+  "name": "Form Validator",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "form",
+    "js",
+    "validator"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

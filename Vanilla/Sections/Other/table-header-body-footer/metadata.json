@@ -1,0 +1,23 @@
+{
+  "id": "table-header-body-footer-001",
+  "name": "Table Header Body Footer",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "other",
+  "tags": [
+    "body",
+    "footer",
+    "header",
+    "html",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

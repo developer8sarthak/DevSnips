@@ -1,0 +1,21 @@
+{
+  "id": "search-input-001",
+  "name": "Search Input",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "search",
+  "tags": [
+    "html",
+    "input",
+    "search"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "truncate-text-ellipsis-001",
+  "name": "Truncate Text Ellipsis",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "typography",
+  "tags": [
+    "css",
+    "ellipsis",
+    "text",
+    "truncate"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

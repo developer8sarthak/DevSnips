@@ -1,0 +1,21 @@
+{
+  "id": "accordion-panel-001",
+  "name": "Accordion Panel",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "accordion",
+    "js",
+    "panel"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

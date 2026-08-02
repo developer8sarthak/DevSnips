@@ -1,0 +1,22 @@
+{
+  "id": "aspect-ratio-boxes-001",
+  "name": "Aspect Ratio Boxes",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "aspect",
+    "boxes",
+    "css",
+    "ratio"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

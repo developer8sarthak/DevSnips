@@ -1,0 +1,22 @@
+{
+  "id": "rubber-band-animation-001",
+  "name": "Rubber Band Animation",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animation",
+    "band",
+    "html",
+    "rubber"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

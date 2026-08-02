@@ -1,0 +1,22 @@
+{
+  "id": "center-anything-grid-001",
+  "name": "Center Anything Grid",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "anything",
+    "center",
+    "css",
+    "grid"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

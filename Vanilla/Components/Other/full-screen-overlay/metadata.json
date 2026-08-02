@@ -1,0 +1,22 @@
+{
+  "id": "full-screen-overlay-001",
+  "name": "Full Screen Overlay",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "css",
+    "full",
+    "overlay",
+    "screen"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

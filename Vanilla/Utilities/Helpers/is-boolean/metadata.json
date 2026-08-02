@@ -1,0 +1,21 @@
+{
+  "id": "is-boolean-001",
+  "name": "Is Boolean",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "boolean",
+    "is",
+    "js"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

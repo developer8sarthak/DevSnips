@@ -1,0 +1,22 @@
+{
+  "id": "perfectly-centered-div-001",
+  "name": "Perfectly Centered Div",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "centered",
+    "div",
+    "html",
+    "perfectly"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "snippet-06-responsive-container-001",
+  "name": "Snippet 06 Responsive Container",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "06",
+    "container",
+    "css",
+    "responsive",
+    "snippet"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

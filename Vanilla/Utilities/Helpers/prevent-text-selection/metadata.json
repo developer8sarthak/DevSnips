@@ -1,0 +1,22 @@
+{
+  "id": "prevent-text-selection-001",
+  "name": "Prevent Text Selection",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "css",
+    "prevent",
+    "selection",
+    "text"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

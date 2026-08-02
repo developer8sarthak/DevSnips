@@ -1,0 +1,22 @@
+{
+  "id": "html5-audio-player-001",
+  "name": "Html5 Audio Player",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "audio",
+    "html",
+    "html5",
+    "player"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

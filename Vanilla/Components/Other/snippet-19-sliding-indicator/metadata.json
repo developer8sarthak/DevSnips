@@ -1,0 +1,23 @@
+{
+  "id": "snippet-19-sliding-indicator-001",
+  "name": "Snippet 19 Sliding Indicator",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "19",
+    "css",
+    "indicator",
+    "sliding",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dark-light-mode-theming-001",
+  "name": "Dark Light Mode Theming",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "theming",
+  "tags": [
+    "css",
+    "dark",
+    "light",
+    "mode",
+    "theming"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "css-only-tooltip-001",
+  "name": "Css Only Tooltip",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tooltips",
+  "tags": [
+    "css",
+    "only",
+    "tooltip"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

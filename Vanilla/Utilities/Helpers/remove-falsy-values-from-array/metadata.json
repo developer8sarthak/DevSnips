@@ -1,0 +1,24 @@
+{
+  "id": "remove-falsy-values-from-array-001",
+  "name": "Remove Falsy Values From Array",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "array",
+    "falsy",
+    "from",
+    "js",
+    "remove",
+    "values"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "readonly-input-001",
+  "name": "Readonly Input",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "html",
+    "input",
+    "readonly"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

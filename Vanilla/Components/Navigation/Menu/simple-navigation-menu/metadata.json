@@ -1,0 +1,22 @@
+{
+  "id": "simple-navigation-menu-001",
+  "name": "Simple Navigation Menu",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "menu",
+  "tags": [
+    "html",
+    "menu",
+    "navigation",
+    "simple"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

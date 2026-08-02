@@ -1,0 +1,22 @@
+{
+  "id": "is-array-empty-001",
+  "name": "Is Array Empty",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "array",
+    "empty",
+    "is",
+    "js"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "generate-random-hex-color-001",
+  "name": "Generate Random Hex Color",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "color",
+    "generate",
+    "hex",
+    "js",
+    "random"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

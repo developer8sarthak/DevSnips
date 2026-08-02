@@ -1,0 +1,22 @@
+{
+  "id": "contact-form-basic-001",
+  "name": "Contact Form Basic",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "contact",
+  "tags": [
+    "basic",
+    "contact",
+    "form",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

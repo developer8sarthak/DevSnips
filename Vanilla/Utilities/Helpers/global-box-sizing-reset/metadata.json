@@ -1,0 +1,23 @@
+{
+  "id": "global-box-sizing-reset-001",
+  "name": "Global Box Sizing Reset",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "box",
+    "css",
+    "global",
+    "reset",
+    "sizing"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

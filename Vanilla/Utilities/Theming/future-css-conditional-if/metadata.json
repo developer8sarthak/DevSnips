@@ -1,0 +1,22 @@
+{
+  "id": "future-css-conditional-if-001",
+  "name": "Future Css Conditional If",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "theming",
+  "tags": [
+    "conditional",
+    "css",
+    "future",
+    "if"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

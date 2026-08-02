@@ -1,0 +1,22 @@
+{
+  "id": "three-column-layout-001",
+  "name": "Three Column Layout",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "column",
+    "html",
+    "layout",
+    "three"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

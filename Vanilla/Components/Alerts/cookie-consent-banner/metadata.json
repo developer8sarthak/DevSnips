@@ -1,0 +1,22 @@
+{
+  "id": "cookie-consent-banner-001",
+  "name": "Cookie Consent Banner",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "alerts",
+  "tags": [
+    "banner",
+    "consent",
+    "cookie",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

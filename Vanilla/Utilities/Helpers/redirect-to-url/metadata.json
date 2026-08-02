@@ -1,0 +1,22 @@
+{
+  "id": "redirect-to-url-001",
+  "name": "Redirect To Url",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "js",
+    "redirect",
+    "to",
+    "url"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

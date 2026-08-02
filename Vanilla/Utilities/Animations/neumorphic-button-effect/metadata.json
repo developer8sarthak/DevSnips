@@ -1,0 +1,22 @@
+{
+  "id": "neumorphic-button-effect-001",
+  "name": "Neumorphic Button Effect",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "button",
+    "css",
+    "effect",
+    "neumorphic"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

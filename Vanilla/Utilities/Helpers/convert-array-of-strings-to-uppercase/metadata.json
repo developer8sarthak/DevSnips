@@ -1,0 +1,25 @@
+{
+  "id": "convert-array-of-strings-to-uppercase-001",
+  "name": "Convert Array Of Strings To Uppercase",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "array",
+    "convert",
+    "js",
+    "of",
+    "strings",
+    "to",
+    "uppercase"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

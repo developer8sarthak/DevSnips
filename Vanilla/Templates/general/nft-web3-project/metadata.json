@@ -1,0 +1,21 @@
+{
+  "id": "nft-web3-project-001",
+  "name": "NFT Web3 Project",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "general",
+  "tags": [
+    "vanilla",
+    "templates",
+    "general"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

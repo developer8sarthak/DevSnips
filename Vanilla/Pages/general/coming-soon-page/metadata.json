@@ -1,0 +1,22 @@
+{
+  "id": "coming-soon-page-001",
+  "name": "Coming Soon Page",
+  "technology": "vanilla",
+  "category": "pages",
+  "subcategory": "general",
+  "tags": [
+    "coming",
+    "html",
+    "page",
+    "soon"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "scroll-to-top-001",
+  "name": "Scroll To Top",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "js",
+    "scroll",
+    "to",
+    "top"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

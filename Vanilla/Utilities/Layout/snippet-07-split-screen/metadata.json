@@ -1,0 +1,23 @@
+{
+  "id": "snippet-07-split-screen-001",
+  "name": "Snippet 07 Split Screen",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "07",
+    "css",
+    "screen",
+    "snippet",
+    "split"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dotted-separator-001",
+  "name": "Dotted Separator",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "css",
+    "dotted",
+    "separator"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "accordion-faq-layout-001",
+  "name": "Accordion Faq Layout",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "faq",
+  "tags": [
+    "accordion",
+    "faq",
+    "html",
+    "layout"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

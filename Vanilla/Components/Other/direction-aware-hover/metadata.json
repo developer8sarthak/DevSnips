@@ -1,0 +1,22 @@
+{
+  "id": "direction-aware-hover-001",
+  "name": "Direction Aware Hover",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "aware",
+    "css",
+    "direction",
+    "hover"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

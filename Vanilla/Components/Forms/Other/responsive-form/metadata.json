@@ -1,0 +1,21 @@
+{
+  "id": "responsive-form-001",
+  "name": "Responsive Form",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "form",
+    "html",
+    "responsive"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

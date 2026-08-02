@@ -1,0 +1,21 @@
+{
+  "id": "accessible-image-001",
+  "name": "Accessible Image",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "accessible",
+    "html",
+    "image"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

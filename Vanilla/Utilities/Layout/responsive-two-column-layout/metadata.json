@@ -1,0 +1,23 @@
+{
+  "id": "responsive-two-column-layout-001",
+  "name": "Responsive Two Column Layout",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "column",
+    "css",
+    "layout",
+    "responsive",
+    "two"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "figure-with-figcaption-001",
+  "name": "Figure With Figcaption",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "figcaption",
+    "figure",
+    "html",
+    "with"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

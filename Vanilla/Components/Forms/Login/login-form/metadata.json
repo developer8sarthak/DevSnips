@@ -1,0 +1,21 @@
+{
+  "id": "login-form-001",
+  "name": "Login Form",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "login",
+  "tags": [
+    "form",
+    "html",
+    "login"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

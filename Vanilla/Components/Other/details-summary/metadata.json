@@ -1,0 +1,21 @@
+{
+  "id": "details-summary-001",
+  "name": "Details Summary",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "details",
+    "html",
+    "summary"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

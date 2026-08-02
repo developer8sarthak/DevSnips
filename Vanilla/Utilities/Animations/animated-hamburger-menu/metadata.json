@@ -1,0 +1,22 @@
+{
+  "id": "animated-hamburger-menu-001",
+  "name": "Animated Hamburger Menu",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animated",
+    "css",
+    "hamburger",
+    "menu"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

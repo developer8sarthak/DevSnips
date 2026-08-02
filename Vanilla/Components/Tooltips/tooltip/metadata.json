@@ -1,0 +1,20 @@
+{
+  "id": "tooltip-001",
+  "name": "Tooltip",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tooltips",
+  "tags": [
+    "css",
+    "tooltip"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

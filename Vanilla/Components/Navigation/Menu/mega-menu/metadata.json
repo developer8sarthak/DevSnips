@@ -1,0 +1,21 @@
+{
+  "id": "mega-menu-001",
+  "name": "Mega Menu",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "menu",
+  "tags": [
+    "html",
+    "mega",
+    "menu"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

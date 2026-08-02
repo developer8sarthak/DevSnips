@@ -1,0 +1,23 @@
+{
+  "id": "social-media-share-links-001",
+  "name": "Social Media Share Links",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "html",
+    "links",
+    "media",
+    "share",
+    "social"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cutout-text-effect-001",
+  "name": "Cutout Text Effect",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "typography",
+  "tags": [
+    "cutout",
+    "effect",
+    "html",
+    "text"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

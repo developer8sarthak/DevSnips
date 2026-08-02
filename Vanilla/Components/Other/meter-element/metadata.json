@@ -1,0 +1,21 @@
+{
+  "id": "meter-element-001",
+  "name": "Meter Element",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "element",
+    "html",
+    "meter"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

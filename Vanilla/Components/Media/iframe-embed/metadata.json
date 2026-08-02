@@ -1,0 +1,21 @@
+{
+  "id": "iframe-embed-001",
+  "name": "Iframe Embed",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "embed",
+    "html",
+    "iframe"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

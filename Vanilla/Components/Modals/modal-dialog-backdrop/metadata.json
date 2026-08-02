@@ -1,0 +1,22 @@
+{
+  "id": "modal-dialog-backdrop-001",
+  "name": "Modal Dialog Backdrop",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "backdrop",
+    "css",
+    "dialog",
+    "modal"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

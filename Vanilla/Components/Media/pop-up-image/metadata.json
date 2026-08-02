@@ -1,0 +1,22 @@
+{
+  "id": "pop-up-image-001",
+  "name": "Pop Up Image",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "html",
+    "image",
+    "pop",
+    "up"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

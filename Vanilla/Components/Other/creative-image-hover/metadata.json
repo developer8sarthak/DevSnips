@@ -1,0 +1,22 @@
+{
+  "id": "creative-image-hover-001",
+  "name": "Creative Image Hover",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "creative",
+    "hover",
+    "html",
+    "image"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

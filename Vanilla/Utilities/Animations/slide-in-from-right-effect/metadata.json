@@ -1,0 +1,24 @@
+{
+  "id": "slide-in-from-right-effect-001",
+  "name": "Slide In From Right Effect",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "effect",
+    "from",
+    "html",
+    "in",
+    "right",
+    "slide"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

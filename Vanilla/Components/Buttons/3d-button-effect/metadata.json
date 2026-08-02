@@ -1,0 +1,22 @@
+{
+  "id": "3d-button-effect-001",
+  "name": "3D Button Effect",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "3d",
+    "button",
+    "effect",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

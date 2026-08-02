@@ -1,0 +1,22 @@
+{
+  "id": "dark-mode-css-variables-001",
+  "name": "Dark Mode Css Variables",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "theming",
+  "tags": [
+    "css",
+    "dark",
+    "mode",
+    "variables"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

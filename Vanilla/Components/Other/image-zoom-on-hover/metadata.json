@@ -1,0 +1,23 @@
+{
+  "id": "image-zoom-on-hover-001",
+  "name": "Image Zoom On Hover",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "hover",
+    "html",
+    "image",
+    "on",
+    "zoom"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

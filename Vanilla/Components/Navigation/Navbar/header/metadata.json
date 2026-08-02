@@ -1,0 +1,20 @@
+{
+  "id": "header-001",
+  "name": "Header",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navbar",
+  "tags": [
+    "header",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

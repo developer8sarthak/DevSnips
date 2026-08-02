@@ -1,0 +1,21 @@
+{
+  "id": "contact-form-001",
+  "name": "Contact Form",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "contact",
+  "tags": [
+    "contact",
+    "form",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

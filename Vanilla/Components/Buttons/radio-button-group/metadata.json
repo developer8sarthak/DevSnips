@@ -1,0 +1,22 @@
+{
+  "id": "radio-button-group-001",
+  "name": "Radio Button Group",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "button",
+    "group",
+    "html",
+    "radio"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

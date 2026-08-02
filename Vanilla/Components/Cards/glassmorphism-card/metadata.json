@@ -1,0 +1,21 @@
+{
+  "id": "glassmorphism-card-001",
+  "name": "Glassmorphism Card",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "card",
+    "css",
+    "glassmorphism"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

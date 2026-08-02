@@ -1,0 +1,22 @@
+{
+  "id": "table-merged-cells-001",
+  "name": "Table Merged Cells",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tables",
+  "tags": [
+    "cells",
+    "html",
+    "merged",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

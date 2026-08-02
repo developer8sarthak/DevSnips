@@ -1,0 +1,23 @@
+{
+  "id": "get-time-from-date-001",
+  "name": "Get Time From Date",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "date",
+    "from",
+    "get",
+    "js",
+    "time"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

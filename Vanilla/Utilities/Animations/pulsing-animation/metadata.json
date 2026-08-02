@@ -1,0 +1,21 @@
+{
+  "id": "pulsing-animation-001",
+  "name": "Pulsing Animation",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animation",
+    "css",
+    "pulsing"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

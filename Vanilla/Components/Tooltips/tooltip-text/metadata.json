@@ -1,0 +1,21 @@
+{
+  "id": "tooltip-text-001",
+  "name": "Tooltip Text",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tooltips",
+  "tags": [
+    "html",
+    "text",
+    "tooltip"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

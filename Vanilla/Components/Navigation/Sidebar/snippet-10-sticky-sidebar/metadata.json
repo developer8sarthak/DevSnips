@@ -1,0 +1,23 @@
+{
+  "id": "snippet-10-sticky-sidebar-001",
+  "name": "Snippet 10 Sticky Sidebar",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "sidebar",
+  "tags": [
+    "10",
+    "css",
+    "sidebar",
+    "snippet",
+    "sticky"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

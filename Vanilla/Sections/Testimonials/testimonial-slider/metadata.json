@@ -1,0 +1,21 @@
+{
+  "id": "testimonial-slider-001",
+  "name": "Testimonial Slider",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "testimonials",
+  "tags": [
+    "html",
+    "slider",
+    "testimonial"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

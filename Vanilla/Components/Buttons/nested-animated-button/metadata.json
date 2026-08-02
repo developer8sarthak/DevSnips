@@ -1,0 +1,21 @@
+{
+  "id": "nested-animated-button-001",
+  "name": "Nested Animated Button",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "vanilla",
+    "components",
+    "buttons"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

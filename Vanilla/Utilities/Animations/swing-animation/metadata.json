@@ -1,0 +1,21 @@
+{
+  "id": "swing-animation-001",
+  "name": "Swing Animation",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animation",
+    "html",
+    "swing"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

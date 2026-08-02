@@ -1,0 +1,21 @@
+{
+  "id": "event-conference-001",
+  "name": "Event Conference",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "general",
+  "tags": [
+    "vanilla",
+    "templates",
+    "general"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

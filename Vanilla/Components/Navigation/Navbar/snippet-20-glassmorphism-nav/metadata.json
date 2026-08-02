@@ -1,0 +1,23 @@
+{
+  "id": "snippet-20-glassmorphism-nav-001",
+  "name": "Snippet 20 Glassmorphism Nav",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navbar",
+  "tags": [
+    "20",
+    "css",
+    "glassmorphism",
+    "nav",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

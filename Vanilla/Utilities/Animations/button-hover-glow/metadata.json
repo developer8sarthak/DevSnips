@@ -1,0 +1,22 @@
+{
+  "id": "button-hover-glow-001",
+  "name": "Button Hover Glow",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "button",
+    "css",
+    "glow",
+    "hover"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

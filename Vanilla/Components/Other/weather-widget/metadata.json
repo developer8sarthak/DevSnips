@@ -1,0 +1,21 @@
+{
+  "id": "weather-widget-001",
+  "name": "Weather Widget",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "html",
+    "weather",
+    "widget"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

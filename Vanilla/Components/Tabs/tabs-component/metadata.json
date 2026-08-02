@@ -1,0 +1,21 @@
+{
+  "id": "tabs-component-001",
+  "name": "Tabs Component",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tabs",
+  "tags": [
+    "component",
+    "js",
+    "tabs"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "text-wrap-balance-001",
+  "name": "Text Wrap Balance",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "typography",
+  "tags": [
+    "balance",
+    "css",
+    "text",
+    "wrap"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

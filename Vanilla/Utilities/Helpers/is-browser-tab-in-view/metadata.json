@@ -1,0 +1,24 @@
+{
+  "id": "is-browser-tab-in-view-001",
+  "name": "Is Browser Tab In View",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "browser",
+    "in",
+    "is",
+    "js",
+    "tab",
+    "view"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

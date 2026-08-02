@@ -1,0 +1,21 @@
+{
+  "id": "blog-landing-pages-001",
+  "name": "Blog Landing Pages",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "general",
+  "tags": [
+    "vanilla",
+    "templates",
+    "general"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

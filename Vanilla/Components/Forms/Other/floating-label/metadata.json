@@ -1,0 +1,21 @@
+{
+  "id": "floating-label-001",
+  "name": "Floating Label",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "css",
+    "floating",
+    "label"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

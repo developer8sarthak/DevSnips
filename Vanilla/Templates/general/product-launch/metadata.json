@@ -1,0 +1,21 @@
+{
+  "id": "product-launch-001",
+  "name": "Product Launch",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "general",
+  "tags": [
+    "vanilla",
+    "templates",
+    "general"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

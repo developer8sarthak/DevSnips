@@ -1,0 +1,21 @@
+{
+  "id": "debounced-input-handler-js-001",
+  "name": "Debounced Input Handler JS",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "vanilla",
+    "components",
+    "other"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

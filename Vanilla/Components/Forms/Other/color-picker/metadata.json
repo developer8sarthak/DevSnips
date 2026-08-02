@@ -1,0 +1,21 @@
+{
+  "id": "color-picker-001",
+  "name": "Color Picker",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "color",
+    "html",
+    "picker"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

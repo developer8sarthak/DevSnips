@@ -1,0 +1,21 @@
+{
+  "id": "select-dropdown-001",
+  "name": "Select Dropdown",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "dropdown",
+    "html",
+    "select"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

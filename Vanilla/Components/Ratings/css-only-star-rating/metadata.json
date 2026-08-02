@@ -1,0 +1,22 @@
+{
+  "id": "css-only-star-rating-001",
+  "name": "Css Only Star Rating",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "ratings",
+  "tags": [
+    "css",
+    "only",
+    "rating",
+    "star"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

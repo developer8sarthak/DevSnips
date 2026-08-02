@@ -1,0 +1,22 @@
+{
+  "id": "input-pattern-validation-001",
+  "name": "Input Pattern Validation",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "html",
+    "input",
+    "pattern",
+    "validation"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

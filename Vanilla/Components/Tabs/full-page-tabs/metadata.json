@@ -1,0 +1,22 @@
+{
+  "id": "full-page-tabs-001",
+  "name": "Full Page Tabs",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tabs",
+  "tags": [
+    "full",
+    "html",
+    "page",
+    "tabs"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

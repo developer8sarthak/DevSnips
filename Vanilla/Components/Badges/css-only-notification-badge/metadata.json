@@ -1,0 +1,22 @@
+{
+  "id": "css-only-notification-badge-001",
+  "name": "Css Only Notification Badge",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "badges",
+  "tags": [
+    "badge",
+    "css",
+    "notification",
+    "only"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

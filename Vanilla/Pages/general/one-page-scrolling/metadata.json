@@ -1,0 +1,22 @@
+{
+  "id": "one-page-scrolling-001",
+  "name": "One Page Scrolling",
+  "technology": "vanilla",
+  "category": "pages",
+  "subcategory": "general",
+  "tags": [
+    "html",
+    "one",
+    "page",
+    "scrolling"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

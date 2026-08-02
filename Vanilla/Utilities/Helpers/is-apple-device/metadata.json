@@ -1,0 +1,22 @@
+{
+  "id": "is-apple-device-001",
+  "name": "Is Apple Device",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "apple",
+    "device",
+    "is",
+    "js"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

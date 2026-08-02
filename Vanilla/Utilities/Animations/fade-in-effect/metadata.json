@@ -1,0 +1,22 @@
+{
+  "id": "fade-in-effect-001",
+  "name": "Fade In Effect",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "effect",
+    "fade",
+    "html",
+    "in"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

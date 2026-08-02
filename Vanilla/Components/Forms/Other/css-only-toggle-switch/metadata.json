@@ -1,0 +1,22 @@
+{
+  "id": "css-only-toggle-switch-001",
+  "name": "Css Only Toggle Switch",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "css",
+    "only",
+    "switch",
+    "toggle"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

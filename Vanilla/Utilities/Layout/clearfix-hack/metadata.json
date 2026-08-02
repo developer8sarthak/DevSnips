@@ -1,0 +1,21 @@
+{
+  "id": "clearfix-hack-001",
+  "name": "Clearfix Hack",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "clearfix",
+    "css",
+    "hack"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

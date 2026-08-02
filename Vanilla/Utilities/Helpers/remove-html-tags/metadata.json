@@ -1,0 +1,22 @@
+{
+  "id": "remove-html-tags-001",
+  "name": "Remove Html Tags",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "html",
+    "js",
+    "remove",
+    "tags"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

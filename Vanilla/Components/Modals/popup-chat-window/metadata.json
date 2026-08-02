@@ -1,0 +1,22 @@
+{
+  "id": "popup-chat-window-001",
+  "name": "Popup Chat Window",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "chat",
+    "html",
+    "popup",
+    "window"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

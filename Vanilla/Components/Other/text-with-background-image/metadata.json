@@ -1,0 +1,23 @@
+{
+  "id": "text-with-background-image-001",
+  "name": "Text With Background Image",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "background",
+    "html",
+    "image",
+    "text",
+    "with"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

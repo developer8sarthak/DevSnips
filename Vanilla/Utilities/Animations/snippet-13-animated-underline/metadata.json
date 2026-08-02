@@ -1,0 +1,23 @@
+{
+  "id": "snippet-13-animated-underline-001",
+  "name": "Snippet 13 Animated Underline",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "13",
+    "animated",
+    "css",
+    "snippet",
+    "underline"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

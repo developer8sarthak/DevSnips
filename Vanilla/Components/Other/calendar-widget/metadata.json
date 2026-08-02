@@ -1,0 +1,21 @@
+{
+  "id": "calendar-widget-001",
+  "name": "Calendar Widget",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "calendar",
+    "html",
+    "widget"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

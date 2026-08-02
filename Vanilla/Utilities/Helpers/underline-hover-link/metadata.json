@@ -1,0 +1,22 @@
+{
+  "id": "underline-hover-link-001",
+  "name": "Underline Hover Link",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "css",
+    "hover",
+    "link",
+    "underline"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "is-weekend-001",
+  "name": "Is Weekend",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "is",
+    "js",
+    "weekend"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

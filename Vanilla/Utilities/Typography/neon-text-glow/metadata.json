@@ -1,0 +1,21 @@
+{
+  "id": "neon-text-glow-001",
+  "name": "Neon Text Glow",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "typography",
+  "tags": [
+    "vanilla",
+    "utilities",
+    "typography"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

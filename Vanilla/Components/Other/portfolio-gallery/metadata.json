@@ -1,0 +1,21 @@
+{
+  "id": "portfolio-gallery-001",
+  "name": "Portfolio Gallery",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "gallery",
+    "html",
+    "portfolio"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

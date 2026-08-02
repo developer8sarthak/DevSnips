@@ -1,0 +1,23 @@
+{
+  "id": "snippet-03-mobile-dropdown-001",
+  "name": "Snippet 03 Mobile Dropdown",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "03",
+    "dropdown",
+    "html",
+    "mobile",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

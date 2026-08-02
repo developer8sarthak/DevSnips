@@ -1,0 +1,21 @@
+{
+  "id": "alert-messages-001",
+  "name": "Alert Messages",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "alerts",
+  "tags": [
+    "alert",
+    "html",
+    "messages"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

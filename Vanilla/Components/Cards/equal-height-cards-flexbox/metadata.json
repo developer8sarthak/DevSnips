@@ -1,0 +1,23 @@
+{
+  "id": "equal-height-cards-flexbox-001",
+  "name": "Equal Height Cards Flexbox",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "cards",
+    "css",
+    "equal",
+    "flexbox",
+    "height"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

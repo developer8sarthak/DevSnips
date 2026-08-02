@@ -1,0 +1,23 @@
+{
+  "id": "mix-blend-mode-multiply-001",
+  "name": "Mix Blend Mode Multiply",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "blend",
+    "css",
+    "mix",
+    "mode",
+    "multiply"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "remove-duplicates-from-array-001",
+  "name": "Remove Duplicates From Array",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "array",
+    "duplicates",
+    "from",
+    "js",
+    "remove"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

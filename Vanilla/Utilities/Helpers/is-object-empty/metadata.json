@@ -1,0 +1,22 @@
+{
+  "id": "is-object-empty-001",
+  "name": "Is Object Empty",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "empty",
+    "is",
+    "js",
+    "object"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

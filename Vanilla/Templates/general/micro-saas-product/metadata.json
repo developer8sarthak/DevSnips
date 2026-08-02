@@ -1,0 +1,21 @@
+{
+  "id": "micro-saas-product-001",
+  "name": "Micro SaaS Product",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "general",
+  "tags": [
+    "vanilla",
+    "templates",
+    "general"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

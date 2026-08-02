@@ -1,0 +1,20 @@
+{
+  "id": "collapsible-001",
+  "name": "Collapsible",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "accordions",
+  "tags": [
+    "collapsible",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

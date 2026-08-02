@@ -1,0 +1,21 @@
+{
+  "id": "css-masonry-layout-001",
+  "name": "Css Masonry Layout",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "css",
+    "layout",
+    "masonry"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

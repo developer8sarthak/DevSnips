@@ -1,0 +1,23 @@
+{
+  "id": "snippet-04-accordion-faq-001",
+  "name": "Snippet 04 Accordion Faq",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "faq",
+  "tags": [
+    "04",
+    "accordion",
+    "faq",
+    "html",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

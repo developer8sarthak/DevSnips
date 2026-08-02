@@ -1,0 +1,24 @@
+{
+  "id": "sum-all-numbers-in-array-001",
+  "name": "Sum All Numbers In Array",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "all",
+    "array",
+    "in",
+    "js",
+    "numbers",
+    "sum"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

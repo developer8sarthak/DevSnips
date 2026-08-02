@@ -1,0 +1,21 @@
+{
+  "id": "typing-effect-001",
+  "name": "Typing Effect",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "effect",
+    "html",
+    "typing"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

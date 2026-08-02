@@ -1,0 +1,23 @@
+{
+  "id": "copy-text-to-clipboard-001",
+  "name": "Copy Text To Clipboard",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "clipboard",
+  "tags": [
+    "clipboard",
+    "copy",
+    "js",
+    "text",
+    "to"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

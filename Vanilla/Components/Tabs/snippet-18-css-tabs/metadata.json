@@ -1,0 +1,22 @@
+{
+  "id": "snippet-18-css-tabs-001",
+  "name": "Snippet 18 Css Tabs",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tabs",
+  "tags": [
+    "18",
+    "css",
+    "snippet",
+    "tabs"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

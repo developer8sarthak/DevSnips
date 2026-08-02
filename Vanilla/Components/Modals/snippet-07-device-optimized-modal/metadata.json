@@ -1,0 +1,24 @@
+{
+  "id": "snippet-07-device-optimized-modal-001",
+  "name": "Snippet 07 Device Optimized Modal",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "07",
+    "device",
+    "html",
+    "modal",
+    "optimized",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

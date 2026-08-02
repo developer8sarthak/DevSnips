@@ -1,0 +1,21 @@
+{
+  "id": "nested-product-card-001",
+  "name": "Nested Product Card",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "vanilla",
+    "components",
+    "cards"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

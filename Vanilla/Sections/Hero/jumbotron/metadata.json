@@ -1,0 +1,20 @@
+{
+  "id": "jumbotron-001",
+  "name": "Jumbotron",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "hero",
+  "tags": [
+    "html",
+    "jumbotron"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "accordion-001",
+  "name": "Accordion",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "accordions",
+  "tags": [
+    "accordion",
+    "css"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

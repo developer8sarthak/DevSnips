@@ -1,0 +1,22 @@
+{
+  "id": "blog-post-card-001",
+  "name": "Blog Post Card",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "blog",
+    "card",
+    "html",
+    "post"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

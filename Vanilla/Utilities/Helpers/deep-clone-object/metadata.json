@@ -1,0 +1,22 @@
+{
+  "id": "deep-clone-object-001",
+  "name": "Deep Clone Object",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "clone",
+    "deep",
+    "js",
+    "object"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

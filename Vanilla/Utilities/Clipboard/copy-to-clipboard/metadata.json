@@ -1,0 +1,22 @@
+{
+  "id": "copy-to-clipboard-001",
+  "name": "Copy To Clipboard",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "clipboard",
+  "tags": [
+    "clipboard",
+    "copy",
+    "js",
+    "to"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

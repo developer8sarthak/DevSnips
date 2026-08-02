@@ -1,0 +1,22 @@
+{
+  "id": "rgb-to-hex-001",
+  "name": "Rgb To Hex",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "hex",
+    "js",
+    "rgb",
+    "to"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

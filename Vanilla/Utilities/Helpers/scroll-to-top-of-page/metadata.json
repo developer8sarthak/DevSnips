@@ -1,0 +1,24 @@
+{
+  "id": "scroll-to-top-of-page-001",
+  "name": "Scroll To Top Of Page",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "js",
+    "of",
+    "page",
+    "scroll",
+    "to",
+    "top"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

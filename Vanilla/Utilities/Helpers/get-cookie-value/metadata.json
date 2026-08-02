@@ -1,0 +1,22 @@
+{
+  "id": "get-cookie-value-001",
+  "name": "Get Cookie Value",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "cookie",
+    "get",
+    "js",
+    "value"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

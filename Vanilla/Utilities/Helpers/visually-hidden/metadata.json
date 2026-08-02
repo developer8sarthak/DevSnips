@@ -1,0 +1,21 @@
+{
+  "id": "visually-hidden-001",
+  "name": "Visually Hidden",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "css",
+    "hidden",
+    "visually"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

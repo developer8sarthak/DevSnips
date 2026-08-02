@@ -1,0 +1,24 @@
+{
+  "id": "get-random-element-from-array-001",
+  "name": "Get Random Element From Array",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "array",
+    "element",
+    "from",
+    "get",
+    "js",
+    "random"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

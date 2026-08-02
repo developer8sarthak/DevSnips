@@ -1,0 +1,22 @@
+{
+  "id": "sticky-social-bar-001",
+  "name": "Sticky Social Bar",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "bar",
+    "html",
+    "social",
+    "sticky"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "centered-website-001",
+  "name": "Centered Website",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "centered",
+    "html",
+    "website"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

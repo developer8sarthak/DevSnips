@@ -1,0 +1,21 @@
+{
+  "id": "basic-navbar-001",
+  "name": "Basic Navbar",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navbar",
+  "tags": [
+    "basic",
+    "html",
+    "navbar"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

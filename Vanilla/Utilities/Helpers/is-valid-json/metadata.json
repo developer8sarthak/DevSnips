@@ -1,0 +1,22 @@
+{
+  "id": "is-valid-json-001",
+  "name": "Is Valid Json",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "is",
+    "js",
+    "json",
+    "valid"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

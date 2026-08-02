@@ -1,0 +1,22 @@
+{
+  "id": "animated-gradient-text-001",
+  "name": "Animated Gradient Text",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animated",
+    "css",
+    "gradient",
+    "text"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

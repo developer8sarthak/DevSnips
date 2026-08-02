@@ -1,0 +1,23 @@
+{
+  "id": "snippet-11-search-autocomplete-001",
+  "name": "Snippet 11 Search Autocomplete",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "search",
+  "tags": [
+    "11",
+    "autocomplete",
+    "html",
+    "search",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

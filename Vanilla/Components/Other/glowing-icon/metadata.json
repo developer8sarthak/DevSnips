@@ -1,0 +1,21 @@
+{
+  "id": "glowing-icon-001",
+  "name": "Glowing Icon",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "glowing",
+    "html",
+    "icon"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

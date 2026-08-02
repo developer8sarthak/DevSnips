@@ -1,0 +1,23 @@
+{
+  "id": "snippet-12-hover-dropdown-001",
+  "name": "Snippet 12 Hover Dropdown",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "dropdowns",
+  "tags": [
+    "12",
+    "css",
+    "dropdown",
+    "hover",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "snippet-09-aspect-ratio-001",
+  "name": "Snippet 09 Aspect Ratio",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "09",
+    "aspect",
+    "css",
+    "ratio",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

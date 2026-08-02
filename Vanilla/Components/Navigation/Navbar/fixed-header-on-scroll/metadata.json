@@ -1,0 +1,23 @@
+{
+  "id": "fixed-header-on-scroll-001",
+  "name": "Fixed Header On Scroll",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navbar",
+  "tags": [
+    "fixed",
+    "header",
+    "html",
+    "on",
+    "scroll"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

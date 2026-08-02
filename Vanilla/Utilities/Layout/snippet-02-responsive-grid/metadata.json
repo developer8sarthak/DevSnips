@@ -1,0 +1,23 @@
+{
+  "id": "snippet-02-responsive-grid-001",
+  "name": "Snippet 02 Responsive Grid",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "02",
+    "css",
+    "grid",
+    "responsive",
+    "snippet"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

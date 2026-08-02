@@ -1,0 +1,22 @@
+{
+  "id": "center-anything-flexbox-001",
+  "name": "Center Anything Flexbox",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "anything",
+    "center",
+    "css",
+    "flexbox"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

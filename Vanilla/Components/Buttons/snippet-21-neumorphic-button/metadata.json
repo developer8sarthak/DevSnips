@@ -1,0 +1,23 @@
+{
+  "id": "snippet-21-neumorphic-button-001",
+  "name": "Snippet 21 Neumorphic Button",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "21",
+    "button",
+    "css",
+    "neumorphic",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

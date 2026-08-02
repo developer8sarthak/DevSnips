@@ -1,0 +1,22 @@
+{
+  "id": "local-storage-wrapper-001",
+  "name": "Local Storage Wrapper",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "localstorage",
+  "tags": [
+    "js",
+    "local",
+    "storage",
+    "wrapper"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

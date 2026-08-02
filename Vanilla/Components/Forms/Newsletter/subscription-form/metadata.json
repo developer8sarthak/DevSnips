@@ -1,0 +1,21 @@
+{
+  "id": "subscription-form-001",
+  "name": "Subscription Form",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "newsletter",
+  "tags": [
+    "form",
+    "html",
+    "subscription"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

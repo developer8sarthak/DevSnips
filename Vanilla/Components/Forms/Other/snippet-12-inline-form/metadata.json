@@ -1,0 +1,23 @@
+{
+  "id": "snippet-12-inline-form-001",
+  "name": "Snippet 12 Inline Form",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "12",
+    "form",
+    "html",
+    "inline",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

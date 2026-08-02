@@ -1,0 +1,21 @@
+{
+  "id": "progress-steps-001",
+  "name": "Progress Steps",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "loaders",
+  "tags": [
+    "html",
+    "progress",
+    "steps"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

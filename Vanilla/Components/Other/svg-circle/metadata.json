@@ -1,0 +1,21 @@
+{
+  "id": "svg-circle-001",
+  "name": "Svg Circle",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "circle",
+    "html",
+    "svg"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

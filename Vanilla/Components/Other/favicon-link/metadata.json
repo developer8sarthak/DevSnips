@@ -1,0 +1,21 @@
+{
+  "id": "favicon-link-001",
+  "name": "Favicon Link",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "favicon",
+    "html",
+    "link"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

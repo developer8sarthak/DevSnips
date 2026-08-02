@@ -1,0 +1,21 @@
+{
+  "id": "skeleton-loader-001",
+  "name": "Skeleton Loader",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "loaders",
+  "tags": [
+    "css",
+    "loader",
+    "skeleton"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

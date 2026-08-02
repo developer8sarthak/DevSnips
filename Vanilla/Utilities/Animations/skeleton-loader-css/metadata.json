@@ -1,0 +1,21 @@
+{
+  "id": "skeleton-loader-002",
+  "name": "Skeleton Loader",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "css",
+    "loader",
+    "skeleton"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

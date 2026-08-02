@@ -1,0 +1,21 @@
+{
+  "id": "heartbeat-animation-001",
+  "name": "Heartbeat Animation",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animation",
+    "heartbeat",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

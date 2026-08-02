@@ -1,0 +1,23 @@
+{
+  "id": "get-min-from-array-001",
+  "name": "Get Min From Array",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "array",
+    "from",
+    "get",
+    "js",
+    "min"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "snippet-23-fab-animation-001",
+  "name": "Snippet 23 Fab Animation",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "23",
+    "animation",
+    "css",
+    "fab",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

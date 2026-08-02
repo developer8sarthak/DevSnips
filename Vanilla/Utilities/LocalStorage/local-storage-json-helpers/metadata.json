@@ -1,0 +1,21 @@
+{
+  "id": "local-storage-json-helpers-001",
+  "name": "Local Storage Json Helpers",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "localstorage",
+  "tags": [
+    "vanilla",
+    "utilities",
+    "localstorage"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

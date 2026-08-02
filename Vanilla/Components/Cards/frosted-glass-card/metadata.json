@@ -1,0 +1,22 @@
+{
+  "id": "frosted-glass-card-001",
+  "name": "Frosted Glass Card",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "card",
+    "css",
+    "frosted",
+    "glass"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

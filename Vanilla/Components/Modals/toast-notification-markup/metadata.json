@@ -1,0 +1,22 @@
+{
+  "id": "toast-notification-markup-001",
+  "name": "Toast Notification Markup",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "html",
+    "markup",
+    "notification",
+    "toast"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

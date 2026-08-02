@@ -1,0 +1,21 @@
+{
+  "id": "address-tag-001",
+  "name": "Address Tag",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "address",
+    "html",
+    "tag"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

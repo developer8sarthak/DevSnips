@@ -1,0 +1,22 @@
+{
+  "id": "lazy-image-loader-001",
+  "name": "Lazy Image Loader",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "image",
+    "js",
+    "lazy",
+    "loader"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

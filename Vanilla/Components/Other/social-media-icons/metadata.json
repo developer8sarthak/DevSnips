@@ -1,0 +1,22 @@
+{
+  "id": "social-media-icons-001",
+  "name": "Social Media Icons",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "html",
+    "icons",
+    "media",
+    "social"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

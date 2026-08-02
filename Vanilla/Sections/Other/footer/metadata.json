@@ -1,0 +1,20 @@
+{
+  "id": "footer-001",
+  "name": "Footer",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "other",
+  "tags": [
+    "footer",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

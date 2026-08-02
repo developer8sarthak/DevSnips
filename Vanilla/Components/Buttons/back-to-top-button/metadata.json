@@ -1,0 +1,23 @@
+{
+  "id": "back-to-top-button-001",
+  "name": "Back To Top Button",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "back",
+    "button",
+    "html",
+    "to",
+    "top"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

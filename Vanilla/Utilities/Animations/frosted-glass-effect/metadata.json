@@ -1,0 +1,22 @@
+{
+  "id": "frosted-glass-effect-001",
+  "name": "Frosted Glass Effect",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "css",
+    "effect",
+    "frosted",
+    "glass"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

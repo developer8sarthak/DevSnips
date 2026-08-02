@@ -1,0 +1,21 @@
+{
+  "id": "custom-scrollbar-001",
+  "name": "Custom Scrollbar",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "scrollbar",
+  "tags": [
+    "custom",
+    "html",
+    "scrollbar"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

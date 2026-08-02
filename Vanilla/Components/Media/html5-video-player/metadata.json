@@ -1,0 +1,22 @@
+{
+  "id": "html5-video-player-001",
+  "name": "Html5 Video Player",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "html",
+    "html5",
+    "player",
+    "video"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

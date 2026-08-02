@@ -1,0 +1,23 @@
+{
+  "id": "check-for-touch-support-001",
+  "name": "Check For Touch Support",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "check",
+    "for",
+    "js",
+    "support",
+    "touch"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

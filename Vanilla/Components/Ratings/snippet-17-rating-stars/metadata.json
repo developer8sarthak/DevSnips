@@ -1,0 +1,23 @@
+{
+  "id": "snippet-17-rating-stars-001",
+  "name": "Snippet 17 Rating Stars",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "ratings",
+  "tags": [
+    "17",
+    "html",
+    "rating",
+    "snippet",
+    "stars"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

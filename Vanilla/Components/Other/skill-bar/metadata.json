@@ -1,0 +1,21 @@
+{
+  "id": "skill-bar-001",
+  "name": "Skill Bar",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "bar",
+    "html",
+    "skill"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

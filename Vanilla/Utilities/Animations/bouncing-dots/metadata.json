@@ -1,0 +1,21 @@
+{
+  "id": "bouncing-dots-001",
+  "name": "Bouncing Dots",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "bouncing",
+    "css",
+    "dots"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

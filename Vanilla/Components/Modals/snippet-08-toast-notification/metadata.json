@@ -1,0 +1,23 @@
+{
+  "id": "snippet-08-toast-notification-001",
+  "name": "Snippet 08 Toast Notification",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "08",
+    "html",
+    "notification",
+    "snippet",
+    "toast"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

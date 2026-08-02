@@ -1,0 +1,23 @@
+{
+  "id": "conditional-theming-container-query-001",
+  "name": "Conditional Theming Container Query",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "theming",
+  "tags": [
+    "conditional",
+    "container",
+    "css",
+    "query",
+    "theming"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

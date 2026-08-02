@@ -1,0 +1,22 @@
+{
+  "id": "scroll-snap-container-001",
+  "name": "Scroll Snap Container",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "container",
+    "css",
+    "scroll",
+    "snap"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

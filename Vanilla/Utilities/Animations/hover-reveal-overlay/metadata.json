@@ -1,0 +1,22 @@
+{
+  "id": "hover-reveal-overlay-001",
+  "name": "Hover Reveal Overlay",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "css",
+    "hover",
+    "overlay",
+    "reveal"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

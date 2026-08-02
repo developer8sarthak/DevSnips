@@ -1,0 +1,21 @@
+{
+  "id": "horizontal-rule-001",
+  "name": "Horizontal Rule",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "horizontal",
+    "html",
+    "rule"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

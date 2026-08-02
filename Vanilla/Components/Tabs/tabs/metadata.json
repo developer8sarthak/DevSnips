@@ -1,0 +1,20 @@
+{
+  "id": "tabs-001",
+  "name": "Tabs",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tabs",
+  "tags": [
+    "html",
+    "tabs"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "overlay-loader-001",
+  "name": "Overlay Loader",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "css",
+    "loader",
+    "overlay"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

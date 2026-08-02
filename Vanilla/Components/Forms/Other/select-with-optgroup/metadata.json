@@ -1,0 +1,22 @@
+{
+  "id": "select-with-optgroup-001",
+  "name": "Select With Optgroup",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "html",
+    "optgroup",
+    "select",
+    "with"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

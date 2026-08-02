@@ -1,0 +1,22 @@
+{
+  "id": "circular-progress-bar-001",
+  "name": "Circular Progress Bar",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "loaders",
+  "tags": [
+    "bar",
+    "circular",
+    "html",
+    "progress"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

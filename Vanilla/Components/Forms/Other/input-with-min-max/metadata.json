@@ -1,0 +1,23 @@
+{
+  "id": "input-with-min-max-001",
+  "name": "Input With Min Max",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "html",
+    "input",
+    "max",
+    "min",
+    "with"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

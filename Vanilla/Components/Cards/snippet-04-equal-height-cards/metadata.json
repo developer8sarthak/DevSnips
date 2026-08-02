@@ -1,0 +1,24 @@
+{
+  "id": "snippet-04-equal-height-cards-001",
+  "name": "Snippet 04 Equal Height Cards",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "04",
+    "cards",
+    "css",
+    "equal",
+    "height",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

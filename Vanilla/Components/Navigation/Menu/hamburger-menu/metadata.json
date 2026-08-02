@@ -1,0 +1,21 @@
+{
+  "id": "hamburger-menu-001",
+  "name": "Hamburger Menu",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "menu",
+  "tags": [
+    "hamburger",
+    "html",
+    "menu"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

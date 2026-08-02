@@ -1,0 +1,22 @@
+{
+  "id": "focus-visible-accessibility-001",
+  "name": "Focus Visible Accessibility",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "accessibility",
+    "css",
+    "focus",
+    "visible"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

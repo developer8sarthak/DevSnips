@@ -1,0 +1,23 @@
+{
+  "id": "snippet-14-sticky-nav-001",
+  "name": "Snippet 14 Sticky Nav",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navbar",
+  "tags": [
+    "14",
+    "css",
+    "nav",
+    "snippet",
+    "sticky"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

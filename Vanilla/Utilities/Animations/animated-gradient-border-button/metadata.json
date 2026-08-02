@@ -1,0 +1,23 @@
+{
+  "id": "animated-gradient-border-button-001",
+  "name": "Animated Gradient Border Button",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animated",
+    "border",
+    "button",
+    "css",
+    "gradient"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

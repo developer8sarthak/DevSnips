@@ -1,0 +1,22 @@
+{
+  "id": "image-overlay-effect-001",
+  "name": "Image Overlay Effect",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "effect",
+    "html",
+    "image",
+    "overlay"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

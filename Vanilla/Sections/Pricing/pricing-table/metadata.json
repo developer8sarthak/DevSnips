@@ -1,0 +1,21 @@
+{
+  "id": "pricing-table-001",
+  "name": "Pricing Table",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "pricing",
+  "tags": [
+    "html",
+    "pricing",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

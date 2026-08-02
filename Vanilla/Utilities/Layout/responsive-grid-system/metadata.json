@@ -1,0 +1,22 @@
+{
+  "id": "responsive-grid-system-001",
+  "name": "Responsive Grid System",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "css",
+    "grid",
+    "responsive",
+    "system"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

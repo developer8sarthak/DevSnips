@@ -1,0 +1,21 @@
+{
+  "id": "pagination-component-001",
+  "name": "Pagination Component",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "pagination",
+  "tags": [
+    "component",
+    "html",
+    "pagination"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

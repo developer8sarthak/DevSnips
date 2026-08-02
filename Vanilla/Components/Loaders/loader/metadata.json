@@ -1,0 +1,20 @@
+{
+  "id": "loader-001",
+  "name": "Loader",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "loaders",
+  "tags": [
+    "html",
+    "loader"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sticky-footer-001",
+  "name": "Sticky Footer",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "other",
+  "tags": [
+    "css",
+    "footer",
+    "sticky"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

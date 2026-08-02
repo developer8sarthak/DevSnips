@@ -1,0 +1,22 @@
+{
+  "id": "animated-gradient-background-001",
+  "name": "Animated Gradient Background",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "animated",
+    "background",
+    "gradient",
+    "html"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

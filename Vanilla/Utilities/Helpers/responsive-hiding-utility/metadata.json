@@ -1,0 +1,22 @@
+{
+  "id": "responsive-hiding-utility-001",
+  "name": "Responsive Hiding Utility",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "css",
+    "hiding",
+    "responsive",
+    "utility"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

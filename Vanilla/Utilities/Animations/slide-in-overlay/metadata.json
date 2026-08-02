@@ -1,0 +1,22 @@
+{
+  "id": "slide-in-overlay-001",
+  "name": "Slide In Overlay",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "html",
+    "in",
+    "overlay",
+    "slide"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

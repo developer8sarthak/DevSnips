@@ -1,0 +1,22 @@
+{
+  "id": "multi-select-dropdown-001",
+  "name": "Multi Select Dropdown",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "dropdown",
+    "html",
+    "multi",
+    "select"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

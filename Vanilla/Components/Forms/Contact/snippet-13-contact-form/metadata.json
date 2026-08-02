@@ -1,0 +1,23 @@
+{
+  "id": "snippet-13-contact-form-001",
+  "name": "Snippet 13 Contact Form",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "contact",
+  "tags": [
+    "13",
+    "contact",
+    "form",
+    "html",
+    "snippet"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "newsletter-signup-form-001",
+  "name": "Newsletter Signup Form",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "register",
+  "tags": [
+    "form",
+    "html",
+    "newsletter",
+    "signup"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

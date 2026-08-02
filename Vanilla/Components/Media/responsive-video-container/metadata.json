@@ -1,0 +1,22 @@
+{
+  "id": "responsive-video-container-001",
+  "name": "Responsive Video Container",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "container",
+    "css",
+    "responsive",
+    "video"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

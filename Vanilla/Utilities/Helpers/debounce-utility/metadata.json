@@ -1,0 +1,21 @@
+{
+  "id": "debounce-utility-001",
+  "name": "Debounce Utility",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "debounce",
+    "js",
+    "utility"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

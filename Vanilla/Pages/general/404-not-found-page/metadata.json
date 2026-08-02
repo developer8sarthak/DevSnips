@@ -1,0 +1,23 @@
+{
+  "id": "404-not-found-page-001",
+  "name": "404 Not Found Page",
+  "technology": "vanilla",
+  "category": "pages",
+  "subcategory": "general",
+  "tags": [
+    "404",
+    "found",
+    "html",
+    "not",
+    "page"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

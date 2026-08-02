@@ -1,0 +1,22 @@
+{
+  "id": "springy-easing-function-001",
+  "name": "Springy Easing Function",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "css",
+    "easing",
+    "function",
+    "springy"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

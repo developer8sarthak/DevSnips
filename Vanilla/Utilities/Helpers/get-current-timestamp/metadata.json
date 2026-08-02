@@ -1,0 +1,22 @@
+{
+  "id": "get-current-timestamp-001",
+  "name": "Get Current Timestamp",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "current",
+    "get",
+    "js",
+    "timestamp"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

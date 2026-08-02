@@ -1,0 +1,22 @@
+{
+  "id": "multi-line-clamp-001",
+  "name": "Multi Line Clamp",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "typography",
+  "tags": [
+    "clamp",
+    "css",
+    "line",
+    "multi"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

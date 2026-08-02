@@ -1,0 +1,24 @@
+{
+  "id": "snippet-16-file-upload-input-001",
+  "name": "Snippet 16 File Upload Input",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "16",
+    "file",
+    "html",
+    "input",
+    "snippet",
+    "upload"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

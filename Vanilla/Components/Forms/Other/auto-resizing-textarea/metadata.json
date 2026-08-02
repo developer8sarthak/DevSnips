@@ -1,0 +1,22 @@
+{
+  "id": "auto-resizing-textarea-001",
+  "name": "Auto Resizing Textarea",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "auto",
+    "css",
+    "resizing",
+    "textarea"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

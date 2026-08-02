@@ -1,0 +1,23 @@
+{
+  "id": "fade-in-on-scroll-001",
+  "name": "Fade In On Scroll",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "css",
+    "fade",
+    "in",
+    "on",
+    "scroll"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

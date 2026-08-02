@@ -1,0 +1,21 @@
+{
+  "id": "capitalize-string-001",
+  "name": "Capitalize String",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "capitalize",
+    "js",
+    "string"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

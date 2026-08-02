@@ -1,0 +1,22 @@
+{
+  "id": "view-transitions-fade-001",
+  "name": "View Transitions Fade",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "css",
+    "fade",
+    "transitions",
+    "view"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

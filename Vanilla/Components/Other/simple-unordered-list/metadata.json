@@ -1,0 +1,22 @@
+{
+  "id": "simple-unordered-list-001",
+  "name": "Simple Unordered List",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "html",
+    "list",
+    "simple",
+    "unordered"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

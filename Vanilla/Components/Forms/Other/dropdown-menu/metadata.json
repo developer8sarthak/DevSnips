@@ -1,0 +1,21 @@
+{
+  "id": "dropdown-menu-001",
+  "name": "Dropdown Menu",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "dropdown",
+    "html",
+    "menu"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

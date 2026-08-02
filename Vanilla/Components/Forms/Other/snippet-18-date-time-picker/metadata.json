@@ -1,0 +1,24 @@
+{
+  "id": "snippet-18-date-time-picker-001",
+  "name": "Snippet 18 Date Time Picker",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "18",
+    "date",
+    "html",
+    "picker",
+    "snippet",
+    "time"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

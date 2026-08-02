@@ -1,0 +1,22 @@
+{
+  "id": "3d-text-effect-001",
+  "name": "3D Text Effect",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "typography",
+  "tags": [
+    "3d",
+    "effect",
+    "html",
+    "text"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

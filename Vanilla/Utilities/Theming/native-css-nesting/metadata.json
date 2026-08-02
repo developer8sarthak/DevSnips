@@ -1,0 +1,21 @@
+{
+  "id": "native-css-nesting-001",
+  "name": "Native Css Nesting",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "theming",
+  "tags": [
+    "css",
+    "native",
+    "nesting"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

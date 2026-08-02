@@ -1,0 +1,21 @@
+{
+  "id": "truncate-string-001",
+  "name": "Truncate String",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "js",
+    "string",
+    "truncate"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

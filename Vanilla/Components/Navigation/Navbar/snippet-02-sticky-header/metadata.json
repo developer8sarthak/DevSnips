@@ -1,0 +1,23 @@
+{
+  "id": "snippet-02-sticky-header-001",
+  "name": "Snippet 02 Sticky Header",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navbar",
+  "tags": [
+    "02",
+    "header",
+    "html",
+    "snippet",
+    "sticky"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

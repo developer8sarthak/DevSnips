@@ -1,0 +1,23 @@
+{
+  "id": "snippet-05-tabbed-content-001",
+  "name": "Snippet 05 Tabbed Content",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tabs",
+  "tags": [
+    "05",
+    "content",
+    "html",
+    "snippet",
+    "tabbed"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

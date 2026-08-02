@@ -1,0 +1,23 @@
+{
+  "id": "has-duplicates-in-array-001",
+  "name": "Has Duplicates In Array",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "array",
+    "duplicates",
+    "has",
+    "in",
+    "js"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

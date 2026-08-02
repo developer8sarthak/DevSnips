@@ -1,0 +1,21 @@
+{
+  "id": "device-mockups-001",
+  "name": "Device Mockups",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "device",
+    "html",
+    "mockups"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

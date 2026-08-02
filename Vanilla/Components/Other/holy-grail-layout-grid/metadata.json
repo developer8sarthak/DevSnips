@@ -1,0 +1,21 @@
+{
+  "id": "holy-grail-layout-grid-001",
+  "name": "Holy Grail Layout Grid",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "vanilla",
+    "components",
+    "other"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

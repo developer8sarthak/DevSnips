@@ -1,0 +1,24 @@
+{
+  "id": "slide-in-from-left-effect-001",
+  "name": "Slide In From Left Effect",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "animations",
+  "tags": [
+    "effect",
+    "from",
+    "html",
+    "in",
+    "left",
+    "slide"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}
