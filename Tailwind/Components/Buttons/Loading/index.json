@@ -1,0 +1,37 @@
+{
+  "name": "Button - Loading",
+  "family": "Buttons",
+  "variant": "Loading",
+  "description": "Buttons with loading states including spinners, pulse indicators, and progress feedback.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Spinner Buttons",
+    "Pulse Loading",
+    "Bounce Loading",
+    "Dots Loading",
+    "Block Loading",
+    "Icon Button Loading"
+  ],
+  "features": [
+    "SVG spinner animation",
+    "Pulse dot indicator",
+    "Bounce animation",
+    "Loading dots text",
+    "Block/width-constrained",
+    "Icon button loading"
+  ],
+  "accessibility": {
+    "focus": "Disabled state styling",
+    "aria": "Use disabled attribute, aria-busy"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-Loading.html",
+      "type": "preview",
+      "description": "Interactive preview with all loading button styles"
+    }
+  ]
+}

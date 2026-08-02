@@ -1,0 +1,37 @@
+{
+  "name": "Button - 3D",
+  "family": "Buttons",
+  "variant": "3D",
+  "description": "3D depth effect buttons with push animation that creates tactile, pressable appearance.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Push 3D Effect",
+    "Extruded Effect",
+    "Inset Effect",
+    "Border 3D",
+    "3D Sizes",
+    "3D with Icons"
+  ],
+  "features": [
+    "Push-down animation",
+    "Shadow-based depth",
+    "Color variants",
+    "Size options",
+    "Pill shape support",
+    "Icon support"
+  ],
+  "accessibility": {
+    "focus": "Visible focus ring",
+    "aria": "Use disabled attribute for disabled state"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-3D.html",
+      "type": "preview",
+      "description": "Interactive preview with all 3D button styles"
+    }
+  ]
+}

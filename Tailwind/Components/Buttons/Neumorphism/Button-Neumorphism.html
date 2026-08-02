@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button - Neumorphism | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .neu-flat {
+      background: #e0e5ec;
+      box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+    }
+    .neu-pressed {
+      background: #e0e5ec;
+      box-shadow: inset 6px 6px 12px #b8b9be, inset -6px -6px 12px #ffffff;
+    }
+    .neu-concave {
+      background: linear-gradient(145deg, #c8cdd3, #f0f5fc);
+      box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+    }
+    .neu-convex {
+      background: linear-gradient(145deg, #f6f9fc, #ced4db);
+      box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+    }
+    .neu-button:hover {
+      box-shadow: 4px 4px 8px #b8b9be, -4px -4px 8px #ffffff;
+    }
+    .neu-button:active {
+      box-shadow: inset 4px 4px 8px #b8b9be, inset -4px -4px 8px #ffffff;
+    }
+  </style>
+</head>
+<body class="min-h-screen p-8" style="background: #e0e5ec;">
+  
+  <!-- Component: Button / Neumorphism -->
+  <!-- Variants: Flat, Pressed, Concave, Convex -->
+
+  <section class="max-w-4xl mx-auto space-y-12">
+    <header class="border-b border-gray-300 pb-4">
+      <h1 class="text-3xl font-bold text-gray-700">Button — Neumorphism</h1>
+      <p class="text-gray-500 mt-2">Soft UI shadow effects with convex and concave styles</p>
+    </header>
+
+    <!-- Neumorphism Flat -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-700">Neumorphism Flat</h2>
+      <div class="flex flex-wrap gap-4 p-6 rounded-xl" style="background: #e0e5ec;">
+        <button class="neu-flat neu-button px-6 py-2.5 text-gray-600 font-medium rounded-xl transition-all duration-200">
+          Flat Button
+        </button>
+        <button class="neu-flat neu-button px-6 py-2.5 text-gray-600 font-medium rounded-xl transition-all duration-200" disabled>
+          Disabled
+        </button>
+        <button class="neu-pressed px-6 py-2.5 text-blue-500 font-medium rounded-xl transition-all duration-200">
+          Pressed State
+        </button>
+      </div>
+    </div>
+
+    <!-- Neumorphism Convex -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-700">Neumorphism Convex</h2>
+      <div class="flex flex-wrap gap-4 p-6 rounded-xl" style="background: #e0e5ec;">
+        <button class="neu-convex neu-button px-6 py-2.5 text-gray-700 font-medium rounded-xl transition-all duration-200">
+          Convex Default
+        </button>
+        <button class="neu-convex neu-button px-6 py-2.5 text-blue-600 font-semibold rounded-xl transition-all duration-200">
+          Blue Convex
+        </button>
+        <button class="neu-convex neu-button px-6 py-2.5 text-green-600 font-semibold rounded-xl transition-all duration-200">
+          Green Convex
+        </button>
+        <button class="neu-convex neu-button px-6 py-2.5 text-purple-600 font-semibold rounded-xl transition-all duration-200">
+          Purple Convex
+        </button>
+      </div>
+    </div>
+
+    <!-- Neumorphism Concave -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-700">Neumorphism Concave</h2>
+      <div class="flex flex-wrap gap-4 p-6 rounded-xl" style="background: #e0e5ec;">
+        <button class="neu-concave neu-button px-6 py-2.5 text-gray-600 font-medium rounded-xl transition-all duration-200">
+          Concave Default
+        </button>
+        <button class="neu-concave neu-button px-6 py-2.5 text-red-500 font-medium rounded-xl transition-all duration-200">
+          Red Concave
+        </button>
+        <button class="neu-concave neu-button px-6 py-2.5 text-amber-600 font-medium rounded-xl transition-all duration-200">
+          Amber Concave
+        </button>
+      </div>
+    </div>
+
+    <!-- Neumorphism Toggles -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-700">Neumorphism Toggle</h2>
+      <div class="flex flex-wrap gap-4 p-6 rounded-xl" style="background: #e0e5ec;">
+        <button class="neu-pressed px-6 py-2.5 text-blue-500 font-medium rounded-xl transition-all duration-200">
+          Active
+        </button>
+        <button class="neu-convex neu-button px-6 py-2.5 text-gray-500 font-medium rounded-xl transition-all duration-200">
+          Inactive
+        </button>
+      </div>
+    </div>
+
+    <!-- Neumorphism Sizes -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-700">Neumorphism Sizes</h2>
+      <div class="flex flex-wrap items-center gap-4 p-6 rounded-xl" style="background: #e0e5ec;">
+        <button class="neu-convex neu-button px-3 py-1.5 text-gray-600 text-xs font-medium rounded-lg transition-all duration-200">
+          Small
+        </button>
+        <button class="neu-convex neu-button px-4 py-2 text-gray-600 text-sm font-medium rounded-xl transition-all duration-200">
+          Default
+        </button>
+        <button class="neu-convex neu-button px-6 py-3 text-gray-600 text-base font-medium rounded-xl transition-all duration-200">
+          Large
+        </button>
+      </div>
+    </div>
+
+    <!-- Neumorphism Pill -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-700">Neumorphism Pill</h2>
+      <div class="flex flex-wrap gap-4 p-6 rounded-xl" style="background: #e0e5ec;">
+        <button class="neu-convex neu-button px-6 py-2.5 text-gray-600 font-medium rounded-full transition-all duration-200">
+          Pill Button
+        </button>
+        <button class="neu-convex neu-button px-8 py-3 text-blue-500 font-semibold rounded-full transition-all duration-200">
+          Large Pill
+        </button>
+      </div>
+    </div>
+
+    <!-- Neumorphism Icon -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-700">Neumorphism Icon</h2>
+      <div class="flex flex-wrap gap-4 p-6 rounded-xl" style="background: #e0e5ec;">
+        <button class="neu-convex neu-button p-3 text-gray-600 rounded-full transition-all duration-200">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+          </svg>
+        </button>
+        <button class="neu-convex neu-button p-3 text-blue-500 rounded-full transition-all duration-200">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+          </svg>
+        </button>
+        <button class="neu-pressed p-3 text-gray-500 rounded-full transition-all duration-200">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>

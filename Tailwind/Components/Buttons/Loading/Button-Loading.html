@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button - Loading | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .animate-spin { animation: spin 1s linear infinite; }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    .animate-pulse { animation: pulse 2s ease-in-out infinite; }
+    
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+    .animate-bounce { animation: bounce 1s ease-in-out infinite; }
+    
+    @keyframes dots {
+      0%, 20% { content: '.'; }
+      40% { content: '..'; }
+      60%, 100% { content: '...'; }
+    }
+    .loading-dots::after {
+      content: '...';
+      animation: dots 1.5s steps(3, end) infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+  
+  <!-- Component: Button / Loading -->
+  <!-- Variants: Spinner, Pulse, Bounce, Dots, Block Loading -->
+
+  <section class="max-w-4xl mx-auto space-y-12">
+    <header class="border-b pb-4">
+      <h1 class="text-3xl font-bold text-gray-900">Button — Loading</h1>
+      <p class="text-gray-600 mt-2">Buttons with loading states and spinners</p>
+    </header>
+
+    <!-- Spinner Buttons -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Spinner Buttons</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <!-- Spinner Left -->
+        <button class="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors" disabled>
+          <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          Loading...
+        </button>
+        
+        <!-- Spinner Right -->
+        <button class="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-colors" disabled>
+          Processing
+          <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+        </button>
+        
+        <!-- Outline Spinner -->
+        <button class="inline-flex items-center gap-2 px-4 py-2 border-2 border-blue-600 text-blue-600 font-medium rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors" disabled>
+          <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          Saving...
+        </button>
+      </div>
+    </div>
+
+    <!-- Pulse Loading -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Pulse Loading</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition-colors" disabled>
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+          </span>
+          Connecting...
+        </button>
+        
+        <button class="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition-colors" disabled>
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+          </span>
+          Syncing...
+        </button>
+      </div>
+    </div>
+
+    <!-- Bounce Loading -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Bounce Loading</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="inline-flex items-center gap-2 px-4 py-2 bg-amber-500 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition-colors" disabled>
+          <svg class="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+          </svg>
+          Retrying...
+        </button>
+      </div>
+    </div>
+
+    <!-- Dots Loading -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Dots Loading</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="inline-flex items-center px-4 py-2 bg-gray-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 transition-colors" disabled>
+          <span class="loading-dots">Processing</span>
+        </button>
+        
+        <button class="inline-flex items-center px-4 py-2 border-2 border-gray-300 text-gray-500 font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400 transition-colors" disabled>
+          Loading<span class="loading-dots"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Block Loading -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Block Loading</h2>
+      <div class="p-6 bg-white rounded-xl shadow-sm space-y-4">
+        <button class="w-full px-6 py-3 bg-blue-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" disabled>
+          <div class="flex items-center justify-center gap-2">
+            <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <span>Submitting Form...</span>
+          </div>
+        </button>
+        
+        <button class="w-full px-6 py-3 bg-green-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition-colors" disabled>
+          <div class="flex items-center justify-center gap-2">
+            <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <span>Publishing...</span>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Icon Button Loading -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Icon Button Loading</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="p-2.5 bg-blue-600 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" disabled>
+          <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+        </button>
+        
+        <button class="p-2.5 border-2 border-gray-300 text-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400 transition-colors" disabled>
+          <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+        </button>
+        
+        <button class="p-3 bg-green-500 text-white rounded-full focus:outline-none focus:ring-2 focus:ring-green-400 transition-colors" disabled>
+          <svg class="w-6 h-6 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Loading Sizes -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Loading Sizes</h2>
+      <div class="flex flex-wrap items-center gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="inline-flex items-center gap-1 px-3 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" disabled>
+          <svg class="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          Small
+        </button>
+        
+        <button class="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" disabled>
+          <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          Default
+        </button>
+        
+        <button class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white text-lg font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" disabled>
+          <svg class="w-6 h-6 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          Large
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>

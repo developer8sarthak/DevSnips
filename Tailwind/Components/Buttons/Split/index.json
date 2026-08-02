@@ -1,0 +1,34 @@
+{
+  "name": "Button - Split",
+  "family": "Buttons",
+  "variant": "Split",
+  "description": "Split buttons with dropdown menus for primary action and secondary options.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Dropdown Split",
+    "Icon Split",
+    "Search Split",
+    "Split Sizes"
+  ],
+  "features": [
+    "Action + dropdown pattern",
+    "Icon with dropdown",
+    "Search with category dropdown",
+    "Multiple sizes",
+    "Hover dropdown reveal"
+  ],
+  "accessibility": {
+    "focus": "Both parts focusable",
+    "aria": "Use proper menu/menuitem roles"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-Split.html",
+      "type": "preview",
+      "description": "Interactive preview with all split button styles"
+    }
+  ]
+}

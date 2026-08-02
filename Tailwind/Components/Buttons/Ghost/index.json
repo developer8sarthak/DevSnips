@@ -1,0 +1,35 @@
+{
+  "name": "Button - Ghost",
+  "family": "Buttons",
+  "variant": "Ghost",
+  "description": "Transparent buttons that reveal background color on hover, ideal for toolbars and secondary actions.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Ghost Primary",
+    "Ghost Colors",
+    "Ghost Dark",
+    "Ghost Sizes",
+    "Icon Ghost"
+  ],
+  "features": [
+    "Transparent background",
+    "Background reveals on hover",
+    "Dark mode variants",
+    "Icon support",
+    "Multiple colors"
+  ],
+  "accessibility": {
+    "focus": "Visible focus ring on hover",
+    "aria": "Use disabled attribute for disabled state"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-Ghost.html",
+      "type": "preview",
+      "description": "Interactive preview with all ghost button styles"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button - Animated | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Shine Effect */
+    .btn-shine {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-shine::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+      transition: left 0.5s;
+    }
+    .btn-shine:hover::before {
+      left: 100%;
+    }
+    
+    /* Pulse Effect */
+    @keyframes pulse-ring {
+      0% { transform: scale(1); opacity: 1; }
+      100% { transform: scale(1.5); opacity: 0; }
+    }
+    .btn-pulse::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: inherit;
+      animation: pulse-ring 1.5s ease-out infinite;
+      z-index: -1;
+    }
+    
+    /* Bounce Effect */
+    .btn-bounce:hover {
+      animation: bounce 0.6s ease;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      40% { transform: translateY(-8px); }
+      60% { transform: translateY(-4px); }
+    }
+    
+    /* Wiggle Effect */
+    .btn-wiggle:hover {
+      animation: wiggle 0.5s ease;
+    }
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(-5deg); }
+      75% { transform: rotate(5deg); }
+    }
+    
+    /* Slide Up Effect */
+    .btn-slide-up {
+      position: relative;
+    }
+    .btn-slide-up span {
+      display: block;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .btn-slide-up:hover span:first-child {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    .btn-slide-up:hover span:last-child {
+      transform: translateY(-100%);
+    }
+    
+    /* Ripple Effect */
+    .btn-ripple {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-ripple::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background: rgba(255,255,255,0.3);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      transition: width 0.6s, height 0.6s;
+    }
+    .btn-ripple:active::after {
+      width: 300px;
+      height: 300px;
+    }
+    
+    /* Scale Effect */
+    .btn-scale:hover {
+      transform: scale(1.05);
+    }
+    .btn-scale:active {
+      transform: scale(0.98);
+    }
+    
+    /* Arrow Slide */
+    .btn-arrow .arrow {
+      transition: transform 0.3s ease;
+    }
+    .btn-arrow:hover .arrow {
+      transform: translateX(6px);
+    }
+    
+    /* Fill Effect */
+    .btn-fill {
+      position: relative;
+      z-index: 1;
+    }
+    .btn-fill::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: #1f2937;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.3s ease;
+      z-index: -1;
+      border-radius: inherit;
+    }
+    .btn-fill:hover::before {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+    
+    /* Glow on Hover */
+    .btn-glow:hover {
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.5), 0 0 40px rgba(59, 130, 246, 0.3);
+    }
+    
+    /* Neon Flicker */
+    @keyframes neon-flicker {
+      0%, 100% { opacity: 1; }
+      92% { opacity: 1; }
+      93% { opacity: 0.8; }
+      94% { opacity: 1; }
+      96% { opacity: 0.9; }
+      97% { opacity: 1; }
+    }
+    .btn-neon {
+      animation: neon-flicker 2s infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+  
+  <!-- Component: Button / Animated -->
+  <!-- Variants: Shine, Pulse, Bounce, Wiggle, Slide, Ripple, Scale, Arrow, Fill, Glow, Neon -->
+
+  <section class="max-w-4xl mx-auto space-y-12">
+    <header class="border-b pb-4">
+      <h1 class="text-3xl font-bold text-gray-900">Button — Animated</h1>
+      <p class="text-gray-600 mt-2">Buttons with hover and click animations</p>
+    </header>
+
+    <!-- Hover Effects -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Hover Effects</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <!-- Shine -->
+        <button class="btn-shine px-6 py-2.5 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+          Shine
+        </button>
+        
+        <!-- Scale -->
+        <button class="btn-scale px-6 py-2.5 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-transform">
+          Scale
+        </button>
+        
+        <!-- Bounce -->
+        <button class="btn-bounce px-6 py-2.5 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 transition-all">
+          Bounce
+        </button>
+        
+        <!-- Wiggle -->
+        <button class="btn-wiggle px-6 py-2.5 bg-amber-500 text-white font-medium rounded-lg hover:bg-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all">
+          Wiggle
+        </button>
+      </div>
+    </div>
+
+    <!-- Slide Effects -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Slide Effects</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <!-- Arrow Slide -->
+        <button class="btn-arrow inline-flex items-center gap-2 px-6 py-2.5 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+          Arrow Slide
+          <svg class="arrow w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </button>
+        
+        <!-- Fill from Left -->
+        <button class="btn-fill px-6 py-2.5 bg-blue-100 text-blue-600 font-medium rounded-lg hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+          Fill Effect
+        </button>
+        
+        <!-- Text Slide -->
+        <button class="btn-slide-up relative overflow-hidden px-6 py-2.5 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all">
+          <span>Hover Me</span>
+          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">There!</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Glow Effects -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Glow Effects</h2>
+      <div class="flex flex-wrap gap-6 p-6 bg-white rounded-xl shadow-sm">
+        <button class="btn-glow px-6 py-2.5 bg-blue-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+          Glow Blue
+        </button>
+        <button class="btn-glow px-6 py-2.5 bg-purple-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all">
+          Glow Purple
+        </button>
+        <button class="btn-glow px-6 py-2.5 bg-pink-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 transition-all">
+          Glow Pink
+        </button>
+      </div>
+    </div>
+
+    <!-- Neon Effects -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Neon Effects</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-gray-900 rounded-xl">
+        <button class="btn-neon px-6 py-2.5 bg-transparent border-2 border-cyan-400 text-cyan-400 font-semibold rounded-lg shadow-[0_0_10px_rgba(34,211,238,0.5)] hover:bg-cyan-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition-all">
+          Cyan Neon
+        </button>
+        <button class="btn-neon px-6 py-2.5 bg-transparent border-2 border-pink-500 text-pink-500 font-semibold rounded-lg shadow-[0_0_10px_rgba(236,72,153,0.5)] hover:bg-pink-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-pink-500 transition-all">
+          Pink Neon
+        </button>
+        <button class="btn-neon px-6 py-2.5 bg-transparent border-2 border-green-400 text-green-400 font-semibold rounded-lg shadow-[0_0_10px_rgba(52,211,153,0.5)] hover:bg-green-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all">
+          Green Neon
+        </button>
+      </div>
+    </div>
+
+    <!-- Pulse Effects -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Pulse Effects</h2>
+      <div class="flex flex-wrap gap-6 p-6 bg-white rounded-xl shadow-sm">
+        <button class="btn-pulse relative px-6 py-2.5 bg-blue-600 text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+          Pulse
+        </button>
+        <button class="relative px-6 py-2.5 bg-red-500 text-white font-medium rounded-lg hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 transition-all shadow-[0_0_0_0_rgba(239,68,68,0.7)] hover:shadow-[0_0_0_12px_rgba(239,68,68,0)]" style="animation: pulse-ring 2s infinite;">
+          Attention
+        </button>
+      </div>
+    </div>
+
+    <!-- Ripple Click -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Ripple Click</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="btn-ripple px-6 py-2.5 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all">
+          Click Me
+        </button>
+        <button class="btn-ripple px-6 py-2.5 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-all">
+          Ripple Effect
+        </button>
+      </div>
+    </div>
+
+    <!-- Combination Effects -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Combination Effects</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-gray-900 rounded-xl">
+        <button class="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium rounded-lg hover:scale-110 hover:shadow-[0_0_30px_rgba(236,72,153,0.5)] focus:outline-none focus:ring-2 focus:ring-pink-500 transition-all">
+          Hover Scale + Glow
+        </button>
+        <button class="btn-arrow inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-medium rounded-lg hover:shadow-[0_0_20px_rgba(14,165,233,0.5)] focus:outline-none focus:ring-2 focus:ring-cyan-400 transition-all">
+          Arrow + Glow
+          <svg class="arrow w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>

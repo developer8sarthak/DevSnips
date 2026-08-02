@@ -1,0 +1,36 @@
+{
+  "name": "Button - Outline",
+  "family": "Buttons",
+  "variant": "Outline",
+  "description": "Bordered buttons with transparent backgrounds, available in solid, thick, and dashed border styles.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Outline Primary",
+    "Outline Colors",
+    "Thick Border",
+    "Dashed Border",
+    "Rounded Pill",
+    "Outline on Dark"
+  ],
+  "features": [
+    "Standard border variations",
+    "Thick border option",
+    "Dashed border style",
+    "Pill/rounded-full shape",
+    "Dark background support"
+  ],
+  "accessibility": {
+    "focus": "Visible focus ring",
+    "aria": "Use disabled attribute for disabled state"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-Outline.html",
+      "type": "preview",
+      "description": "Interactive preview with all outline button styles"
+    }
+  ]
+}
