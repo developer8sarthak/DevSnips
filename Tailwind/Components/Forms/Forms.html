@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Components | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+  
+  <!-- Component: Forms (36-50) -->
+
+  <section class="max-w-7xl mx-auto space-y-12">
+    <header class="border-b pb-4">
+      <h1 class="text-3xl font-bold text-gray-900">Forms</h1>
+      <p class="text-gray-600 mt-2">A comprehensive collection of form components</p>
+    </header>
+
+    <!-- 36. Login Form -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">36. Login Form</h2>
+      <div class="max-w-md mx-auto bg-white rounded-2xl shadow-sm p-8">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6">Welcome back</h3>
+        <form class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+            <input type="email" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all" placeholder="you@example.com">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+            <input type="password" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all" placeholder="••••••••">
+          </div>
+          <div class="flex items-center justify-between">
+            <label class="flex items-center gap-2">
+              <input type="checkbox" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+              <span class="text-sm text-gray-600">Remember me</span>
+            </label>
+            <a href="#" class="text-sm text-blue-600 hover:text-blue-700">Forgot password?</a>
+          </div>
+          <button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-medium">Sign In</button>
+        </form>
+        <p class="mt-6 text-center text-sm text-gray-600">Don't have an account? <a href="#" class="text-blue-600 hover:text-blue-700 font-medium">Sign up</a></p>
+      </div>
+    </div>
+
+    <!-- 37. Register Form -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">37. Register Form</h2>
+      <div class="max-w-md mx-auto bg-white rounded-2xl shadow-sm p-8">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6">Create account</h3>
+        <form class="space-y-4">
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+              <input type="text" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="John">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+              <input type="text" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Doe">
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+            <input type="email" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="you@example.com">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+            <input type="password" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="••••••••">
+          </div>
+          <div>
+            <label class="flex items-start gap-2">
+              <input type="checkbox" class="w-4 h-4 mt-1 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+              <span class="text-sm text-gray-600">I agree to the <a href="#" class="text-blue-600">Terms</a> and <a href="#" class="text-blue-600">Privacy Policy</a></span>
+            </label>
+          </div>
+          <button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-medium">Create Account</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- 38. Forgot Password Form -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">38. Forgot Password Form</h2>
+      <div class="max-w-md mx-auto bg-white rounded-2xl shadow-sm p-8 text-center">
+        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Forgot password?</h3>
+        <p class="text-gray-600 mb-6">No worries, we'll send you reset instructions.</p>
+        <form class="space-y-4 text-left">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+            <input type="email" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Enter your email">
+          </div>
+          <button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-medium">Reset Password</button>
+        </form>
+        <a href="#" class="inline-flex items-center gap-2 mt-6 text-sm text-gray-600 hover:text-gray-900">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+          Back to login
+        </a>
+      </div>
+    </div>
+
+    <!-- 39. Multi-Step Form -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">39. Multi-Step Form</h2>
+      <div class="max-w-xl mx-auto bg-white rounded-2xl shadow-sm p-8">
+        <!-- Progress Steps -->
+        <div class="flex items-center justify-between mb-8">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-medium">1</div>
+            <span class="text-sm font-medium text-gray-900 hidden sm:block">Account</span>
+          </div>
+          <div class="flex-1 h-1 bg-gray-200 mx-2"><div class="h-full bg-blue-600 w-1/2"></div></div>
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-medium">2</div>
+            <span class="text-sm font-medium text-gray-900 hidden sm:block">Profile</span>
+          </div>
+          <div class="flex-1 h-1 bg-gray-200 mx-2"></div>
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-gray-200 text-gray-500 rounded-full flex items-center justify-center text-sm font-medium">3</div>
+            <span class="text-sm font-medium text-gray-500 hidden sm:block">Confirm</span>
+          </div>
+        </div>
+        <!-- Step Content -->
+        <form class="space-y-4">
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+              <input type="text" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+              <input type="text" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+            <input type="email" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+          </div>
+          <div class="flex justify-between pt-4">
+            <button type="button" class="px-6 py-2 border border-gray-200 rounded-xl hover:bg-gray-50">Back</button>
+            <button type="submit" class="px-6 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700">Next Step</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- 40. Search Input -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">40. Search Input</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="relative">
+          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <input type="text" class="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Search...">
+        </div>
+        <div class="relative">
+          <input type="text" class="w-full pl-4 pr-12 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Search anything...">
+          <kbd class="absolute right-4 top-1/2 -translate-y-1/2 px-2 py-1 bg-gray-100 text-gray-500 text-xs rounded">⌘K</kbd>
+        </div>
+        <div class="relative">
+          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <input type="text" class="w-full pl-12 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Search with background...">
+        </div>
+        <div class="flex gap-2">
+          <div class="relative flex-1">
+            <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <input type="text" class="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Search...">
+          </div>
+          <button class="px-4 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 41. Floating Label Input -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">41. Floating Label Input</h2>
+      <div class="max-w-md mx-auto bg-white rounded-2xl shadow-sm p-8">
+        <div class="relative">
+          <input type="text" id="floating-name" class="w-full px-4 pt-6 pb-2 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none peer" placeholder=" ">
+          <label for="floating-name" class="absolute left-4 top-3 text-gray-500 text-sm transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-focus:top-3 peer-focus:text-sm peer-focus:text-blue-600">Full Name</label>
+        </div>
+        <div class="relative mt-4">
+          <input type="email" id="floating-email" class="w-full px-4 pt-6 pb-2 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none peer" placeholder=" ">
+          <label for="floating-email" class="absolute left-4 top-3 text-gray-500 text-sm transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-focus:top-3 peer-focus:text-sm peer-focus:text-blue-600">Email Address</label>
+        </div>
+        <div class="relative mt-4">
+          <input type="password" id="floating-password" class="w-full px-4 pt-6 pb-2 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none peer" placeholder=" ">
+          <label for="floating-password" class="absolute left-4 top-3 text-gray-500 text-sm transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-focus:top-3 peer-focus:text-sm peer-focus:text-blue-600">Password</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- 42. Password Input with Toggle -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">42. Password Input with Toggle</h2>
+      <div class="max-w-md mx-auto bg-white rounded-2xl shadow-sm p-8 space-y-4">
+        <div class="relative">
+          <label class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+          <input type="password" id="password-input" class="w-full px-4 py-3 pr-12 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Enter password">
+          <button type="button" onclick="togglePassword()" class="absolute right-4 top-9 text-gray-400 hover:text-gray-600">
+            <svg id="eye-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+          </button>
+        </div>
+        <div class="relative">
+          <label class="block text-sm font-medium text-gray-700 mb-1">Confirm Password</label>
+          <input type="password" id="confirm-password" class="w-full px-4 py-3 pr-12 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Confirm password">
+          <button type="button" onclick="toggleConfirmPassword()" class="absolute right-4 top-9 text-gray-400 hover:text-gray-600">
+            <svg id="confirm-eye-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 43. OTP Input -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">43. OTP Input</h2>
+      <div class="max-w-md mx-auto bg-white rounded-2xl shadow-sm p-8 text-center">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Enter verification code</h3>
+        <p class="text-gray-500 text-sm mb-6">We sent a code to your email</p>
+        <div class="flex justify-center gap-3 mb-6">
+          <input type="text" maxlength="1" class="w-14 h-14 text-center text-xl font-semibold border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+          <input type="text" maxlength="1" class="w-14 h-14 text-center text-xl font-semibold border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+          <input type="text" maxlength="1" class="w-14 h-14 text-center text-xl font-semibold border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+          <input type="text" maxlength="1" class="w-14 h-14 text-center text-xl font-semibold border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+        </div>
+        <button class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-medium">Verify</button>
+        <p class="mt-4 text-sm text-gray-500">Didn't receive code? <button class="text-blue-600 hover:text-blue-700 font-medium">Resend</button></p>
+      </div>
+    </div>
+
+    <!-- 44. File Upload Component -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">44. File Upload Component</h2>
+      <div class="max-w-md mx-auto bg-white rounded-2xl shadow-sm p-8">
+        <div class="border-2 border-dashed border-gray-200 rounded-xl p-8 text-center hover:border-blue-400 transition-colors cursor-pointer">
+          <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/></svg>
+          </div>
+          <p class="text-gray-900 font-medium mb-1">Drop your file here, or <span class="text-blue-600">browse</span></p>
+          <p class="text-sm text-gray-500">Maximum file size: 10MB</p>
+        </div>
+        <!-- Uploaded File -->
+        <div class="mt-4 p-4 bg-gray-50 rounded-xl flex items-center gap-4">
+          <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <div class="flex-1">
+            <p class="font-medium text-gray-900">document.pdf</p>
+            <p class="text-sm text-gray-500">2.4 MB</p>
+          </div>
+          <button class="text-gray-400 hover:text-gray-600">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 45. Drag & Drop Upload -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">45. Drag & Drop Upload</h2>
+      <div class="max-w-xl mx-auto bg-white rounded-2xl shadow-sm p-8">
+        <div id="drop-zone" class="border-2 border-dashed border-gray-200 rounded-xl p-12 text-center transition-colors">
+          <div class="w-20 h-20 bg-purple-50 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-10 h-10 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/></svg>
+          </div>
+          <p class="text-lg font-semibold text-gray-900 mb-2">Drag and drop files here</p>
+          <p class="text-gray-500 mb-4">or click to browse</p>
+          <input type="file" id="file-input" class="hidden" multiple>
+          <button onclick="document.getElementById('file-input').click()" class="px-6 py-2 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">Select Files</button>
+        </div>
+        <!-- File List -->
+        <div id="file-list" class="mt-4 space-y-2"></div>
+      </div>
+    </div>
+
+    <!-- 46. Date Picker UI -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">46. Date Picker UI</h2>
+      <div class="max-w-sm bg-white rounded-2xl shadow-sm p-6">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="font-semibold text-gray-900">December 2023</h3>
+          <div class="flex gap-2">
+            <button class="p-2 hover:bg-gray-100 rounded-lg">
+              <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            </button>
+            <button class="p-2 hover:bg-gray-100 rounded-lg">
+              <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-7 gap-1 text-center text-sm">
+          <span class="text-gray-400 py-2">Su</span>
+          <span class="text-gray-400 py-2">Mo</span>
+          <span class="text-gray-400 py-2">Tu</span>
+          <span class="text-gray-400 py-2">We</span>
+          <span class="text-gray-400 py-2">Th</span>
+          <span class="text-gray-400 py-2">Fr</span>
+          <span class="text-gray-400 py-2">Sa</span>
+        </div>
+        <div class="grid grid-cols-7 gap-1 text-center">
+          <button class="p-2 text-gray-400">26</button>
+          <button class="p-2 text-gray-400">27</button>
+          <button class="p-2 text-gray-400">28</button>
+          <button class="p-2 text-gray-400">29</button>
+          <button class="p-2 text-gray-400">30</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">1</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">2</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">3</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">4</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">5</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">6</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">7</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">8</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">9</button>
+          <button class="p-2 bg-blue-600 text-white rounded-lg">10</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">11</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">12</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">13</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">14</button>
+          <button class="p-2 hover:bg-gray-100 rounded-lg">15</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 47. Time Picker UI -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">47. Time Picker UI</h2>
+      <div class="max-w-xs bg-white rounded-2xl shadow-sm p-6">
+        <h3 class="font-semibold text-gray-900 mb-4">Select Time</h3>
+        <div class="flex items-center justify-center gap-4">
+          <select class="w-20 px-3 py-2 border border-gray-200 rounded-lg text-center text-2xl font-semibold focus:ring-2 focus:ring-blue-500 outline-none">
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+          <span class="text-2xl font-bold text-gray-400">:</span>
+          <select class="w-20 px-3 py-2 border border-gray-200 rounded-lg text-center text-2xl font-semibold focus:ring-2 focus:ring-blue-500 outline-none">
+            <option>00</option>
+            <option>15</option>
+            <option>30</option>
+            <option>45</option>
+          </select>
+          <select class="px-3 py-2 border border-gray-200 rounded-lg text-center focus:ring-2 focus:ring-blue-500 outline-none">
+            <option>AM</option>
+            <option>PM</option>
+          </select>
+        </div>
+        <!-- Quick Select -->
+        <div class="mt-6 pt-4 border-t">
+          <p class="text-sm text-gray-500 mb-2">Quick select</p>
+          <div class="flex flex-wrap gap-2">
+            <button class="px-3 py-1.5 bg-gray-100 text-gray-700 rounded-lg text-sm hover:bg-gray-200">9:00 AM</button>
+            <button class="px-3 py-1.5 bg-blue-50 text-blue-600 rounded-lg text-sm">12:00 PM</button>
+            <button class="px-3 py-1.5 bg-gray-100 text-gray-700 rounded-lg text-sm hover:bg-gray-200">3:30 PM</button>
+            <button class="px-3 py-1.5 bg-gray-100 text-gray-700 rounded-lg text-sm hover:bg-gray-200">6:00 PM</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 48. Select Dropdown -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">48. Select Dropdown</h2>
+      <div class="max-w-sm space-y-4">
+        <div class="relative">
+          <label class="block text-sm font-medium text-gray-700 mb-1">Country</label>
+          <select class="w-full px-4 py-3 border border-gray-200 rounded-xl appearance-none bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+            <option>Select a country</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>Germany</option>
+          </select>
+          <svg class="absolute right-4 top-10 w-5 h-5 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </div>
+        <!-- Custom Select -->
+        <div class="relative">
+          <label class="block text-sm font-medium text-gray-700 mb-1">Status</label>
+          <div class="relative">
+            <button type="button" class="w-full px-4 py-3 border border-gray-200 rounded-xl text-left bg-white flex items-center justify-between">
+              <span class="text-gray-500">Select status</span>
+              <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-xl shadow-lg hidden">
+              <button class="w-full px-4 py-2 text-left hover:bg-gray-50">Active</button>
+              <button class="w-full px-4 py-2 text-left hover:bg-gray-50">Pending</button>
+              <button class="w-full px-4 py-2 text-left hover:bg-gray-50">Inactive</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 49. Multi Select Dropdown -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">49. Multi Select Dropdown</h2>
+      <div class="max-w-sm bg-white rounded-2xl shadow-sm p-6">
+        <label class="block text-sm font-medium text-gray-700 mb-2">Select Technologies</label>
+        <div class="border border-gray-200 rounded-xl p-3 min-h-[50px] flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-blue-50 text-blue-600 rounded-lg text-sm flex items-center gap-1">
+            React
+            <button class="hover:text-blue-800">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+          </span>
+          <span class="px-3 py-1 bg-green-50 text-green-600 rounded-lg text-sm flex items-center gap-1">
+            Node.js
+            <button class="hover:text-green-800">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+          </span>
+          <input type="text" class="flex-1 min-w-20 outline-none text-sm" placeholder="Add more...">
+        </div>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs cursor-pointer hover:bg-gray-200">TypeScript</span>
+          <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs cursor-pointer hover:bg-gray-200">Python</span>
+          <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs cursor-pointer hover:bg-gray-200">Go</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 50. Checkbox Group -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">50. Checkbox Group</h2>
+      <div class="max-w-sm bg-white rounded-2xl shadow-sm p-6 space-y-4">
+        <h3 class="font-semibold text-gray-900">Notifications</h3>
+        <div class="space-y-3">
+          <label class="flex items-center gap-3 cursor-pointer">
+            <input type="checkbox" checked class="w-5 h-5 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+            <div>
+              <p class="font-medium text-gray-900">Email notifications</p>
+              <p class="text-sm text-gray-500">Receive email updates</p>
+            </div>
+          </label>
+          <label class="flex items-center gap-3 cursor-pointer">
+            <input type="checkbox" class="w-5 h-5 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+            <div>
+              <p class="font-medium text-gray-900">Push notifications</p>
+              <p class="text-sm text-gray-500">Receive push notifications</p>
+            </div>
+          </label>
+          <label class="flex items-center gap-3 cursor-pointer">
+            <input type="checkbox" checked class="w-5 h-5 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+            <div>
+              <p class="font-medium text-gray-900">SMS notifications</p>
+              <p class="text-sm text-gray-500">Receive text messages</p>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    function togglePassword() {
+      const input = document.getElementById('password-input');
+      const icon = document.getElementById('eye-icon');
+      if (input.type === 'password') {
+        input.type = 'text';
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/>';
+      } else {
+        input.type = 'password';
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>';
+      }
+    }
+    
+    function toggleConfirmPassword() {
+      const input = document.getElementById('confirm-password');
+      const icon = document.getElementById('confirm-eye-icon');
+      if (input.type === 'password') {
+        input.type = 'text';
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/>';
+      } else {
+        input.type = 'password';
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>';
+      }
+    }
+
+    // OTP Input handling
+    const otpInputs = document.querySelectorAll('input[type="text"][maxlength="1"]');
+    otpInputs.forEach((input, index) => {
+      input.addEventListener('input', (e) => {
+        if (e.target.value && index < otpInputs.length - 1) {
+          otpInputs[index + 1].focus();
+        }
+      });
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Backspace' && !e.target.value && index > 0) {
+          otpInputs[index - 1].focus();
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

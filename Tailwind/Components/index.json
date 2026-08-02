@@ -1,0 +1,73 @@
+{
+  "name": "Tailwind Components",
+  "family": "Components",
+  "description": "A comprehensive collection of 100 production-ready Tailwind CSS component variants organized into 10 categories.",
+  "category": "Components",
+  "subcategory": "Tailwind Components",
+  "tech": "Tailwind CSS",
+  "totalComponents": 100,
+  "categories": [
+    {
+      "name": "Navigation",
+      "count": 10,
+      "description": "Navbar, sidebar, breadcrumb, and pagination components",
+      "path": "Navigation/"
+    },
+    {
+      "name": "Buttons & Actions",
+      "count": 10,
+      "description": "Specialized button components including gradient, glass, icon, and animated buttons",
+      "path": "Buttons-Actions/"
+    },
+    {
+      "name": "Cards",
+      "count": 15,
+      "description": "Profile, product, pricing, testimonial, and analytics cards",
+      "path": "Cards/"
+    },
+    {
+      "name": "Forms",
+      "count": 15,
+      "description": "Login, register, multi-step forms, inputs, date pickers, and file uploads",
+      "path": "Forms/"
+    },
+    {
+      "name": "Feedback & Status",
+      "count": 10,
+      "description": "Toast notifications, alerts, progress bars, spinners, and dialogs",
+      "path": "Feedback-Status/"
+    },
+    {
+      "name": "Marketing",
+      "count": 15,
+      "description": "Hero sections, pricing tables, testimonials, CTAs, and landing page components",
+      "path": "Marketing/"
+    },
+    {
+      "name": "Dashboard",
+      "count": 10,
+      "description": "Analytics cards, charts, tables, activity feeds, and settings panels",
+      "path": "Dashboard/"
+    },
+    {
+      "name": "Media & Content",
+      "count": 10,
+      "description": "Galleries, sliders, players, avatars, ratings, and social share buttons",
+      "path": "Media-Content/"
+    },
+    {
+      "name": "Modern UI / Effects",
+      "count": 5,
+      "description": "Glassmorphism, bento grids, animated gradients, spotlight effects, and hover reveals",
+      "path": "Modern-UI/"
+    }
+  ],
+  "accessibility": {
+    "focus": "All interactive elements include visible focus rings",
+    "aria": "Components include proper ARIA attributes",
+    "contrast": "Text maintains proper contrast ratios",
+    "keyboard": "Full keyboard navigation support"
+  },
+  "technologies": ["Tailwind CSS"],
+  "contributionGuide": "See individual component README.md files for contribution guidelines"
+}
