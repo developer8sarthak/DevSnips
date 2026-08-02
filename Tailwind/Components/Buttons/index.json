@@ -8,94 +8,94 @@
   "variantCount": 15,
   "variants": [
     {
-      "name": "Basic",
+      "name": "Basic Button",
       "description": "Foundation button styles with semantic colors",
       "styles": ["Primary", "Secondary", "Neutral", "Sizes", "Full Width"],
-      "path": "Basic/"
+      "path": "Basic%20Button/"
     },
     {
-      "name": "Ghost",
+      "name": "Ghost Button",
       "description": "Transparent buttons with hover background",
-      "styles": ["Ghost Primary", "Ghost Colors", "Ghost Dark", "Ghost Sizes", "Icon Ghost"],
-      "path": "Ghost/"
+      "styles": ["Primary", "Colors", "Dark", "Sizes", "Icon"],
+      "path": "Ghost%20Button/"
     },
     {
-      "name": "Outline",
+      "name": "Outline Button",
       "description": "Bordered buttons with transparent backgrounds",
-      "styles": ["Outline Primary", "Outline Colors", "Thick Border", "Dashed Border", "Rounded Pill", "Outline on Dark"],
-      "path": "Outline/"
+      "styles": ["Primary", "Colors", "Thick", "Dashed", "Pill", "Dark"],
+      "path": "Outline%20Button/"
     },
     {
-      "name": "Filled",
+      "name": "Filled Button",
       "description": "Solid color buttons with soft variants",
-      "styles": ["Filled Primary", "Soft Background", "Rounded Full", "Muted / Tonal", "Filled on Dark"],
-      "path": "Filled/"
+      "styles": ["Primary", "Soft", "Rounded", "Muted", "Dark", "Sizes"],
+      "path": "Filled%20Button/"
     },
     {
-      "name": "Glass",
+      "name": "Glass Button",
       "description": "Frosted glass effect with backdrop blur",
-      "styles": ["Glass Light", "Glass Colors", "Glass Dark Background", "Glass with Glow", "Glass Sizes", "Glass Icon"],
-      "path": "Glass/"
+      "styles": ["Soft", "Primary", "Dark", "Icon"],
+      "path": "Glass%20Button/"
     },
     {
-      "name": "Neumorphism",
+      "name": "Neumorphism Button",
       "description": "Soft UI shadow effects",
-      "styles": ["Neumorphism Flat", "Neumorphism Convex", "Neumorphism Concave", "Neumorphism Toggle", "Neumorphism Sizes", "Neumorphism Pill", "Neumorphism Icon"],
-      "path": "Neumorphism/"
+      "styles": ["Soft", "Pressed", "Bordered"],
+      "path": "Neumorphism%20Button/"
     },
     {
-      "name": "Gradient",
+      "name": "Gradient Button",
       "description": "Multi-color gradient backgrounds",
-      "styles": ["Linear Gradients", "Multi-Stop Gradients", "Directional Gradients", "Gradient with Shadow", "Gradient Pills", "Dark Background Gradients"],
-      "path": "Gradient/"
+      "styles": ["Linear", "Multi-Stop", "Directional", "Pill", "Shadow", "Dark"],
+      "path": "Gradient%20Button/"
     },
     {
-      "name": "Animated",
+      "name": "Animated Button",
       "description": "Hover and click animations",
-      "styles": ["Shine Effect", "Hover Scale", "Bounce Effect", "Wiggle Effect", "Slide Effects", "Glow Effects", "Neon Effects", "Pulse Effects", "Ripple Click", "Combination Effects"],
-      "path": "Animated/"
+      "styles": ["Loading", "Arrow", "Icon", "Scale", "Shine"],
+      "path": "Animated%20Button/"
     },
     {
-      "name": "Icon",
+      "name": "Icon Button",
       "description": "Icon buttons and icon+text layouts",
-      "styles": ["Icon Only", "Icon + Text", "Icon Sizes", "Social Icons", "Icon Button Groups"],
-      "path": "Icon/"
+      "styles": ["Basic", "Rounded", "Dark"],
+      "path": "Icon%20Button/"
     },
     {
-      "name": "Split",
+      "name": "Split Button",
       "description": "Button with dropdown menu",
-      "styles": ["Dropdown Split", "Icon Split", "Search Split", "Split Sizes"],
-      "path": "Split/"
+      "styles": ["Icon", "Dropdown"],
+      "path": "Split%20Button/"
     },
     {
-      "name": "Loading",
+      "name": "Loading Button",
       "description": "Buttons with loading states",
-      "styles": ["Spinner Buttons", "Pulse Loading", "Bounce Loading", "Dots Loading", "Block Loading", "Icon Button Loading"],
-      "path": "Loading/"
+      "styles": ["Spinner", "Progress"],
+      "path": "Loading%20Button/"
     },
     {
-      "name": "Social",
+      "name": "Social Button",
       "description": "Social media login and share buttons",
-      "styles": ["Full Social Buttons", "Social Icon Buttons", "Share Bar", "OAuth Icon Row"],
-      "path": "Social/"
+      "styles": ["Google", "Facebook", "GitHub"],
+      "path": "Social%20Button/"
     },
     {
-      "name": "Floating",
+      "name": "Floating Action Button",
       "description": "Floating action buttons (FAB)",
-      "styles": ["Basic FAB", "FAB Variants", "FAB Sizes", "Extended FAB", "Animated FAB", "Speed Dial"],
-      "path": "Floating/"
+      "styles": ["Standard", "Extended", "Group"],
+      "path": "Floating%20Action%20Button/"
     },
     {
-      "name": "3D",
+      "name": "3D Button",
       "description": "3D depth effect with push animation",
-      "styles": ["Push 3D Effect", "Extruded Effect", "Inset Effect", "Border 3D", "3D Sizes", "3D with Icons"],
-      "path": "3D/"
+      "styles": ["Basic", "Colored"],
+      "path": "3D%20Button/"
     },
     {
-      "name": "Minimal",
+      "name": "Minimal Button",
       "description": "Minimal text and simple styles",
-      "styles": ["Text Buttons", "Underlined Buttons", "Squish Effect", "Simple Buttons", "Minimal Sizes", "Pill Minimal"],
-      "path": "Minimal/"
+      "styles": ["Underline", "Border"],
+      "path": "Minimal%20Button/"
     }
   ],
   "totalStyles": 62,
