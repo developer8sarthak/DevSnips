@@ -1,0 +1,27 @@
+{
+  "id": "simple-footer-001",
+  "name": "Simple Footer",
+  "description": "Simple Footer.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "simple-footer",
+  "tags": [
+    "card",
+    "semantic",
+    "center",
+    "form",
+    "navbar",
+    "table",
+    "typography",
+    "color"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

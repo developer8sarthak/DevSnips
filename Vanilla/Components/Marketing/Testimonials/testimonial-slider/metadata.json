@@ -1,0 +1,27 @@
+{
+  "id": "testimonial-slider-001",
+  "name": "Testimonial Slider",
+  "description": "Testimonial Slider.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "testimonial-slider",
+  "tags": [
+    "carousel",
+    "center",
+    "table",
+    "typography",
+    "border",
+    "image",
+    "utility",
+    "api"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

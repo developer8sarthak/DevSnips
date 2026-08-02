@@ -1,0 +1,27 @@
+{
+  "id": "pricing-table-001",
+  "name": "Pricing Table",
+  "description": "Pricing Table.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "pricing-table",
+  "tags": [
+    "tabs",
+    "table",
+    "ecommerce",
+    "responsive",
+    "flexbox",
+    "center",
+    "button",
+    "form"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}
