@@ -1,0 +1,25 @@
+{
+  "id": "mixed-column-layout-001",
+  "name": "Mixed Column Layout",
+  "description": "Mixed Column Layout.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "layout",
+    "responsive",
+    "flexbox",
+    "sidebar",
+    "typography",
+    "semantic"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "image-map-001",
+  "name": "Image Map",
+  "description": "Image Map.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "image",
+    "array",
+    "button",
+    "table",
+    "click",
+    "portfolio",
+    "clip-path"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

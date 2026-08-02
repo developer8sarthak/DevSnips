@@ -1,0 +1,27 @@
+{
+  "id": "sticky-social-bar-001",
+  "name": "Sticky Social Bar",
+  "description": "Sticky Social Bar with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "navbar",
+    "sidebar",
+    "animation",
+    "center",
+    "form",
+    "table",
+    "typography",
+    "color"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

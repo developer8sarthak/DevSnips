@@ -1,0 +1,29 @@
+{
+  "id": "ai-tool-launch-001",
+  "name": "Ai Tool Launch",
+  "description": "Ai Tool Launch with responsive design with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "ai-tool-launch",
+  "tags": [
+    "layout",
+    "accordion",
+    "tooltip",
+    "semantic",
+    "container-query",
+    "coming-soon",
+    "container-queries",
+    "animation"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [
+    "Segoe UI"
+  ],
+  "source": "DevSnips"
+}

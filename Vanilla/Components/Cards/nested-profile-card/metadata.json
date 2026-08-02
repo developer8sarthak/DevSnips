@@ -1,0 +1,23 @@
+{
+  "id": "nested-profile-card-001",
+  "name": "Nested Profile Card",
+  "description": "Nested Profile Card.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "card",
+    "image",
+    "icon",
+    "svg"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

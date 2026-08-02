@@ -1,0 +1,27 @@
+{
+  "id": "parallax-scrolling-effect-001",
+  "name": "Parallax Scrolling Effect",
+  "description": "Parallax Scrolling Effect.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "parallax",
+    "ripple",
+    "scroll",
+    "center",
+    "layout",
+    "table",
+    "typography",
+    "color"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

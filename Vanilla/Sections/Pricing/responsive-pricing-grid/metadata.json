@@ -1,0 +1,27 @@
+{
+  "id": "responsive-pricing-grid-001",
+  "name": "Responsive Pricing Grid",
+  "description": "Responsive Pricing Grid with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "sections",
+  "subcategory": "pricing",
+  "tags": [
+    "responsive",
+    "grid",
+    "ecommerce",
+    "animation",
+    "hover-effect",
+    "shadow",
+    "center",
+    "button"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

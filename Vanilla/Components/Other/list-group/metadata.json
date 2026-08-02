@@ -1,0 +1,24 @@
+{
+  "id": "list-group-001",
+  "name": "List Group",
+  "description": "List Group.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "form-element",
+    "flexbox",
+    "color",
+    "border",
+    "api"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "html5-boilerplate-001",
+  "name": "Html5 Boilerplate",
+  "description": "Html5 Boilerplate.",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "html5-boilerplate",
+  "tags": [
+    "table"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

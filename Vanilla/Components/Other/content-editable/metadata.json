@@ -1,0 +1,22 @@
+{
+  "id": "content-editable-001",
+  "name": "Content Editable",
+  "description": "Content Editable.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "tabs",
+    "table",
+    "typography"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

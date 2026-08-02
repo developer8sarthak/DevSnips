@@ -1,0 +1,27 @@
+{
+  "id": "profile-card-001",
+  "name": "Profile Card",
+  "description": "Profile Card.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "card",
+    "shadow",
+    "center",
+    "button",
+    "table",
+    "typography",
+    "color",
+    "border"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

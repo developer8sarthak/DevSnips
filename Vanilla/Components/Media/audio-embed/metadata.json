@@ -1,0 +1,22 @@
+{
+  "id": "audio-embed-001",
+  "name": "Audio Embed",
+  "description": "Audio Embed.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "video",
+    "table",
+    "image"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

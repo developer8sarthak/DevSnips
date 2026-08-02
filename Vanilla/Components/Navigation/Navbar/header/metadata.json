@@ -1,0 +1,25 @@
+{
+  "id": "header-001",
+  "name": "Header",
+  "description": "Header.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "card",
+    "navbar",
+    "semantic",
+    "center",
+    "typography",
+    "color"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

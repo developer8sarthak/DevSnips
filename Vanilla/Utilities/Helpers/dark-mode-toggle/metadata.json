@@ -1,0 +1,24 @@
+{
+  "id": "dark-mode-toggle-001",
+  "name": "Dark Mode Toggle",
+  "description": "Dark Mode Toggle, supports dark mode.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "dark-mode",
+    "button",
+    "color",
+    "border",
+    "click"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

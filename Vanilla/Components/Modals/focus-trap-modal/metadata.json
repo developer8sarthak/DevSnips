@@ -1,0 +1,27 @@
+{
+  "id": "focus-trap-modal-001",
+  "name": "Focus Trap Modal",
+  "description": "Focus Trap Modal.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "modal",
+    "table",
+    "keyboard",
+    "pseudo-class",
+    "layout",
+    "button",
+    "form",
+    "dropdown"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

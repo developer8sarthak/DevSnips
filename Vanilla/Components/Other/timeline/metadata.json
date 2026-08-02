@@ -1,0 +1,26 @@
+{
+  "id": "timeline-001",
+  "name": "Timeline",
+  "description": "Timeline.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "date",
+    "layout",
+    "table",
+    "color",
+    "border",
+    "media-query",
+    "pseudo-class"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

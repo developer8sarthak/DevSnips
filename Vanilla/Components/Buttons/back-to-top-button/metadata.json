@@ -1,0 +1,27 @@
+{
+  "id": "back-to-top-button-001",
+  "name": "Back To Top Button",
+  "description": "Back To Top Button.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "glassmorphism",
+    "button",
+    "tooltip",
+    "badge",
+    "loader",
+    "theming",
+    "color",
+    "touch"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

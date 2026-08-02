@@ -1,0 +1,21 @@
+{
+  "id": "table-caption-001",
+  "name": "Table Caption",
+  "description": "Table Caption.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tables",
+  "tags": [
+    "tabs",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

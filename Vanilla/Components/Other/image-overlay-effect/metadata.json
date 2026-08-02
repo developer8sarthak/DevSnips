@@ -1,0 +1,27 @@
+{
+  "id": "image-overlay-effect-001",
+  "name": "Image Overlay Effect",
+  "description": "Image Overlay Effect with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "ripple",
+    "modal",
+    "image",
+    "animation",
+    "hover-effect",
+    "center",
+    "layout",
+    "form"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

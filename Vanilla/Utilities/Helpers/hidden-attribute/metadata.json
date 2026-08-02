@@ -1,0 +1,21 @@
+{
+  "id": "hidden-attribute-001",
+  "name": "Hidden Attribute",
+  "description": "Hidden Attribute.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "table",
+    "typography"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

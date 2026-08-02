@@ -1,0 +1,27 @@
+{
+  "id": "text-with-background-image-001",
+  "name": "Text With Background Image",
+  "description": "Text With Background Image.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "form",
+    "tooltip",
+    "table",
+    "typography",
+    "color",
+    "image",
+    "canvas",
+    "api"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

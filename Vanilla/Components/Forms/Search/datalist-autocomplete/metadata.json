@@ -1,0 +1,23 @@
+{
+  "id": "datalist-autocomplete-001",
+  "name": "Datalist Autocomplete",
+  "description": "Datalist Autocomplete.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "forms",
+  "tags": [
+    "form-element",
+    "form",
+    "dropdown",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "consistent-link-underline-001",
+  "name": "Consistent Link Underline",
+  "description": "Consistent Link Underline.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "typing-effect",
+    "dropdown",
+    "table",
+    "typography",
+    "icons"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

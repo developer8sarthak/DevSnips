@@ -1,0 +1,27 @@
+{
+  "id": "image-zoom-on-hover-001",
+  "name": "Image Zoom On Hover",
+  "description": "Image Zoom On Hover with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "animation",
+    "hover-effect",
+    "gradient",
+    "responsive",
+    "flexbox",
+    "layout",
+    "button",
+    "dropdown"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

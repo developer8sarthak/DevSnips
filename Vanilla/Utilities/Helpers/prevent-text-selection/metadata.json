@@ -1,0 +1,27 @@
+{
+  "id": "prevent-text-selection-001",
+  "name": "Prevent Text Selection",
+  "description": "Prevent Text Selection.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "form",
+    "dropdown",
+    "tooltip",
+    "typography",
+    "canvas",
+    "button",
+    "table",
+    "drag"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

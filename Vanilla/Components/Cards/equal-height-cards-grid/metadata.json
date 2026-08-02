@@ -1,0 +1,27 @@
+{
+  "id": "equal-height-cards-grid-001",
+  "name": "Equal Height Cards Grid",
+  "description": "Equal Height Cards Grid.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "grid",
+    "card",
+    "typography",
+    "shadow",
+    "layout",
+    "table",
+    "color",
+    "border"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

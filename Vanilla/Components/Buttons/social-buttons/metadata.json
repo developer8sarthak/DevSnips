@@ -1,0 +1,27 @@
+{
+  "id": "social-buttons-001",
+  "name": "Social Buttons",
+  "description": "Social Buttons and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "button",
+    "hover-effect",
+    "center",
+    "table",
+    "typography",
+    "color",
+    "api",
+    "pseudo-class"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

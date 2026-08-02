@@ -1,0 +1,24 @@
+{
+  "id": "code-block-001",
+  "name": "Code Block",
+  "description": "Code Block.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "form",
+    "table",
+    "typography",
+    "utility",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

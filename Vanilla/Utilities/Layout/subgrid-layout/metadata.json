@@ -1,0 +1,22 @@
+{
+  "id": "subgrid-layout-001",
+  "name": "Subgrid Layout",
+  "description": "Subgrid Layout.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "layout",
+  "tags": [
+    "grid",
+    "layout",
+    "table"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "checkbox-group-001",
+  "name": "Checkbox Group",
+  "description": "Checkbox Group.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "forms",
+  "tags": [
+    "form",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

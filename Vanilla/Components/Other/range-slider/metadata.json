@@ -1,0 +1,23 @@
+{
+  "id": "range-slider-001",
+  "name": "Range Slider",
+  "description": "Range Slider.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "carousel",
+    "form",
+    "table",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

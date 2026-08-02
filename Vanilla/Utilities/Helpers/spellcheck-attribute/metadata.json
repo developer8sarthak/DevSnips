@@ -1,0 +1,22 @@
+{
+  "id": "spellcheck-attribute-001",
+  "name": "Spellcheck Attribute",
+  "description": "Spellcheck Attribute.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "table",
+    "tabs",
+    "typography"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

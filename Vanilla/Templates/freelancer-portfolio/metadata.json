@@ -1,0 +1,29 @@
+{
+  "id": "freelancer-portfolio-001",
+  "name": "Freelancer Portfolio",
+  "description": "Freelancer Portfolio with responsive design with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "freelancer-portfolio",
+  "tags": [
+    "portfolio",
+    "animation",
+    "hover-effect",
+    "shadow",
+    "responsive",
+    "flexbox",
+    "grid",
+    "center"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [
+    "Helvetica Neue"
+  ],
+  "source": "DevSnips"
+}

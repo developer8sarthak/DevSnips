@@ -1,0 +1,25 @@
+{
+  "id": "simple-table-001",
+  "name": "Simple Table",
+  "description": "Simple Table.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tables",
+  "tags": [
+    "tabs",
+    "table",
+    "navbar",
+    "typography",
+    "border",
+    "semantic"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

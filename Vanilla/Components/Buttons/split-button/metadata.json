@@ -1,0 +1,27 @@
+{
+  "id": "split-button-001",
+  "name": "Split Button",
+  "description": "Split Button and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "button",
+    "string",
+    "hover-effect",
+    "shadow",
+    "dropdown",
+    "navbar",
+    "table",
+    "typography"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

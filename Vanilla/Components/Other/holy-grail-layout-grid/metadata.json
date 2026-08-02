@@ -1,0 +1,27 @@
+{
+  "id": "holy-grail-layout-grid-001",
+  "name": "Holy Grail Layout Grid",
+  "description": "Holy Grail Layout Grid with responsive design.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "grid",
+    "layout",
+    "responsive",
+    "center",
+    "navbar",
+    "sidebar",
+    "table",
+    "typography"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

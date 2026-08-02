@@ -1,0 +1,27 @@
+{
+  "id": "sticky-header-001",
+  "name": "Sticky Header",
+  "description": "Sticky Header.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "card",
+    "navbar",
+    "semantic",
+    "center",
+    "table",
+    "typography",
+    "color",
+    "scroll"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "blockquote-citation-001",
+  "name": "Blockquote Citation",
+  "description": "Blockquote Citation.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "table",
+    "typography",
+    "color",
+    "border",
+    "image"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

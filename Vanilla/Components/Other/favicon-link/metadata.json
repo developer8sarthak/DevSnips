@@ -1,0 +1,24 @@
+{
+  "id": "favicon-link-001",
+  "name": "Favicon Link",
+  "description": "Favicon Link.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "typing-effect",
+    "icon",
+    "tabs",
+    "table",
+    "image"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

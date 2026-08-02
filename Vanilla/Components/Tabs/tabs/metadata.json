@@ -1,0 +1,27 @@
+{
+  "id": "tabs-001",
+  "name": "Tabs",
+  "description": "Tabs with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tabs",
+  "tags": [
+    "tabs",
+    "animation",
+    "hover-effect",
+    "typing-effect",
+    "button",
+    "table",
+    "color",
+    "border"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

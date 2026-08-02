@@ -1,0 +1,26 @@
+{
+  "id": "tooltip-text-001",
+  "name": "Tooltip Text",
+  "description": "Tooltip Text and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tooltips",
+  "tags": [
+    "form",
+    "tooltip",
+    "typography",
+    "canvas",
+    "hover-effect",
+    "table",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

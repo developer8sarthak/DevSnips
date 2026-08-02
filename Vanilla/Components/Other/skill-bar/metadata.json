@@ -1,0 +1,27 @@
+{
+  "id": "skill-bar-001",
+  "name": "Skill Bar",
+  "description": "Skill Bar with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "navbar",
+    "sidebar",
+    "animation",
+    "table",
+    "typography",
+    "color",
+    "border",
+    "portfolio"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

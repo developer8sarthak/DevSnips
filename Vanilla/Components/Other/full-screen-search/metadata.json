@@ -1,0 +1,27 @@
+{
+  "id": "full-screen-search-001",
+  "name": "Full Screen Search",
+  "description": "Full Screen Search.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "accessibility",
+    "center",
+    "button",
+    "form",
+    "modal",
+    "table",
+    "typography",
+    "color"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

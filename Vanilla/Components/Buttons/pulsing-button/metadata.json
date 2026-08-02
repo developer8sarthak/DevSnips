@@ -1,0 +1,27 @@
+{
+  "id": "pulsing-button-001",
+  "name": "Pulsing Button",
+  "description": "Pulsing Button with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "pulse",
+    "button",
+    "animation",
+    "shadow",
+    "table",
+    "color",
+    "border",
+    "click"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

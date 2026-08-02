@@ -1,0 +1,34 @@
+{
+  "id": "portfolio-site-001",
+  "name": "Portfolio Site",
+  "description": "Portfolio Site with responsive design with animations and hover interactions, supports dark mode.",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "portfolio-site",
+  "tags": [
+    "portfolio",
+    "404",
+    "animation",
+    "hover-effect",
+    "glassmorphism",
+    "gradient",
+    "shadow",
+    "parallax"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [
+    "Poppins",
+    "Roboto Mono",
+    "Orbitron",
+    "Inter",
+    "Playfair Display",
+    "Segoe UI"
+  ],
+  "source": "DevSnips"
+}

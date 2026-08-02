@@ -1,0 +1,27 @@
+{
+  "id": "staff-card-001",
+  "name": "Staff Card",
+  "description": "Staff Card.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "card",
+    "center",
+    "form",
+    "table",
+    "typography",
+    "color",
+    "border",
+    "image"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

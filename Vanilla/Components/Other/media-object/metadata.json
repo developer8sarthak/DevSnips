@@ -1,0 +1,26 @@
+{
+  "id": "media-object-001",
+  "name": "Media Object",
+  "description": "Media Object.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "responsive",
+    "media-query",
+    "flexbox",
+    "typography",
+    "image",
+    "api",
+    "blog"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

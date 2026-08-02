@@ -1,0 +1,27 @@
+{
+  "id": "glowing-icon-001",
+  "name": "Glowing Icon",
+  "description": "Glowing Icon with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "icon",
+    "animation",
+    "hover-effect",
+    "shadow",
+    "button",
+    "table",
+    "typography",
+    "color"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

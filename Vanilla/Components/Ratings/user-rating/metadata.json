@@ -1,0 +1,24 @@
+{
+  "id": "user-rating-001",
+  "name": "User Rating",
+  "description": "User Rating.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "ratings",
+  "tags": [
+    "table",
+    "typography",
+    "color",
+    "api",
+    "icons"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

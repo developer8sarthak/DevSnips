@@ -1,0 +1,25 @@
+{
+  "id": "details-summary-001",
+  "name": "Details Summary",
+  "description": "Details Summary.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "accordion",
+    "button",
+    "form",
+    "table",
+    "click",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

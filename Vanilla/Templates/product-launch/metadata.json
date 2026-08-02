@@ -1,0 +1,32 @@
+{
+  "id": "product-launch-001",
+  "name": "Product Launch",
+  "description": "Product Launch with responsive design with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "product-launch",
+  "tags": [
+    "ecommerce",
+    "animation",
+    "hover-effect",
+    "glassmorphism",
+    "gradient",
+    "shadow",
+    "parallax",
+    "pulse"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [
+    "Inter",
+    "Orbitron",
+    "Poppins",
+    "Balsamiq Sans"
+  ],
+  "source": "DevSnips"
+}

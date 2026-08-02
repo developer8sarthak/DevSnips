@@ -1,0 +1,27 @@
+{
+  "id": "skewed-button-001",
+  "name": "Skewed Button",
+  "description": "Skewed Button with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "button",
+    "animation",
+    "hover-effect",
+    "form",
+    "table",
+    "color",
+    "border",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

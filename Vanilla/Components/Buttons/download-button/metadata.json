@@ -1,0 +1,25 @@
+{
+  "id": "download-button-001",
+  "name": "Download Button",
+  "description": "Download Button.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "button",
+    "typography",
+    "color",
+    "border",
+    "api",
+    "icons"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

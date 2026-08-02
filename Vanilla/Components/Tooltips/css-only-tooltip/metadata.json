@@ -1,0 +1,27 @@
+{
+  "id": "css-only-tooltip-001",
+  "name": "Css Only Tooltip",
+  "description": "Css Only Tooltip with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tooltips",
+  "tags": [
+    "tooltip",
+    "theming",
+    "accessibility",
+    "animation",
+    "hover-effect",
+    "center",
+    "button",
+    "form"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

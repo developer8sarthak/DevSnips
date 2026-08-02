@@ -1,0 +1,27 @@
+{
+  "id": "accordion-001",
+  "name": "Accordion",
+  "description": "Accordion with responsive design with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "accordions",
+  "tags": [
+    "accordion",
+    "animation",
+    "responsive",
+    "layout",
+    "form",
+    "dropdown",
+    "table",
+    "typography"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

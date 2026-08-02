@@ -1,0 +1,21 @@
+{
+  "id": "simple-ordered-list-001",
+  "name": "Simple Ordered List",
+  "description": "Simple Ordered List.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "form-element",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

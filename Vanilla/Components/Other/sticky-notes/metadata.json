@@ -1,0 +1,22 @@
+{
+  "id": "sticky-notes-001",
+  "name": "Sticky Notes",
+  "description": "Sticky Notes.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "shadow",
+    "table",
+    "color"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

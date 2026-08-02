@@ -1,0 +1,27 @@
+{
+  "id": "bouncing-loader-001",
+  "name": "Bouncing Loader",
+  "description": "Bouncing Loader with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "loaders",
+  "tags": [
+    "bounce",
+    "loader",
+    "animation",
+    "flexbox",
+    "center",
+    "form",
+    "badge",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

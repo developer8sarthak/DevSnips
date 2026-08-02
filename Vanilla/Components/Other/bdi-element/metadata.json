@@ -1,0 +1,24 @@
+{
+  "id": "bdi-element-001",
+  "name": "Bdi Element",
+  "description": "Bdi Element.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "web-components",
+    "form",
+    "table",
+    "typography",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

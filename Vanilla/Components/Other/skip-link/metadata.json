@@ -1,0 +1,25 @@
+{
+  "id": "skip-link-001",
+  "name": "Skip Link",
+  "description": "Skip Link.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "typing-effect",
+    "table",
+    "color",
+    "keyboard",
+    "semantic",
+    "pseudo-class"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "get-url-parameters-001",
+  "name": "Get Url Parameters",
+  "description": "Get Url Parameters.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "form-element",
+    "array"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

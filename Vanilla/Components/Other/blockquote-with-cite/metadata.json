@@ -1,0 +1,24 @@
+{
+  "id": "blockquote-with-cite-001",
+  "name": "Blockquote With Cite",
+  "description": "Blockquote With Cite.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "table",
+    "layout",
+    "typography",
+    "api",
+    "semantic"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}
