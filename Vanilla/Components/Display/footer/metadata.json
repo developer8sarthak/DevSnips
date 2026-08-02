@@ -1,0 +1,25 @@
+{
+  "id": "footer-001",
+  "name": "Footer",
+  "description": "Footer.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "footer",
+  "tags": [
+    "card",
+    "semantic",
+    "center",
+    "table",
+    "typography",
+    "color"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

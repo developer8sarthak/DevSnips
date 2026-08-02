@@ -1,0 +1,27 @@
+{
+  "id": "jumbotron-001",
+  "name": "Jumbotron",
+  "description": "Jumbotron.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "jumbotron",
+  "tags": [
+    "table",
+    "layout",
+    "button",
+    "form",
+    "typography",
+    "color",
+    "border",
+    "accessibility"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

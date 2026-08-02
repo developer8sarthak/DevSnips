@@ -1,0 +1,27 @@
+{
+  "id": "sticky-footer-001",
+  "name": "Sticky Footer",
+  "description": "Sticky Footer.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "sticky-footer",
+  "tags": [
+    "card",
+    "semantic",
+    "center",
+    "table",
+    "typography",
+    "color",
+    "scroll",
+    "date"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}
