@@ -6,7 +6,8 @@
   "stats": {
     "totalFamilies": 1,
     "totalVariants": 15,
-    "totalStyles": 62,
+    "totalSubVariants": 6,
+    "totalStyles": 68,
     "technologies": ["Tailwind CSS"]
   },
 
@@ -67,12 +68,57 @@
           "files": ["Button-Neumorphism.html", "index.json", "README.md"]
         },
         {
-          "name": "Gradient",
-          "path": "Tailwind/Components/Buttons/Gradient/",
-          "description": "Buttons with linear, multi-stop, and directional gradient backgrounds",
-          "styles": ["Linear Gradients", "Multi-Stop Gradients", "Directional Gradients", "Gradient with Shadow", "Gradient Pills", "Dark Background Gradients"],
-          "features": ["Two-color gradients", "Multi-stop spectrum", "All 8 directional options", "Gradient shadows"],
-          "files": ["Button-Gradient.html", "index.json", "README.md"]
+          "name": "Gradient Button",
+          "path": "Tailwind/Components/Buttons/Gradient%20Button/",
+          "description": "Buttons with linear, multi-stop, and directional gradient backgrounds with 6 sub-variants",
+          "variantCount": 6,
+          "styles": ["Linear", "Multi-Stop", "Directional", "Pill", "Shadow", "Dark Background"],
+          "features": ["Two-color gradients", "Multi-stop spectrum", "All 8 directional options", "Gradient shadows", "Pill shape", "Dark background support"],
+          "files": ["README.md", "metadata.json", "linear/", "multi-stop/", "directional/", "pill/", "shadow/", "dark-background/"],
+          "variants": [
+            {
+              "name": "Linear Gradient Button",
+              "path": "Tailwind/Components/Buttons/Gradient%20Button/linear/",
+              "description": "Two-color horizontal gradient buttons",
+              "styles": ["Blue", "Purple Pink", "Cyan Blue", "Green Cyan"],
+              "searchTerms": ["gradient button", "linear gradient", "blue gradient button"]
+            },
+            {
+              "name": "Multi-Stop Gradient Button",
+              "path": "Tailwind/Components/Buttons/Gradient%20Button/multi-stop/",
+              "description": "Three or more gradient color stops",
+              "styles": ["Spectrum", "Deep Blue", "Warm Fire"],
+              "searchTerms": ["gradient button", "multi-stop gradient", "spectrum button"]
+            },
+            {
+              "name": "Directional Gradient Button",
+              "path": "Tailwind/Components/Buttons/Gradient%20Button/directional/",
+              "description": "All 8 gradient directions",
+              "styles": ["Left to Right", "Right to Left", "Top to Bottom", "Bottom Right", "Bottom Left", "Top Left", "Top Right"],
+              "searchTerms": ["gradient button", "directional gradient", "diagonal gradient"]
+            },
+            {
+              "name": "Gradient Pill Button",
+              "path": "Tailwind/Components/Buttons/Gradient%20Button/pill/",
+              "description": "Fully rounded pill-shaped gradient buttons",
+              "styles": ["Violet", "Cyan", "Emerald"],
+              "searchTerms": ["gradient pill button", "rounded gradient button", "pill button"]
+            },
+            {
+              "name": "Gradient Shadow Button",
+              "path": "Tailwind/Components/Buttons/Gradient%20Button/shadow/",
+              "description": "Gradient buttons with colored shadows",
+              "styles": ["Blue", "Pink", "Amber"],
+              "searchTerms": ["gradient shadow button", "button with gradient shadow", "glow button"]
+            },
+            {
+              "name": "Gradient on Dark Button",
+              "path": "Tailwind/Components/Buttons/Gradient%20Button/dark-background/",
+              "description": "Buttons designed for dark backgrounds",
+              "styles": ["Light on Gray", "Bright on Gray", "Cyan on Purple", "Warm on Purple"],
+              "searchTerms": ["gradient button dark background", "dark mode gradient button"]
+            }
+          ]
         },
         {
           "name": "Animated",
@@ -196,23 +242,42 @@
   ],
 
   "contributionGuidelines": {
-    "structure": "Component families with individual variant folders",
-    "requiredFiles": ["index.json", "README.md", "Button-{Variant}.html"],
-    "variantTemplate": {
-      "name": "Component - Variant",
+    "structure": "Component families with variant sub-folders containing individual component pages",
+    "requiredFiles": ["index.json", "README.md"],
+    "variantRequiredFiles": ["preview.html", "code.html", "metadata.json"],
+    "componentTemplate": {
+      "name": "Component Name",
       "family": "Components",
+      "description": "Description",
+      "category": "Components",
+      "subcategory": "ComponentCategory",
+      "tech": ["Tailwind CSS", "HTML"],
+      "variantCount": 0,
+      "variants": [],
+      "tags": [],
+      "searchTerms": []
+    },
+    "variantTemplate": {
+      "name": "Component Name - Variant",
+      "component": "Component Name",
       "variant": "Variant",
       "description": "Description",
       "category": "Components",
-      "subcategory": "ComponentName",
-      "tech": "Tailwind CSS",
+      "subcategory": "ComponentCategory",
+      "tech": ["Tailwind CSS", "HTML"],
       "styles": ["Style 1", "Style 2"],
-      "features": ["Feature 1", "Feature 2"],
+      "tags": [],
+      "searchTerms": [],
+      "related": [],
       "accessibility": {
         "focus": "Visible focus ring",
-        "aria": "Use disabled attribute"
+        "aria": "Use disabled attribute",
+        "touch": "Minimum 44x44px touch targets"
       },
-      "responsive": true
+      "files": {
+        "preview": "preview.html",
+        "code": "code.html"
+      }
     }
   }
 }
