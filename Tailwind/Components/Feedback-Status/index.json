@@ -1,0 +1,96 @@
+{
+  "name": "Feedback & Status",
+  "family": "Components",
+  "description": "A feedback and status component family with 10 production-ready variants for user notifications and state indicators.",
+  "category": "Components",
+  "subcategory": "Feedback & Status",
+  "tech": "Tailwind CSS",
+  "variantCount": 10,
+  "variants": [
+    {
+      "name": "Toast Notifications",
+      "description": "Temporary notification popups",
+      "styles": ["Success", "Error", "Info", "Warning"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Alert Messages",
+      "description": "Inline alert banners",
+      "styles": ["Success", "Info", "Warning", "Error"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Success/Error States",
+      "description": "Full-page success and error states",
+      "styles": ["Payment Success", "Payment Error", "Form Error"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Progress Bar",
+      "description": "Linear progress indicators",
+      "styles": ["Basic", "With Label", "Striped", "Gradient"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Circular Progress",
+      "description": "Circular progress indicators",
+      "styles": ["Small", "Medium", "Large", "Multi-color"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Loading Spinner",
+      "description": "Loading animation components",
+      "styles": ["Small", "Medium", "Large", "Dots"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Skeleton Loaders",
+      "description": "Content placeholder animations",
+      "styles": ["Card", "List", "Profile", "Table"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Empty State Component",
+      "description": "Empty state placeholders",
+      "styles": ["Search", "Inbox", "Dashboard", "List"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Error State Page",
+      "description": "Error page templates",
+      "styles": ["404", "500", "Maintenance", "No Connection"],
+      "path": "Feedback-Status.html"
+    },
+    {
+      "name": "Confirmation Dialog",
+      "description": "Modal confirmation dialogs",
+      "styles": ["Delete", "Success", "Warning", "Info"],
+      "path": "Feedback-Status.html"
+    }
+  ],
+  "totalStyles": 40,
+  "files": [
+    {
+      "name": "Feedback-Status.html",
+      "type": "component",
+      "description": "All feedback and status component variants"
+    },
+    {
+      "name": "README.md",
+      "type": "documentation",
+      "description": "Component overview and usage guidelines"
+    },
+    {
+      "name": "index.json",
+      "type": "metadata",
+      "description": "Component metadata and variant index"
+    }
+  ],
+  "accessibility": {
+    "aria": "Toast notifications include role and aria-live",
+    "focus": "Dialogs trap focus appropriately",
+    "color": "Color is not the only means of conveying information"
+  },
+  "technologies": ["Tailwind CSS"],
+  "contributionGuide": "See README.md for contribution guidelines"
+}
