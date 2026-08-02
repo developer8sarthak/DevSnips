@@ -1,0 +1,23 @@
+{
+  "id": "main-element-001",
+  "name": "Main Element",
+  "description": "Main Element.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "semantic",
+    "coming-soon",
+    "web-components",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

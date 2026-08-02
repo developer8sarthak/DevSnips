@@ -1,0 +1,23 @@
+{
+  "id": "nested-simple-modal-001",
+  "name": "Nested Simple Modal",
+  "description": "Nested Simple Modal.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "modal",
+    "button",
+    "table",
+    "date"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "responsive-image-gallery-001",
+  "name": "Responsive Image Gallery",
+  "description": "Responsive Image Gallery with responsive design.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "responsive",
+    "image",
+    "portfolio",
+    "flexbox",
+    "table",
+    "border",
+    "api",
+    "media-query"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

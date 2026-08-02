@@ -1,0 +1,27 @@
+{
+  "id": "3d-button-effect-001",
+  "name": "3d Button Effect",
+  "description": "3d Button Effect with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "buttons",
+  "tags": [
+    "ripple",
+    "button",
+    "animation",
+    "shadow",
+    "table",
+    "color",
+    "border",
+    "click"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

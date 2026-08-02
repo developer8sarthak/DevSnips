@@ -1,0 +1,21 @@
+{
+  "id": "average-of-numbers-001",
+  "name": "Average Of Numbers",
+  "description": "Average Of Numbers.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "table",
+    "array"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

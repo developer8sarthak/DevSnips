@@ -1,0 +1,27 @@
+{
+  "id": "pricing-card-001",
+  "name": "Pricing Card",
+  "description": "Pricing Card.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "card",
+    "ecommerce",
+    "layout",
+    "button",
+    "table",
+    "accessibility",
+    "semantic",
+    "form-element"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

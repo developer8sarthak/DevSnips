@@ -1,0 +1,27 @@
+{
+  "id": "video-background-001",
+  "name": "Video Background",
+  "description": "Video Background.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "color",
+    "video",
+    "layout",
+    "table",
+    "image",
+    "api",
+    "semantic",
+    "media-query"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

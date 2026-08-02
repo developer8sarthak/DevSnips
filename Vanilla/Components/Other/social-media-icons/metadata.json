@@ -1,0 +1,27 @@
+{
+  "id": "social-media-icons-001",
+  "name": "Social Media Icons",
+  "description": "Social Media Icons with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "responsive",
+    "icon",
+    "media-query",
+    "animation",
+    "hover-effect",
+    "layout",
+    "table",
+    "typography"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

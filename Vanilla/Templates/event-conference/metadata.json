@@ -1,0 +1,29 @@
+{
+  "id": "event-conference-001",
+  "name": "Event Conference",
+  "description": "Event Conference with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "event-conference",
+  "tags": [
+    "animation",
+    "hover-effect",
+    "gradient",
+    "shadow",
+    "typing-effect",
+    "flexbox",
+    "grid",
+    "center"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [
+    "Montserrat"
+  ],
+  "source": "DevSnips"
+}

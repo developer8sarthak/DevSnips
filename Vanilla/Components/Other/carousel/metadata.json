@@ -1,0 +1,27 @@
+{
+  "id": "carousel-001",
+  "name": "Carousel",
+  "description": "Carousel with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "carousel",
+    "animation",
+    "layout",
+    "button",
+    "form",
+    "dropdown",
+    "table",
+    "typography"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

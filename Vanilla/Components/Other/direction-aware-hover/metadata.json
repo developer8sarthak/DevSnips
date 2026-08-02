@@ -1,0 +1,27 @@
+{
+  "id": "direction-aware-hover-001",
+  "name": "Direction Aware Hover",
+  "description": "Direction Aware Hover with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "hover-effect",
+    "flexbox",
+    "tooltip",
+    "pseudo-class",
+    "animation",
+    "form",
+    "card",
+    "modal"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

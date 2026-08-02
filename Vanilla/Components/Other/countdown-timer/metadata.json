@@ -1,0 +1,26 @@
+{
+  "id": "countdown-timer-001",
+  "name": "Countdown Timer",
+  "description": "Countdown Timer.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "badge",
+    "table",
+    "date",
+    "center",
+    "typography",
+    "utility",
+    "ecommerce"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "basic-navbar-001",
+  "name": "Basic Navbar",
+  "description": "Basic Navbar and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "navbar",
+    "semantic",
+    "hover-effect",
+    "flexbox",
+    "typography",
+    "color",
+    "pseudo-class"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

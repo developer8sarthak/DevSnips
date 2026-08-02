@@ -1,0 +1,27 @@
+{
+  "id": "tooltip-001",
+  "name": "Tooltip",
+  "description": "Tooltip with responsive design with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tooltips",
+  "tags": [
+    "tooltip",
+    "animation",
+    "hover-effect",
+    "responsive",
+    "center",
+    "button",
+    "form",
+    "table"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

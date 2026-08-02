@@ -1,0 +1,27 @@
+{
+  "id": "breadcrumbs-navigation-001",
+  "name": "Breadcrumbs Navigation",
+  "description": "Breadcrumbs Navigation.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "navbar",
+    "semantic",
+    "flexbox",
+    "table",
+    "color",
+    "border",
+    "accessibility",
+    "form-element"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

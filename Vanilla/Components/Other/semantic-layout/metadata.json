@@ -1,0 +1,27 @@
+{
+  "id": "semantic-layout-001",
+  "name": "Semantic Layout",
+  "description": "Semantic Layout.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "layout",
+    "semantic",
+    "form",
+    "navbar",
+    "sidebar",
+    "table",
+    "typography",
+    "border"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

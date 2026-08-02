@@ -1,0 +1,32 @@
+{
+  "id": "startup-template-001",
+  "name": "Startup Template",
+  "description": "Startup Template with responsive design with animations and hover interactions, supports dark mode.",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "startup-template",
+  "tags": [
+    "grid",
+    "animation",
+    "hover-effect",
+    "glassmorphism",
+    "gradient",
+    "shadow",
+    "parallax",
+    "responsive"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [
+    "Inter",
+    "Orbitron",
+    "Poppins",
+    "Playfair Display"
+  ],
+  "source": "DevSnips"
+}

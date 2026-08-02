@@ -1,0 +1,25 @@
+{
+  "id": "contact-chip-001",
+  "name": "Contact Chip",
+  "description": "Contact Chip.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "avatars",
+  "tags": [
+    "table",
+    "typography",
+    "color",
+    "border",
+    "image",
+    "api"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

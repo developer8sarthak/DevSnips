@@ -1,0 +1,22 @@
+{
+  "id": "fieldset-legend-001",
+  "name": "Fieldset Legend",
+  "description": "Fieldset Legend.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "form-element",
+    "form",
+    "typography"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

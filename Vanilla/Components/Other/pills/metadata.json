@@ -1,0 +1,24 @@
+{
+  "id": "pills-001",
+  "name": "Pills",
+  "description": "Pills.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "flexbox",
+    "navbar",
+    "color",
+    "border",
+    "semantic"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "top-navigation-001",
+  "name": "Top Navigation",
+  "description": "Top Navigation and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "navbar",
+    "semantic",
+    "hover-effect",
+    "responsive",
+    "center",
+    "button",
+    "typography",
+    "color"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

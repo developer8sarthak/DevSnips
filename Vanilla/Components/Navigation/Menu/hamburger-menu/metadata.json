@@ -1,0 +1,27 @@
+{
+  "id": "hamburger-menu-001",
+  "name": "Hamburger Menu",
+  "description": "Hamburger Menu with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "navbar",
+    "animation",
+    "responsive",
+    "button",
+    "form",
+    "table",
+    "color",
+    "icon"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

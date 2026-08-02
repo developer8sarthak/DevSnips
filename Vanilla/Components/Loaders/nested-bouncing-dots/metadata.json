@@ -1,0 +1,21 @@
+{
+  "id": "nested-bouncing-dots-001",
+  "name": "Nested Bouncing Dots",
+  "description": "Nested Bouncing Dots.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "loaders",
+  "tags": [
+    "bounce",
+    "loader"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

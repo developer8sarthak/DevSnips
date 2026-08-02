@@ -1,0 +1,27 @@
+{
+  "id": "image-slider-001",
+  "name": "Image Slider",
+  "description": "Image Slider.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "carousel",
+    "image",
+    "shadow",
+    "flexbox",
+    "center",
+    "button",
+    "form",
+    "dropdown"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

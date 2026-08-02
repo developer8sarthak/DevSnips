@@ -1,0 +1,27 @@
+{
+  "id": "alert-messages-001",
+  "name": "Alert Messages",
+  "description": "Alert Messages with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "alerts",
+  "tags": [
+    "animation",
+    "hover-effect",
+    "button",
+    "badge",
+    "table",
+    "typography",
+    "color",
+    "click"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

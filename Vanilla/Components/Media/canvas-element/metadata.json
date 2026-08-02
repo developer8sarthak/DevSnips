@@ -1,0 +1,25 @@
+{
+  "id": "canvas-element-001",
+  "name": "Canvas Element",
+  "description": "Canvas Element.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "web-components",
+    "canvas",
+    "table",
+    "typography",
+    "color",
+    "border"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

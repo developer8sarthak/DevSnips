@@ -1,0 +1,21 @@
+{
+  "id": "toggle-element-visibility-001",
+  "name": "Toggle Element Visibility",
+  "description": "Toggle Element Visibility.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "web-components",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

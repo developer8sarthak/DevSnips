@@ -1,0 +1,27 @@
+{
+  "id": "responsive-sticky-header-with-shadow-001",
+  "name": "Responsive Sticky Header With Shadow",
+  "description": "Responsive Sticky Header With Shadow with animations.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "shadow",
+    "responsive",
+    "card",
+    "navbar",
+    "table",
+    "semantic",
+    "web-components",
+    "animation"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

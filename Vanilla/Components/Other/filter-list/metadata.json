@@ -1,0 +1,27 @@
+{
+  "id": "filter-list-001",
+  "name": "Filter List",
+  "description": "Filter List.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "glassmorphism",
+    "array",
+    "form-element",
+    "backdrop-filter",
+    "form",
+    "table",
+    "typography",
+    "color"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

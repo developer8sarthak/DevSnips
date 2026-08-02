@@ -1,0 +1,23 @@
+{
+  "id": "get-max-from-array-001",
+  "name": "Get Max From Array",
+  "description": "Get Max From Array.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "array",
+    "media-query",
+    "modern-css",
+    "table"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

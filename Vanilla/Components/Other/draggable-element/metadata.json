@@ -1,0 +1,23 @@
+{
+  "id": "draggable-element-001",
+  "name": "Draggable Element",
+  "description": "Draggable Element.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "drag",
+    "web-components",
+    "table",
+    "typography"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

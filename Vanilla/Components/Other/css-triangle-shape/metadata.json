@@ -1,0 +1,27 @@
+{
+  "id": "css-triangle-shape-001",
+  "name": "Css Triangle Shape",
+  "description": "Css Triangle Shape.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "table",
+    "theming",
+    "clip-path",
+    "form",
+    "dropdown",
+    "tooltip",
+    "color",
+    "border"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

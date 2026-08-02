@@ -1,0 +1,27 @@
+{
+  "id": "modal-box-001",
+  "name": "Modal Box",
+  "description": "Modal Box.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "shadow",
+    "form",
+    "modal",
+    "dropdown",
+    "aspect-ratio",
+    "center",
+    "button",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

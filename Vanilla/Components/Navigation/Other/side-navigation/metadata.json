@@ -1,0 +1,27 @@
+{
+  "id": "side-navigation-001",
+  "name": "Side Navigation",
+  "description": "Side Navigation with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "navbar",
+    "sidebar",
+    "semantic",
+    "animation",
+    "hover-effect",
+    "button",
+    "accordion",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

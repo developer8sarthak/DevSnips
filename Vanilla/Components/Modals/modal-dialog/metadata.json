@@ -1,0 +1,27 @@
+{
+  "id": "modal-dialog-001",
+  "name": "Modal Dialog",
+  "description": "Modal Dialog.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "modal",
+    "button",
+    "form",
+    "table",
+    "typography",
+    "accessibility",
+    "form-element",
+    "login"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

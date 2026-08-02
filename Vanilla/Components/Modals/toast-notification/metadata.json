@@ -1,0 +1,27 @@
+{
+  "id": "toast-notification-001",
+  "name": "Toast Notification",
+  "description": "Toast Notification.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "badge",
+    "shadow",
+    "button",
+    "table",
+    "color",
+    "border",
+    "click",
+    "date"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

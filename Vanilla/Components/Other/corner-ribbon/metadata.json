@@ -1,0 +1,27 @@
+{
+  "id": "corner-ribbon-001",
+  "name": "Corner Ribbon",
+  "description": "Corner Ribbon.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "animation",
+    "shadow",
+    "center",
+    "form",
+    "table",
+    "typography",
+    "color",
+    "border"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

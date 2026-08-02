@@ -1,0 +1,25 @@
+{
+  "id": "full-screen-overlay-001",
+  "name": "Full Screen Overlay",
+  "description": "Full Screen Overlay.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "modal",
+    "accessibility",
+    "badge",
+    "loader",
+    "table",
+    "color"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

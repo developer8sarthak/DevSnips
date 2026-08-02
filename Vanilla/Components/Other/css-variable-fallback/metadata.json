@@ -1,0 +1,24 @@
+{
+  "id": "css-variable-fallback-001",
+  "name": "Css Variable Fallback",
+  "description": "Css Variable Fallback.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "theming",
+    "css-variable",
+    "table",
+    "color",
+    "utility"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "loader-001",
+  "name": "Loader",
+  "description": "Loader with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "loaders",
+  "tags": [
+    "loader",
+    "animation",
+    "form",
+    "badge",
+    "table",
+    "border",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

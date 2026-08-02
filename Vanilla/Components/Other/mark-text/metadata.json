@@ -1,0 +1,24 @@
+{
+  "id": "mark-text-001",
+  "name": "Mark Text",
+  "description": "Mark Text.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "form",
+    "tooltip",
+    "typography",
+    "canvas",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

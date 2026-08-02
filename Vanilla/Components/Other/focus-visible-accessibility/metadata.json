@@ -1,0 +1,27 @@
+{
+  "id": "focus-visible-accessibility-001",
+  "name": "Focus Visible Accessibility",
+  "description": "Focus Visible Accessibility.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "keyboard",
+    "pseudo-class",
+    "button",
+    "form",
+    "dropdown",
+    "navbar",
+    "tabs",
+    "accordion"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

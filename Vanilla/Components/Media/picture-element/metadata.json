@@ -1,0 +1,23 @@
+{
+  "id": "picture-element-001",
+  "name": "Picture Element",
+  "description": "Picture Element.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "image",
+    "web-components",
+    "table",
+    "media-query"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

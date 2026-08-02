@@ -1,0 +1,27 @@
+{
+  "id": "creative-image-hover-001",
+  "name": "Creative Image Hover",
+  "description": "Creative Image Hover with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "hover-effect",
+    "tooltip",
+    "image",
+    "pseudo-class",
+    "animation",
+    "flexbox",
+    "center",
+    "layout"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

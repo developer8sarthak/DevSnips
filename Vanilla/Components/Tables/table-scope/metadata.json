@@ -1,0 +1,21 @@
+{
+  "id": "table-scope-001",
+  "name": "Table Scope",
+  "description": "Table Scope.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tables",
+  "tags": [
+    "tabs",
+    "table"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "accordion-panel-001",
+  "name": "Accordion Panel",
+  "description": "Accordion Panel with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "accordion",
+    "animation",
+    "hover-effect",
+    "shadow",
+    "layout",
+    "button",
+    "form",
+    "dropdown"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

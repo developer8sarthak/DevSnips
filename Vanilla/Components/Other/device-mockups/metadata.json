@@ -1,0 +1,26 @@
+{
+  "id": "device-mockups-001",
+  "name": "Device Mockups",
+  "description": "Device Mockups.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "table",
+    "color",
+    "border",
+    "image",
+    "api",
+    "portfolio",
+    "ecommerce"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

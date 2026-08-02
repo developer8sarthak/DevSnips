@@ -1,0 +1,23 @@
+{
+  "id": "full-width-image-001",
+  "name": "Full Width Image",
+  "description": "Full Width Image.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "table",
+    "image",
+    "media-query",
+    "api"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "css-only-accordion-001",
+  "name": "Css Only Accordion",
+  "description": "Css Only Accordion with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "accordions",
+  "tags": [
+    "accordion",
+    "theming",
+    "accessibility",
+    "animation",
+    "layout",
+    "form",
+    "table",
+    "color"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "responsive-embed-001",
+  "name": "Responsive Embed",
+  "description": "Responsive Embed.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "responsive",
+    "video",
+    "layout",
+    "table",
+    "color",
+    "border",
+    "semantic"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

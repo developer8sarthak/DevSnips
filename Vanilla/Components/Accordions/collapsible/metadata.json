@@ -1,0 +1,27 @@
+{
+  "id": "collapsible-001",
+  "name": "Collapsible",
+  "description": "Collapsible and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "accordions",
+  "tags": [
+    "accordion",
+    "hover-effect",
+    "layout",
+    "button",
+    "table",
+    "typography",
+    "color",
+    "border"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

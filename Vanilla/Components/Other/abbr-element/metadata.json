@@ -1,0 +1,22 @@
+{
+  "id": "abbr-element-001",
+  "name": "Abbr Element",
+  "description": "Abbr Element.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "other",
+  "tags": [
+    "web-components",
+    "table",
+    "image"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "container-query-card-001",
+  "name": "Container Query Card",
+  "description": "Container Query Card.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "layout",
+    "card",
+    "container-query",
+    "container-queries",
+    "flexbox",
+    "dropdown",
+    "tabs",
+    "table"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

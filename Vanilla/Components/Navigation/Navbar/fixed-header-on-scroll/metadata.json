@@ -1,0 +1,27 @@
+{
+  "id": "fixed-header-on-scroll-001",
+  "name": "Fixed Header On Scroll",
+  "description": "Fixed Header On Scroll.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "animation",
+    "hover-effect",
+    "gradient",
+    "parallax",
+    "responsive",
+    "flexbox",
+    "layout",
+    "button"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

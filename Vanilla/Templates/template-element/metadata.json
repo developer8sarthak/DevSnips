@@ -1,0 +1,27 @@
+{
+  "id": "template-element-001",
+  "name": "Template Element",
+  "description": "Template Element.",
+  "technology": "vanilla",
+  "category": "templates",
+  "subcategory": "template-element",
+  "tags": [
+    "grid",
+    "web-components",
+    "layout",
+    "button",
+    "table",
+    "image",
+    "click",
+    "utility"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

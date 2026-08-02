@@ -1,0 +1,27 @@
+{
+  "id": "has-duplicates-in-array-001",
+  "name": "Has Duplicates In Array",
+  "description": "Has Duplicates In Array.",
+  "technology": "vanilla",
+  "category": "utilities",
+  "subcategory": "helpers",
+  "tags": [
+    "gradient",
+    "typing-effect",
+    "pulse",
+    "bounce",
+    "responsive",
+    "flexbox",
+    "layout",
+    "form"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

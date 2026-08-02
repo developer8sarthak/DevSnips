@@ -1,0 +1,26 @@
+{
+  "id": "fixed-sidebar-001",
+  "name": "Fixed Sidebar",
+  "description": "Fixed Sidebar.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "navigation",
+  "tags": [
+    "sidebar",
+    "navbar",
+    "table",
+    "typography",
+    "color",
+    "scroll",
+    "semantic"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

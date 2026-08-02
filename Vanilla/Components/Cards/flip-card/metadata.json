@@ -1,0 +1,27 @@
+{
+  "id": "flip-card-001",
+  "name": "Flip Card",
+  "description": "Flip Card with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "card",
+    "animation",
+    "hover-effect",
+    "shadow",
+    "flexbox",
+    "center",
+    "form",
+    "table"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tabs-component-001",
+  "name": "Tabs Component",
+  "description": "Tabs Component with animations.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "tabs",
+  "tags": [
+    "tabs",
+    "web-components",
+    "animation",
+    "flexbox",
+    "button",
+    "form",
+    "dropdown",
+    "navbar"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

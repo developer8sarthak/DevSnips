@@ -1,0 +1,27 @@
+{
+  "id": "toast-notification-markup-001",
+  "name": "Toast Notification Markup",
+  "description": "Toast Notification Markup.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "badge",
+    "layout",
+    "button",
+    "table",
+    "accessibility",
+    "date",
+    "semantic",
+    "form-element"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

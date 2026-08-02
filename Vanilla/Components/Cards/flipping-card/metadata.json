@@ -1,0 +1,27 @@
+{
+  "id": "flipping-card-001",
+  "name": "Flipping Card",
+  "description": "Flipping Card with animations and hover interactions.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "cards",
+  "tags": [
+    "card",
+    "animation",
+    "hover-effect",
+    "flexbox",
+    "center",
+    "form",
+    "table",
+    "typography"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

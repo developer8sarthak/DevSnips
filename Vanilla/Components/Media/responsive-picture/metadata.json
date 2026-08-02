@@ -1,0 +1,24 @@
+{
+  "id": "responsive-picture-001",
+  "name": "Responsive Picture",
+  "description": "Responsive Picture.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "media",
+  "tags": [
+    "responsive",
+    "image",
+    "table",
+    "api",
+    "media-query"
+  ],
+  "responsive": true,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}

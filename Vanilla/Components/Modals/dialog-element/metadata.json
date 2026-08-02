@@ -1,0 +1,25 @@
+{
+  "id": "dialog-element-001",
+  "name": "Dialog Element",
+  "description": "Dialog Element.",
+  "technology": "vanilla",
+  "category": "components",
+  "subcategory": "modals",
+  "tags": [
+    "modal",
+    "web-components",
+    "button",
+    "form",
+    "table",
+    "form-element"
+  ],
+  "responsive": false,
+  "browserSupport": [
+    "chrome",
+    "firefox",
+    "safari",
+    "edge"
+  ],
+  "dependencies": [],
+  "source": "DevSnips"
+}
