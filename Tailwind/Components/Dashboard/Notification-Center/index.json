@@ -1,0 +1,9 @@
+{
+  "name": "Notification Center",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "Notification Center component",
+  "variants": [
+    {"name": "Default", "file": "Notification-Center.html"}
+  ]
+}

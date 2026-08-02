@@ -1,0 +1,9 @@
+{
+  "name": "Login Form",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Login Form component",
+  "variants": [
+    {"name": "Default", "file": "Login-Form.html"}
+  ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mega Menu | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen p-8">
+
+  <!-- Variant 1: Three Column -->
+  <nav class="max-w-7xl mx-auto bg-white border rounded-xl shadow-sm px-6 py-4 mb-4">
+    <div class="flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-gray-900">Brand</a>
+      <div class="hidden md:flex items-center">
+        <div class="relative group">
+          <button class="px-4 py-6 text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-1">
+            Solutions
+            <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="absolute top-full left-1/2 -translate-x-1/2 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+            <div class="bg-white border rounded-xl shadow-2xl p-8 w-[600px]">
+              <div class="grid grid-cols-3 gap-6">
+                <div>
+                  <h3 class="font-semibold text-gray-900 mb-3">For Teams</h3>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">Collaboration</a>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">Project Management</a>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">Task Tracking</a>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-gray-900 mb-3">For Developers</h3>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">API Documentation</a>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">SDKs</a>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">Integrations</a>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-gray-900 mb-3">Resources</h3>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">Blog</a>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">Tutorials</a>
+                  <a href="#" class="block py-2 text-gray-600 hover:text-blue-600">Support</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="px-4 py-6 text-gray-600 hover:text-gray-900 transition-colors">Pricing</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Variant 2: With Featured Content -->
+  <nav class="max-w-7xl mx-auto bg-white border rounded-xl shadow-sm px-6 py-4">
+    <div class="flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-gray-900">Logo</a>
+      <div class="hidden md:flex items-center">
+        <div class="relative group">
+          <button class="px-4 py-6 text-gray-600 hover:text-gray-900 flex items-center gap-1">
+            Products
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+            <div class="bg-white border rounded-xl shadow-2xl p-6 w-[700px]">
+              <div class="grid grid-cols-2 gap-6">
+                <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg p-6 text-white">
+                  <span class="text-xs bg-white/20 px-2 py-1 rounded">New</span>
+                  <h3 class="font-semibold mt-3 mb-2">Pro Dashboard</h3>
+                  <p class="text-sm text-white/80">Advanced analytics and reporting for power users.</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-6">
+                  <h3 class="font-semibold text-gray-900 mb-2">Starter Plan</h3>
+                  <p class="text-sm text-gray-600 mb-3">Perfect for individuals just getting started.</p>
+                  <a href="#" class="text-blue-600 text-sm font-medium hover:underline">Learn more →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</body>
+</html>

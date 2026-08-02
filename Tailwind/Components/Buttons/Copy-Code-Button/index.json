@@ -1,0 +1,9 @@
+{
+  "name": "Copy Code Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Copy Code Button component",
+  "variants": [
+    {"name": "Default", "file": "Copy-Code-Button.html"}
+  ]
+}

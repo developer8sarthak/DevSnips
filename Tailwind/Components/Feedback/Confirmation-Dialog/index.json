@@ -1,0 +1,9 @@
+{
+  "name": "Confirmation Dialog",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Confirmation Dialog component",
+  "variants": [
+    {"name": "Default", "file": "Confirmation-Dialog.html"}
+  ]
+}

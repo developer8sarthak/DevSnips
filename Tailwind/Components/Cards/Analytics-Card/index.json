@@ -1,0 +1,9 @@
+{
+  "name": "Analytics Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Analytics Card component",
+  "variants": [
+    {"name": "Default", "file": "Analytics-Card.html"}
+  ]
+}

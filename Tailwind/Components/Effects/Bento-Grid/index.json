@@ -1,0 +1,9 @@
+{
+  "name": "Bento Grid",
+  "category": "Effects",
+  "tech": "Tailwind CSS",
+  "description": "Bento Grid component",
+  "variants": [
+    {"name": "Default", "file": "Bento-Grid.html"}
+  ]
+}

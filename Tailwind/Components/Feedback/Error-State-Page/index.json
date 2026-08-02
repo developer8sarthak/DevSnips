@@ -1,0 +1,9 @@
+{
+  "name": "Error State Page",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Error State Page component",
+  "variants": [
+    {"name": "Default", "file": "Error-State-Page.html"}
+  ]
+}

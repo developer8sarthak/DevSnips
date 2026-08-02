@@ -1,0 +1,9 @@
+{
+  "name": "Alert Message",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Alert Message component",
+  "variants": [
+    {"name": "Default", "file": "Alert-Message.html"}
+  ]
+}

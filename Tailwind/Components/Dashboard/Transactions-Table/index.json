@@ -1,0 +1,9 @@
+{
+  "name": "Transactions Table",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "Transactions Table component",
+  "variants": [
+    {"name": "Default", "file": "Transactions-Table.html"}
+  ]
+}

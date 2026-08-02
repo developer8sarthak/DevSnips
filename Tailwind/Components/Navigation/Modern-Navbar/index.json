@@ -1,0 +1,23 @@
+{
+  "name": "Modern Navbar",
+  "category": "Navigation",
+  "tech": "Tailwind CSS",
+  "description": "Clean, contemporary navbar with gradient branding and spaced links",
+  "variants": [
+    {
+      "name": "Default Light",
+      "file": "Modern-Navbar.html",
+      "styles": ["Gradient Logo", "Horizontal Links", "CTA Button"]
+    },
+    {
+      "name": "Centered Logo",
+      "file": "Modern-Navbar.html",
+      "styles": ["Centered Logo", "Symmetric Links"]
+    },
+    {
+      "name": "With Icons",
+      "file": "Modern-Navbar.html",
+      "styles": ["Search Icon", "Notifications", "Badge"]
+    }
+  ]
+}

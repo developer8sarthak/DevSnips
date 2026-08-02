@@ -1,0 +1,9 @@
+{
+  "name": "Toast Notification",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Toast Notification component",
+  "variants": [
+    {"name": "Default", "file": "Toast-Notification.html"}
+  ]
+}

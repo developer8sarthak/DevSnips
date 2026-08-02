@@ -1,0 +1,9 @@
+{
+  "name": "Audio Player",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Audio Player component",
+  "variants": [
+    {"name": "Default", "file": "Audio-Player.html"}
+  ]
+}

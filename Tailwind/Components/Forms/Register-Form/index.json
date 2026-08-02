@@ -1,0 +1,9 @@
+{
+  "name": "Register Form",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Register Form component",
+  "variants": [
+    {"name": "Default", "file": "Register-Form.html"}
+  ]
+}

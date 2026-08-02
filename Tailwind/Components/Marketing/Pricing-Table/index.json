@@ -1,0 +1,9 @@
+{
+  "name": "Pricing Table",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Pricing Table component",
+  "variants": [
+    {"name": "Default", "file": "Pricing-Table.html"}
+  ]
+}

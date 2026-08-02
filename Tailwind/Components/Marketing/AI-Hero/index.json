@@ -1,0 +1,9 @@
+{
+  "name": "AI Hero",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "AI Hero component",
+  "variants": [
+    {"name": "Default", "file": "AI-Hero.html"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Feature Comparison",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Feature Comparison component",
+  "variants": [
+    {"name": "Default", "file": "Feature-Comparison.html"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Image Gallery",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Image Gallery component",
+  "variants": [
+    {"name": "Default", "file": "Image-Gallery.html"}
+  ]
+}

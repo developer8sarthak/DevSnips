@@ -1,0 +1,9 @@
+{
+  "name": "Gradient Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Gradient Button component",
+  "variants": [
+    {"name": "Default", "file": "Gradient-Button.html"}
+  ]
+}

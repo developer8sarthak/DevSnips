@@ -1,0 +1,9 @@
+{
+  "name": "Forgot Password Form",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Forgot Password Form component",
+  "variants": [
+    {"name": "Default", "file": "Forgot-Password-Form.html"}
+  ]
+}

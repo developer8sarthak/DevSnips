@@ -1,0 +1,9 @@
+{
+  "name": "Floating Action Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Floating Action Button component",
+  "variants": [
+    {"name": "Default", "file": "Floating-Action-Button.html"}
+  ]
+}

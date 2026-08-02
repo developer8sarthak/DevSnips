@@ -1,0 +1,9 @@
+{
+  "name": "Checkbox Group",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Checkbox Group component",
+  "variants": [
+    {"name": "Default", "file": "Checkbox-Group.html"}
+  ]
+}

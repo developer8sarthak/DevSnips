@@ -1,0 +1,9 @@
+{
+  "name": "Social Login Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Social Login Button component",
+  "variants": [
+    {"name": "Default", "file": "Social-Login-Button.html"}
+  ]
+}

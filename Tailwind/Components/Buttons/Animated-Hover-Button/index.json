@@ -1,0 +1,9 @@
+{
+  "name": "Animated Hover Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Animated Hover Button component",
+  "variants": [
+    {"name": "Default", "file": "Animated-Hover-Button.html"}
+  ]
+}

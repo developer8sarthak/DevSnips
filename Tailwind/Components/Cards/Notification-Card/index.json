@@ -1,0 +1,9 @@
+{
+  "name": "Notification Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Notification Card component",
+  "variants": [
+    {"name": "Default", "file": "Notification-Card.html"}
+  ]
+}

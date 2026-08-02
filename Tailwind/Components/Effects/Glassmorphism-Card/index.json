@@ -1,0 +1,9 @@
+{
+  "name": "Glassmorphism Card",
+  "category": "Effects",
+  "tech": "Tailwind CSS",
+  "description": "Glassmorphism Card component",
+  "variants": [
+    {"name": "Default", "file": "Glassmorphism-Card.html"}
+  ]
+}

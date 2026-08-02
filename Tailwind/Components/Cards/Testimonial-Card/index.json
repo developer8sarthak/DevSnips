@@ -1,0 +1,9 @@
+{
+  "name": "Testimonial Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Testimonial Card component",
+  "variants": [
+    {"name": "Default", "file": "Testimonial-Card.html"}
+  ]
+}

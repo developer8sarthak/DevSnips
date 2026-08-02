@@ -1,0 +1,9 @@
+{
+  "name": "Stats Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Stats Card component",
+  "variants": [
+    {"name": "Default", "file": "Stats-Card.html"}
+  ]
+}

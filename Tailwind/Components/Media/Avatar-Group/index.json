@@ -1,0 +1,9 @@
+{
+  "name": "Avatar Group",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Avatar Group component",
+  "variants": [
+    {"name": "Default", "file": "Avatar-Group.html"}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Transparent Navbar",
+  "category": "Navigation",
+  "tech": "Tailwind CSS",
+  "description": "Navbar designed for use over hero images or dark backgrounds",
+  "variants": [
+    {
+      "name": "Dark Background",
+      "file": "Transparent-Navbar.html",
+      "styles": ["Dark Overlay", "Backdrop Blur", "Join Button"]
+    },
+    {
+      "name": "Gradient Background",
+      "file": "Transparent-Navbar.html",
+      "styles": ["Gradient", "CTA Button", "Light Text"]
+    },
+    {
+      "name": "Image Overlay",
+      "file": "Transparent-Navbar.html",
+      "styles": ["Image Background", "Dark Overlay", "Sign In Button"]
+    }
+  ]
+}

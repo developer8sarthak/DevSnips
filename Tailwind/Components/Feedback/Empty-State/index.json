@@ -1,0 +1,9 @@
+{
+  "name": "Empty State",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Empty State component",
+  "variants": [
+    {"name": "Default", "file": "Empty-State.html"}
+  ]
+}

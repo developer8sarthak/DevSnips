@@ -1,0 +1,9 @@
+{
+  "name": "Button Group",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Button Group component",
+  "variants": [
+    {"name": "Default", "file": "Button-Group.html"}
+  ]
+}

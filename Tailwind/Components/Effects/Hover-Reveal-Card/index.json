@@ -1,0 +1,9 @@
+{
+  "name": "Hover Reveal Card",
+  "category": "Effects",
+  "tech": "Tailwind CSS",
+  "description": "Hover Reveal Card component",
+  "variants": [
+    {"name": "Default", "file": "Hover-Reveal-Card.html"}
+  ]
+}

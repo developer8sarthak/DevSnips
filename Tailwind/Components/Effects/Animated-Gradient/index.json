@@ -1,0 +1,9 @@
+{
+  "name": "Animated Gradient",
+  "category": "Effects",
+  "tech": "Tailwind CSS",
+  "description": "Animated Gradient component",
+  "variants": [
+    {"name": "Default", "file": "Animated-Gradient.html"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Multi Select",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Multi Select component",
+  "variants": [
+    {"name": "Default", "file": "Multi-Select.html"}
+  ]
+}

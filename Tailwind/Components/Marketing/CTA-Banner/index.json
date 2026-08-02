@@ -1,0 +1,9 @@
+{
+  "name": "CTA Banner",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "CTA Banner component",
+  "variants": [
+    {"name": "Default", "file": "CTA-Banner.html"}
+  ]
+}

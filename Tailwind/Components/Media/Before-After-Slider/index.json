@@ -1,0 +1,9 @@
+{
+  "name": "Before After Slider",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Before After Slider component",
+  "variants": [
+    {"name": "Default", "file": "Before-After-Slider.html"}
+  ]
+}

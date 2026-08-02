@@ -1,0 +1,9 @@
+{
+  "name": "User Management Table",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "User Management Table component",
+  "variants": [
+    {"name": "Default", "file": "User-Management-Table.html"}
+  ]
+}

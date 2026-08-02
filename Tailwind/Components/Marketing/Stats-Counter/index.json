@@ -1,0 +1,9 @@
+{
+  "name": "Stats Counter",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Stats Counter component",
+  "variants": [
+    {"name": "Default", "file": "Stats-Counter.html"}
+  ]
+}

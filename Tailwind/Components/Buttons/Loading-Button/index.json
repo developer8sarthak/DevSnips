@@ -1,0 +1,9 @@
+{
+  "name": "Loading Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Loading Button component",
+  "variants": [
+    {"name": "Default", "file": "Loading-Button.html"}
+  ]
+}

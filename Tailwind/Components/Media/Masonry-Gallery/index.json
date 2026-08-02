@@ -1,0 +1,9 @@
+{
+  "name": "Masonry Gallery",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Masonry Gallery component",
+  "variants": [
+    {"name": "Default", "file": "Masonry-Gallery.html"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Product Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Product Card component",
+  "variants": [
+    {"name": "Default", "file": "Product-Card.html"}
+  ]
+}

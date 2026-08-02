@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Navbar | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 min-h-screen">
+
+  <!-- Variant 1: Light Glass -->
+  <div class="relative p-8">
+    <div class="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur-xl opacity-30"></div>
+    <nav class="relative max-w-7xl mx-auto">
+      <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-white">Glass</a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#" class="text-white/80 hover:text-white transition-colors">Dashboard</a>
+          <a href="#" class="text-white/80 hover:text-white transition-colors">Analytics</a>
+          <a href="#" class="text-white/80 hover:text-white transition-colors">Settings</a>
+        </div>
+        <div class="flex items-center gap-4">
+          <button class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+          </button>
+          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar" class="w-10 h-10 rounded-full border-2 border-white/50">
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Variant 2: Dark Glass -->
+  <div class="p-8">
+    <nav class="max-w-7xl mx-auto bg-slate-900/50 backdrop-blur-xl border border-white/10 rounded-2xl px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-white">Logo</a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#" class="text-white/70 hover:text-white transition-colors">Home</a>
+        <a href="#" class="text-white/70 hover:text-white transition-colors">Features</a>
+        <a href="#" class="text-white/70 hover:text-white transition-colors">Pricing</a>
+        <a href="#" class="text-white/70 hover:text-white transition-colors">Contact</a>
+      </div>
+      <button class="px-5 py-2.5 bg-white/10 backdrop-blur text-white border border-white/20 rounded-xl hover:bg-white/20 transition-all">
+        Get Started
+      </button>
+    </nav>
+  </div>
+
+  <!-- Variant 3: Strong Blur -->
+  <div class="p-8">
+    <nav class="max-w-7xl mx-auto bg-white/20 backdrop-blur-2xl border border-white/30 rounded-full px-8 py-3 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-white">Brand</a>
+      <div class="hidden md:flex items-center gap-6">
+        <a href="#" class="text-white/80 hover:text-white transition-colors">Products</a>
+        <a href="#" class="text-white/80 hover:text-white transition-colors">Solutions</a>
+        <a href="#" class="text-white/80 hover:text-white transition-colors">Resources</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <button class="px-4 py-2 text-white hover:bg-white/10 rounded-lg transition-colors">Login</button>
+        <button class="px-4 py-2 bg-white text-gray-900 rounded-lg font-medium hover:bg-gray-100 transition-colors">Sign Up</button>
+      </div>
+    </nav>
+  </div>
+
+</body>
+</html>

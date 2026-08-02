@@ -1,0 +1,9 @@
+{
+  "name": "App Download",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "App Download component",
+  "variants": [
+    {"name": "Default", "file": "App-Download.html"}
+  ]
+}

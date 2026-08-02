@@ -1,0 +1,9 @@
+{
+  "name": "Testimonial Carousel",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Testimonial Carousel component",
+  "variants": [
+    {"name": "Default", "file": "Testimonial-Carousel.html"}
+  ]
+}

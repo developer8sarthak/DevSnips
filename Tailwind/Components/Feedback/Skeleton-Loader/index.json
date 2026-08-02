@@ -1,0 +1,9 @@
+{
+  "name": "Skeleton Loader",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Skeleton Loader component",
+  "variants": [
+    {"name": "Default", "file": "Skeleton-Loader.html"}
+  ]
+}

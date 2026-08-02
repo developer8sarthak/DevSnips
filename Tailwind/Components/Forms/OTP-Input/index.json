@@ -1,0 +1,9 @@
+{
+  "name": "OTP Input",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "OTP Input component",
+  "variants": [
+    {"name": "Default", "file": "OTP-Input.html"}
+  ]
+}

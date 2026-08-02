@@ -1,0 +1,9 @@
+{
+  "name": "NFT Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "NFT Card component",
+  "variants": [
+    {"name": "Default", "file": "NFT-Card.html"}
+  ]
+}

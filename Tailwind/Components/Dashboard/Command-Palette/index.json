@@ -1,0 +1,9 @@
+{
+  "name": "Command Palette",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "Command Palette component",
+  "variants": [
+    {"name": "Default", "file": "Command-Palette.html"}
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"Breadcrumb","category":"Navigation","tech":"Tailwind CSS","description":"Hierarchical navigation showing current location","variants":[{"name":"Basic","file":"Breadcrumb.html"},{"name":"With Icons","file":"Breadcrumb.html"}]}

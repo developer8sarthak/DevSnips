@@ -1,0 +1,9 @@
+{
+  "name": "User Growth Chart",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "User Growth Chart component",
+  "variants": [
+    {"name": "Default", "file": "User-Growth-Chart.html"}
+  ]
+}

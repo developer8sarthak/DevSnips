@@ -1,0 +1,9 @@
+{
+  "name": "Glass Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Glass Button component",
+  "variants": [
+    {"name": "Default", "file": "Glass-Button.html"}
+  ]
+}

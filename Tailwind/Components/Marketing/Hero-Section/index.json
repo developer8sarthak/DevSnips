@@ -1,0 +1,9 @@
+{
+  "name": "Hero Section",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Hero Section component",
+  "variants": [
+    {"name": "Default", "file": "Hero-Section.html"}
+  ]
+}

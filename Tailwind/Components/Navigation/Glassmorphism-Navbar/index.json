@@ -1,0 +1,23 @@
+{
+  "name": "Glassmorphism Navbar",
+  "category": "Navigation",
+  "tech": "Tailwind CSS",
+  "description": "Frosted glass effect with backdrop blur and transparency",
+  "variants": [
+    {
+      "name": "Light Glass",
+      "file": "Glassmorphism-Navbar.html",
+      "styles": ["Backdrop Blur", "Border", "Avatar"]
+    },
+    {
+      "name": "Dark Glass",
+      "file": "Glassmorphism-Navbar.html",
+      "styles": ["Dark Background", "Bordered", "Get Started"]
+    },
+    {
+      "name": "Strong Blur",
+      "file": "Glassmorphism-Navbar.html",
+      "styles": ["Heavy Blur", "Pill Shape", "Login/Signup"]
+    }
+  ]
+}

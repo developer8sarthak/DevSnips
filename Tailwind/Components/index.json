@@ -1,0 +1,72 @@
+{
+  "name": "Tailwind Components",
+  "family": "Components",
+  "description": "A comprehensive collection of production-ready Tailwind CSS components organized by type.",
+  "category": "Components",
+  "tech": "Tailwind CSS",
+  "totalComponents": 100,
+  "categories": [
+    {
+      "name": "Navigation",
+      "count": 10,
+      "description": "Navbar, sidebar, breadcrumb, and pagination components",
+      "components": ["Modern Navbar", "Transparent Navbar", "Glassmorphism Navbar", "Navbar with Dropdown", "Mega Menu", "Sidebar Navigation", "Collapsible Sidebar", "Dashboard Sidebar", "Breadcrumb", "Pagination"]
+    },
+    {
+      "name": "Buttons",
+      "count": 10,
+      "description": "Gradient, glass, icon, loading, and animated buttons",
+      "components": ["Gradient Button", "Glass Button", "Icon Button", "Loading Button", "Floating Action Button", "Social Login Button", "Download Button", "Copy Code Button", "Button Group", "Animated Hover Button"]
+    },
+    {
+      "name": "Cards",
+      "count": 15,
+      "description": "Profile, product, pricing, testimonial, and analytics cards",
+      "components": ["Profile Card", "User Avatar Card", "Product Card", "Pricing Card", "Feature Card", "Testimonial Card", "Blog Card", "NFT Card", "Credit Card", "Stats Card", "Analytics Card", "Team Member Card", "Course Card", "Event Card", "Notification Card"]
+    },
+    {
+      "name": "Forms",
+      "count": 15,
+      "description": "Login, register, multi-step forms, inputs, date pickers, and file uploads",
+      "components": ["Login Form", "Register Form", "Forgot Password Form", "Multi-Step Form", "Search Input", "Floating Label Input", "Password Input Toggle", "OTP Input", "File Upload", "Drag Drop Upload", "Date Picker", "Time Picker", "Select Dropdown", "Multi Select", "Checkbox Group"]
+    },
+    {
+      "name": "Feedback",
+      "count": 10,
+      "description": "Toast notifications, alerts, progress bars, spinners, and dialogs",
+      "components": ["Toast Notification", "Alert Message", "Success Error State", "Progress Bar", "Circular Progress", "Loading Spinner", "Skeleton Loader", "Empty State", "Error State Page", "Confirmation Dialog"]
+    },
+    {
+      "name": "Marketing",
+      "count": 15,
+      "description": "Hero sections, pricing tables, testimonials, CTAs, and landing page components",
+      "components": ["Hero Section", "SaaS Hero", "AI Hero", "Startup Hero", "Feature Comparison", "Pricing Table", "FAQ Accordion", "Customer Logo Wall", "Testimonial Carousel", "CTA Banner", "Newsletter Signup", "App Download", "Stats Counter", "Timeline", "Process Steps"]
+    },
+    {
+      "name": "Dashboard",
+      "count": 10,
+      "description": "Analytics cards, charts, tables, activity feeds, and settings panels",
+      "components": ["Analytics Dashboard Card", "Revenue Chart Card", "User Growth Chart", "Activity Feed", "Transactions Table", "User Management Table", "Settings Panel", "Command Palette", "Notification Center", "Dashboard Header"]
+    },
+    {
+      "name": "Media",
+      "count": 10,
+      "description": "Galleries, sliders, players, avatars, ratings, and social share buttons",
+      "components": ["Image Gallery", "Masonry Gallery", "Image Slider", "Video Player", "Audio Player", "Before After Slider", "Avatar Group", "Rating Stars", "Social Share Button", "QR Code Card"]
+    },
+    {
+      "name": "Effects",
+      "count": 5,
+      "description": "Glassmorphism, bento grids, animated gradients, spotlight effects, and hover reveals",
+      "components": ["Glassmorphism Card", "Bento Grid", "Animated Gradient", "Spotlight Effect Card", "Hover Reveal Card"]
+    }
+  ],
+  "accessibility": {
+    "focus": "All interactive elements include visible focus rings",
+    "aria": "Components include proper ARIA attributes",
+    "contrast": "Text maintains proper contrast ratios",
+    "keyboard": "Full keyboard navigation support"
+  },
+  "technologies": ["Tailwind CSS"],
+  "contributionGuide": "See individual component README.md files for contribution guidelines"
+}

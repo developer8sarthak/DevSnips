@@ -1,0 +1,9 @@
+{
+  "name": "Blog Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Blog Card component",
+  "variants": [
+    {"name": "Default", "file": "Blog-Card.html"}
+  ]
+}

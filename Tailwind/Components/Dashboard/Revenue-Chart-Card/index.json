@@ -1,0 +1,9 @@
+{
+  "name": "Revenue Chart Card",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "Revenue Chart Card component",
+  "variants": [
+    {"name": "Default", "file": "Revenue-Chart-Card.html"}
+  ]
+}

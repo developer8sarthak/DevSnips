@@ -1,0 +1,9 @@
+{
+  "name": "User Avatar Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "User Avatar Card component",
+  "variants": [
+    {"name": "Default", "file": "User-Avatar-Card.html"}
+  ]
+}

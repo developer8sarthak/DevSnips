@@ -1,0 +1,9 @@
+{
+  "name": "Time Picker",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Time Picker component",
+  "variants": [
+    {"name": "Default", "file": "Time-Picker.html"}
+  ]
+}

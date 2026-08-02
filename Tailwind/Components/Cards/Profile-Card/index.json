@@ -1,0 +1,9 @@
+{
+  "name": "Profile Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Profile Card component",
+  "variants": [
+    {"name": "Default", "file": "Profile-Card.html"}
+  ]
+}

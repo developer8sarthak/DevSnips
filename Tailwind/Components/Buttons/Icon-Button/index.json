@@ -1,0 +1,9 @@
+{
+  "name": "Icon Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Icon Button component",
+  "variants": [
+    {"name": "Default", "file": "Icon-Button.html"}
+  ]
+}

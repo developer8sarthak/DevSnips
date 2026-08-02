@@ -1,0 +1,9 @@
+{
+  "name": "Timeline",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Timeline component",
+  "variants": [
+    {"name": "Default", "file": "Timeline.html"}
+  ]
+}

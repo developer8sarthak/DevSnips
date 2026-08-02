@@ -1,0 +1,9 @@
+{
+  "name": "Floating Label Input",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Floating Label Input component",
+  "variants": [
+    {"name": "Default", "file": "Floating-Label-Input.html"}
+  ]
+}

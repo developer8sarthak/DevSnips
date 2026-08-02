@@ -1,0 +1,9 @@
+{
+  "name": "Social Share Button",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Social Share Button component",
+  "variants": [
+    {"name": "Default", "file": "Social-Share-Button.html"}
+  ]
+}

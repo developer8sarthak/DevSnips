@@ -1,0 +1,9 @@
+{
+  "name": "Progress Bar",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Progress Bar component",
+  "variants": [
+    {"name": "Default", "file": "Progress-Bar.html"}
+  ]
+}

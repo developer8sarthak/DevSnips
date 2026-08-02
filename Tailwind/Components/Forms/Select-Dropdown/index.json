@@ -1,0 +1,9 @@
+{
+  "name": "Select Dropdown",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Select Dropdown component",
+  "variants": [
+    {"name": "Default", "file": "Select-Dropdown.html"}
+  ]
+}

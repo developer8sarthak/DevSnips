@@ -1,0 +1,9 @@
+{
+  "name": "Success Error State",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Success Error State component",
+  "variants": [
+    {"name": "Default", "file": "Success-Error-State.html"}
+  ]
+}

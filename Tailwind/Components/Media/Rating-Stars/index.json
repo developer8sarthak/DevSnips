@@ -1,0 +1,9 @@
+{
+  "name": "Rating Stars",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Rating Stars component",
+  "variants": [
+    {"name": "Default", "file": "Rating-Stars.html"}
+  ]
+}

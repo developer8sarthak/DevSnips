@@ -1,0 +1,9 @@
+{
+  "name": "Multi Step Form",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Multi Step Form component",
+  "variants": [
+    {"name": "Default", "file": "Multi-Step-Form.html"}
+  ]
+}

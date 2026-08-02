@@ -1,0 +1,9 @@
+{
+  "name": "Download Button",
+  "category": "Buttons",
+  "tech": "Tailwind CSS",
+  "description": "Download Button component",
+  "variants": [
+    {"name": "Default", "file": "Download-Button.html"}
+  ]
+}

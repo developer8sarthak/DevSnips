@@ -1,0 +1,9 @@
+{
+  "name": "Loading Spinner",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Loading Spinner component",
+  "variants": [
+    {"name": "Default", "file": "Loading-Spinner.html"}
+  ]
+}

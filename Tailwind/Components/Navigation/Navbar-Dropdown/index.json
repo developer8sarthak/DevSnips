@@ -1,0 +1,11 @@
+{
+  "name": "Navbar with Dropdown",
+  "category": "Navigation",
+  "tech": "Tailwind CSS",
+  "description": "Navbar with hover-activated dropdown menus",
+  "variants": [
+    {"name": "Single Dropdown", "file": "Navbar-Dropdown.html"},
+    {"name": "Multiple Dropdowns", "file": "Navbar-Dropdown.html"},
+    {"name": "Icon Dropdown", "file": "Navbar-Dropdown.html"}
+  ]
+}

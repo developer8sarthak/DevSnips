@@ -1,0 +1,9 @@
+{
+  "name": "Event Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Event Card component",
+  "variants": [
+    {"name": "Default", "file": "Event-Card.html"}
+  ]
+}

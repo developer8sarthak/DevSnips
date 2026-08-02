@@ -1,0 +1,9 @@
+{
+  "name": "Team Member Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Team Member Card component",
+  "variants": [
+    {"name": "Default", "file": "Team-Member-Card.html"}
+  ]
+}

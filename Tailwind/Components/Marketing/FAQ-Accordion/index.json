@@ -1,0 +1,9 @@
+{
+  "name": "FAQ Accordion",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "FAQ Accordion component",
+  "variants": [
+    {"name": "Default", "file": "FAQ-Accordion.html"}
+  ]
+}

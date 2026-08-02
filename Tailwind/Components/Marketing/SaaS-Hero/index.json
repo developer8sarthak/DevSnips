@@ -1,0 +1,9 @@
+{
+  "name": "SaaS Hero",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "SaaS Hero component",
+  "variants": [
+    {"name": "Default", "file": "SaaS-Hero.html"}
+  ]
+}

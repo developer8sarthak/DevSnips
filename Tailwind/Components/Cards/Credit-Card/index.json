@@ -1,0 +1,9 @@
+{
+  "name": "Credit Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Credit Card component",
+  "variants": [
+    {"name": "Default", "file": "Credit-Card.html"}
+  ]
+}

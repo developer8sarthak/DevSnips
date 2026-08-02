@@ -1,0 +1,9 @@
+{
+  "name": "Password Input Toggle",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Password Input Toggle component",
+  "variants": [
+    {"name": "Default", "file": "Password-Input-Toggle.html"}
+  ]
+}

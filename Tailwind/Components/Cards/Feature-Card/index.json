@@ -1,0 +1,9 @@
+{
+  "name": "Feature Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Feature Card component",
+  "variants": [
+    {"name": "Default", "file": "Feature-Card.html"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Process Steps",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Process Steps component",
+  "variants": [
+    {"name": "Default", "file": "Process-Steps.html"}
+  ]
+}

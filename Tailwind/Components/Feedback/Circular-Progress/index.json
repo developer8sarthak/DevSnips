@@ -1,0 +1,9 @@
+{
+  "name": "Circular Progress",
+  "category": "Feedback",
+  "tech": "Tailwind CSS",
+  "description": "Circular Progress component",
+  "variants": [
+    {"name": "Default", "file": "Circular-Progress.html"}
+  ]
+}

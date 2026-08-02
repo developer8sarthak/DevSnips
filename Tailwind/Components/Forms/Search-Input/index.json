@@ -1,0 +1,9 @@
+{
+  "name": "Search Input",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Search Input component",
+  "variants": [
+    {"name": "Default", "file": "Search-Input.html"}
+  ]
+}

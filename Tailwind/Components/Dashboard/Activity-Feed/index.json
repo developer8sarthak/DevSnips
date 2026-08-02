@@ -1,0 +1,9 @@
+{
+  "name": "Activity Feed",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "Activity Feed component",
+  "variants": [
+    {"name": "Default", "file": "Activity-Feed.html"}
+  ]
+}

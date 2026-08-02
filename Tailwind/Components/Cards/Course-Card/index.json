@@ -1,0 +1,9 @@
+{
+  "name": "Course Card",
+  "category": "Cards",
+  "tech": "Tailwind CSS",
+  "description": "Course Card component",
+  "variants": [
+    {"name": "Default", "file": "Course-Card.html"}
+  ]
+}

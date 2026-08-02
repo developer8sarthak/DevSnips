@@ -1,0 +1,9 @@
+{
+  "name": "QR Code Card",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "QR Code Card component",
+  "variants": [
+    {"name": "Default", "file": "QR-Code-Card.html"}
+  ]
+}

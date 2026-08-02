@@ -1,0 +1,9 @@
+{
+  "name": "Dashboard Header",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "Dashboard Header component",
+  "variants": [
+    {"name": "Default", "file": "Dashboard-Header.html"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Video Player",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Video Player component",
+  "variants": [
+    {"name": "Default", "file": "Video-Player.html"}
+  ]
+}

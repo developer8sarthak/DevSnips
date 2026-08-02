@@ -1,0 +1,9 @@
+{
+  "name": "Date Picker",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Date Picker component",
+  "variants": [
+    {"name": "Default", "file": "Date-Picker.html"}
+  ]
+}

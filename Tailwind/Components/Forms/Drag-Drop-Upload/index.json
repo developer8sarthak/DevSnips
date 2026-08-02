@@ -1,0 +1,9 @@
+{
+  "name": "Drag Drop Upload",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "Drag Drop Upload component",
+  "variants": [
+    {"name": "Default", "file": "Drag-Drop-Upload.html"}
+  ]
+}

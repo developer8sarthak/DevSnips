@@ -1,0 +1,9 @@
+{
+  "name": "Settings Panel",
+  "category": "Dashboard",
+  "tech": "Tailwind CSS",
+  "description": "Settings Panel component",
+  "variants": [
+    {"name": "Default", "file": "Settings-Panel.html"}
+  ]
+}

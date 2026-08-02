@@ -1,0 +1,9 @@
+{
+  "name": "Customer Logo Wall",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Customer Logo Wall component",
+  "variants": [
+    {"name": "Default", "file": "Customer-Logo-Wall.html"}
+  ]
+}

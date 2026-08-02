@@ -1,0 +1,9 @@
+{
+  "name": "Spotlight Effect Card",
+  "category": "Effects",
+  "tech": "Tailwind CSS",
+  "description": "Spotlight Effect Card component",
+  "variants": [
+    {"name": "Default", "file": "Spotlight-Effect-Card.html"}
+  ]
+}

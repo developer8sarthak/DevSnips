@@ -1,0 +1,9 @@
+{
+  "name": "Image Slider",
+  "category": "Media",
+  "tech": "Tailwind CSS",
+  "description": "Image Slider component",
+  "variants": [
+    {"name": "Default", "file": "Image-Slider.html"}
+  ]
+}

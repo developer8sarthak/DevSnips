@@ -1,0 +1,1 @@
+{"name":"Pagination","category":"Navigation","tech":"Tailwind CSS","description":"Page navigation for paginated content","variants":[{"name":"Basic","file":"Pagination.html"},{"name":"Compact","file":"Pagination.html"}]}

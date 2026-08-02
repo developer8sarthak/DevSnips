@@ -1,0 +1,9 @@
+{
+  "name": "Newsletter Signup",
+  "category": "Marketing",
+  "tech": "Tailwind CSS",
+  "description": "Newsletter Signup component",
+  "variants": [
+    {"name": "Default", "file": "Newsletter-Signup.html"}
+  ]
+}

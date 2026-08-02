@@ -1,0 +1,9 @@
+{
+  "name": "File Upload",
+  "category": "Forms",
+  "tech": "Tailwind CSS",
+  "description": "File Upload component",
+  "variants": [
+    {"name": "Default", "file": "File-Upload.html"}
+  ]
+}
