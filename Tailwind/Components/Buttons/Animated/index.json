@@ -1,0 +1,42 @@
+{
+  "name": "Button - Animated",
+  "family": "Buttons",
+  "variant": "Animated",
+  "description": "Buttons with hover and click animations including shine, pulse, bounce, wiggle, ripple, and glow effects.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Shine Effect",
+    "Hover Scale",
+    "Bounce Effect",
+    "Wiggle Effect",
+    "Slide Effects",
+    "Glow Effects",
+    "Neon Effects",
+    "Pulse Effects",
+    "Ripple Click",
+    "Combination Effects"
+  ],
+  "features": [
+    "Shine sweep animation",
+    "Scale on hover",
+    "Bounce animation",
+    "Neon flicker",
+    "Glow shadows",
+    "Ripple click effect",
+    "Text slide"
+  ],
+  "accessibility": {
+    "focus": "Maintain visible focus during animations",
+    "aria": "Consider prefers-reduced-motion"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-Animated.html",
+      "type": "preview",
+      "description": "Interactive preview with all animated button styles"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Button - Social",
+  "family": "Buttons",
+  "variant": "Social",
+  "description": "Social media login buttons and share buttons for Twitter, GitHub, Facebook, and more.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Full Social Buttons",
+    "Social Icon Buttons",
+    "Share Bar",
+    "OAuth Icon Row"
+  ],
+  "features": [
+    "OAuth login buttons",
+    "Social share icons",
+    "Share bar layout",
+    "Icon-only variants",
+    "Brand colors"
+  ],
+  "accessibility": {
+    "focus": "Visible focus ring",
+    "aria": "aria-label for icon-only buttons"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-Social.html",
+      "type": "preview",
+      "description": "Interactive preview with all social button styles"
+    }
+  ]
+}

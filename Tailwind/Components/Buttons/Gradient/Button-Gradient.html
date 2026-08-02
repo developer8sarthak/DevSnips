@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button - Gradient | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+  
+  <!-- Component: Button / Gradient -->
+  <!-- Variants: Linear, Radial, Conic, Multi-stop -->
+
+  <section class="max-w-4xl mx-auto space-y-12">
+    <header class="border-b pb-4">
+      <h1 class="text-3xl font-bold text-gray-900">Button — Gradient</h1>
+      <p class="text-gray-600 mt-2">Buttons with gradient backgrounds and animated effects</p>
+    </header>
+
+    <!-- Linear Gradients -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Linear Gradients</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="px-6 py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-opacity">
+          Blue Gradient
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-opacity">
+          Purple Pink
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2 transition-opacity">
+          Cyan Blue
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-r from-green-400 to-cyan-500 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition-opacity">
+          Green Cyan
+        </button>
+      </div>
+    </div>
+
+    <!-- Multi-Stop Gradients -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Multi-Stop Gradients</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="px-6 py-2.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-opacity">
+          Spectrum
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-opacity">
+          Deep Blue
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-r from-amber-400 via-orange-500 to-red-500 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-opacity">
+          Warm Fire
+        </button>
+      </div>
+    </div>
+
+    <!-- Directional Gradients -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Directional Gradients</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="px-6 py-2.5 bg-gradient-to-r from-blue-500 to-pink-500 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 transition-opacity">
+          Left to Right
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-l from-blue-500 to-pink-500 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 transition-opacity">
+          Right to Left
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-t from-blue-600 to-blue-400 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-opacity">
+          Bottom to Top
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-br from-cyan-400 to-blue-600 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2 transition-opacity">
+          Bottom Right
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-bl from-purple-600 to-pink-400 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-opacity">
+          Bottom Left
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-tl from-teal-500 to-emerald-500 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 transition-opacity">
+          Top Left
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-tr from-rose-500 to-orange-400 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 transition-opacity">
+          Top Right
+        </button>
+      </div>
+    </div>
+
+    <!-- Gradient with Shadow -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Gradient with Shadow</h2>
+      <div class="flex flex-wrap gap-6 p-6 bg-white rounded-xl shadow-sm">
+        <button class="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium rounded-lg shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-shadow">
+          Blue Shadow
+        </button>
+        <button class="px-6 py-3 bg-gradient-to-r from-pink-500 to-rose-500 text-white font-medium rounded-lg shadow-lg shadow-pink-500/30 hover:shadow-xl hover:shadow-pink-500/40 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 transition-shadow">
+          Pink Shadow
+        </button>
+        <button class="px-6 py-3 bg-gradient-to-r from-amber-400 to-orange-500 text-white font-medium rounded-lg shadow-lg shadow-amber-500/30 hover:shadow-xl hover:shadow-amber-500/40 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-shadow">
+          Amber Shadow
+        </button>
+      </div>
+    </div>
+
+    <!-- Gradient Pills -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Gradient Pills</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="px-6 py-2.5 bg-gradient-to-r from-violet-500 to-purple-500 text-white font-medium rounded-full hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 transition-opacity">
+          Violet Pill
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-r from-cyan-400 to-blue-500 text-white font-medium rounded-full hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2 transition-opacity">
+          Cyan Pill
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-r from-emerald-400 to-teal-500 text-white font-medium rounded-full hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 transition-opacity">
+          Emerald Pill
+        </button>
+      </div>
+    </div>
+
+    <!-- Dark Background Gradients -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Gradients on Dark</h2>
+      <div class="flex flex-wrap gap-4 p-6 bg-gray-900 rounded-xl">
+        <button class="px-6 py-2.5 bg-gradient-to-r from-blue-400 to-cyan-400 text-gray-900 font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-opacity">
+          Light Gradient
+        </button>
+        <button class="px-6 py-2.5 bg-gradient-to-r from-purple-400 to-pink-400 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-opacity">
+          Bright Gradient
+        </button>
+      </div>
+    </div>
+
+    <!-- Sizes -->
+    <div class="space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">Gradient Sizes</h2>
+      <div class="flex flex-wrap items-center gap-4 p-6 bg-white rounded-xl shadow-sm">
+        <button class="px-3 py-1.5 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-xs font-medium rounded-md hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-opacity">
+          Small
+        </button>
+        <button class="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-sm font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-opacity">
+          Default
+        </button>
+        <button class="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-base font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-opacity">
+          Large
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>

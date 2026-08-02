@@ -1,0 +1,121 @@
+{
+  "name": "Buttons",
+  "family": "Components",
+  "description": "A comprehensive button component family with 15 production-ready variants covering every use case from basic to 3D effects.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "variantCount": 15,
+  "variants": [
+    {
+      "name": "Basic",
+      "description": "Foundation button styles with semantic colors",
+      "styles": ["Primary", "Secondary", "Neutral", "Sizes", "Full Width"],
+      "path": "Basic/"
+    },
+    {
+      "name": "Ghost",
+      "description": "Transparent buttons with hover background",
+      "styles": ["Ghost Primary", "Ghost Colors", "Ghost Dark", "Ghost Sizes", "Icon Ghost"],
+      "path": "Ghost/"
+    },
+    {
+      "name": "Outline",
+      "description": "Bordered buttons with transparent backgrounds",
+      "styles": ["Outline Primary", "Outline Colors", "Thick Border", "Dashed Border", "Rounded Pill", "Outline on Dark"],
+      "path": "Outline/"
+    },
+    {
+      "name": "Filled",
+      "description": "Solid color buttons with soft variants",
+      "styles": ["Filled Primary", "Soft Background", "Rounded Full", "Muted / Tonal", "Filled on Dark"],
+      "path": "Filled/"
+    },
+    {
+      "name": "Glass",
+      "description": "Frosted glass effect with backdrop blur",
+      "styles": ["Glass Light", "Glass Colors", "Glass Dark Background", "Glass with Glow", "Glass Sizes", "Glass Icon"],
+      "path": "Glass/"
+    },
+    {
+      "name": "Neumorphism",
+      "description": "Soft UI shadow effects",
+      "styles": ["Neumorphism Flat", "Neumorphism Convex", "Neumorphism Concave", "Neumorphism Toggle", "Neumorphism Sizes", "Neumorphism Pill", "Neumorphism Icon"],
+      "path": "Neumorphism/"
+    },
+    {
+      "name": "Gradient",
+      "description": "Multi-color gradient backgrounds",
+      "styles": ["Linear Gradients", "Multi-Stop Gradients", "Directional Gradients", "Gradient with Shadow", "Gradient Pills", "Dark Background Gradients"],
+      "path": "Gradient/"
+    },
+    {
+      "name": "Animated",
+      "description": "Hover and click animations",
+      "styles": ["Shine Effect", "Hover Scale", "Bounce Effect", "Wiggle Effect", "Slide Effects", "Glow Effects", "Neon Effects", "Pulse Effects", "Ripple Click", "Combination Effects"],
+      "path": "Animated/"
+    },
+    {
+      "name": "Icon",
+      "description": "Icon buttons and icon+text layouts",
+      "styles": ["Icon Only", "Icon + Text", "Icon Sizes", "Social Icons", "Icon Button Groups"],
+      "path": "Icon/"
+    },
+    {
+      "name": "Split",
+      "description": "Button with dropdown menu",
+      "styles": ["Dropdown Split", "Icon Split", "Search Split", "Split Sizes"],
+      "path": "Split/"
+    },
+    {
+      "name": "Loading",
+      "description": "Buttons with loading states",
+      "styles": ["Spinner Buttons", "Pulse Loading", "Bounce Loading", "Dots Loading", "Block Loading", "Icon Button Loading"],
+      "path": "Loading/"
+    },
+    {
+      "name": "Social",
+      "description": "Social media login and share buttons",
+      "styles": ["Full Social Buttons", "Social Icon Buttons", "Share Bar", "OAuth Icon Row"],
+      "path": "Social/"
+    },
+    {
+      "name": "Floating",
+      "description": "Floating action buttons (FAB)",
+      "styles": ["Basic FAB", "FAB Variants", "FAB Sizes", "Extended FAB", "Animated FAB", "Speed Dial"],
+      "path": "Floating/"
+    },
+    {
+      "name": "3D",
+      "description": "3D depth effect with push animation",
+      "styles": ["Push 3D Effect", "Extruded Effect", "Inset Effect", "Border 3D", "3D Sizes", "3D with Icons"],
+      "path": "3D/"
+    },
+    {
+      "name": "Minimal",
+      "description": "Minimal text and simple styles",
+      "styles": ["Text Buttons", "Underlined Buttons", "Squish Effect", "Simple Buttons", "Minimal Sizes", "Pill Minimal"],
+      "path": "Minimal/"
+    }
+  ],
+  "totalStyles": 62,
+  "files": [
+    {
+      "name": "README.md",
+      "type": "documentation",
+      "description": "Family overview and contribution guidelines"
+    },
+    {
+      "name": "index.json",
+      "type": "metadata",
+      "description": "Family metadata and variant index"
+    }
+  ],
+  "accessibility": {
+    "focus": "All buttons include visible focus rings",
+    "aria": "Icon buttons include aria-label",
+    "touch": "Minimum 44x44px touch targets"
+  },
+  "technologies": ["Tailwind CSS"],
+  "contributionGuide": "See README.md for contribution guidelines"
+}

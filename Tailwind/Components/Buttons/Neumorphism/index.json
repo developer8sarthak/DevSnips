@@ -1,0 +1,37 @@
+{
+  "name": "Button - Neumorphism",
+  "family": "Buttons",
+  "variant": "Neumorphism",
+  "description": "Soft UI buttons with convex, concave, and pressed shadow effects for a tactile appearance.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Neumorphism Flat",
+    "Neumorphism Convex",
+    "Neumorphism Concave",
+    "Neumorphism Toggle",
+    "Neumorphism Sizes",
+    "Neumorphism Pill",
+    "Neumorphism Icon"
+  ],
+  "features": [
+    "Soft shadows",
+    "Convex and concave styles",
+    "Pressed state",
+    "Toggle pattern",
+    "Pill and icon variants"
+  ],
+  "accessibility": {
+    "focus": "Shadow change on focus",
+    "aria": "Use disabled attribute for disabled state"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-Neumorphism.html",
+      "type": "preview",
+      "description": "Interactive preview with all neumorphism button styles"
+    }
+  ]
+}

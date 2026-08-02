@@ -1,0 +1,37 @@
+{
+  "name": "Button - Minimal",
+  "family": "Buttons",
+  "variant": "Minimal",
+  "description": "Minimal button styles with text-only, underline, squish, and simple variants for clean interfaces.",
+  "category": "Components",
+  "subcategory": "Buttons",
+  "tech": "Tailwind CSS",
+  "styles": [
+    "Text Buttons",
+    "Underlined Buttons",
+    "Squish Effect",
+    "Simple Buttons",
+    "Minimal Sizes",
+    "Pill Minimal"
+  ],
+  "features": [
+    "Text-only buttons",
+    "Animated underline",
+    "Squish press effect",
+    "Simple ghost style",
+    "Pill variants",
+    "Dark mode support"
+  ],
+  "accessibility": {
+    "focus": "Visible focus ring",
+    "aria": "Use disabled attribute for disabled state"
+  },
+  "responsive": true,
+  "files": [
+    {
+      "name": "Button-Minimal.html",
+      "type": "preview",
+      "description": "Interactive preview with all minimal button styles"
+    }
+  ]
+}
