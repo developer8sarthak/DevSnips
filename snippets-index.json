@@ -5,9 +5,9 @@
 
   "stats": {
     "totalFamilies": 2,
-    "totalVariants": 50,
+    "totalVariants": 64,
     "totalSubVariants": 6,
-    "totalStyles": 132,
+    "totalStyles": 180,
     "technologies": ["Tailwind CSS"]
   },
 
@@ -192,8 +192,8 @@
       "path": "Tailwind/Components/Input/",
       "tech": "Tailwind CSS",
       "category": "Components",
-      "description": "Complete input component family with 35 production-ready variants covering every input type from text to file uploads",
-      "variantsCount": 35,
+      "description": "Complete input component family with 49 production-ready variants covering every input type from text to file uploads",
+      "variantsCount": 49,
       "variants": [
         {
           "name": "Underline",
@@ -439,6 +439,104 @@
           "description": "Custom radio button designs",
           "styles": ["Default", "Card Style", "Button Group"],
           "searchTerms": ["radio button", "radio input", "option select"]
+        },
+        {
+          "name": "Email Input",
+          "path": "Tailwind/Components/Input/email-input/",
+          "description": "Email input with icon, verification, and dark mode styles",
+          "styles": ["Standard", "With Icon", "Verification", "Dark Mode"],
+          "searchTerms": ["email input", "mail input", "contact form"]
+        },
+        {
+          "name": "Phone Input",
+          "path": "Tailwind/Components/Input/phone-input/",
+          "description": "Phone number inputs with country code selection and formatting",
+          "styles": ["Standard", "With Country Code", "Formatted", "WhatsApp Style"],
+          "searchTerms": ["phone input", "tel input", "mobile number"]
+        },
+        {
+          "name": "Currency Input",
+          "path": "Tailwind/Components/Input/currency-input/",
+          "description": "Currency inputs with symbols and preset amounts",
+          "styles": ["Dollar", "Euro", "Multi-currency", "Display"],
+          "searchTerms": ["currency input", "money input", "price field"]
+        },
+        {
+          "name": "URL Input",
+          "path": "Tailwind/Components/Input/url-input/",
+          "description": "URL inputs with prefix, icon, and link preview styles",
+          "styles": ["Standard", "With Prefix", "With Icon", "Link Preview"],
+          "searchTerms": ["url input", "link input", "website input"]
+        },
+        {
+          "name": "Markdown Editor",
+          "path": "Tailwind/Components/Input/markdown-editor/",
+          "description": "Markdown editor with toolbar and dark mode support",
+          "styles": ["Simple", "With Toolbar", "Dark Mode"],
+          "searchTerms": ["markdown editor", "text editor", "content input"]
+        },
+        {
+          "name": "Rich Text Editor",
+          "path": "Tailwind/Components/Input/rich-text-editor/",
+          "description": "Rich text editor with formatting toolbar and comment styles",
+          "styles": ["Full Toolbar", "Minimal", "Comment Style"],
+          "searchTerms": ["rich text editor", "wysiwyg", "content editor"]
+        },
+        {
+          "name": "Search with Filters",
+          "path": "Tailwind/Components/Input/search-with-filters/",
+          "description": "Search inputs with filter chips and advanced filtering options",
+          "styles": ["Inline", "With Dropdown", "Advanced"],
+          "searchTerms": ["search with filters", "filter chips", "advanced search"]
+        },
+        {
+          "name": "Search with Autocomplete",
+          "path": "Tailwind/Components/Input/search-with-autocomplete/",
+          "description": "Search inputs with autocomplete dropdown suggestions",
+          "styles": ["Country Search", "User Search", "Command Palette"],
+          "searchTerms": ["autocomplete search", "search dropdown", "typeahead"]
+        },
+        {
+          "name": "OTP 6-Digit",
+          "path": "Tailwind/Components/Input/otp-6-digit/",
+          "description": "One-time password inputs with verification code styling",
+          "styles": ["Standard", "Compact", "Dark", "With Resend"],
+          "searchTerms": ["otp input", "verification code", "2fa", "one time password"]
+        },
+        {
+          "name": "Credit Card",
+          "path": "Tailwind/Components/Input/credit-card/",
+          "description": "Credit card inputs with visual card styling and form fields",
+          "styles": ["Visual Card", "Form Fields"],
+          "searchTerms": ["credit card input", "payment input", "card details"]
+        },
+        {
+          "name": "Expiration Date",
+          "path": "Tailwind/Components/Input/expiration-date/",
+          "description": "Expiration date inputs for card and subscription forms",
+          "styles": ["Standard", "Split", "Compact", "Calendar Style"],
+          "searchTerms": ["expiration date input", "card expiry", "valid until"]
+        },
+        {
+          "name": "CVV",
+          "path": "Tailwind/Components/Input/cvv/",
+          "description": "CVV/CVC security code inputs for payment forms",
+          "styles": ["Standard", "With Help", "Card Visual", "Inline"],
+          "searchTerms": ["cvv input", "security code", "card verification"]
+        },
+        {
+          "name": "Mention Input",
+          "path": "Tailwind/Components/Input/mention-input/",
+          "description": "Mention inputs with user suggestions and tag styles",
+          "styles": ["Standard", "With Dropdown", "Tag Style", "Dark"],
+          "searchTerms": ["mention input", "@ mention", "user tag"]
+        },
+        {
+          "name": "Chat Input",
+          "path": "Tailwind/Components/Input/chat-input/",
+          "description": "Chat inputs for messaging interfaces with attachments and emojis",
+          "styles": ["Standard", "With Actions", "Modern", "Dark"],
+          "searchTerms": ["chat input", "message input", "messaging", "send message"]
         }
       ]
     }
