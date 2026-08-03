@@ -1,0 +1,12 @@
+{
+  "name": "Cookie Consent Modal",
+  "slug": "cookie-consent-modal",
+  "component": "modal",
+  "family": "modals",
+  "variant": "cookie-consent",
+  "description": "GDPR-compliant cookie consent banner with privacy message, manage preferences option, and accept/reject all buttons.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": ["modal", "cookie", "gdpr", "privacy", "consent"],
+  "related": ["settings-modal", "notification-modal", "update-available-modal"]
+}

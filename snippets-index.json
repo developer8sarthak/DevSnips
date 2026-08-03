@@ -2,15 +2,15 @@
   "version": "2.0",
   "lastUpdated": "2026-08-03",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
-
   "stats": {
-    "totalFamilies": 2,
-    "totalVariants": 50,
+    "totalFamilies": 3,
+    "totalVariants": 80,
     "totalSubVariants": 6,
-    "totalStyles": 132,
-    "technologies": ["Tailwind CSS"]
+    "totalStyles": 162,
+    "technologies": [
+      "Tailwind CSS"
+    ]
   },
-
   "families": [
     {
       "name": "Buttons",
@@ -24,100 +24,272 @@
           "name": "Basic",
           "path": "Tailwind/Components/Buttons/Basic/",
           "description": "Foundation button styles with semantic color variants",
-          "styles": ["Primary", "Secondary", "Neutral", "Sizes", "Full Width"],
-          "features": ["Semantic color variants", "Multiple sizes", "Full width support", "Disabled state", "Link as button"],
-          "files": ["Button-Basic.html", "index.json", "README.md"]
+          "styles": [
+            "Primary",
+            "Secondary",
+            "Neutral",
+            "Sizes",
+            "Full Width"
+          ],
+          "features": [
+            "Semantic color variants",
+            "Multiple sizes",
+            "Full width support",
+            "Disabled state",
+            "Link as button"
+          ],
+          "files": [
+            "Button-Basic.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Ghost",
           "path": "Tailwind/Components/Buttons/Ghost/",
           "description": "Transparent buttons that reveal background color on hover",
-          "styles": ["Ghost Primary", "Ghost Colors", "Ghost Dark", "Ghost Sizes", "Icon Ghost"],
-          "features": ["Transparent background", "Background reveals on hover", "Dark mode variants", "Icon support"],
-          "files": ["Button-Ghost.html", "index.json", "README.md"]
+          "styles": [
+            "Ghost Primary",
+            "Ghost Colors",
+            "Ghost Dark",
+            "Ghost Sizes",
+            "Icon Ghost"
+          ],
+          "features": [
+            "Transparent background",
+            "Background reveals on hover",
+            "Dark mode variants",
+            "Icon support"
+          ],
+          "files": [
+            "Button-Ghost.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Outline",
           "path": "Tailwind/Components/Buttons/Outline/",
           "description": "Bordered buttons with transparent backgrounds in solid, thick, and dashed styles",
-          "styles": ["Outline Primary", "Outline Colors", "Thick Border", "Dashed Border", "Rounded Pill", "Outline on Dark"],
-          "features": ["Standard border variations", "Thick border option", "Dashed border style", "Pill shape", "Dark background support"],
-          "files": ["Button-Outline.html", "index.json", "README.md"]
+          "styles": [
+            "Outline Primary",
+            "Outline Colors",
+            "Thick Border",
+            "Dashed Border",
+            "Rounded Pill",
+            "Outline on Dark"
+          ],
+          "features": [
+            "Standard border variations",
+            "Thick border option",
+            "Dashed border style",
+            "Pill shape",
+            "Dark background support"
+          ],
+          "files": [
+            "Button-Outline.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Filled",
           "path": "Tailwind/Components/Buttons/Filled/",
           "description": "Solid color buttons with soft and tonal variants",
-          "styles": ["Filled Primary", "Soft Background", "Rounded Full", "Muted / Tonal", "Filled on Dark"],
-          "features": ["Solid color fills", "Soft/light background variants", "Pill shape option", "Tonal/muted options"],
-          "files": ["Button-Filled.html", "index.json", "README.md"]
+          "styles": [
+            "Filled Primary",
+            "Soft Background",
+            "Rounded Full",
+            "Muted / Tonal",
+            "Filled on Dark"
+          ],
+          "features": [
+            "Solid color fills",
+            "Soft/light background variants",
+            "Pill shape option",
+            "Tonal/muted options"
+          ],
+          "files": [
+            "Button-Filled.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Glass",
           "path": "Tailwind/Components/Buttons/Glass/",
           "description": "Frosted glass effect buttons using backdrop blur",
-          "styles": ["Glass Light", "Glass Colors", "Glass Dark Background", "Glass with Glow", "Glass Sizes", "Glass Icon"],
-          "features": ["Backdrop blur effect", "Semi-transparent background", "Glow effects", "Multiple intensities"],
-          "files": ["Button-Glass.html", "index.json", "README.md"]
+          "styles": [
+            "Glass Light",
+            "Glass Colors",
+            "Glass Dark Background",
+            "Glass with Glow",
+            "Glass Sizes",
+            "Glass Icon"
+          ],
+          "features": [
+            "Backdrop blur effect",
+            "Semi-transparent background",
+            "Glow effects",
+            "Multiple intensities"
+          ],
+          "files": [
+            "Button-Glass.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Neumorphism",
           "path": "Tailwind/Components/Buttons/Neumorphism/",
           "description": "Soft UI buttons with convex, concave, and pressed shadow effects",
-          "styles": ["Neumorphism Flat", "Neumorphism Convex", "Neumorphism Concave", "Neumorphism Toggle", "Neumorphism Sizes", "Neumorphism Pill", "Neumorphism Icon"],
-          "features": ["Soft shadows", "Convex and concave styles", "Pressed state", "Toggle pattern"],
-          "files": ["Button-Neumorphism.html", "index.json", "README.md"]
+          "styles": [
+            "Neumorphism Flat",
+            "Neumorphism Convex",
+            "Neumorphism Concave",
+            "Neumorphism Toggle",
+            "Neumorphism Sizes",
+            "Neumorphism Pill",
+            "Neumorphism Icon"
+          ],
+          "features": [
+            "Soft shadows",
+            "Convex and concave styles",
+            "Pressed state",
+            "Toggle pattern"
+          ],
+          "files": [
+            "Button-Neumorphism.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Gradient Button",
           "path": "Tailwind/Components/Buttons/Gradient%20Button/",
           "description": "Buttons with linear, multi-stop, and directional gradient backgrounds with 6 sub-variants",
           "variantCount": 6,
-          "styles": ["Linear", "Multi-Stop", "Directional", "Pill", "Shadow", "Dark Background"],
-          "features": ["Two-color gradients", "Multi-stop spectrum", "All 8 directional options", "Gradient shadows", "Pill shape", "Dark background support"],
-          "files": ["README.md", "metadata.json", "linear/", "multi-stop/", "directional/", "pill/", "shadow/", "dark-background/"],
+          "styles": [
+            "Linear",
+            "Multi-Stop",
+            "Directional",
+            "Pill",
+            "Shadow",
+            "Dark Background"
+          ],
+          "features": [
+            "Two-color gradients",
+            "Multi-stop spectrum",
+            "All 8 directional options",
+            "Gradient shadows",
+            "Pill shape",
+            "Dark background support"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "linear/",
+            "multi-stop/",
+            "directional/",
+            "pill/",
+            "shadow/",
+            "dark-background/"
+          ],
           "variants": [
             {
               "name": "Linear Gradient Button",
               "path": "Tailwind/Components/Buttons/Gradient%20Button/linear/",
               "description": "Two-color horizontal gradient buttons",
-              "styles": ["Blue", "Purple Pink", "Cyan Blue", "Green Cyan"],
-              "searchTerms": ["gradient button", "linear gradient", "blue gradient button"]
+              "styles": [
+                "Blue",
+                "Purple Pink",
+                "Cyan Blue",
+                "Green Cyan"
+              ],
+              "searchTerms": [
+                "gradient button",
+                "linear gradient",
+                "blue gradient button"
+              ]
             },
             {
               "name": "Multi-Stop Gradient Button",
               "path": "Tailwind/Components/Buttons/Gradient%20Button/multi-stop/",
               "description": "Three or more gradient color stops",
-              "styles": ["Spectrum", "Deep Blue", "Warm Fire"],
-              "searchTerms": ["gradient button", "multi-stop gradient", "spectrum button"]
+              "styles": [
+                "Spectrum",
+                "Deep Blue",
+                "Warm Fire"
+              ],
+              "searchTerms": [
+                "gradient button",
+                "multi-stop gradient",
+                "spectrum button"
+              ]
             },
             {
               "name": "Directional Gradient Button",
               "path": "Tailwind/Components/Buttons/Gradient%20Button/directional/",
               "description": "All 8 gradient directions",
-              "styles": ["Left to Right", "Right to Left", "Top to Bottom", "Bottom Right", "Bottom Left", "Top Left", "Top Right"],
-              "searchTerms": ["gradient button", "directional gradient", "diagonal gradient"]
+              "styles": [
+                "Left to Right",
+                "Right to Left",
+                "Top to Bottom",
+                "Bottom Right",
+                "Bottom Left",
+                "Top Left",
+                "Top Right"
+              ],
+              "searchTerms": [
+                "gradient button",
+                "directional gradient",
+                "diagonal gradient"
+              ]
             },
             {
               "name": "Gradient Pill Button",
               "path": "Tailwind/Components/Buttons/Gradient%20Button/pill/",
               "description": "Fully rounded pill-shaped gradient buttons",
-              "styles": ["Violet", "Cyan", "Emerald"],
-              "searchTerms": ["gradient pill button", "rounded gradient button", "pill button"]
+              "styles": [
+                "Violet",
+                "Cyan",
+                "Emerald"
+              ],
+              "searchTerms": [
+                "gradient pill button",
+                "rounded gradient button",
+                "pill button"
+              ]
             },
             {
               "name": "Gradient Shadow Button",
               "path": "Tailwind/Components/Buttons/Gradient%20Button/shadow/",
               "description": "Gradient buttons with colored shadows",
-              "styles": ["Blue", "Pink", "Amber"],
-              "searchTerms": ["gradient shadow button", "button with gradient shadow", "glow button"]
+              "styles": [
+                "Blue",
+                "Pink",
+                "Amber"
+              ],
+              "searchTerms": [
+                "gradient shadow button",
+                "button with gradient shadow",
+                "glow button"
+              ]
             },
             {
               "name": "Gradient on Dark Button",
               "path": "Tailwind/Components/Buttons/Gradient%20Button/dark-background/",
               "description": "Buttons designed for dark backgrounds",
-              "styles": ["Light on Gray", "Bright on Gray", "Cyan on Purple", "Warm on Purple"],
-              "searchTerms": ["gradient button dark background", "dark mode gradient button"]
+              "styles": [
+                "Light on Gray",
+                "Bright on Gray",
+                "Cyan on Purple",
+                "Warm on Purple"
+              ],
+              "searchTerms": [
+                "gradient button dark background",
+                "dark mode gradient button"
+              ]
             }
           ]
         },
@@ -125,65 +297,198 @@
           "name": "Animated",
           "path": "Tailwind/Components/Buttons/Animated/",
           "description": "Buttons with hover and click animations",
-          "styles": ["Shine Effect", "Hover Scale", "Bounce Effect", "Wiggle Effect", "Slide Effects", "Glow Effects", "Neon Effects", "Pulse Effects", "Ripple Click", "Combination Effects"],
-          "features": ["Shine sweep animation", "Scale on hover", "Bounce animation", "Neon flicker", "Glow shadows", "Ripple click effect"],
-          "files": ["Button-Animated.html", "index.json", "README.md"]
+          "styles": [
+            "Shine Effect",
+            "Hover Scale",
+            "Bounce Effect",
+            "Wiggle Effect",
+            "Slide Effects",
+            "Glow Effects",
+            "Neon Effects",
+            "Pulse Effects",
+            "Ripple Click",
+            "Combination Effects"
+          ],
+          "features": [
+            "Shine sweep animation",
+            "Scale on hover",
+            "Bounce animation",
+            "Neon flicker",
+            "Glow shadows",
+            "Ripple click effect"
+          ],
+          "files": [
+            "Button-Animated.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Icon",
           "path": "Tailwind/Components/Buttons/Icon/",
           "description": "Icon buttons and buttons with icons in various layouts",
-          "styles": ["Icon Only", "Icon + Text", "Icon Sizes", "Social Icons", "Icon Button Groups"],
-          "features": ["Icon-only buttons", "Icon left or right of text", "Multiple sizes", "Social media icons", "Button toolbar groups"],
-          "files": ["Button-Icon.html", "index.json", "README.md"]
+          "styles": [
+            "Icon Only",
+            "Icon + Text",
+            "Icon Sizes",
+            "Social Icons",
+            "Icon Button Groups"
+          ],
+          "features": [
+            "Icon-only buttons",
+            "Icon left or right of text",
+            "Multiple sizes",
+            "Social media icons",
+            "Button toolbar groups"
+          ],
+          "files": [
+            "Button-Icon.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Split",
           "path": "Tailwind/Components/Buttons/Split/",
           "description": "Split buttons with dropdown menus",
-          "styles": ["Dropdown Split", "Icon Split", "Search Split", "Split Sizes"],
-          "features": ["Action + dropdown pattern", "Icon with dropdown", "Search with category dropdown", "Multiple sizes"],
-          "files": ["Button-Split.html", "index.json", "README.md"]
+          "styles": [
+            "Dropdown Split",
+            "Icon Split",
+            "Search Split",
+            "Split Sizes"
+          ],
+          "features": [
+            "Action + dropdown pattern",
+            "Icon with dropdown",
+            "Search with category dropdown",
+            "Multiple sizes"
+          ],
+          "files": [
+            "Button-Split.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Loading",
           "path": "Tailwind/Components/Buttons/Loading/",
           "description": "Buttons with loading states and spinners",
-          "styles": ["Spinner Buttons", "Pulse Loading", "Bounce Loading", "Dots Loading", "Block Loading", "Icon Button Loading"],
-          "features": ["SVG spinner animation", "Pulse dot indicator", "Bounce animation", "Loading dots text", "Block/width-constrained"],
-          "files": ["Button-Loading.html", "index.json", "README.md"]
+          "styles": [
+            "Spinner Buttons",
+            "Pulse Loading",
+            "Bounce Loading",
+            "Dots Loading",
+            "Block Loading",
+            "Icon Button Loading"
+          ],
+          "features": [
+            "SVG spinner animation",
+            "Pulse dot indicator",
+            "Bounce animation",
+            "Loading dots text",
+            "Block/width-constrained"
+          ],
+          "files": [
+            "Button-Loading.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Social",
           "path": "Tailwind/Components/Buttons/Social/",
           "description": "Social media login buttons and share buttons",
-          "styles": ["Full Social Buttons", "Social Icon Buttons", "Share Bar", "OAuth Icon Row"],
-          "features": ["OAuth login buttons (Google, GitHub, Facebook, Apple, Twitter)", "Social share icons", "Share bar layout"],
-          "files": ["Button-Social.html", "index.json", "README.md"]
+          "styles": [
+            "Full Social Buttons",
+            "Social Icon Buttons",
+            "Share Bar",
+            "OAuth Icon Row"
+          ],
+          "features": [
+            "OAuth login buttons (Google, GitHub, Facebook, Apple, Twitter)",
+            "Social share icons",
+            "Share bar layout"
+          ],
+          "files": [
+            "Button-Social.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Floating",
           "path": "Tailwind/Components/Buttons/Floating/",
           "description": "Floating action buttons (FAB) with various sizes and animations",
-          "styles": ["Basic FAB", "FAB Variants", "FAB Sizes", "Extended FAB", "Animated FAB", "Speed Dial"],
-          "features": ["Circular FAB", "Extended FAB", "Multiple sizes", "Animation options", "Speed dial pattern"],
-          "files": ["Button-Floating.html", "index.json", "README.md"]
+          "styles": [
+            "Basic FAB",
+            "FAB Variants",
+            "FAB Sizes",
+            "Extended FAB",
+            "Animated FAB",
+            "Speed Dial"
+          ],
+          "features": [
+            "Circular FAB",
+            "Extended FAB",
+            "Multiple sizes",
+            "Animation options",
+            "Speed dial pattern"
+          ],
+          "files": [
+            "Button-Floating.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "3D",
           "path": "Tailwind/Components/Buttons/3D/",
           "description": "3D depth effect buttons with push animation",
-          "styles": ["Push 3D Effect", "Extruded Effect", "Inset Effect", "Border 3D", "3D Sizes", "3D with Icons"],
-          "features": ["Push-down animation", "Shadow-based depth", "Color variants", "Size options", "Pill shape support"],
-          "files": ["Button-3D.html", "index.json", "README.md"]
+          "styles": [
+            "Push 3D Effect",
+            "Extruded Effect",
+            "Inset Effect",
+            "Border 3D",
+            "3D Sizes",
+            "3D with Icons"
+          ],
+          "features": [
+            "Push-down animation",
+            "Shadow-based depth",
+            "Color variants",
+            "Size options",
+            "Pill shape support"
+          ],
+          "files": [
+            "Button-3D.html",
+            "index.json",
+            "README.md"
+          ]
         },
         {
           "name": "Minimal",
           "path": "Tailwind/Components/Buttons/Minimal/",
           "description": "Minimal button styles with text-only, underline, squish, and simple variants",
-          "styles": ["Text Buttons", "Underlined Buttons", "Squish Effect", "Simple Buttons", "Minimal Sizes", "Pill Minimal"],
-          "features": ["Text-only buttons", "Animated underline", "Squish press effect", "Simple ghost style", "Dark mode support"],
-          "files": ["Button-Minimal.html", "index.json", "README.md"]
+          "styles": [
+            "Text Buttons",
+            "Underlined Buttons",
+            "Squish Effect",
+            "Simple Buttons",
+            "Minimal Sizes",
+            "Pill Minimal"
+          ],
+          "features": [
+            "Text-only buttons",
+            "Animated underline",
+            "Squish press effect",
+            "Simple ghost style",
+            "Dark mode support"
+          ],
+          "files": [
+            "Button-Minimal.html",
+            "index.json",
+            "README.md"
+          ]
         }
       ]
     },
@@ -199,289 +504,1116 @@
           "name": "Underline",
           "path": "Tailwind/Components/Input/underline/",
           "description": "Minimal underline style with focus animation",
-          "styles": ["Default", "With Label", "Dark Mode", "Accent Color"],
-          "searchTerms": ["underline input", "minimal input", "bottom border input"]
+          "styles": [
+            "Default",
+            "With Label",
+            "Dark Mode",
+            "Accent Color"
+          ],
+          "searchTerms": [
+            "underline input",
+            "minimal input",
+            "bottom border input"
+          ]
         },
         {
           "name": "Outlined",
           "path": "Tailwind/Components/Input/outlined/",
           "description": "Classic bordered style with label",
-          "styles": ["Default", "With Label", "With Helper", "Dark Mode"],
-          "searchTerms": ["outlined input", "bordered input", "classic input"]
+          "styles": [
+            "Default",
+            "With Label",
+            "With Helper",
+            "Dark Mode"
+          ],
+          "searchTerms": [
+            "outlined input",
+            "bordered input",
+            "classic input"
+          ]
         },
         {
           "name": "Filled",
           "path": "Tailwind/Components/Input/filled/",
           "description": "Filled background style",
-          "styles": ["Default", "Dense", "With Label", "Dark Mode"],
-          "searchTerms": ["filled input", "solid input", "background input"]
+          "styles": [
+            "Default",
+            "Dense",
+            "With Label",
+            "Dark Mode"
+          ],
+          "searchTerms": [
+            "filled input",
+            "solid input",
+            "background input"
+          ]
         },
         {
           "name": "Floating Label",
           "path": "Tailwind/Components/Input/floating-label/",
           "description": "Animated floating label input",
-          "styles": ["Default", "Outlined", "Dark", "Multiline"],
-          "searchTerms": ["floating label", "animated label", "placeholder animation"]
+          "styles": [
+            "Default",
+            "Outlined",
+            "Dark",
+            "Multiline"
+          ],
+          "searchTerms": [
+            "floating label",
+            "animated label",
+            "placeholder animation"
+          ]
         },
         {
           "name": "Icon Left",
           "path": "Tailwind/Components/Input/icon-left/",
           "description": "Left-aligned icon input",
-          "styles": ["Search", "User", "Email", "Lock"],
-          "searchTerms": ["icon input", "input with icon", "search input"]
+          "styles": [
+            "Search",
+            "User",
+            "Email",
+            "Lock"
+          ],
+          "searchTerms": [
+            "icon input",
+            "input with icon",
+            "search input"
+          ]
         },
         {
           "name": "Icon Right",
           "path": "Tailwind/Components/Input/icon-right/",
           "description": "Right-aligned icon input",
-          "styles": ["Eye", "Calendar", "Clear", "Dropdown"],
-          "searchTerms": ["icon right input", "input with suffix icon"]
+          "styles": [
+            "Eye",
+            "Calendar",
+            "Clear",
+            "Dropdown"
+          ],
+          "searchTerms": [
+            "icon right input",
+            "input with suffix icon"
+          ]
         },
         {
           "name": "Icon Both",
           "path": "Tailwind/Components/Input/icon-both/",
           "description": "Icons on both sides",
-          "styles": ["Search", "Location", "Price Range"],
-          "searchTerms": ["dual icon input", "input with both icons"]
+          "styles": [
+            "Search",
+            "Location",
+            "Price Range"
+          ],
+          "searchTerms": [
+            "dual icon input",
+            "input with both icons"
+          ]
         },
         {
           "name": "Search Bar",
           "path": "Tailwind/Components/Input/search-bar/",
           "description": "Search-specific styling with rounded corners",
-          "styles": ["Default", "Compact", "Extended", "With Filters"],
-          "searchTerms": ["search bar", "search input", "finder"]
+          "styles": [
+            "Default",
+            "Compact",
+            "Extended",
+            "With Filters"
+          ],
+          "searchTerms": [
+            "search bar",
+            "search input",
+            "finder"
+          ]
         },
         {
           "name": "With Prefix",
           "path": "Tailwind/Components/Input/with-prefix/",
           "description": "Text prefix (e.g., $)",
-          "styles": ["Currency", "URL", "Domain", "Social"],
-          "searchTerms": ["prefix input", "input with prefix", "currency input"]
+          "styles": [
+            "Currency",
+            "URL",
+            "Domain",
+            "Social"
+          ],
+          "searchTerms": [
+            "prefix input",
+            "input with prefix",
+            "currency input"
+          ]
         },
         {
           "name": "With Suffix",
           "path": "Tailwind/Components/Input/with-suffix/",
           "description": "Text suffix (e.g., .com)",
-          "styles": ["Domain", "File Type", "Unit", "Extension"],
-          "searchTerms": ["suffix input", "input with suffix", "extension input"]
+          "styles": [
+            "Domain",
+            "File Type",
+            "Unit",
+            "Extension"
+          ],
+          "searchTerms": [
+            "suffix input",
+            "input with suffix",
+            "extension input"
+          ]
         },
         {
           "name": "Password Toggle",
           "path": "Tailwind/Components/Input/password-toggle/",
           "description": "Password with show/hide toggle",
-          "styles": ["Default", "With Strength", "Modern", "Floating"],
-          "searchTerms": ["password input", "password toggle", "show hide password"]
+          "styles": [
+            "Default",
+            "With Strength",
+            "Modern",
+            "Floating"
+          ],
+          "searchTerms": [
+            "password input",
+            "password toggle",
+            "show hide password"
+          ]
         },
         {
           "name": "Textarea",
           "path": "Tailwind/Components/Input/textarea/",
           "description": "Multi-line text input",
-          "styles": ["Default", "Auto-resize", "With Counter", "Rich"],
-          "searchTerms": ["textarea", "multiline input", "text area"]
+          "styles": [
+            "Default",
+            "Auto-resize",
+            "With Counter",
+            "Rich"
+          ],
+          "searchTerms": [
+            "textarea",
+            "multiline input",
+            "text area"
+          ]
         },
         {
           "name": "Character Count",
           "path": "Tailwind/Components/Input/character-count/",
           "description": "Input with character counter",
-          "styles": ["Below Input", "Inside Input", "Progress Bar", "Limit Warning"],
-          "searchTerms": ["character count", "counter input", "limit input"]
+          "styles": [
+            "Below Input",
+            "Inside Input",
+            "Progress Bar",
+            "Limit Warning"
+          ],
+          "searchTerms": [
+            "character count",
+            "counter input",
+            "limit input"
+          ]
         },
         {
           "name": "Validation States",
           "path": "Tailwind/Components/Input/validation-states/",
           "description": "Success, error, warning states",
-          "styles": ["Success", "Error", "Warning", "Disabled"],
-          "searchTerms": ["validation input", "form validation", "error input"]
+          "styles": [
+            "Success",
+            "Error",
+            "Warning",
+            "Disabled"
+          ],
+          "searchTerms": [
+            "validation input",
+            "form validation",
+            "error input"
+          ]
         },
         {
           "name": "With Helper Text",
           "path": "Tailwind/Components/Input/with-helper/",
           "description": "Input with helper/error message",
-          "styles": ["Helper Text", "Error Message", "With Tip", "Multiple"],
-          "searchTerms": ["helper text", "input with message", "form help"]
+          "styles": [
+            "Helper Text",
+            "Error Message",
+            "With Tip",
+            "Multiple"
+          ],
+          "searchTerms": [
+            "helper text",
+            "input with message",
+            "form help"
+          ]
         },
         {
           "name": "Disabled Readonly",
           "path": "Tailwind/Components/Input/disabled-readonly/",
           "description": "Disabled and readonly states",
-          "styles": ["Disabled", "Readonly", "Readonly Filled", "Disabled Filled"],
-          "searchTerms": ["disabled input", "readonly input", "non-editable"]
+          "styles": [
+            "Disabled",
+            "Readonly",
+            "Readonly Filled",
+            "Disabled Filled"
+          ],
+          "searchTerms": [
+            "disabled input",
+            "readonly input",
+            "non-editable"
+          ]
         },
         {
           "name": "Rounded Pill",
           "path": "Tailwind/Components/Input/rounded-pill/",
           "description": "Fully rounded pill-style input fields",
-          "styles": ["Default", "With Icon", "Outlined", "Dark"],
-          "searchTerms": ["pill input", "rounded input", "search pill"]
+          "styles": [
+            "Default",
+            "With Icon",
+            "Outlined",
+            "Dark"
+          ],
+          "searchTerms": [
+            "pill input",
+            "rounded input",
+            "search pill"
+          ]
         },
         {
           "name": "Sharp Corner",
           "path": "Tailwind/Components/Input/sharp-corner/",
           "description": "Sharp rectangular input fields",
-          "styles": ["Default", "Dense", "Industrial", "Inline Row"],
-          "searchTerms": ["sharp input", "rectangular input", "industrial"]
+          "styles": [
+            "Default",
+            "Dense",
+            "Industrial",
+            "Inline Row"
+          ],
+          "searchTerms": [
+            "sharp input",
+            "rectangular input",
+            "industrial"
+          ]
         },
         {
           "name": "Gradient Border",
           "path": "Tailwind/Components/Input/gradient-border/",
           "description": "Input fields with gradient border effects",
-          "styles": ["Blue Purple", "Cyan Blue", "Warm Dark", "Dark Inner"],
-          "searchTerms": ["gradient border", "colorful input", "gradient input"]
+          "styles": [
+            "Blue Purple",
+            "Cyan Blue",
+            "Warm Dark",
+            "Dark Inner"
+          ],
+          "searchTerms": [
+            "gradient border",
+            "colorful input",
+            "gradient input"
+          ]
         },
         {
           "name": "Glassmorphism",
           "path": "Tailwind/Components/Input/glassmorphism/",
           "description": "Frosted glass effect input fields",
-          "styles": ["Light Background", "Dark Background", "Blur Heavy", "Card Form"],
-          "searchTerms": ["glassmorphism", "frosted glass", "blur input"]
+          "styles": [
+            "Light Background",
+            "Dark Background",
+            "Blur Heavy",
+            "Card Form"
+          ],
+          "searchTerms": [
+            "glassmorphism",
+            "frosted glass",
+            "blur input"
+          ]
         },
         {
           "name": "Neumorphism",
           "path": "Tailwind/Components/Input/neumorphism/",
           "description": "Soft UI neumorphic input fields",
-          "styles": ["Flat Inner", "Inset Shadow", "Raised", "Dark Theme"],
-          "searchTerms": ["neumorphic", "soft ui", "shadow input"]
+          "styles": [
+            "Flat Inner",
+            "Inset Shadow",
+            "Raised",
+            "Dark Theme"
+          ],
+          "searchTerms": [
+            "neumorphic",
+            "soft ui",
+            "shadow input"
+          ]
         },
         {
           "name": "Dark Mode",
           "path": "Tailwind/Components/Input/dark-mode/",
           "description": "Input fields designed for dark backgrounds",
-          "styles": ["Standard", "Subtle Border", "Glow Effect", "Terminal"],
-          "searchTerms": ["dark input", "dark mode", "terminal input"]
+          "styles": [
+            "Standard",
+            "Subtle Border",
+            "Glow Effect",
+            "Terminal"
+          ],
+          "searchTerms": [
+            "dark input",
+            "dark mode",
+            "terminal input"
+          ]
         },
         {
           "name": "Corporate",
           "path": "Tailwind/Components/Input/corporate/",
           "description": "Enterprise-style form inputs",
-          "styles": ["Form Header", "Card Form", "Grid Layout"],
-          "searchTerms": ["corporate input", "enterprise", "business form"]
+          "styles": [
+            "Form Header",
+            "Card Form",
+            "Grid Layout"
+          ],
+          "searchTerms": [
+            "corporate input",
+            "enterprise",
+            "business form"
+          ]
         },
         {
           "name": "Modern SaaS",
           "path": "Tailwind/Components/Input/modern-saas/",
           "description": "Modern SaaS-style inputs with premium feel",
-          "styles": ["Clean Card", "Gradient CTA", "Stats Display"],
-          "searchTerms": ["saas input", "modern input", "startup input"]
+          "styles": [
+            "Clean Card",
+            "Gradient CTA",
+            "Stats Display"
+          ],
+          "searchTerms": [
+            "saas input",
+            "modern input",
+            "startup input"
+          ]
         },
         {
           "name": "Animated Focus",
           "path": "Tailwind/Components/Input/animated-focus/",
           "description": "Input fields with smooth focus transitions",
-          "styles": ["Ring Expand", "Border Slide", "Floating Label", "Underline Expand"],
-          "searchTerms": ["animated input", "focus animation", "transition"]
+          "styles": [
+            "Ring Expand",
+            "Border Slide",
+            "Floating Label",
+            "Underline Expand"
+          ],
+          "searchTerms": [
+            "animated input",
+            "focus animation",
+            "transition"
+          ]
         },
         {
           "name": "Split Input",
           "path": "Tailwind/Components/Input/split-input/",
           "description": "Multi-part inputs for structured data",
-          "styles": ["Card Number", "OTP Code", "Phone Number", "Date Picker"],
-          "searchTerms": ["split input", "otp", "card number", "phone input"]
+          "styles": [
+            "Card Number",
+            "OTP Code",
+            "Phone Number",
+            "Date Picker"
+          ],
+          "searchTerms": [
+            "split input",
+            "otp",
+            "card number",
+            "phone input"
+          ]
         },
         {
           "name": "Tag Input",
           "path": "Tailwind/Components/Input/tag-input/",
           "description": "Input fields with tag/chip functionality",
-          "styles": ["Default", "Pill Style", "Categories"],
-          "searchTerms": ["tag input", "chips", "skills input"]
+          "styles": [
+            "Default",
+            "Pill Style",
+            "Categories"
+          ],
+          "searchTerms": [
+            "tag input",
+            "chips",
+            "skills input"
+          ]
         },
         {
           "name": "Number Stepper",
           "path": "Tailwind/Components/Input/number-stepper/",
           "description": "Input with increment/decrement buttons",
-          "styles": ["Default", "Compact", "Pill", "With Limits"],
-          "searchTerms": ["number stepper", "counter", "quantity input"]
+          "styles": [
+            "Default",
+            "Compact",
+            "Pill",
+            "With Limits"
+          ],
+          "searchTerms": [
+            "number stepper",
+            "counter",
+            "quantity input"
+          ]
         },
         {
           "name": "Date Picker",
           "path": "Tailwind/Components/Input/date-picker/",
           "description": "Date input components with calendar",
-          "styles": ["Standard", "With Icon", "Date Range", "Calendar Card"],
-          "searchTerms": ["date picker", "calendar input", "date input"]
+          "styles": [
+            "Standard",
+            "With Icon",
+            "Date Range",
+            "Calendar Card"
+          ],
+          "searchTerms": [
+            "date picker",
+            "calendar input",
+            "date input"
+          ]
         },
         {
           "name": "File Upload",
           "path": "Tailwind/Components/Input/file-upload/",
           "description": "File upload with drag-drop and preview",
-          "styles": ["Drag Drop Zone", "File Preview", "Button Style"],
-          "searchTerms": ["file upload", "drag drop", "attachment"]
+          "styles": [
+            "Drag Drop Zone",
+            "File Preview",
+            "Button Style"
+          ],
+          "searchTerms": [
+            "file upload",
+            "drag drop",
+            "attachment"
+          ]
         },
         {
           "name": "Color Picker",
           "path": "Tailwind/Components/Input/color-picker/",
           "description": "Color selection components",
-          "styles": ["Native Picker", "Color Swatches", "Gradient Swatches"],
-          "searchTerms": ["color picker", "color input", "swatches"]
+          "styles": [
+            "Native Picker",
+            "Color Swatches",
+            "Gradient Swatches"
+          ],
+          "searchTerms": [
+            "color picker",
+            "color input",
+            "swatches"
+          ]
         },
         {
           "name": "Range Slider",
           "path": "Tailwind/Components/Input/range-slider/",
           "description": "Numeric range selection",
-          "styles": ["Standard", "With Labels", "Dual Handle", "With Steps"],
-          "searchTerms": ["range slider", "slider", "volume control"]
+          "styles": [
+            "Standard",
+            "With Labels",
+            "Dual Handle",
+            "With Steps"
+          ],
+          "searchTerms": [
+            "range slider",
+            "slider",
+            "volume control"
+          ]
         },
         {
           "name": "Checkbox Styled",
           "path": "Tailwind/Components/Input/checkbox-styled/",
           "description": "Custom checkbox designs",
-          "styles": ["Default", "Custom Styled", "With Description"],
-          "searchTerms": ["checkbox", "check input", "selection"]
+          "styles": [
+            "Default",
+            "Custom Styled",
+            "With Description"
+          ],
+          "searchTerms": [
+            "checkbox",
+            "check input",
+            "selection"
+          ]
         },
         {
           "name": "Toggle Switch",
           "path": "Tailwind/Components/Input/toggle-switch/",
           "description": "Boolean toggle controls",
-          "styles": ["Default", "With Labels", "Colored States"],
-          "searchTerms": ["toggle switch", "on/off", "boolean"]
+          "styles": [
+            "Default",
+            "With Labels",
+            "Colored States"
+          ],
+          "searchTerms": [
+            "toggle switch",
+            "on/off",
+            "boolean"
+          ]
         },
         {
           "name": "Radio Styled",
           "path": "Tailwind/Components/Input/radio-styled/",
           "description": "Custom radio button designs",
-          "styles": ["Default", "Card Style", "Button Group"],
-          "searchTerms": ["radio button", "radio input", "option select"]
+          "styles": [
+            "Default",
+            "Card Style",
+            "Button Group"
+          ],
+          "searchTerms": [
+            "radio button",
+            "radio input",
+            "option select"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modals",
+      "path": "Tailwind/Components/Modals/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete modal component family with 30 production-ready variants covering every use case from basic to advanced interactions",
+      "variantsCount": 30,
+      "variants": [
+        {
+          "name": "Basic Modal",
+          "path": "Tailwind/Components/Modals/basic-modal/",
+          "description": "Foundation modal with header, body, and footer sections",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "dialog",
+            "basic",
+            "overlay",
+            "popup"
+          ]
+        },
+        {
+          "name": "Confirmation Modal",
+          "path": "Tailwind/Components/Modals/confirmation-modal/",
+          "description": "Confirmation dialog for important actions",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "confirmation",
+            "warning",
+            "action"
+          ]
+        },
+        {
+          "name": "Delete Confirmation Modal",
+          "path": "Tailwind/Components/Modals/delete-confirmation-modal/",
+          "description": "Destructive action modal with danger styling",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "delete",
+            "destructive",
+            "danger"
+          ]
+        },
+        {
+          "name": "Success Modal",
+          "path": "Tailwind/Components/Modals/success-modal/",
+          "description": "Success feedback modal with animated checkmark",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "success",
+            "checkmark",
+            "confirmation"
+          ]
+        },
+        {
+          "name": "Error Modal",
+          "path": "Tailwind/Components/Modals/error-modal/",
+          "description": "Error feedback modal with recovery options",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "error",
+            "alert",
+            "failed"
+          ]
+        },
+        {
+          "name": "Warning Modal",
+          "path": "Tailwind/Components/Modals/warning-modal/",
+          "description": "Warning notification with action options",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "warning",
+            "alert",
+            "notification"
+          ]
+        },
+        {
+          "name": "Login Modal",
+          "path": "Tailwind/Components/Modals/login-modal/",
+          "description": "Complete login form with social login options",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "login",
+            "signin",
+            "authentication"
+          ]
+        },
+        {
+          "name": "Signup Modal",
+          "path": "Tailwind/Components/Modals/signup-modal/",
+          "description": "Registration form with password strength indicator",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "signup",
+            "register",
+            "create account"
+          ]
+        },
+        {
+          "name": "Forgot Password Modal",
+          "path": "Tailwind/Components/Modals/forgot-password-modal/",
+          "description": "Password reset request modal",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "password",
+            "reset",
+            "forgot"
+          ]
+        },
+        {
+          "name": "Reset Password Modal",
+          "path": "Tailwind/Components/Modals/reset-password-modal/",
+          "description": "Password reset form with requirements checklist",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "password",
+            "reset",
+            "security"
+          ]
+        },
+        {
+          "name": "Payment Modal",
+          "path": "Tailwind/Components/Modals/payment-modal/",
+          "description": "Credit card payment form modal",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "payment",
+            "credit card",
+            "checkout"
+          ]
+        },
+        {
+          "name": "Checkout Modal",
+          "path": "Tailwind/Components/Modals/checkout-modal/",
+          "description": "Full checkout flow with order summary",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "checkout",
+            "cart",
+            "payment",
+            "shopping"
+          ]
+        },
+        {
+          "name": "Share Modal",
+          "path": "Tailwind/Components/Modals/share-modal/",
+          "description": "Social sharing modal with platform buttons",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "share",
+            "social",
+            "link",
+            "collaboration"
+          ]
+        },
+        {
+          "name": "Image Preview Modal",
+          "path": "Tailwind/Components/Modals/image-preview-modal/",
+          "description": "Full-screen image lightbox with navigation",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "image",
+            "lightbox",
+            "gallery",
+            "preview"
+          ]
+        },
+        {
+          "name": "Video Modal",
+          "path": "Tailwind/Components/Modals/video-modal/",
+          "description": "Video player modal with custom controls",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "video",
+            "player",
+            "media",
+            "embed"
+          ]
+        },
+        {
+          "name": "Form Modal",
+          "path": "Tailwind/Components/Modals/form-modal/",
+          "description": "Comprehensive form modal with various inputs",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "form",
+            "input",
+            "contact",
+            "proposal"
+          ]
+        },
+        {
+          "name": "Settings Modal",
+          "path": "Tailwind/Components/Modals/settings-modal/",
+          "description": "Settings panel with sidebar navigation",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "settings",
+            "preferences",
+            "profile",
+            "dashboard"
+          ]
+        },
+        {
+          "name": "Drawer Modal",
+          "path": "Tailwind/Components/Modals/drawer-modal/",
+          "description": "Slide-in drawer from the right",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "drawer",
+            "sidebar",
+            "team",
+            "slide-in"
+          ]
+        },
+        {
+          "name": "Bottom Sheet",
+          "path": "Tailwind/Components/Modals/bottom-sheet/",
+          "description": "Mobile-first bottom sheet with action grid",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "bottom sheet",
+            "mobile",
+            "actions"
+          ]
+        },
+        {
+          "name": "Slide Over",
+          "path": "Tailwind/Components/Modals/slide-over/",
+          "description": "Slide-over panel from the left with task details",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "slide-over",
+            "task",
+            "details",
+            "sidebar"
+          ]
+        },
+        {
+          "name": "Fullscreen Modal",
+          "path": "Tailwind/Components/Modals/fullscreen-modal/",
+          "description": "Full-screen application modal for editor-style interfaces",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "fullscreen",
+            "editor",
+            "workspace",
+            "immersive"
+          ]
+        },
+        {
+          "name": "Loading Modal",
+          "path": "Tailwind/Components/Modals/loading-modal/",
+          "description": "Loading state with animated spinner and progress",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "loading",
+            "spinner",
+            "progress",
+            "processing"
+          ]
+        },
+        {
+          "name": "Command Palette",
+          "path": "Tailwind/Components/Modals/command-palette/",
+          "description": "Spotlight-style command palette with search",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "command",
+            "palette",
+            "spotlight",
+            "search"
+          ]
+        },
+        {
+          "name": "Notification Modal",
+          "path": "Tailwind/Components/Modals/notification-modal/",
+          "description": "Notification panel with tabs and categorized items",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "notification",
+            "alert",
+            "toast",
+            "panel"
+          ]
+        },
+        {
+          "name": "Multi-Step Modal",
+          "path": "Tailwind/Components/Modals/multi-step-modal/",
+          "description": "Multi-step wizard with progress indicators",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "wizard",
+            "multi-step",
+            "form",
+            "onboarding"
+          ]
+        },
+        {
+          "name": "OTP Verification Modal",
+          "path": "Tailwind/Components/Modals/otp-verification-modal/",
+          "description": "One-time password verification with digit inputs",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "otp",
+            "verification",
+            "security",
+            "auth"
+          ]
+        },
+        {
+          "name": "Feedback Modal",
+          "path": "Tailwind/Components/Modals/feedback-modal/",
+          "description": "Feedback collection with star rating",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "feedback",
+            "rating",
+            "review",
+            "survey"
+          ]
+        },
+        {
+          "name": "Subscription Modal",
+          "path": "Tailwind/Components/Modals/subscription-modal/",
+          "description": "Premium subscription upgrade with pricing plans",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "subscription",
+            "pricing",
+            "upgrade",
+            "saas"
+          ]
+        },
+        {
+          "name": "Cookie Consent Modal",
+          "path": "Tailwind/Components/Modals/cookie-consent-modal/",
+          "description": "GDPR-compliant cookie consent banner",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "cookie",
+            "gdpr",
+            "privacy",
+            "consent"
+          ]
+        },
+        {
+          "name": "Update Available Modal",
+          "path": "Tailwind/Components/Modals/update-available-modal/",
+          "description": "Software update notification with changelog",
+          "styles": [
+            "Default"
+          ],
+          "searchTerms": [
+            "modal",
+            "update",
+            "software",
+            "release",
+            "notification"
+          ]
         }
       ]
     }
   ],
-
   "plannedFamilies": {
     "components": [
-      {"name": "Cards", "description": "Product, profile, blog, feature cards"},
-      {"name": "Forms", "description": "Login, register, contact, newsletter forms"},
-      {"name": "Navigation", "description": "Navbar, sidebar, tabs, pagination"},
-      {"name": "Modals", "description": "Dialog, popup, drawer components"},
-      {"name": "Loaders", "description": "Spinner, skeleton, progress indicators"},
-      {"name": "Alerts", "description": "Toast, notification, banner components"},
-      {"name": "Avatars", "description": "User avatars with fallback states"},
-      {"name": "Badges", "description": "Status, count, and label badges"},
-      {"name": "Tabs", "description": "Tab navigation components"},
-      {"name": "Accordions", "description": "Expandable accordion components"},
-      {"name": "Tables", "description": "Data tables with sorting/filtering"},
-      {"name": "Tooltips", "description": "Hover tooltip components"}
+      {
+        "name": "Cards",
+        "description": "Product, profile, blog, feature cards"
+      },
+      {
+        "name": "Forms",
+        "description": "Login, register, contact, newsletter forms"
+      },
+      {
+        "name": "Navigation",
+        "description": "Navbar, sidebar, tabs, pagination"
+      },
+      {
+        "name": "Loaders",
+        "description": "Spinner, skeleton, progress indicators"
+      },
+      {
+        "name": "Alerts",
+        "description": "Toast, notification, banner components"
+      },
+      {
+        "name": "Avatars",
+        "description": "User avatars with fallback states"
+      },
+      {
+        "name": "Badges",
+        "description": "Status, count, and label badges"
+      },
+      {
+        "name": "Tabs",
+        "description": "Tab navigation components"
+      },
+      {
+        "name": "Accordions",
+        "description": "Expandable accordion components"
+      },
+      {
+        "name": "Tables",
+        "description": "Data tables with sorting/filtering"
+      },
+      {
+        "name": "Tooltips",
+        "description": "Hover tooltip components"
+      }
     ],
     "sections": [
-      {"name": "Hero", "description": "SaaS, Agency, Portfolio, Startup, AI Product, Developer, Course"},
-      {"name": "Features", "description": "Feature grid, feature list, feature comparison"},
-      {"name": "Pricing", "description": "Simple pricing, comparison table, monthly/yearly toggle"},
-      {"name": "Testimonials", "description": "Testimonial grid, carousel, single testimonial"},
-      {"name": "FAQ", "description": "FAQ accordion, FAQ grid"},
-      {"name": "CTA", "description": "Call to action sections"},
-      {"name": "Contact", "description": "Contact forms and info sections"},
-      {"name": "Footer", "description": "Simple, mega, and minimal footers"},
-      {"name": "Team", "description": "Team grid, team carousel"},
-      {"name": "Stats", "description": "Stats counters and metrics sections"},
-      {"name": "Gallery", "description": "Image gallery layouts"},
-      {"name": "Newsletter", "description": "Newsletter signup sections"},
-      {"name": "Blog", "description": "Blog post lists and layouts"}
+      {
+        "name": "Hero",
+        "description": "SaaS, Agency, Portfolio, Startup, AI Product, Developer, Course"
+      },
+      {
+        "name": "Features",
+        "description": "Feature grid, feature list, feature comparison"
+      },
+      {
+        "name": "Pricing",
+        "description": "Simple pricing, comparison table, monthly/yearly toggle"
+      },
+      {
+        "name": "Testimonials",
+        "description": "Testimonial grid, carousel, single testimonial"
+      },
+      {
+        "name": "FAQ",
+        "description": "FAQ accordion, FAQ grid"
+      },
+      {
+        "name": "CTA",
+        "description": "Call to action sections"
+      },
+      {
+        "name": "Contact",
+        "description": "Contact forms and info sections"
+      },
+      {
+        "name": "Footer",
+        "description": "Simple, mega, and minimal footers"
+      },
+      {
+        "name": "Team",
+        "description": "Team grid, team carousel"
+      },
+      {
+        "name": "Stats",
+        "description": "Stats counters and metrics sections"
+      },
+      {
+        "name": "Gallery",
+        "description": "Image gallery layouts"
+      },
+      {
+        "name": "Newsletter",
+        "description": "Newsletter signup sections"
+      },
+      {
+        "name": "Blog",
+        "description": "Blog post lists and layouts"
+      }
     ]
   },
-
   "technologies": [
     {
       "name": "Tailwind CSS",
       "path": "Tailwind/",
       "status": "active",
-      "families": ["Buttons", "Input"]
+      "families": [
+        "Buttons",
+        "Input",
+        "Modals"
+      ]
     },
     {
       "name": "Vanilla HTML/CSS/JS",
@@ -496,18 +1628,27 @@
       "families": []
     }
   ],
-
   "contributionGuidelines": {
     "structure": "Component families with variant sub-folders containing individual component pages",
-    "requiredFiles": ["index.json", "README.md"],
-    "variantRequiredFiles": ["preview.html", "code.html", "metadata.json"],
+    "requiredFiles": [
+      "index.json",
+      "README.md"
+    ],
+    "variantRequiredFiles": [
+      "preview.html",
+      "code.html",
+      "metadata.json"
+    ],
     "componentTemplate": {
       "name": "Component Name",
       "family": "Components",
       "description": "Description",
       "category": "Components",
       "subcategory": "ComponentCategory",
-      "tech": ["Tailwind CSS", "HTML"],
+      "tech": [
+        "Tailwind CSS",
+        "HTML"
+      ],
       "variantCount": 0,
       "variants": [],
       "tags": [],
@@ -520,8 +1661,14 @@
       "description": "Description",
       "category": "Components",
       "subcategory": "ComponentCategory",
-      "tech": ["Tailwind CSS", "HTML"],
-      "styles": ["Style 1", "Style 2"],
+      "tech": [
+        "Tailwind CSS",
+        "HTML"
+      ],
+      "styles": [
+        "Style 1",
+        "Style 2"
+      ],
       "tags": [],
       "searchTerms": [],
       "related": [],
