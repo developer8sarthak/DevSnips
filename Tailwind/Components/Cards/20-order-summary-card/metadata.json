@@ -1,0 +1,13 @@
+{
+  "name": "Order Summary Card",
+  "slug": "order-summary-card",
+  "component": "card",
+  "family": "cards",
+  "variant": "order",
+  "description": "Order tracking card with status badges, product list, delivery info, and action buttons.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": ["card", "order", "tracking", "delivery", "ecommerce", "status"],
+  "related": ["checkout-summary-card", "product-card", "notification-card"],
+  "features": ["order ID", "status badge", "product list", "delivery date", "action buttons"]
+}
