@@ -1,13 +1,13 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-03",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
 
   "stats": {
-    "totalFamilies": 1,
-    "totalVariants": 15,
+    "totalFamilies": 2,
+    "totalVariants": 50,
     "totalSubVariants": 6,
-    "totalStyles": 68,
+    "totalStyles": 132,
     "technologies": ["Tailwind CSS"]
   },
 
@@ -18,6 +18,7 @@
       "tech": "Tailwind CSS",
       "category": "Components",
       "description": "Complete button component family with 15 production-ready variants covering every use case from basic to 3D effects",
+      "variantsCount": 15,
       "variants": [
         {
           "name": "Basic",
@@ -185,6 +186,261 @@
           "files": ["Button-Minimal.html", "index.json", "README.md"]
         }
       ]
+    },
+    {
+      "name": "Input",
+      "path": "Tailwind/Components/Input/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete input component family with 35 production-ready variants covering every input type from text to file uploads",
+      "variantsCount": 35,
+      "variants": [
+        {
+          "name": "Underline",
+          "path": "Tailwind/Components/Input/underline/",
+          "description": "Minimal underline style with focus animation",
+          "styles": ["Default", "With Label", "Dark Mode", "Accent Color"],
+          "searchTerms": ["underline input", "minimal input", "bottom border input"]
+        },
+        {
+          "name": "Outlined",
+          "path": "Tailwind/Components/Input/outlined/",
+          "description": "Classic bordered style with label",
+          "styles": ["Default", "With Label", "With Helper", "Dark Mode"],
+          "searchTerms": ["outlined input", "bordered input", "classic input"]
+        },
+        {
+          "name": "Filled",
+          "path": "Tailwind/Components/Input/filled/",
+          "description": "Filled background style",
+          "styles": ["Default", "Dense", "With Label", "Dark Mode"],
+          "searchTerms": ["filled input", "solid input", "background input"]
+        },
+        {
+          "name": "Floating Label",
+          "path": "Tailwind/Components/Input/floating-label/",
+          "description": "Animated floating label input",
+          "styles": ["Default", "Outlined", "Dark", "Multiline"],
+          "searchTerms": ["floating label", "animated label", "placeholder animation"]
+        },
+        {
+          "name": "Icon Left",
+          "path": "Tailwind/Components/Input/icon-left/",
+          "description": "Left-aligned icon input",
+          "styles": ["Search", "User", "Email", "Lock"],
+          "searchTerms": ["icon input", "input with icon", "search input"]
+        },
+        {
+          "name": "Icon Right",
+          "path": "Tailwind/Components/Input/icon-right/",
+          "description": "Right-aligned icon input",
+          "styles": ["Eye", "Calendar", "Clear", "Dropdown"],
+          "searchTerms": ["icon right input", "input with suffix icon"]
+        },
+        {
+          "name": "Icon Both",
+          "path": "Tailwind/Components/Input/icon-both/",
+          "description": "Icons on both sides",
+          "styles": ["Search", "Location", "Price Range"],
+          "searchTerms": ["dual icon input", "input with both icons"]
+        },
+        {
+          "name": "Search Bar",
+          "path": "Tailwind/Components/Input/search-bar/",
+          "description": "Search-specific styling with rounded corners",
+          "styles": ["Default", "Compact", "Extended", "With Filters"],
+          "searchTerms": ["search bar", "search input", "finder"]
+        },
+        {
+          "name": "With Prefix",
+          "path": "Tailwind/Components/Input/with-prefix/",
+          "description": "Text prefix (e.g., $)",
+          "styles": ["Currency", "URL", "Domain", "Social"],
+          "searchTerms": ["prefix input", "input with prefix", "currency input"]
+        },
+        {
+          "name": "With Suffix",
+          "path": "Tailwind/Components/Input/with-suffix/",
+          "description": "Text suffix (e.g., .com)",
+          "styles": ["Domain", "File Type", "Unit", "Extension"],
+          "searchTerms": ["suffix input", "input with suffix", "extension input"]
+        },
+        {
+          "name": "Password Toggle",
+          "path": "Tailwind/Components/Input/password-toggle/",
+          "description": "Password with show/hide toggle",
+          "styles": ["Default", "With Strength", "Modern", "Floating"],
+          "searchTerms": ["password input", "password toggle", "show hide password"]
+        },
+        {
+          "name": "Textarea",
+          "path": "Tailwind/Components/Input/textarea/",
+          "description": "Multi-line text input",
+          "styles": ["Default", "Auto-resize", "With Counter", "Rich"],
+          "searchTerms": ["textarea", "multiline input", "text area"]
+        },
+        {
+          "name": "Character Count",
+          "path": "Tailwind/Components/Input/character-count/",
+          "description": "Input with character counter",
+          "styles": ["Below Input", "Inside Input", "Progress Bar", "Limit Warning"],
+          "searchTerms": ["character count", "counter input", "limit input"]
+        },
+        {
+          "name": "Validation States",
+          "path": "Tailwind/Components/Input/validation-states/",
+          "description": "Success, error, warning states",
+          "styles": ["Success", "Error", "Warning", "Disabled"],
+          "searchTerms": ["validation input", "form validation", "error input"]
+        },
+        {
+          "name": "With Helper Text",
+          "path": "Tailwind/Components/Input/with-helper/",
+          "description": "Input with helper/error message",
+          "styles": ["Helper Text", "Error Message", "With Tip", "Multiple"],
+          "searchTerms": ["helper text", "input with message", "form help"]
+        },
+        {
+          "name": "Disabled Readonly",
+          "path": "Tailwind/Components/Input/disabled-readonly/",
+          "description": "Disabled and readonly states",
+          "styles": ["Disabled", "Readonly", "Readonly Filled", "Disabled Filled"],
+          "searchTerms": ["disabled input", "readonly input", "non-editable"]
+        },
+        {
+          "name": "Rounded Pill",
+          "path": "Tailwind/Components/Input/rounded-pill/",
+          "description": "Fully rounded pill-style input fields",
+          "styles": ["Default", "With Icon", "Outlined", "Dark"],
+          "searchTerms": ["pill input", "rounded input", "search pill"]
+        },
+        {
+          "name": "Sharp Corner",
+          "path": "Tailwind/Components/Input/sharp-corner/",
+          "description": "Sharp rectangular input fields",
+          "styles": ["Default", "Dense", "Industrial", "Inline Row"],
+          "searchTerms": ["sharp input", "rectangular input", "industrial"]
+        },
+        {
+          "name": "Gradient Border",
+          "path": "Tailwind/Components/Input/gradient-border/",
+          "description": "Input fields with gradient border effects",
+          "styles": ["Blue Purple", "Cyan Blue", "Warm Dark", "Dark Inner"],
+          "searchTerms": ["gradient border", "colorful input", "gradient input"]
+        },
+        {
+          "name": "Glassmorphism",
+          "path": "Tailwind/Components/Input/glassmorphism/",
+          "description": "Frosted glass effect input fields",
+          "styles": ["Light Background", "Dark Background", "Blur Heavy", "Card Form"],
+          "searchTerms": ["glassmorphism", "frosted glass", "blur input"]
+        },
+        {
+          "name": "Neumorphism",
+          "path": "Tailwind/Components/Input/neumorphism/",
+          "description": "Soft UI neumorphic input fields",
+          "styles": ["Flat Inner", "Inset Shadow", "Raised", "Dark Theme"],
+          "searchTerms": ["neumorphic", "soft ui", "shadow input"]
+        },
+        {
+          "name": "Dark Mode",
+          "path": "Tailwind/Components/Input/dark-mode/",
+          "description": "Input fields designed for dark backgrounds",
+          "styles": ["Standard", "Subtle Border", "Glow Effect", "Terminal"],
+          "searchTerms": ["dark input", "dark mode", "terminal input"]
+        },
+        {
+          "name": "Corporate",
+          "path": "Tailwind/Components/Input/corporate/",
+          "description": "Enterprise-style form inputs",
+          "styles": ["Form Header", "Card Form", "Grid Layout"],
+          "searchTerms": ["corporate input", "enterprise", "business form"]
+        },
+        {
+          "name": "Modern SaaS",
+          "path": "Tailwind/Components/Input/modern-saas/",
+          "description": "Modern SaaS-style inputs with premium feel",
+          "styles": ["Clean Card", "Gradient CTA", "Stats Display"],
+          "searchTerms": ["saas input", "modern input", "startup input"]
+        },
+        {
+          "name": "Animated Focus",
+          "path": "Tailwind/Components/Input/animated-focus/",
+          "description": "Input fields with smooth focus transitions",
+          "styles": ["Ring Expand", "Border Slide", "Floating Label", "Underline Expand"],
+          "searchTerms": ["animated input", "focus animation", "transition"]
+        },
+        {
+          "name": "Split Input",
+          "path": "Tailwind/Components/Input/split-input/",
+          "description": "Multi-part inputs for structured data",
+          "styles": ["Card Number", "OTP Code", "Phone Number", "Date Picker"],
+          "searchTerms": ["split input", "otp", "card number", "phone input"]
+        },
+        {
+          "name": "Tag Input",
+          "path": "Tailwind/Components/Input/tag-input/",
+          "description": "Input fields with tag/chip functionality",
+          "styles": ["Default", "Pill Style", "Categories"],
+          "searchTerms": ["tag input", "chips", "skills input"]
+        },
+        {
+          "name": "Number Stepper",
+          "path": "Tailwind/Components/Input/number-stepper/",
+          "description": "Input with increment/decrement buttons",
+          "styles": ["Default", "Compact", "Pill", "With Limits"],
+          "searchTerms": ["number stepper", "counter", "quantity input"]
+        },
+        {
+          "name": "Date Picker",
+          "path": "Tailwind/Components/Input/date-picker/",
+          "description": "Date input components with calendar",
+          "styles": ["Standard", "With Icon", "Date Range", "Calendar Card"],
+          "searchTerms": ["date picker", "calendar input", "date input"]
+        },
+        {
+          "name": "File Upload",
+          "path": "Tailwind/Components/Input/file-upload/",
+          "description": "File upload with drag-drop and preview",
+          "styles": ["Drag Drop Zone", "File Preview", "Button Style"],
+          "searchTerms": ["file upload", "drag drop", "attachment"]
+        },
+        {
+          "name": "Color Picker",
+          "path": "Tailwind/Components/Input/color-picker/",
+          "description": "Color selection components",
+          "styles": ["Native Picker", "Color Swatches", "Gradient Swatches"],
+          "searchTerms": ["color picker", "color input", "swatches"]
+        },
+        {
+          "name": "Range Slider",
+          "path": "Tailwind/Components/Input/range-slider/",
+          "description": "Numeric range selection",
+          "styles": ["Standard", "With Labels", "Dual Handle", "With Steps"],
+          "searchTerms": ["range slider", "slider", "volume control"]
+        },
+        {
+          "name": "Checkbox Styled",
+          "path": "Tailwind/Components/Input/checkbox-styled/",
+          "description": "Custom checkbox designs",
+          "styles": ["Default", "Custom Styled", "With Description"],
+          "searchTerms": ["checkbox", "check input", "selection"]
+        },
+        {
+          "name": "Toggle Switch",
+          "path": "Tailwind/Components/Input/toggle-switch/",
+          "description": "Boolean toggle controls",
+          "styles": ["Default", "With Labels", "Colored States"],
+          "searchTerms": ["toggle switch", "on/off", "boolean"]
+        },
+        {
+          "name": "Radio Styled",
+          "path": "Tailwind/Components/Input/radio-styled/",
+          "description": "Custom radio button designs",
+          "styles": ["Default", "Card Style", "Button Group"],
+          "searchTerms": ["radio button", "radio input", "option select"]
+        }
+      ]
     }
   ],
 
@@ -225,7 +481,7 @@
       "name": "Tailwind CSS",
       "path": "Tailwind/",
       "status": "active",
-      "families": ["Buttons"]
+      "families": ["Buttons", "Input"]
     },
     {
       "name": "Vanilla HTML/CSS/JS",
