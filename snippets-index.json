@@ -3,8 +3,8 @@
   "lastUpdated": "2026-08-03",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
-    "totalFamilies": 3,
-    "totalVariants": 80,
+    "totalFamilies": 4,
+    "totalVariants": 95,
     "totalSubVariants": 6,
     "totalStyles": 162,
     "technologies": [
@@ -1497,6 +1497,376 @@
             "software",
             "release",
             "notification"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "path": "Tabs/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete tab component family with 15 production-ready variants covering documentation, dashboards, settings, mobile navigation, and animated indicators",
+      "variantsCount": 15,
+      "variants": [
+        {
+          "name": "Basic Tabs",
+          "path": "Tabs/basic-tabs/",
+          "description": "Clean documentation tabs with an underline indicator. Ideal for organizing reference material, docs pages, and onboarding steps into focused sections.",
+          "styles": [
+            "underline active indicator",
+            "arrow-key navigation",
+            "aria tab pattern",
+            "focus-visible ring",
+            "responsive"
+          ],
+          "features": [
+            "underline active indicator",
+            "arrow-key navigation",
+            "aria tab pattern",
+            "focus-visible ring",
+            "responsive"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Underline Tabs",
+          "path": "Tabs/underline-tabs/",
+          "description": "Modern developer documentation tabs with a moving underline indicator, version badge, and embedded code samples. Built for docs sites and API references.",
+          "styles": [
+            "moving underline indicator",
+            "version badge",
+            "code samples",
+            "arrow-key navigation",
+            "overflow scroll"
+          ],
+          "features": [
+            "moving underline indicator",
+            "version badge",
+            "code samples",
+            "arrow-key navigation",
+            "overflow scroll"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Pill Tabs",
+          "path": "Tabs/pill-tabs/",
+          "description": "SaaS dashboard pill tabs with count badges for customer segments. Filled active pill, outlined inactive pills, and a contextual action toolbar.",
+          "styles": [
+            "filled active pill",
+            "count badges",
+            "action toolbar",
+            "responsive wrap",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "filled active pill",
+            "count badges",
+            "action toolbar",
+            "responsive wrap",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Icon Tabs",
+          "path": "Tabs/icon-tabs/",
+          "description": "Settings tabs with prominent icons in a responsive grid. Active tab highlights its icon container. Great for account, security, and billing configuration.",
+          "styles": [
+            "icon-led grid layout",
+            "active icon container",
+            "form panels",
+            "arrow-key navigation",
+            "mobile 2-col grid"
+          ],
+          "features": [
+            "icon-led grid layout",
+            "active icon container",
+            "form panels",
+            "arrow-key navigation",
+            "mobile 2-col grid"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Vertical Tabs",
+          "path": "Tabs/vertical-tabs/",
+          "description": "Documentation sidebar with vertical tabs controlling article content. Collapses to a horizontal scroll on mobile. Ideal for docs sites and onboarding flows.",
+          "styles": [
+            "vertical orientation",
+            "aria-orientation",
+            "arrow up/down nav",
+            "mobile horizontal scroll",
+            "article panels"
+          ],
+          "features": [
+            "vertical orientation",
+            "aria-orientation",
+            "arrow up/down nav",
+            "mobile horizontal scroll",
+            "article panels"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Dashboard Tabs",
+          "path": "Tabs/dashboard-tabs/",
+          "description": "Analytics dashboard tabs switching metric panels (revenue, traffic, conversion, audience). Includes KPI cards, trend deltas, and a simple bar chart.",
+          "styles": [
+            "KPI cards",
+            "trend deltas",
+            "bar chart",
+            "legend",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "KPI cards",
+            "trend deltas",
+            "bar chart",
+            "legend",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Settings Tabs",
+          "path": "Tabs/settings-tabs/",
+          "description": "Full settings page with a vertical nav tab list and content panels including general, account, appearance, integrations, and a danger zone.",
+          "styles": [
+            "vertical nav",
+            "form panels",
+            "theme picker",
+            "danger zone",
+            "mobile horizontal scroll"
+          ],
+          "features": [
+            "vertical nav",
+            "form panels",
+            "theme picker",
+            "danger zone",
+            "mobile horizontal scroll"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Scrollable Tabs",
+          "path": "Tabs/scrollable-tabs/",
+          "description": "Horizontal scrollable category tabs with fade edges and hidden scrollbar for mobile marketplaces. Active tab auto-scrolls into view. Built for many categories on small screens.",
+          "styles": [
+            "fade edge gradients",
+            "hidden scrollbar",
+            "auto-scroll active",
+            "many categories",
+            "touch-friendly"
+          ],
+          "features": [
+            "fade edge gradients",
+            "hidden scrollbar",
+            "auto-scroll active",
+            "many categories",
+            "touch-friendly"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Segmented Tabs",
+          "path": "Tabs/segmented-tabs/",
+          "description": "iOS-style segmented control with a sliding indicator that animates between segments. Used for switching time ranges and compact view modes.",
+          "styles": [
+            "sliding indicator",
+            "smooth animation",
+            "compact control",
+            "arrow-key navigation",
+            "resize-aware"
+          ],
+          "features": [
+            "sliding indicator",
+            "smooth animation",
+            "compact control",
+            "arrow-key navigation",
+            "resize-aware"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Animated Tabs",
+          "path": "Tabs/animated-tabs/",
+          "description": "Tabs with a smoothly animating sliding underline indicator that glides between active tabs. Great for project management workspaces with board, timeline, calendar, and files views.",
+          "styles": [
+            "sliding underline",
+            "smooth transition",
+            "resize-aware",
+            "kanban/timeline/calendar panels",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "sliding underline",
+            "smooth transition",
+            "resize-aware",
+            "kanban/timeline/calendar panels",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Card Tabs",
+          "path": "Tabs/card-tabs/",
+          "description": "Card switching interface where each tab is a selectable pricing card with a radio-style indicator. Selecting a card reveals its feature panel. Ideal for plan pickers.",
+          "styles": [
+            "selectable cards",
+            "radio indicator",
+            "popular badge",
+            "feature panels",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "selectable cards",
+            "radio indicator",
+            "popular badge",
+            "feature panels",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Minimal Tabs",
+          "path": "Tabs/minimal-tabs/",
+          "description": "Ultra-clean minimal inbox tabs with a thin sliding indicator, count annotations, and a search action. Designed for distraction-free content like email and notes apps.",
+          "styles": [
+            "thin sliding indicator",
+            "counts",
+            "search action",
+            "minimal styling",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "thin sliding indicator",
+            "counts",
+            "search action",
+            "minimal styling",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Rounded Tabs",
+          "path": "Tabs/rounded-tabs/",
+          "description": "Soft rounded navigation tabs with a gradient active state, set in a pill container. Suited to music and media apps browsing playlists, artists, albums, and podcasts.",
+          "styles": [
+            "gradient active pill",
+            "rounded container",
+            "media grids",
+            "artist circles",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "gradient active pill",
+            "rounded container",
+            "media grids",
+            "artist circles",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Bordered Tabs",
+          "path": "Tabs/bordered-tabs/",
+          "description": "Bordered enterprise tab set with a connected content panel, status badges, and data tables. Designed for dense operational dashboards like order and inventory management.",
+          "styles": [
+            "connected content panel",
+            "status badges",
+            "data table",
+            "audit log",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "connected content panel",
+            "status badges",
+            "data table",
+            "audit log",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Mobile Tabs",
+          "path": "Tabs/mobile-tabs/",
+          "description": "Bottom mobile tab navigation bar with icons, labels, and a notification badge. Switches app screens within a phone-style frame. Built for native-feeling mobile web apps.",
+          "styles": [
+            "bottom tab bar",
+            "icon + label",
+            "notification badge",
+            "app screen panels",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "bottom tab bar",
+            "icon + label",
+            "notification badge",
+            "app screen panels",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
           ]
         }
       ]
