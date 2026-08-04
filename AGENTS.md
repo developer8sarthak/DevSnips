@@ -47,3 +47,11 @@ This works because the `<script>` parses inside the root. Panel animation uses t
 - HTML + Tailwind CSS only. Vanilla JS only where interaction is required.
 - NO React/Vue/Alpine/Bootstrap/jQuery.
 - 2-space indentation. Semantic HTML. Accessibility required (ARIA, keyboard, focus rings).
+
+## Vanilla Sections (Neo-Brutalist) — `Vanilla/Sections/`
+- 65 self-contained website sections across 16 families (Hero, Navigation, Features, Logos, Statistics, Products, Pricing, Testimonials, Team, Process, Content, Gallery, FAQ, CTA, Contact, Footer).
+- Folder = `Vanilla/Sections/<Family>/<kebab-slug>/` containing exactly: `<slug>.html` (self-contained: inline `<style>` + `<script>`, full `<!DOCTYPE html>`, body class `nb`), `metadata.json`, `README.md`. This matches the existing Vanilla component convention (one `.html` per variant), NOT the Tailwind code.html/preview.html split.
+- Shared design tokens embedded in each `.html` `<style>` `:root`: `--bg --surface --foreground --muted --border --primary --accent --pink --lime --cyan --radius --shadow --shadow-lg --ring --container --gutter`. Light + dark via `prefers-color-scheme`. Reduced-motion safe.
+- `metadata.json` keys: id, name, slug, component, family, variant, description, framework, language, technology, category, subcategory, tags, features, responsive, darkMode, accessibility, browserSupport, dependencies, source, related.
+- Browse via `Vanilla/Sections/index.html` (filterable gallery) and `Vanilla/Sections/showcase.html` (all sections live, each in an isolated iframe).
+- Registered in `snippets-index.json` `families[]` with `tech: "Vanilla HTML/CSS/JS"`, `category: "Sections"`; also listed under `technologies[].families` for the Vanilla tech.
