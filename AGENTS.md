@@ -1,7 +1,7 @@
 # DevSnips — Repository Knowledge
 
 ## What this repo is
-DevSnips is an open-source, framework-free frontend component library organized as design-system "families". Each family lives at the repo root (e.g. `Accordions/`, `Tables/`) and contains variant sub-folders.
+DevSnips is an open-source, framework-free frontend component library organized as design-system "families". Each Tailwind family lives under `Tailwind/Components/` (e.g. `Tailwind/Components/Accordions/`, `Tailwind/Components/Tables/`) and contains variant sub-folders.
 
 ## Folder + file convention (per variant)
 Every variant folder (kebab-case) must contain exactly three files:
