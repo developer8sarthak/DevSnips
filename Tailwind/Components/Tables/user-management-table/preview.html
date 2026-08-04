@@ -10,8 +10,10 @@
   
   <!-- Sidebar -->
   <div class="flex">
-    <aside class="w-64 bg-white border-r border-gray-200 min-h-screen fixed left-0 top-0">
-      <div class="p-6 border-b border-gray-200">
+    <!-- Mobile overlay -->
+    <div id="sidebarOverlay" class="fixed inset-0 bg-black/40 z-30 lg:hidden hidden" onclick="document.getElementById('sidebar').classList.add('-translate-x-full');this.classList.add('hidden')"></div>
+    <aside id="sidebar" class="w-64 bg-white border-r border-gray-200 min-h-screen fixed left-0 top-0 z-40 -translate-x-full lg:translate-x-0 transition-transform duration-300">
+      <div class="p-6 border-b border-gray-200 flex items-center justify-between">
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 bg-gradient-to-br from-violet-600 to-purple-600 rounded-xl flex items-center justify-center">
             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -20,6 +22,9 @@
           </div>
           <span class="text-lg font-bold text-gray-900">AdminHub</span>
         </div>
+        <button class="lg:hidden p-1.5 text-gray-500 hover:bg-gray-100 rounded-lg" onclick="document.getElementById('sidebar').classList.add('-translate-x-full');document.getElementById('sidebarOverlay').classList.add('hidden')" aria-label="Close sidebar">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
       </div>
       <nav class="p-4 space-y-1">
         <a href="#" class="flex items-center gap-3 px-4 py-2.5 text-gray-600 hover:bg-gray-50 rounded-lg transition-colors">
@@ -42,19 +47,24 @@
     </aside>
 
     <!-- Main Content -->
-    <main class="flex-1 ml-64">
+    <main class="flex-1 lg:ml-64 min-w-0">
       <header class="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-10">
-        <div class="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
-          <div>
-            <h1 class="text-xl font-bold text-gray-900">User Management</h1>
-            <p class="text-sm text-gray-500">Manage team members and their access</p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 py-4 flex items-center justify-between gap-3 flex-wrap">
+          <div class="flex items-center gap-3 min-w-0">
+            <button class="lg:hidden p-2 text-gray-600 hover:bg-gray-100 rounded-lg" onclick="document.getElementById('sidebar').classList.remove('-translate-x-full');document.getElementById('sidebarOverlay').classList.remove('hidden')" aria-label="Open sidebar">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+            </button>
+            <div class="min-w-0">
+              <h1 class="text-xl font-bold text-gray-900">User Management</h1>
+              <p class="text-sm text-gray-500">Manage team members and their access</p>
+            </div>
           </div>
-          <div class="flex items-center gap-4">
-            <button class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors">
+          <div class="flex items-center gap-3 shrink-0">
+            <button class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors whitespace-nowrap">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
               Export
             </button>
-            <button class="inline-flex items-center gap-2 px-4 py-2 bg-violet-600 text-white text-sm font-medium rounded-lg hover:bg-violet-700 transition-colors">
+            <button class="inline-flex items-center gap-2 px-4 py-2 bg-violet-600 text-white text-sm font-medium rounded-lg hover:bg-violet-700 transition-colors whitespace-nowrap">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
               Add User
             </button>
@@ -62,10 +72,10 @@
         </div>
       </header>
 
-      <div class="max-w-7xl mx-auto px-8 py-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 py-8">
         
         <!-- Stats -->
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <div class="bg-white rounded-xl p-5 border border-gray-200 shadow-sm">
             <p class="text-sm text-gray-500">Total Users</p>
             <p class="text-2xl font-bold text-gray-900 mt-1">248</p>
@@ -86,7 +96,8 @@
 
         <!-- Component: User Management Table -->
         <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-          <table class="w-full">
+          <div class="overflow-x-auto">
+          <table class="w-full min-w-[640px]">
             <thead>
               <tr class="bg-gray-50 border-b border-gray-200">
                 <th class="px-5 py-3.5 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">User</th>
@@ -280,6 +291,7 @@
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
 
       </div>

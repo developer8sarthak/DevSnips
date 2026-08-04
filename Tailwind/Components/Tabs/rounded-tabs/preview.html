@@ -9,7 +9,7 @@
 <body class="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
 
   <header class="bg-white/80 backdrop-blur border-b border-gray-200 sticky top-0 z-10">
-    <div class="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
       <div class="flex items-center gap-2">
         <div class="w-8 h-8 bg-gradient-to-br from-purple-600 to-pink-500 rounded-xl flex items-center justify-center text-white"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2z"/></svg></div>
         <span class="font-semibold text-gray-900">Sonore</span>
@@ -18,7 +18,7 @@
     </div>
   </header>
 
-  <main class="max-w-5xl mx-auto px-6 py-10">
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
     <div class="mb-6">
       <h2 class="text-2xl font-bold text-gray-900">Your library</h2>
       <p class="text-sm text-gray-500">Soft rounded navigation for browsing your music</p>
@@ -26,24 +26,24 @@
 
     <!-- ============ COMPONENT START ============ -->
     <div class="w-full max-w-3xl">
-      <div role="tablist" aria-label="Your library" class="inline-flex items-center gap-1 p-1 bg-white rounded-2xl border border-gray-200 shadow-sm">
+      <div role="tablist" aria-label="Your library" class="flex items-center gap-1 p-1 bg-white rounded-2xl border border-gray-200 shadow-sm overflow-x-auto max-w-full">
         <button role="tab" id="rtab-playlists" aria-selected="true" aria-controls="rpanel-playlists" tabindex="0"
-          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-br from-purple-600 to-pink-500 rounded-xl shadow-sm transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500">
+          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium whitespace-nowrap shrink-0 text-white bg-gradient-to-br from-purple-600 to-pink-500 rounded-xl shadow-sm transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/></svg>
           Playlists
         </button>
         <button role="tab" id="rtab-artists" aria-selected="false" aria-controls="rpanel-artists" tabindex="-1"
-          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-xl transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500">
+          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium whitespace-nowrap shrink-0 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-xl transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
           Artists
         </button>
         <button role="tab" id="rtab-albums" aria-selected="false" aria-controls="rpanel-albums" tabindex="-1"
-          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-xl transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500">
+          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium whitespace-nowrap shrink-0 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-xl transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
           Albums
         </button>
         <button role="tab" id="rtab-podcasts" aria-selected="false" aria-controls="rpanel-podcasts" tabindex="-1"
-          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-xl transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500">
+          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium whitespace-nowrap shrink-0 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-xl transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
           Podcasts
         </button>
