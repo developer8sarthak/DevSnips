@@ -1982,7 +1982,8 @@
       "families": [
         "Buttons",
         "Input",
-        "Modals"
+        "Modals",
+        "Accordions"
       ]
     },
     {
