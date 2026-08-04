@@ -1,14 +1,15 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
-    "totalFamilies": 4,
-    "totalVariants": 95,
+    "totalFamilies": 20,
+    "totalVariants": 160,
     "totalSubVariants": 6,
     "totalStyles": 162,
     "technologies": [
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Vanilla HTML/CSS/JS"
     ]
   },
   "families": [
@@ -1870,6 +1871,1024 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Hero",
+      "path": "Vanilla/Sections/Hero/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "10 production-ready hero sections (minimal, startup, SaaS, product, gradient, image, split, bento, center, animated).",
+      "variantsCount": 10,
+      "variants": [
+        {
+          "name": "Minimal Hero",
+          "path": "Vanilla/Sections/Hero/hero-minimal/",
+          "description": "Minimal Hero",
+          "files": [
+            "hero-minimal.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Startup Hero",
+          "path": "Vanilla/Sections/Hero/hero-startup/",
+          "description": "Startup Hero",
+          "files": [
+            "hero-startup.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "SaaS Hero",
+          "path": "Vanilla/Sections/Hero/hero-saas/",
+          "description": "SaaS Hero",
+          "files": [
+            "hero-saas.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Product Hero",
+          "path": "Vanilla/Sections/Hero/hero-product/",
+          "description": "Product Hero",
+          "files": [
+            "hero-product.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Gradient Hero",
+          "path": "Vanilla/Sections/Hero/hero-gradient/",
+          "description": "Gradient Hero",
+          "files": [
+            "hero-gradient.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Image Hero",
+          "path": "Vanilla/Sections/Hero/hero-image/",
+          "description": "Image Hero",
+          "files": [
+            "hero-image.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Split Hero",
+          "path": "Vanilla/Sections/Hero/hero-split/",
+          "description": "Split Hero",
+          "files": [
+            "hero-split.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Bento Hero",
+          "path": "Vanilla/Sections/Hero/hero-bento/",
+          "description": "Bento Hero",
+          "files": [
+            "hero-bento.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Center Hero",
+          "path": "Vanilla/Sections/Hero/hero-center/",
+          "description": "Center Hero",
+          "files": [
+            "hero-center.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Animated Hero",
+          "path": "Vanilla/Sections/Hero/hero-animated/",
+          "description": "Animated Hero",
+          "files": [
+            "hero-animated.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "hero",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "hero",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Navigation",
+      "path": "Vanilla/Sections/Navigation/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Navigation sections: simple navbar, sticky navbar, mega menu, and collapsible sidebar.",
+      "variantsCount": 4,
+      "variants": [
+        {
+          "name": "Simple Navbar",
+          "path": "Vanilla/Sections/Navigation/navbar-simple/",
+          "description": "Simple Navbar",
+          "files": [
+            "navbar-simple.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Sticky Navbar",
+          "path": "Vanilla/Sections/Navigation/navbar-sticky/",
+          "description": "Sticky Navbar",
+          "files": [
+            "navbar-sticky.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Mega Menu",
+          "path": "Vanilla/Sections/Navigation/navbar-mega-menu/",
+          "description": "Mega Menu",
+          "files": [
+            "navbar-mega-menu.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Sidebar Navigation",
+          "path": "Vanilla/Sections/Navigation/sidebar-navigation/",
+          "description": "Sidebar Navigation",
+          "files": [
+            "sidebar-navigation.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "navigation",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "navigation",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Features",
+      "path": "Vanilla/Sections/Features/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Feature presentation sections: grid, icons, bento, timeline, and comparison table.",
+      "variantsCount": 5,
+      "variants": [
+        {
+          "name": "Feature Grid",
+          "path": "Vanilla/Sections/Features/feature-grid/",
+          "description": "Feature Grid",
+          "files": [
+            "feature-grid.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Icon Features",
+          "path": "Vanilla/Sections/Features/feature-icons/",
+          "description": "Icon Features",
+          "files": [
+            "feature-icons.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Bento Features",
+          "path": "Vanilla/Sections/Features/feature-bento/",
+          "description": "Bento Features",
+          "files": [
+            "feature-bento.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Feature Timeline",
+          "path": "Vanilla/Sections/Features/feature-timeline/",
+          "description": "Feature Timeline",
+          "files": [
+            "feature-timeline.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Comparison Features",
+          "path": "Vanilla/Sections/Features/feature-comparison/",
+          "description": "Comparison Features",
+          "files": [
+            "feature-comparison.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "features",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "features",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Logos",
+      "path": "Vanilla/Sections/Logos/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Social-proof logo sections: static cloud, infinite marquee, and client cards.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Logo Cloud",
+          "path": "Vanilla/Sections/Logos/logo-cloud/",
+          "description": "Logo Cloud",
+          "files": [
+            "logo-cloud.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Trusted By",
+          "path": "Vanilla/Sections/Logos/logo-trusted-by/",
+          "description": "Trusted By",
+          "files": [
+            "logo-trusted-by.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Client Logos",
+          "path": "Vanilla/Sections/Logos/logo-clients/",
+          "description": "Client Logos",
+          "files": [
+            "logo-clients.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "logos",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "logos",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Statistics",
+      "path": "Vanilla/Sections/Statistics/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Statistics sections: animated counters, achievement band, and KPI cards with progress bars.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Stats Grid",
+          "path": "Vanilla/Sections/Statistics/stats-grid/",
+          "description": "Stats Grid",
+          "files": [
+            "stats-grid.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Achievement Numbers",
+          "path": "Vanilla/Sections/Statistics/stats-achievement-numbers/",
+          "description": "Achievement Numbers",
+          "files": [
+            "stats-achievement-numbers.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "KPI Cards",
+          "path": "Vanilla/Sections/Statistics/stats-kpi-cards/",
+          "description": "KPI Cards",
+          "files": [
+            "stats-kpi-cards.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "statistics",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Products",
+      "path": "Vanilla/Sections/Products/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Product sections: showcase, dashboard preview, mobile app, integrations, roadmap, and changelog.",
+      "variantsCount": 6,
+      "variants": [
+        {
+          "name": "Product Showcase",
+          "path": "Vanilla/Sections/Products/product-showcase/",
+          "description": "Product Showcase",
+          "files": [
+            "product-showcase.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Dashboard Preview",
+          "path": "Vanilla/Sections/Products/product-dashboard-preview/",
+          "description": "Dashboard Preview",
+          "files": [
+            "product-dashboard-preview.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Mobile App Showcase",
+          "path": "Vanilla/Sections/Products/product-mobile-app/",
+          "description": "Mobile App Showcase",
+          "files": [
+            "product-mobile-app.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Integrations",
+          "path": "Vanilla/Sections/Products/product-integrations/",
+          "description": "Integrations",
+          "files": [
+            "product-integrations.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Roadmap",
+          "path": "Vanilla/Sections/Products/product-roadmap/",
+          "description": "Roadmap",
+          "files": [
+            "product-roadmap.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Changelog",
+          "path": "Vanilla/Sections/Products/product-changelog/",
+          "description": "Changelog",
+          "files": [
+            "product-changelog.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "products",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "products",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Pricing",
+      "path": "Vanilla/Sections/Pricing/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Pricing sections: simple, SaaS with toggle, comparison matrix, and enterprise CTA.",
+      "variantsCount": 4,
+      "variants": [
+        {
+          "name": "Simple Pricing",
+          "path": "Vanilla/Sections/Pricing/pricing-simple/",
+          "description": "Simple Pricing",
+          "files": [
+            "pricing-simple.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "SaaS Pricing",
+          "path": "Vanilla/Sections/Pricing/pricing-saas/",
+          "description": "SaaS Pricing",
+          "files": [
+            "pricing-saas.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Comparison Pricing",
+          "path": "Vanilla/Sections/Pricing/pricing-comparison/",
+          "description": "Comparison Pricing",
+          "files": [
+            "pricing-comparison.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Enterprise Pricing",
+          "path": "Vanilla/Sections/Pricing/pricing-enterprise/",
+          "description": "Enterprise Pricing",
+          "files": [
+            "pricing-enterprise.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "pricing",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "pricing",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Testimonials",
+      "path": "Vanilla/Sections/Testimonials/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Testimonial sections: cards, auto-rotating carousel, masonry wall, and video layout.",
+      "variantsCount": 4,
+      "variants": [
+        {
+          "name": "Testimonial Cards",
+          "path": "Vanilla/Sections/Testimonials/testimonials-cards/",
+          "description": "Testimonial Cards",
+          "files": [
+            "testimonials-cards.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Testimonial Carousel",
+          "path": "Vanilla/Sections/Testimonials/testimonials-carousel/",
+          "description": "Testimonial Carousel",
+          "files": [
+            "testimonials-carousel.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Testimonial Masonry",
+          "path": "Vanilla/Sections/Testimonials/testimonials-masonry/",
+          "description": "Testimonial Masonry",
+          "files": [
+            "testimonials-masonry.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Video Testimonial",
+          "path": "Vanilla/Sections/Testimonials/testimonials-video/",
+          "description": "Video Testimonial",
+          "files": [
+            "testimonials-video.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "testimonials",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "testimonials",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Team",
+      "path": "Vanilla/Sections/Team/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Team sections: member grid, leadership cards, and advisor strip.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Team Grid",
+          "path": "Vanilla/Sections/Team/team-grid/",
+          "description": "Team Grid",
+          "files": [
+            "team-grid.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Leadership",
+          "path": "Vanilla/Sections/Team/team-leadership/",
+          "description": "Leadership",
+          "files": [
+            "team-leadership.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Advisors",
+          "path": "Vanilla/Sections/Team/team-advisors/",
+          "description": "Advisors",
+          "files": [
+            "team-advisors.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "team",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "team",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Process",
+      "path": "Vanilla/Sections/Process/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Process sections: alternating timeline, horizontal workflow, numbered steps, and how-it-works.",
+      "variantsCount": 4,
+      "variants": [
+        {
+          "name": "Process Timeline",
+          "path": "Vanilla/Sections/Process/process-timeline/",
+          "description": "Process Timeline",
+          "files": [
+            "process-timeline.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Process Workflow",
+          "path": "Vanilla/Sections/Process/process-workflow/",
+          "description": "Process Workflow",
+          "files": [
+            "process-workflow.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Process Steps",
+          "path": "Vanilla/Sections/Process/process-steps/",
+          "description": "Process Steps",
+          "files": [
+            "process-steps.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "How It Works",
+          "path": "Vanilla/Sections/Process/process-how-it-works/",
+          "description": "How It Works",
+          "files": [
+            "process-how-it-works.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "process",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "process",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Content",
+      "path": "Vanilla/Sections/Content/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Content sections: blog grid, featured articles, documentation preview, and resources.",
+      "variantsCount": 4,
+      "variants": [
+        {
+          "name": "Blog Grid",
+          "path": "Vanilla/Sections/Content/content-blog-grid/",
+          "description": "Blog Grid",
+          "files": [
+            "content-blog-grid.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Featured Articles",
+          "path": "Vanilla/Sections/Content/content-featured-articles/",
+          "description": "Featured Articles",
+          "files": [
+            "content-featured-articles.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Documentation Preview",
+          "path": "Vanilla/Sections/Content/content-documentation-preview/",
+          "description": "Documentation Preview",
+          "files": [
+            "content-documentation-preview.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Resources",
+          "path": "Vanilla/Sections/Content/content-resources/",
+          "description": "Resources",
+          "files": [
+            "content-resources.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "content",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "content",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Gallery",
+      "path": "Vanilla/Sections/Gallery/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Gallery sections: masonry, portfolio with filters, and project case-study cards.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Masonry Gallery",
+          "path": "Vanilla/Sections/Gallery/gallery-masonry/",
+          "description": "Masonry Gallery",
+          "files": [
+            "gallery-masonry.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Portfolio",
+          "path": "Vanilla/Sections/Gallery/gallery-portfolio/",
+          "description": "Portfolio",
+          "files": [
+            "gallery-portfolio.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Projects",
+          "path": "Vanilla/Sections/Gallery/gallery-projects/",
+          "description": "Projects",
+          "files": [
+            "gallery-projects.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "gallery",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "gallery",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "FAQ",
+      "path": "Vanilla/Sections/FAQ/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "FAQ sections: accessible single-open accordion and searchable + filterable FAQ.",
+      "variantsCount": 2,
+      "variants": [
+        {
+          "name": "Accordion FAQ",
+          "path": "Vanilla/Sections/FAQ/faq-accordion/",
+          "description": "Accordion FAQ",
+          "files": [
+            "faq-accordion.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Searchable FAQ",
+          "path": "Vanilla/Sections/FAQ/faq-searchable/",
+          "description": "Searchable FAQ",
+          "files": [
+            "faq-searchable.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "faq",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "faq",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "CTA",
+      "path": "Vanilla/Sections/CTA/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Call-to-action sections: banner, split, download with QR, and newsletter signup.",
+      "variantsCount": 4,
+      "variants": [
+        {
+          "name": "Banner CTA",
+          "path": "Vanilla/Sections/CTA/cta-banner/",
+          "description": "Banner CTA",
+          "files": [
+            "cta-banner.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Split CTA",
+          "path": "Vanilla/Sections/CTA/cta-split/",
+          "description": "Split CTA",
+          "files": [
+            "cta-split.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Download CTA",
+          "path": "Vanilla/Sections/CTA/cta-download/",
+          "description": "Download CTA",
+          "files": [
+            "cta-download.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Newsletter CTA",
+          "path": "Vanilla/Sections/CTA/cta-newsletter/",
+          "description": "Newsletter CTA",
+          "files": [
+            "cta-newsletter.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "cta",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "cta",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Contact",
+      "path": "Vanilla/Sections/Contact/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Contact sections: split form, routing cards, and office locations with time zones.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Contact Form",
+          "path": "Vanilla/Sections/Contact/contact-form/",
+          "description": "Contact Form",
+          "files": [
+            "contact-form.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Contact Cards",
+          "path": "Vanilla/Sections/Contact/contact-cards/",
+          "description": "Contact Cards",
+          "files": [
+            "contact-cards.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Office Locations",
+          "path": "Vanilla/Sections/Contact/contact-office-locations/",
+          "description": "Office Locations",
+          "files": [
+            "contact-office-locations.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "contact",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "contact",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "Footer",
+      "path": "Vanilla/Sections/Footer/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Sections",
+      "description": "Footer sections: minimal, multi-column, and large newsletter footer.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Minimal Footer",
+          "path": "Vanilla/Sections/Footer/footer-minimal/",
+          "description": "Minimal Footer",
+          "files": [
+            "footer-minimal.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Multi-column Footer",
+          "path": "Vanilla/Sections/Footer/footer-multi-column/",
+          "description": "Multi-column Footer",
+          "files": [
+            "footer-multi-column.html",
+            "metadata.json",
+            "README.md"
+          ]
+        },
+        {
+          "name": "Large Footer",
+          "path": "Vanilla/Sections/Footer/footer-large/",
+          "description": "Large Footer",
+          "files": [
+            "footer-large.html",
+            "metadata.json",
+            "README.md"
+          ]
+        }
+      ],
+      "tags": [
+        "footer",
+        "neo-brutalist",
+        "vanilla",
+        "responsive",
+        "dark-mode"
+      ],
+      "searchTerms": [
+        "footer",
+        "neo brutalist",
+        "section",
+        "vanilla"
+      ]
     }
   ],
   "plannedFamilies": {
@@ -1989,8 +3008,25 @@
     {
       "name": "Vanilla HTML/CSS/JS",
       "path": "Vanilla/",
-      "status": "planned",
-      "families": []
+      "status": "active",
+      "families": [
+        "CTA",
+        "Contact",
+        "Content",
+        "FAQ",
+        "Features",
+        "Footer",
+        "Gallery",
+        "Hero",
+        "Logos",
+        "Navigation",
+        "Pricing",
+        "Process",
+        "Products",
+        "Statistics",
+        "Team",
+        "Testimonials"
+      ]
     },
     {
       "name": "React",

@@ -35,6 +35,8 @@ Components: Accordions, Alerts, Avatars, Badges, Buttons, Cards, Dropdowns, Form
 
 Utilities: Accessibility, Animations, Effects, Helpers, Interactions, Layout, LocalStorage, Scrollbar, Theming, Typography
 
+**Sections (Neo-Brutalist, 65 variants):** Hero (10), Navigation (4), Features (5), Logos (3), Statistics (3), Products (6), Pricing (4), Testimonials (4), Team (3), Process (4), Content (4), Gallery (3), FAQ (2), CTA (4), Contact (3), Footer (3). See `Vanilla/Sections/README.md` and browse `Vanilla/Sections/index.html`.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
