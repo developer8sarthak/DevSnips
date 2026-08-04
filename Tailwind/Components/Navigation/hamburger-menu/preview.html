@@ -25,7 +25,7 @@
           </button>
 
           <!-- Slide-out Menu -->
-          <div id="hamburger-menu" class="absolute right-0 top-full mt-2 w-72 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden transform translate-x-full opacity-0 transition-all duration-300 z-50">
+          <div id="hamburger-menu" class="absolute left-0 top-full mt-2 w-72 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden transform -translate-x-full opacity-0 transition-all duration-300 z-50">
             <div class="p-4 border-b border-gray-100">
               <div class="flex items-center gap-3">
                 <div class="w-12 h-12 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full flex items-center justify-center">
@@ -84,17 +84,17 @@
     const lines = document.querySelectorAll('.hamburger-line');
 
     btn.addEventListener('click', () => {
-      const isOpen = !menu.classList.contains('translate-x-full');
+      const isOpen = !menu.classList.contains('-translate-x-full');
       
       if (isOpen) {
-        menu.classList.add('translate-x-full', 'opacity-0');
+        menu.classList.add('-translate-x-full', 'opacity-0');
         menu.classList.remove('translate-x-0', 'opacity-100');
         btn.setAttribute('aria-expanded', 'false');
         lines[0].style.transform = '';
         lines[1].style.opacity = '';
         lines[2].style.transform = '';
       } else {
-        menu.classList.remove('translate-x-full', 'opacity-0');
+        menu.classList.remove('-translate-x-full', 'opacity-0');
         menu.classList.add('translate-x-0', 'opacity-100');
         btn.setAttribute('aria-expanded', 'true');
         lines[0].style.transform = 'rotate(45deg) translateY(6px)';
@@ -105,8 +105,8 @@
 
     // Close on click outside
     document.addEventListener('click', (e) => {
-      if (!btn.contains(e.target) && !menu.contains(e.target) && !menu.classList.contains('translate-x-full')) {
-        menu.classList.add('translate-x-full', 'opacity-0');
+      if (!btn.contains(e.target) && !menu.contains(e.target) && !menu.classList.contains('-translate-x-full')) {
+        menu.classList.add('-translate-x-full', 'opacity-0');
         menu.classList.remove('translate-x-0', 'opacity-100');
         btn.setAttribute('aria-expanded', 'false');
         lines[0].style.transform = '';

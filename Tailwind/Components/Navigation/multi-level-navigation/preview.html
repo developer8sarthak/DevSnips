@@ -10,7 +10,7 @@
   
   <!-- Component: Multi-level Navigation -->
   
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-4xl mx-auto px-4 sm:px-8">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
       <!-- Sidebar -->
       <div class="md:col-span-1">
@@ -39,7 +39,7 @@
               </button>
               
               <!-- Level 2 -->
-              <div class="absolute left-full top-0 ml-2 w-56 bg-white rounded-xl shadow-xl border border-gray-100 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-10">
+              <div class="absolute left-full top-0 ml-2 w-56 bg-white rounded-xl shadow-xl border border-gray-100 p-2 hidden md:block opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-10">
                 <div class="relative group/sub">
                   <button class="w-full flex items-center justify-between px-4 py-2.5 text-gray-600 hover:bg-gray-50 rounded-lg">
                     <span>Buttons</span>
@@ -48,7 +48,7 @@
                     </svg>
                   </button>
                   <!-- Level 3 -->
-                  <div class="absolute left-full top-0 ml-2 w-48 bg-white rounded-xl shadow-xl border border-gray-100 p-2 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all">
+                  <div class="absolute left-full top-0 ml-2 w-48 bg-white rounded-xl shadow-xl border border-gray-100 p-2 hidden md:block opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all">
                     <a href="#" class="block px-4 py-2.5 text-gray-600 hover:bg-gray-50 rounded-lg">Primary</a>
                     <a href="#" class="block px-4 py-2.5 text-gray-600 hover:bg-gray-50 rounded-lg">Secondary</a>
                     <a href="#" class="block px-4 py-2.5 text-gray-600 hover:bg-gray-50 rounded-lg">Ghost</a>
@@ -86,7 +86,7 @@
 
       <!-- Content -->
       <div class="md:col-span-3">
-        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+        <div class="bg-white rounded-2xl p-4 sm:p-8 shadow-sm border border-gray-100">
           <h1 class="text-2xl font-bold text-gray-900 mb-4">Multi-level Navigation</h1>
           <p class="text-gray-600">Hover over "Components" to see the nested dropdown navigation with multiple levels.</p>
         </div>

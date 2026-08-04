@@ -23,7 +23,7 @@
             <p class="text-sm text-gray-500">Business Intelligence Dashboard</p>
           </div>
         </div>
-        <nav class="flex items-center gap-6">
+        <nav class="hidden sm:flex items-center gap-6">
           <a href="#" class="text-sm font-medium text-violet-600">Overview</a>
           <a href="#" class="text-sm font-medium text-gray-600 hover:text-gray-900">Reports</a>
           <a href="#" class="text-sm font-medium text-gray-600 hover:text-gray-900">Settings</a>
@@ -37,8 +37,8 @@
     
     <!-- Page Header -->
     <div class="mb-8">
-      <div class="flex items-center justify-between">
-        <div>
+      <div class="flex items-center justify-between gap-3 flex-wrap">
+        <div class="min-w-0">
           <h2 class="text-2xl font-bold text-gray-900">Financial Performance</h2>
           <p class="text-gray-500 mt-1">Track your company's revenue, expenses, and growth metrics</p>
         </div>
@@ -111,13 +111,13 @@
     </div>
 
     <!-- Component: Bordered Table -->
-    <div class="bg-white rounded-xl shadow-sm border border-gray-300 overflow-hidden">
-      <div class="px-6 py-4 border-b border-gray-200 flex items-center justify-between">
-        <div>
-          <h3 class="text-lg font-semibold text-gray-900">Monthly Financial Summary</h3>
-          <p class="text-sm text-gray-500">Detailed breakdown of revenue and expenses</p>
+    <div class="bg-white rounded-xl shadow-sm border border-gray-300">
+      <div class="px-4 sm:px-6 py-4 border-b border-gray-200 flex items-center justify-between gap-3">
+        <div class="min-w-0">
+          <h3 class="text-lg font-semibold text-gray-900 truncate">Monthly Financial Summary</h3>
+          <p class="text-sm text-gray-500 truncate">Detailed breakdown of revenue and expenses</p>
         </div>
-        <div class="flex items-center gap-2">
+        <div class="flex items-center gap-2 shrink-0">
           <button class="p-2 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
@@ -130,7 +130,8 @@
           </button>
         </div>
       </div>
-      <table class="w-full">
+      <div class="overflow-x-auto">
+      <table class="w-full min-w-[640px]">
         <thead>
           <tr class="bg-gradient-to-r from-violet-600 to-indigo-600 text-white">
             <th class="px-4 py-3.5 text-left text-xs font-semibold uppercase tracking-wider border border-violet-700">Month</th>
@@ -236,6 +237,7 @@
           </tr>
         </tfoot>
       </table>
+      </div>
     </div>
 
   </main>

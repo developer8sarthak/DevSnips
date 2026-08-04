@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 min-h-screen p-8">
-  <section class="max-w-4xl mx-auto space-y-8">
+  <section class="max-w-4xl mx-auto px-4 sm:px-8 space-y-8">
     <header class="border-b pb-4">
       <h1 class="text-3xl font-bold text-gray-900">Input — Currency</h1>
       <p class="text-gray-600 mt-2">Currency input components with currency symbols and presets</p>
@@ -26,7 +26,7 @@
           <select class="px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
             <option>$ USD</option><option>€ EUR</option><option>£ GBP</option>
           </select>
-          <input type="number" placeholder="1,000" class="flex-1 px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          <input type="number" placeholder="1,000" class="flex-1 min-w-0 px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
         </div>
       </div>
       <div class="p-4 bg-gradient-to-br from-emerald-500 to-green-600 rounded-xl">
@@ -36,8 +36,8 @@
           <input type="number" value="50" class="text-3xl font-bold bg-transparent text-white placeholder-white/50 focus:outline-none w-full" />
         </div>
         <div class="flex gap-2 mt-3">
-          <button class="px-4 py-2 bg-white/20 text-white text-sm font-medium rounded-lg hover:bg-white/30">$25</button>
-          <button class="px-4 py-2 bg-white text-emerald-700 text-sm font-medium rounded-lg hover:bg-emerald-50">$50</button>
+          <button class="px-4 py-2 bg-white/20 text-white text-sm font-medium rounded-lg hover:bg-white/30 shrink-0 whitespace-nowrap">$25</button>
+          <button class="px-4 py-2 bg-white text-emerald-700 text-sm font-medium rounded-lg hover:bg-emerald-50 shrink-0 whitespace-nowrap">$50</button>
         </div>
       </div>
     </div>

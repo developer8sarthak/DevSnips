@@ -11,7 +11,7 @@
   <!-- Header -->
   <header class="border-b border-gray-800 bg-gray-900/50 backdrop-blur-sm sticky top-0 z-10">
     <div class="max-w-7xl mx-auto px-6 py-4">
-      <div class="flex items-center justify-between">
+      <div class="flex items-center justify-between gap-3 flex-wrap">
         <div class="flex items-center gap-4">
           <div class="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/20">
             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -67,17 +67,17 @@
     </div>
 
     <!-- Filters -->
-    <div class="flex items-center gap-3 mb-6">
-      <button class="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg">All</button>
-      <button class="px-4 py-2 text-gray-400 text-sm font-medium hover:text-white hover:bg-gray-800 rounded-lg transition-colors">DeFi</button>
-      <button class="px-4 py-2 text-gray-400 text-sm font-medium hover:text-white hover:bg-gray-800 rounded-lg transition-colors">NFT</button>
-      <button class="px-4 py-2 text-gray-400 text-sm font-medium hover:text-white hover:bg-gray-800 rounded-lg transition-colors">Layer 1</button>
-      <button class="px-4 py-2 text-gray-400 text-sm font-medium hover:text-white hover:bg-gray-800 rounded-lg transition-colors">Metaverse</button>
+    <div class="flex items-center gap-3 mb-6 overflow-x-auto pb-2 -mx-1 px-1">
+      <button class="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg whitespace-nowrap shrink-0">All</button>
+      <button class="px-4 py-2 text-gray-400 text-sm font-medium hover:text-white hover:bg-gray-800 rounded-lg transition-colors whitespace-nowrap shrink-0">DeFi</button>
+      <button class="px-4 py-2 text-gray-400 text-sm font-medium hover:text-white hover:bg-gray-800 rounded-lg transition-colors whitespace-nowrap shrink-0">NFT</button>
+      <button class="px-4 py-2 text-gray-400 text-sm font-medium hover:text-white hover:bg-gray-800 rounded-lg transition-colors whitespace-nowrap shrink-0">Layer 1</button>
+      <button class="px-4 py-2 text-gray-400 text-sm font-medium hover:text-white hover:bg-gray-800 rounded-lg transition-colors whitespace-nowrap shrink-0">Metaverse</button>
     </div>
 
     <!-- Component: Compact Table -->
     <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-      <div class="px-4 py-3 bg-gray-50 border-b border-gray-200 flex items-center justify-between">
+      <div class="px-4 py-3 bg-gray-50 border-b border-gray-200 flex items-center justify-between gap-3 flex-wrap">
         <div class="flex items-center gap-2">
           <h3 class="text-sm font-semibold text-gray-900">Top Cryptocurrencies</h3>
           <span class="px-2 py-0.5 bg-gray-200 text-gray-600 text-xs rounded-full">8</span>
@@ -95,7 +95,8 @@
           </button>
         </div>
       </div>
-      <table class="w-full text-sm">
+      <div class="overflow-x-auto">
+      <table class="w-full text-sm min-w-[640px]">
         <thead>
           <tr class="bg-gray-900 text-white">
             <th class="px-3 py-2.5 text-left text-[10px] font-semibold uppercase tracking-wide">#</th>
@@ -295,6 +296,7 @@
           </tr>
         </tbody>
       </table>
+      </div>
     </div>
 
   </main>
