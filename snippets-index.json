@@ -3,8 +3,8 @@
   "lastUpdated": "2026-08-03",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
-    "totalFamilies": 3,
-    "totalVariants": 80,
+    "totalFamilies": 4,
+    "totalVariants": 95,
     "totalSubVariants": 6,
     "totalStyles": 162,
     "technologies": [
@@ -1500,6 +1500,425 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Accordions",
+      "path": "Accordions/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Production-ready accordion family with 15 variants covering docs, FAQ, enterprise, dark dashboards, settings, filters, and timelines",
+      "variantsCount": 15,
+      "variants": [
+        {
+          "name": "Basic",
+          "path": "Accordions/basic-accordion/",
+          "description": "Simple documentation accordion with chevron rotation and smooth height animation. Clean, accessible, and ready for knowledge bases and developer docs.",
+          "features": [
+            "chevron rotation",
+            "height animation",
+            "independent toggles",
+            "focus rings",
+            "aria-expanded",
+            "grid-rows animation"
+          ],
+          "tags": [
+            "accordion",
+            "basic",
+            "documentation",
+            "collapsible",
+            "faq",
+            "expandable"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Bordered",
+          "path": "Accordions/bordered-accordion/",
+          "description": "Enterprise accordion with distinct bordered cards, leading status icons, status chips, and metadata grids. Each section is self-contained for compliance and admin panels.",
+          "features": [
+            "bordered cards",
+            "status chips",
+            "metadata grid",
+            "icon accents",
+            "open-state ring",
+            "focus-visible rings"
+          ],
+          "tags": [
+            "accordion",
+            "bordered",
+            "enterprise",
+            "admin",
+            "compliance",
+            "cards"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Minimal",
+          "path": "Accordions/minimal-accordion/",
+          "description": "Borderless, typography-led accordion with a plus/minus indicator that animates into a minus. Ultra-clean hierarchy for modern SaaS and marketing pages.",
+          "features": [
+            "plus/minus indicator",
+            "borderless design",
+            "typography hierarchy",
+            "smooth indicator animation",
+            "hover dim",
+            "focus rings"
+          ],
+          "tags": [
+            "accordion",
+            "minimal",
+            "clean",
+            "plus-minus",
+            "borderless",
+            "saas"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Icon",
+          "path": "Accordions/icon-accordion/",
+          "description": "Accordion with leading category icons in tinted squares and two-line headers. Panels reveal related link lists, ideal for knowledge bases and support centers.",
+          "features": [
+            "leading category icons",
+            "tinted icon squares",
+            "link lists in panels",
+            "two-line headers",
+            "chevron rotation",
+            "hover color shifts"
+          ],
+          "tags": [
+            "accordion",
+            "icon",
+            "knowledge-base",
+            "support",
+            "categories",
+            "links"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "FAQ",
+          "path": "Accordions/faq-accordion/",
+          "description": "Landing-page FAQ with numbered badges, category chips, and single-open behavior. Includes a smooth height animation and a contact CTA for product pages.",
+          "features": [
+            "numbered badges",
+            "category meta",
+            "single-open mode",
+            "chevron rotation",
+            "hover lift",
+            "focus rings"
+          ],
+          "tags": [
+            "accordion",
+            "faq",
+            "landing",
+            "single-open",
+            "numbered",
+            "product"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Nested",
+          "path": "Accordions/nested-accordion/",
+          "description": "Two-level documentation tree. Chapters expand to reveal page lists, and individual pages open nested sub-lists with a connector line. Sidebar-chevron rotates 90 degrees.",
+          "features": [
+            "two-level nesting",
+            "page count badges",
+            "connector lines",
+            "90deg chevron",
+            "active page marker",
+            "independent toggles"
+          ],
+          "tags": [
+            "accordion",
+            "nested",
+            "documentation",
+            "tree",
+            "navigation",
+            "sidebar"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Animated",
+          "path": "Accordions/animated-accordion/",
+          "description": "Premium accordion with a plus-to-close rotating circle indicator, content fade+slide-in, and an accent border that scales in on open. Showcase-grade motion polish.",
+          "features": [
+            "rotating plus indicator",
+            "accent border reveal",
+            "content fade+slide",
+            "circle color shift",
+            "hover lift",
+            "staggered transitions"
+          ],
+          "tags": [
+            "accordion",
+            "animated",
+            "motion",
+            "premium",
+            "fade",
+            "slide",
+            "indicator"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Glass",
+          "path": "Accordions/glass-accordion/",
+          "description": "Glassmorphism accordion with frosted translucent panels, hairline white borders, and soft glow over a vivid gradient backdrop. Ideal for hero and AI product sections.",
+          "features": [
+            "backdrop blur",
+            "translucent panels",
+            "hairline white borders",
+            "soft glow shadow",
+            "chevron rotation",
+            "vivid backdrop"
+          ],
+          "tags": [
+            "accordion",
+            "glass",
+            "glassmorphism",
+            "frosted",
+            "translucent",
+            "hero"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Dark",
+          "path": "Accordions/dark-accordion/",
+          "description": "Modern dark-mode dashboard accordion with single-open behavior, glowing status dots, metric delta badges, and an indigo active accent. Built for analytics and admin panels.",
+          "features": [
+            "dark theme",
+            "glowing status dots",
+            "metric deltas",
+            "metadata grid",
+            "single-open mode",
+            "indigo accent"
+          ],
+          "tags": [
+            "accordion",
+            "dark",
+            "dashboard",
+            "analytics",
+            "single-open",
+            "metrics"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Settings",
+          "path": "Accordions/settings-accordion/",
+          "description": "Application settings accordion whose panels hold form controls, toggles, and a danger zone. Single-open sections grouped like a real settings page.",
+          "features": [
+            "form controls in panels",
+            "toggle switches",
+            "danger zone",
+            "section icons",
+            "single-open mode",
+            "labeled inputs"
+          ],
+          "tags": [
+            "accordion",
+            "settings",
+            "forms",
+            "toggles",
+            "admin",
+            "account"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Pricing",
+          "path": "Accordions/pricing-faq/",
+          "description": "Pricing-page FAQ grouped by plan tier with tier-colored section badges and upgrade CTAs inside answers. Single-open behavior keeps the focus on one question at a time.",
+          "features": [
+            "plan-tier grouping",
+            "tier color badges",
+            "in-answer CTAs",
+            "single-open mode",
+            "per-tier focus rings",
+            "smooth height animation"
+          ],
+          "tags": [
+            "accordion",
+            "pricing",
+            "faq",
+            "plans",
+            "saas",
+            "single-open"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Sidebar",
+          "path": "Accordions/sidebar-accordion/",
+          "description": "Documentation navigation sidebar where category groups expand to reveal link lists with an active-page marker and connector line. Multi-open so readers keep context while browsing.",
+          "features": [
+            "active page marker",
+            "connector line",
+            "section counts",
+            "multi-open mode",
+            "90deg chevron",
+            "hover states"
+          ],
+          "tags": [
+            "accordion",
+            "sidebar",
+            "navigation",
+            "docs",
+            "multi-open",
+            "links"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Single Open",
+          "path": "Accordions/single-open-accordion/",
+          "description": "Generic accordion enforcing one-open-at-a-time behavior with an expanding accent bar and a live open-count announcement. For terms, policies, and focused help centers.",
+          "features": [
+            "one-open enforcement",
+            "accent bar reveal",
+            "live open count",
+            "aria-live count",
+            "keyboard support",
+            "focus rings"
+          ],
+          "tags": [
+            "accordion",
+            "single-open",
+            "exclusive",
+            "policy",
+            "help-center",
+            "accessibility"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Multi Open",
+          "path": "Accordions/multi-open-accordion/",
+          "description": "Faceted filter panel where multiple sections stay open at once. Each section holds checkbox filters with a live selected-count badge for e-commerce and directory filtering.",
+          "features": [
+            "multi-open sections",
+            "checkbox filters",
+            "live count badges",
+            "fieldsets for a11y",
+            "default-open sections",
+            "chevron rotation"
+          ],
+          "tags": [
+            "accordion",
+            "multi-open",
+            "filter",
+            "facets",
+            "checkbox",
+            "ecommerce"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Timeline",
+          "path": "Accordions/timeline-accordion/",
+          "description": "Expandable project timeline rendered as a vertical-rail accordion. Each milestone shows date, status dot, and an expandable panel with deliverables and progress.",
+          "features": [
+            "vertical rail",
+            "status dots",
+            "progress bars",
+            "deliverable checklists",
+            "date chips",
+            "chevron rotation"
+          ],
+          "tags": [
+            "accordion",
+            "timeline",
+            "milestones",
+            "roadmap",
+            "project",
+            "status"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ],
+      "tags": [
+        "accordion",
+        "collapsible",
+        "expandable",
+        "faq",
+        "disclosure",
+        "tabs"
+      ],
+      "searchTerms": [
+        "accordion",
+        "collapsible",
+        "expandable",
+        "faq",
+        "disclosure",
+        "collapse",
+        "accordion menu",
+        "expand panel"
+      ]
     }
   ],
   "plannedFamilies": {
@@ -1612,7 +2031,8 @@
       "families": [
         "Buttons",
         "Input",
-        "Modals"
+        "Modals",
+        "Accordions"
       ]
     },
     {
