@@ -1502,32 +1502,30 @@
       ]
     },
     {
-      "name": "Accordions",
-      "path": "Accordions/",
+      "name": "Tabs",
+      "path": "Tabs/",
       "tech": "Tailwind CSS",
       "category": "Components",
-      "description": "Production-ready accordion family with 15 variants covering docs, FAQ, enterprise, dark dashboards, settings, filters, and timelines",
+      "description": "Complete tab component family with 15 production-ready variants covering documentation, dashboards, settings, mobile navigation, and animated indicators",
       "variantsCount": 15,
       "variants": [
         {
-          "name": "Basic",
-          "path": "Accordions/basic-accordion/",
-          "description": "Simple documentation accordion with chevron rotation and smooth height animation. Clean, accessible, and ready for knowledge bases and developer docs.",
-          "features": [
-            "chevron rotation",
-            "height animation",
-            "independent toggles",
-            "focus rings",
-            "aria-expanded",
-            "grid-rows animation"
+          "name": "Basic Tabs",
+          "path": "Tabs/basic-tabs/",
+          "description": "Clean documentation tabs with an underline indicator. Ideal for organizing reference material, docs pages, and onboarding steps into focused sections.",
+          "styles": [
+            "underline active indicator",
+            "arrow-key navigation",
+            "aria tab pattern",
+            "focus-visible ring",
+            "responsive"
           ],
-          "tags": [
-            "accordion",
-            "basic",
-            "documentation",
-            "collapsible",
-            "faq",
-            "expandable"
+          "features": [
+            "underline active indicator",
+            "arrow-key navigation",
+            "aria tab pattern",
+            "focus-visible ring",
+            "responsive"
           ],
           "files": [
             "code.html",
@@ -1536,24 +1534,22 @@
           ]
         },
         {
-          "name": "Bordered",
-          "path": "Accordions/bordered-accordion/",
-          "description": "Enterprise accordion with distinct bordered cards, leading status icons, status chips, and metadata grids. Each section is self-contained for compliance and admin panels.",
-          "features": [
-            "bordered cards",
-            "status chips",
-            "metadata grid",
-            "icon accents",
-            "open-state ring",
-            "focus-visible rings"
+          "name": "Underline Tabs",
+          "path": "Tabs/underline-tabs/",
+          "description": "Modern developer documentation tabs with a moving underline indicator, version badge, and embedded code samples. Built for docs sites and API references.",
+          "styles": [
+            "moving underline indicator",
+            "version badge",
+            "code samples",
+            "arrow-key navigation",
+            "overflow scroll"
           ],
-          "tags": [
-            "accordion",
-            "bordered",
-            "enterprise",
-            "admin",
-            "compliance",
-            "cards"
+          "features": [
+            "moving underline indicator",
+            "version badge",
+            "code samples",
+            "arrow-key navigation",
+            "overflow scroll"
           ],
           "files": [
             "code.html",
@@ -1562,24 +1558,22 @@
           ]
         },
         {
-          "name": "Minimal",
-          "path": "Accordions/minimal-accordion/",
-          "description": "Borderless, typography-led accordion with a plus/minus indicator that animates into a minus. Ultra-clean hierarchy for modern SaaS and marketing pages.",
-          "features": [
-            "plus/minus indicator",
-            "borderless design",
-            "typography hierarchy",
-            "smooth indicator animation",
-            "hover dim",
-            "focus rings"
+          "name": "Pill Tabs",
+          "path": "Tabs/pill-tabs/",
+          "description": "SaaS dashboard pill tabs with count badges for customer segments. Filled active pill, outlined inactive pills, and a contextual action toolbar.",
+          "styles": [
+            "filled active pill",
+            "count badges",
+            "action toolbar",
+            "responsive wrap",
+            "arrow-key navigation"
           ],
-          "tags": [
-            "accordion",
-            "minimal",
-            "clean",
-            "plus-minus",
-            "borderless",
-            "saas"
+          "features": [
+            "filled active pill",
+            "count badges",
+            "action toolbar",
+            "responsive wrap",
+            "arrow-key navigation"
           ],
           "files": [
             "code.html",
@@ -1588,24 +1582,22 @@
           ]
         },
         {
-          "name": "Icon",
-          "path": "Accordions/icon-accordion/",
-          "description": "Accordion with leading category icons in tinted squares and two-line headers. Panels reveal related link lists, ideal for knowledge bases and support centers.",
-          "features": [
-            "leading category icons",
-            "tinted icon squares",
-            "link lists in panels",
-            "two-line headers",
-            "chevron rotation",
-            "hover color shifts"
+          "name": "Icon Tabs",
+          "path": "Tabs/icon-tabs/",
+          "description": "Settings tabs with prominent icons in a responsive grid. Active tab highlights its icon container. Great for account, security, and billing configuration.",
+          "styles": [
+            "icon-led grid layout",
+            "active icon container",
+            "form panels",
+            "arrow-key navigation",
+            "mobile 2-col grid"
           ],
-          "tags": [
-            "accordion",
-            "icon",
-            "knowledge-base",
-            "support",
-            "categories",
-            "links"
+          "features": [
+            "icon-led grid layout",
+            "active icon container",
+            "form panels",
+            "arrow-key navigation",
+            "mobile 2-col grid"
           ],
           "files": [
             "code.html",
@@ -1614,24 +1606,22 @@
           ]
         },
         {
-          "name": "FAQ",
-          "path": "Accordions/faq-accordion/",
-          "description": "Landing-page FAQ with numbered badges, category chips, and single-open behavior. Includes a smooth height animation and a contact CTA for product pages.",
-          "features": [
-            "numbered badges",
-            "category meta",
-            "single-open mode",
-            "chevron rotation",
-            "hover lift",
-            "focus rings"
+          "name": "Vertical Tabs",
+          "path": "Tabs/vertical-tabs/",
+          "description": "Documentation sidebar with vertical tabs controlling article content. Collapses to a horizontal scroll on mobile. Ideal for docs sites and onboarding flows.",
+          "styles": [
+            "vertical orientation",
+            "aria-orientation",
+            "arrow up/down nav",
+            "mobile horizontal scroll",
+            "article panels"
           ],
-          "tags": [
-            "accordion",
-            "faq",
-            "landing",
-            "single-open",
-            "numbered",
-            "product"
+          "features": [
+            "vertical orientation",
+            "aria-orientation",
+            "arrow up/down nav",
+            "mobile horizontal scroll",
+            "article panels"
           ],
           "files": [
             "code.html",
@@ -1640,24 +1630,22 @@
           ]
         },
         {
-          "name": "Nested",
-          "path": "Accordions/nested-accordion/",
-          "description": "Two-level documentation tree. Chapters expand to reveal page lists, and individual pages open nested sub-lists with a connector line. Sidebar-chevron rotates 90 degrees.",
-          "features": [
-            "two-level nesting",
-            "page count badges",
-            "connector lines",
-            "90deg chevron",
-            "active page marker",
-            "independent toggles"
+          "name": "Dashboard Tabs",
+          "path": "Tabs/dashboard-tabs/",
+          "description": "Analytics dashboard tabs switching metric panels (revenue, traffic, conversion, audience). Includes KPI cards, trend deltas, and a simple bar chart.",
+          "styles": [
+            "KPI cards",
+            "trend deltas",
+            "bar chart",
+            "legend",
+            "arrow-key navigation"
           ],
-          "tags": [
-            "accordion",
-            "nested",
-            "documentation",
-            "tree",
-            "navigation",
-            "sidebar"
+          "features": [
+            "KPI cards",
+            "trend deltas",
+            "bar chart",
+            "legend",
+            "arrow-key navigation"
           ],
           "files": [
             "code.html",
@@ -1666,103 +1654,22 @@
           ]
         },
         {
-          "name": "Animated",
-          "path": "Accordions/animated-accordion/",
-          "description": "Premium accordion with a plus-to-close rotating circle indicator, content fade+slide-in, and an accent border that scales in on open. Showcase-grade motion polish.",
-          "features": [
-            "rotating plus indicator",
-            "accent border reveal",
-            "content fade+slide",
-            "circle color shift",
-            "hover lift",
-            "staggered transitions"
-          ],
-          "tags": [
-            "accordion",
-            "animated",
-            "motion",
-            "premium",
-            "fade",
-            "slide",
-            "indicator"
-          ],
-          "files": [
-            "code.html",
-            "preview.html",
-            "metadata.json"
-          ]
-        },
-        {
-          "name": "Glass",
-          "path": "Accordions/glass-accordion/",
-          "description": "Glassmorphism accordion with frosted translucent panels, hairline white borders, and soft glow over a vivid gradient backdrop. Ideal for hero and AI product sections.",
-          "features": [
-            "backdrop blur",
-            "translucent panels",
-            "hairline white borders",
-            "soft glow shadow",
-            "chevron rotation",
-            "vivid backdrop"
-          ],
-          "tags": [
-            "accordion",
-            "glass",
-            "glassmorphism",
-            "frosted",
-            "translucent",
-            "hero"
-          ],
-          "files": [
-            "code.html",
-            "preview.html",
-            "metadata.json"
-          ]
-        },
-        {
-          "name": "Dark",
-          "path": "Accordions/dark-accordion/",
-          "description": "Modern dark-mode dashboard accordion with single-open behavior, glowing status dots, metric delta badges, and an indigo active accent. Built for analytics and admin panels.",
-          "features": [
-            "dark theme",
-            "glowing status dots",
-            "metric deltas",
-            "metadata grid",
-            "single-open mode",
-            "indigo accent"
-          ],
-          "tags": [
-            "accordion",
-            "dark",
-            "dashboard",
-            "analytics",
-            "single-open",
-            "metrics"
-          ],
-          "files": [
-            "code.html",
-            "preview.html",
-            "metadata.json"
-          ]
-        },
-        {
-          "name": "Settings",
-          "path": "Accordions/settings-accordion/",
-          "description": "Application settings accordion whose panels hold form controls, toggles, and a danger zone. Single-open sections grouped like a real settings page.",
-          "features": [
-            "form controls in panels",
-            "toggle switches",
+          "name": "Settings Tabs",
+          "path": "Tabs/settings-tabs/",
+          "description": "Full settings page with a vertical nav tab list and content panels including general, account, appearance, integrations, and a danger zone.",
+          "styles": [
+            "vertical nav",
+            "form panels",
+            "theme picker",
             "danger zone",
-            "section icons",
-            "single-open mode",
-            "labeled inputs"
+            "mobile horizontal scroll"
           ],
-          "tags": [
-            "accordion",
-            "settings",
-            "forms",
-            "toggles",
-            "admin",
-            "account"
+          "features": [
+            "vertical nav",
+            "form panels",
+            "theme picker",
+            "danger zone",
+            "mobile horizontal scroll"
           ],
           "files": [
             "code.html",
@@ -1771,24 +1678,22 @@
           ]
         },
         {
-          "name": "Pricing",
-          "path": "Accordions/pricing-faq/",
-          "description": "Pricing-page FAQ grouped by plan tier with tier-colored section badges and upgrade CTAs inside answers. Single-open behavior keeps the focus on one question at a time.",
-          "features": [
-            "plan-tier grouping",
-            "tier color badges",
-            "in-answer CTAs",
-            "single-open mode",
-            "per-tier focus rings",
-            "smooth height animation"
+          "name": "Scrollable Tabs",
+          "path": "Tabs/scrollable-tabs/",
+          "description": "Horizontal scrollable category tabs with fade edges and hidden scrollbar for mobile marketplaces. Active tab auto-scrolls into view. Built for many categories on small screens.",
+          "styles": [
+            "fade edge gradients",
+            "hidden scrollbar",
+            "auto-scroll active",
+            "many categories",
+            "touch-friendly"
           ],
-          "tags": [
-            "accordion",
-            "pricing",
-            "faq",
-            "plans",
-            "saas",
-            "single-open"
+          "features": [
+            "fade edge gradients",
+            "hidden scrollbar",
+            "auto-scroll active",
+            "many categories",
+            "touch-friendly"
           ],
           "files": [
             "code.html",
@@ -1797,24 +1702,22 @@
           ]
         },
         {
-          "name": "Sidebar",
-          "path": "Accordions/sidebar-accordion/",
-          "description": "Documentation navigation sidebar where category groups expand to reveal link lists with an active-page marker and connector line. Multi-open so readers keep context while browsing.",
-          "features": [
-            "active page marker",
-            "connector line",
-            "section counts",
-            "multi-open mode",
-            "90deg chevron",
-            "hover states"
+          "name": "Segmented Tabs",
+          "path": "Tabs/segmented-tabs/",
+          "description": "iOS-style segmented control with a sliding indicator that animates between segments. Used for switching time ranges and compact view modes.",
+          "styles": [
+            "sliding indicator",
+            "smooth animation",
+            "compact control",
+            "arrow-key navigation",
+            "resize-aware"
           ],
-          "tags": [
-            "accordion",
-            "sidebar",
-            "navigation",
-            "docs",
-            "multi-open",
-            "links"
+          "features": [
+            "sliding indicator",
+            "smooth animation",
+            "compact control",
+            "arrow-key navigation",
+            "resize-aware"
           ],
           "files": [
             "code.html",
@@ -1823,24 +1726,22 @@
           ]
         },
         {
-          "name": "Single Open",
-          "path": "Accordions/single-open-accordion/",
-          "description": "Generic accordion enforcing one-open-at-a-time behavior with an expanding accent bar and a live open-count announcement. For terms, policies, and focused help centers.",
-          "features": [
-            "one-open enforcement",
-            "accent bar reveal",
-            "live open count",
-            "aria-live count",
-            "keyboard support",
-            "focus rings"
+          "name": "Animated Tabs",
+          "path": "Tabs/animated-tabs/",
+          "description": "Tabs with a smoothly animating sliding underline indicator that glides between active tabs. Great for project management workspaces with board, timeline, calendar, and files views.",
+          "styles": [
+            "sliding underline",
+            "smooth transition",
+            "resize-aware",
+            "kanban/timeline/calendar panels",
+            "arrow-key navigation"
           ],
-          "tags": [
-            "accordion",
-            "single-open",
-            "exclusive",
-            "policy",
-            "help-center",
-            "accessibility"
+          "features": [
+            "sliding underline",
+            "smooth transition",
+            "resize-aware",
+            "kanban/timeline/calendar panels",
+            "arrow-key navigation"
           ],
           "files": [
             "code.html",
@@ -1849,24 +1750,22 @@
           ]
         },
         {
-          "name": "Multi Open",
-          "path": "Accordions/multi-open-accordion/",
-          "description": "Faceted filter panel where multiple sections stay open at once. Each section holds checkbox filters with a live selected-count badge for e-commerce and directory filtering.",
-          "features": [
-            "multi-open sections",
-            "checkbox filters",
-            "live count badges",
-            "fieldsets for a11y",
-            "default-open sections",
-            "chevron rotation"
+          "name": "Card Tabs",
+          "path": "Tabs/card-tabs/",
+          "description": "Card switching interface where each tab is a selectable pricing card with a radio-style indicator. Selecting a card reveals its feature panel. Ideal for plan pickers.",
+          "styles": [
+            "selectable cards",
+            "radio indicator",
+            "popular badge",
+            "feature panels",
+            "arrow-key navigation"
           ],
-          "tags": [
-            "accordion",
-            "multi-open",
-            "filter",
-            "facets",
-            "checkbox",
-            "ecommerce"
+          "features": [
+            "selectable cards",
+            "radio indicator",
+            "popular badge",
+            "feature panels",
+            "arrow-key navigation"
           ],
           "files": [
             "code.html",
@@ -1875,24 +1774,94 @@
           ]
         },
         {
-          "name": "Timeline",
-          "path": "Accordions/timeline-accordion/",
-          "description": "Expandable project timeline rendered as a vertical-rail accordion. Each milestone shows date, status dot, and an expandable panel with deliverables and progress.",
-          "features": [
-            "vertical rail",
-            "status dots",
-            "progress bars",
-            "deliverable checklists",
-            "date chips",
-            "chevron rotation"
+          "name": "Minimal Tabs",
+          "path": "Tabs/minimal-tabs/",
+          "description": "Ultra-clean minimal inbox tabs with a thin sliding indicator, count annotations, and a search action. Designed for distraction-free content like email and notes apps.",
+          "styles": [
+            "thin sliding indicator",
+            "counts",
+            "search action",
+            "minimal styling",
+            "arrow-key navigation"
           ],
-          "tags": [
-            "accordion",
-            "timeline",
-            "milestones",
-            "roadmap",
-            "project",
-            "status"
+          "features": [
+            "thin sliding indicator",
+            "counts",
+            "search action",
+            "minimal styling",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Rounded Tabs",
+          "path": "Tabs/rounded-tabs/",
+          "description": "Soft rounded navigation tabs with a gradient active state, set in a pill container. Suited to music and media apps browsing playlists, artists, albums, and podcasts.",
+          "styles": [
+            "gradient active pill",
+            "rounded container",
+            "media grids",
+            "artist circles",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "gradient active pill",
+            "rounded container",
+            "media grids",
+            "artist circles",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Bordered Tabs",
+          "path": "Tabs/bordered-tabs/",
+          "description": "Bordered enterprise tab set with a connected content panel, status badges, and data tables. Designed for dense operational dashboards like order and inventory management.",
+          "styles": [
+            "connected content panel",
+            "status badges",
+            "data table",
+            "audit log",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "connected content panel",
+            "status badges",
+            "data table",
+            "audit log",
+            "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Mobile Tabs",
+          "path": "Tabs/mobile-tabs/",
+          "description": "Bottom mobile tab navigation bar with icons, labels, and a notification badge. Switches app screens within a phone-style frame. Built for native-feeling mobile web apps.",
+          "styles": [
+            "bottom tab bar",
+            "icon + label",
+            "notification badge",
+            "app screen panels",
+            "arrow-key navigation"
+          ],
+          "features": [
+            "bottom tab bar",
+            "icon + label",
+            "notification badge",
+            "app screen panels",
+            "arrow-key navigation"
           ],
           "files": [
             "code.html",
@@ -1900,24 +1869,6 @@
             "metadata.json"
           ]
         }
-      ],
-      "tags": [
-        "accordion",
-        "collapsible",
-        "expandable",
-        "faq",
-        "disclosure",
-        "tabs"
-      ],
-      "searchTerms": [
-        "accordion",
-        "collapsible",
-        "expandable",
-        "faq",
-        "disclosure",
-        "collapse",
-        "accordion menu",
-        "expand panel"
       ]
     }
   ],
