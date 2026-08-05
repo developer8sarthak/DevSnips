@@ -3,10 +3,10 @@
   "lastUpdated": "2026-08-05",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
-    "totalFamilies": 37,
-    "totalVariants": 345,
-    "totalSubVariants": 6,
-    "totalStyles": 351,
+    "totalFamilies": 59,
+    "totalVariants": 550,
+    "totalSubVariants": 0,
+    "totalStyles": 1728,
     "technologies": [
       "Tailwind CSS",
       "Vanilla HTML/CSS/JS"
@@ -6694,6 +6694,247 @@
             "cyan glow status dot + gradient CTA",
             "grain overlay for texture",
             "prefers-reduced-motion safe"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kanban Board",
+      "path": "Tailwind/Sections/app-ui/kanban-board/",
+      "tech": "Tailwind CSS",
+      "category": "Sections",
+      "description": "A drag-and-drop project kanban board with columns (Backlog, In Progress, Review, Done), count badges, priority/label tags, avatars, and an add-card affordance \u2014 cards move between columns via HTML5 Drag and Drop.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Kanban Board \u2014 Neo-Brutalism",
+          "path": "Tailwind/Sections/app-ui/kanban-board/neo-brutalism/",
+          "description": "Brutalist project kanban board with hard black borders, offset drop shadows, and flat bright column headers. Draggable task cards move between Backlog, In Progress, Review, and Done via the HTML5 Drag and Drop API, count badges update live, and an add-card affordance creates new tasks per column. Press-down hover states and monospace labels keep the raw, editorial feel.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "hard offset shadows on cards and panel",
+            "flat bright accent column headers",
+            "press-down hover states",
+            "HTML5 drag-and-drop between columns",
+            "live-updating count badges",
+            "add-card affordance per column",
+            "placeholder drop indicator",
+            "keyboard-focusable draggable cards"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Kanban Board \u2014 Vercel",
+          "path": "Tailwind/Sections/app-ui/kanban-board/vercel/",
+          "description": "Refined dark monochrome project kanban board with hairline borders, a subtle radial glow, a single teal status accent, and count pills. Draggable task cards move between Backlog, In Progress, Review, and Done via the HTML5 Drag and Drop API, count badges update live, and an add-card affordance creates new tasks per column. Generous spacing and a premium dev-tool aesthetic.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "dark monochrome palette",
+            "hairline borders + radial glow",
+            "glowing teal status dots",
+            "pill count badges",
+            "HTML5 drag-and-drop between columns",
+            "live-updating counts",
+            "dashed add-card affordance",
+            "keyboard-focusable draggable cards"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Kanban Board \u2014 Sharp Glassmorphism",
+          "path": "Tailwind/Sections/app-ui/kanban-board/sharp-glassmorphism/",
+          "description": "Frosted-glass project kanban board floating over a living gradient mesh. Translucent columns, luminous top-edge highlights, a cyan glow status dot, gradient priority chips, and count chips. Draggable task cards move between Backlog, In Progress, Review, and Done via the HTML5 Drag and Drop API, count badges update live, and an add-card affordance creates new tasks per column. Requires a colored backdrop for the glass to read.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "backdrop-blur glass columns",
+            "animated gradient mesh backdrop",
+            "luminous top-edge highlights",
+            "glowing cyan status dots",
+            "gradient priority chips",
+            "HTML5 drag-and-drop between columns",
+            "live-updating count chips",
+            "keyboard-focusable draggable cards"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Command Palette",
+      "path": "Tailwind/Sections/developer/command-palette/",
+      "tech": "Tailwind CSS",
+      "category": "Sections",
+      "description": "A Cmd+K command palette overlay with live search filtering, grouped commands, full keyboard navigation (Arrow/Enter/Escape), focus trapping, and a confirmation on run.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Command Palette \u2014 Neo-Brutalism",
+          "path": "Tailwind/Sections/developer/command-palette/neo-brutalism/",
+          "description": "Brutalist Cmd+K command palette overlay with hard black borders, offset drop shadows, and flat bright accents. Live search filters grouped commands, arrow keys move the highlight, Enter runs the selected command with a confirmation toast, Escape closes, and Cmd/Ctrl+K toggles open. Focus is trapped inside the palette and restored to the trigger on close.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "hard offset shadows and bright flat accents",
+            "live search filtering across grouped commands",
+            "arrow-key navigation with aria-activedescendant",
+            "Enter runs command with confirmation toast",
+            "Escape closes, Cmd/Ctrl+K toggles open",
+            "focus trap while open, focus restore on close",
+            "role dialog and role option with aria-selected",
+            "custom scrollbar styling"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Command Palette \u2014 Vercel",
+          "path": "Tailwind/Sections/developer/command-palette/vercel/",
+          "description": "Refined dark monochrome Cmd+K command palette with hairline borders, a subtle radial glow, and a single teal accent. Live search filters grouped commands, arrow keys move the highlight, Enter runs the selected command with a confirmation toast, Escape closes, and Cmd/Ctrl+K toggles open. Focus is trapped inside the palette and restored to the trigger on close.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "dark monochrome surface with hairline borders",
+            "single teal accent and radial glow",
+            "live search filtering across grouped commands",
+            "arrow-key navigation with aria-activedescendant",
+            "Enter runs command with confirmation toast",
+            "Escape closes, Cmd/Ctrl+K toggles open",
+            "focus trap while open, focus restore on close",
+            "role dialog and role option with aria-selected"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Command Palette \u2014 Sharp Glassmorphism",
+          "path": "Tailwind/Sections/developer/command-palette/sharp-glassmorphism/",
+          "description": "Frosted-glass Cmd+K command palette floating over an animated gradient mesh, with luminous edges, blurred surfaces, and a fuchsia-to-indigo active highlight. Live search filters grouped commands, arrow keys move the highlight, Enter runs the selected command with a confirmation toast, Escape closes, and Cmd/Ctrl+K toggles open. Focus is trapped inside the palette and restored to the trigger on close. The glass needs a colored backdrop behind the panel to read.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "frosted-glass panel with backdrop blur over animated mesh",
+            "luminous top edge and glow shadows",
+            "gradient active highlight on selected option",
+            "live search filtering across grouped commands",
+            "arrow-key navigation with aria-activedescendant",
+            "Enter runs command with confirmation toast",
+            "Escape closes, Cmd/Ctrl+K toggles open",
+            "focus trap while open, focus restore on close",
+            "role dialog and role option with aria-selected"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feature Grid",
+      "path": "Tailwind/Sections/marketing/feature-grid/",
+      "tech": "Tailwind CSS",
+      "category": "Sections",
+      "description": "A marketing feature grid showcasing product capabilities \u2014 a section heading plus a responsive card grid with icons, titles, descriptions, a highlighted feature, hover interactions, and a staggered entrance animation.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Feature Grid \u2014 Neo-Brutalism",
+          "path": "Tailwind/Sections/marketing/feature-grid/neo-brutalism/",
+          "description": "Brutalist marketing feature grid with a bold uppercase section heading, six hard-bordered feature cards with offset drop shadows, rotating flat accent icon tiles, a highlighted featured card with a New badge, press-down hover states, and a staggered entrance animation that respects prefers-reduced-motion.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "bold uppercase section heading",
+            "six feature cards in a responsive grid",
+            "hard black borders + offset shadows",
+            "rotating flat accent icon tiles",
+            "featured card with New badge",
+            "press-down hover states",
+            "staggered entrance animation",
+            "prefers-reduced-motion guard",
+            "keyboard accessible focus states"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Feature Grid \u2014 Vercel",
+          "path": "Tailwind/Sections/marketing/feature-grid/vercel/",
+          "description": "Refined dark monochrome marketing feature grid with hairline borders, a subtle masked grid backdrop, a single teal accent, a glowing icon tile on the featured card, soft hover reveals, and a staggered IntersectionObserver entrance that respects prefers-reduced-motion.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "dark monochrome palette",
+            "hairline grid divider layout",
+            "masked grid backdrop",
+            "single teal accent",
+            "featured card with glowing badge",
+            "soft hover reveals",
+            "staggered IntersectionObserver entrance",
+            "prefers-reduced-motion guard",
+            "keyboard accessible focus states"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Feature Grid \u2014 Sharp Glassmorphism",
+          "path": "Tailwind/Sections/marketing/feature-grid/sharp-glassmorphism/",
+          "description": "Frosted-glass marketing feature grid floating over a vibrant animated gradient mesh. Translucent layered cards with luminous edge highlights, glowing gradient icon chips, a highlighted featured card with a gradient tint and cyan glow badge, lift-on-hover interaction, and a staggered IntersectionObserver entrance that respects prefers-reduced-motion.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "backdrop-blur glass cards",
+            "animated gradient mesh backdrop",
+            "luminous edge highlights",
+            "glowing gradient icon chips",
+            "featured card with gradient tint + glow badge",
+            "lift-on-hover interaction",
+            "staggered IntersectionObserver entrance",
+            "prefers-reduced-motion guard",
+            "keyboard accessible focus states"
           ],
           "files": [
             "code.html",
@@ -13908,7 +14149,10 @@
         "Code Playground",
         "Dashboard Overview",
         "Hero Landing",
-        "Aurora Hero"
+        "Aurora Hero",
+        "Kanban Board",
+        "Command Palette",
+        "Feature Grid"
       ]
     },
     {
