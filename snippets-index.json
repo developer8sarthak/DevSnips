@@ -3,10 +3,10 @@
   "lastUpdated": "2026-08-05",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
-    "totalFamilies": 28,
-    "totalVariants": 318,
+    "totalFamilies": 47,
+    "totalVariants": 514,
     "totalSubVariants": 6,
-    "totalStyles": 324,
+    "totalStyles": 520,
     "technologies": [
       "Tailwind CSS",
       "Vanilla HTML/CSS/JS"
@@ -2438,38 +2438,326 @@
       "tech": "Tailwind CSS",
       "category": "Components",
       "description": "Complete input component family with 35 production-ready variants covering every input type from text to file uploads",
-      "variantsCount": 35,
+      "variantsCount": 49,
       "variants": [
         {
-          "name": "Underline",
-          "path": "Tailwind/Components/Input/underline/",
-          "description": "Minimal underline style with focus animation",
+          "name": "Animated Focus",
+          "path": "Tailwind/Components/Input/animated-focus/",
+          "description": "Input fields with smooth focus transitions",
           "styles": [
-            "Default",
-            "With Label",
-            "Dark Mode",
-            "Accent Color"
+            "Ring Expand",
+            "Border Slide",
+            "Floating Label",
+            "Underline Expand"
           ],
           "searchTerms": [
-            "underline input",
-            "minimal input",
-            "bottom border input"
+            "animated input",
+            "focus animation",
+            "transition"
           ]
         },
         {
-          "name": "Outlined",
-          "path": "Tailwind/Components/Input/outlined/",
-          "description": "Classic bordered style with label",
+          "name": "CVV Input",
+          "path": "Tailwind/Components/Input/cvv/",
+          "description": "CVV/CVC security code input components for payment forms",
           "styles": [
-            "Default",
-            "With Label",
-            "With Helper",
-            "Dark Mode"
+            "input",
+            "cvv",
+            "cvc",
+            "security"
+          ],
+          "features": [
+            "input",
+            "cvv",
+            "cvc",
+            "security",
+            "payment"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "cvv",
+            "cvc",
+            "security",
+            "payment"
+          ]
+        },
+        {
+          "name": "Character Count",
+          "path": "Tailwind/Components/Input/character-count/",
+          "description": "Input with character counter",
+          "styles": [
+            "Below Input",
+            "Inside Input",
+            "Progress Bar",
+            "Limit Warning"
           ],
           "searchTerms": [
-            "outlined input",
-            "bordered input",
-            "classic input"
+            "character count",
+            "counter input",
+            "limit input"
+          ]
+        },
+        {
+          "name": "Chat Input",
+          "path": "Tailwind/Components/Input/chat-input/",
+          "description": "Chat input components for messaging interfaces with attachments and emojis",
+          "styles": [
+            "input",
+            "chat",
+            "message",
+            "messaging"
+          ],
+          "features": [
+            "input",
+            "chat",
+            "message",
+            "messaging",
+            "chat-input"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "chat",
+            "message",
+            "messaging",
+            "chat-input"
+          ]
+        },
+        {
+          "name": "Checkbox Styled",
+          "path": "Tailwind/Components/Input/checkbox-styled/",
+          "description": "Custom checkbox designs",
+          "styles": [
+            "Default",
+            "Custom Styled",
+            "With Description"
+          ],
+          "searchTerms": [
+            "checkbox",
+            "check input",
+            "selection"
+          ]
+        },
+        {
+          "name": "Color Picker",
+          "path": "Tailwind/Components/Input/color-picker/",
+          "description": "Color selection components",
+          "styles": [
+            "Native Picker",
+            "Color Swatches",
+            "Gradient Swatches"
+          ],
+          "searchTerms": [
+            "color picker",
+            "color input",
+            "swatches"
+          ]
+        },
+        {
+          "name": "Corporate",
+          "path": "Tailwind/Components/Input/corporate/",
+          "description": "Enterprise-style form inputs",
+          "styles": [
+            "Form Header",
+            "Card Form",
+            "Grid Layout"
+          ],
+          "searchTerms": [
+            "corporate input",
+            "enterprise",
+            "business form"
+          ]
+        },
+        {
+          "name": "Credit Card Input",
+          "path": "Tailwind/Components/Input/credit-card/",
+          "description": "Credit card input components with visual card styling and form fields",
+          "styles": [
+            "input",
+            "credit-card",
+            "payment",
+            "card"
+          ],
+          "features": [
+            "input",
+            "credit-card",
+            "payment",
+            "card",
+            "checkout"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "credit-card",
+            "payment",
+            "card",
+            "checkout"
+          ]
+        },
+        {
+          "name": "Currency Input",
+          "path": "Tailwind/Components/Input/currency-input/",
+          "description": "Currency input components with symbols and preset amounts",
+          "styles": [
+            "input",
+            "currency",
+            "money",
+            "price"
+          ],
+          "features": [
+            "input",
+            "currency",
+            "money",
+            "price",
+            "payment"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "currency",
+            "money",
+            "price",
+            "payment"
+          ]
+        },
+        {
+          "name": "Dark Mode",
+          "path": "Tailwind/Components/Input/dark-mode/",
+          "description": "Input fields designed for dark backgrounds",
+          "styles": [
+            "Standard",
+            "Subtle Border",
+            "Glow Effect",
+            "Terminal"
+          ],
+          "searchTerms": [
+            "dark input",
+            "dark mode",
+            "terminal input"
+          ]
+        },
+        {
+          "name": "Date Picker",
+          "path": "Tailwind/Components/Input/date-picker/",
+          "description": "Date input components with calendar",
+          "styles": [
+            "Standard",
+            "With Icon",
+            "Date Range",
+            "Calendar Card"
+          ],
+          "searchTerms": [
+            "date picker",
+            "calendar input",
+            "date input"
+          ]
+        },
+        {
+          "name": "Disabled Readonly",
+          "path": "Tailwind/Components/Input/disabled-readonly/",
+          "description": "Disabled and readonly states",
+          "styles": [
+            "Disabled",
+            "Readonly",
+            "Readonly Filled",
+            "Disabled Filled"
+          ],
+          "searchTerms": [
+            "disabled input",
+            "readonly input",
+            "non-editable"
+          ]
+        },
+        {
+          "name": "Email Input",
+          "path": "Tailwind/Components/Input/email-input/",
+          "description": "Email input components with icon, verification, and dark mode styles",
+          "styles": [
+            "input",
+            "email",
+            "mail",
+            "verification"
+          ],
+          "features": [
+            "input",
+            "email",
+            "mail",
+            "verification",
+            "contact"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "email",
+            "mail",
+            "verification",
+            "contact"
+          ]
+        },
+        {
+          "name": "Expiration Date Input",
+          "path": "Tailwind/Components/Input/expiration-date/",
+          "description": "Expiration date input components for card and subscription forms",
+          "styles": [
+            "input",
+            "expiration",
+            "date",
+            "card"
+          ],
+          "features": [
+            "input",
+            "expiration",
+            "date",
+            "card",
+            "subscription"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "expiration",
+            "date",
+            "card",
+            "subscription"
+          ]
+        },
+        {
+          "name": "File Upload",
+          "path": "Tailwind/Components/Input/file-upload/",
+          "description": "File upload with drag-drop and preview",
+          "styles": [
+            "Drag Drop Zone",
+            "File Preview",
+            "Button Style"
+          ],
+          "searchTerms": [
+            "file upload",
+            "drag drop",
+            "attachment"
           ]
         },
         {
@@ -2505,6 +2793,52 @@
           ]
         },
         {
+          "name": "Glassmorphism",
+          "path": "Tailwind/Components/Input/glassmorphism/",
+          "description": "Frosted glass effect input fields",
+          "styles": [
+            "Light Background",
+            "Dark Background",
+            "Blur Heavy",
+            "Card Form"
+          ],
+          "searchTerms": [
+            "glassmorphism",
+            "frosted glass",
+            "blur input"
+          ]
+        },
+        {
+          "name": "Gradient Border",
+          "path": "Tailwind/Components/Input/gradient-border/",
+          "description": "Input fields with gradient border effects",
+          "styles": [
+            "Blue Purple",
+            "Cyan Blue",
+            "Warm Dark",
+            "Dark Inner"
+          ],
+          "searchTerms": [
+            "gradient border",
+            "colorful input",
+            "gradient input"
+          ]
+        },
+        {
+          "name": "Icon Both",
+          "path": "Tailwind/Components/Input/icon-both/",
+          "description": "Icons on both sides",
+          "styles": [
+            "Search",
+            "Location",
+            "Price Range"
+          ],
+          "searchTerms": [
+            "dual icon input",
+            "input with both icons"
+          ]
+        },
+        {
           "name": "Icon Left",
           "path": "Tailwind/Components/Input/icon-left/",
           "description": "Left-aligned icon input",
@@ -2536,225 +2870,78 @@
           ]
         },
         {
-          "name": "Icon Both",
-          "path": "Tailwind/Components/Input/icon-both/",
-          "description": "Icons on both sides",
+          "name": "Markdown Editor",
+          "path": "Tailwind/Components/Input/markdown-editor/",
+          "description": "Markdown editor with toolbar and dark mode support",
           "styles": [
-            "Search",
-            "Location",
-            "Price Range"
+            "input",
+            "markdown",
+            "editor",
+            "textarea"
           ],
-          "searchTerms": [
-            "dual icon input",
-            "input with both icons"
-          ]
-        },
-        {
-          "name": "Search Bar",
-          "path": "Tailwind/Components/Input/search-bar/",
-          "description": "Search-specific styling with rounded corners",
-          "styles": [
-            "Default",
-            "Compact",
-            "Extended",
-            "With Filters"
-          ],
-          "searchTerms": [
-            "search bar",
-            "search input",
-            "finder"
-          ]
-        },
-        {
-          "name": "With Prefix",
-          "path": "Tailwind/Components/Input/with-prefix/",
-          "description": "Text prefix (e.g., $)",
-          "styles": [
-            "Currency",
-            "URL",
-            "Domain",
-            "Social"
-          ],
-          "searchTerms": [
-            "prefix input",
-            "input with prefix",
-            "currency input"
-          ]
-        },
-        {
-          "name": "With Suffix",
-          "path": "Tailwind/Components/Input/with-suffix/",
-          "description": "Text suffix (e.g., .com)",
-          "styles": [
-            "Domain",
-            "File Type",
-            "Unit",
-            "Extension"
-          ],
-          "searchTerms": [
-            "suffix input",
-            "input with suffix",
-            "extension input"
-          ]
-        },
-        {
-          "name": "Password Toggle",
-          "path": "Tailwind/Components/Input/password-toggle/",
-          "description": "Password with show/hide toggle",
-          "styles": [
-            "Default",
-            "With Strength",
-            "Modern",
-            "Floating"
-          ],
-          "searchTerms": [
-            "password input",
-            "password toggle",
-            "show hide password"
-          ]
-        },
-        {
-          "name": "Textarea",
-          "path": "Tailwind/Components/Input/textarea/",
-          "description": "Multi-line text input",
-          "styles": [
-            "Default",
-            "Auto-resize",
-            "With Counter",
-            "Rich"
-          ],
-          "searchTerms": [
+          "features": [
+            "input",
+            "markdown",
+            "editor",
             "textarea",
-            "multiline input",
-            "text area"
+            "content"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "markdown",
+            "editor",
+            "textarea",
+            "content"
           ]
         },
         {
-          "name": "Character Count",
-          "path": "Tailwind/Components/Input/character-count/",
-          "description": "Input with character counter",
+          "name": "Mention Input",
+          "path": "Tailwind/Components/Input/mention-input/",
+          "description": "Mention input components with user suggestions and tag styles",
           "styles": [
-            "Below Input",
-            "Inside Input",
-            "Progress Bar",
-            "Limit Warning"
+            "input",
+            "mention",
+            "@",
+            "tag"
           ],
-          "searchTerms": [
-            "character count",
-            "counter input",
-            "limit input"
+          "features": [
+            "input",
+            "mention",
+            "@",
+            "tag",
+            "user"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "mention",
+            "@",
+            "tag",
+            "user"
           ]
         },
         {
-          "name": "Validation States",
-          "path": "Tailwind/Components/Input/validation-states/",
-          "description": "Success, error, warning states",
+          "name": "Modern SaaS",
+          "path": "Tailwind/Components/Input/modern-saas/",
+          "description": "Modern SaaS-style inputs with premium feel",
           "styles": [
-            "Success",
-            "Error",
-            "Warning",
-            "Disabled"
+            "Clean Card",
+            "Gradient CTA",
+            "Stats Display"
           ],
           "searchTerms": [
-            "validation input",
-            "form validation",
-            "error input"
-          ]
-        },
-        {
-          "name": "With Helper Text",
-          "path": "Tailwind/Components/Input/with-helper/",
-          "description": "Input with helper/error message",
-          "styles": [
-            "Helper Text",
-            "Error Message",
-            "With Tip",
-            "Multiple"
-          ],
-          "searchTerms": [
-            "helper text",
-            "input with message",
-            "form help"
-          ]
-        },
-        {
-          "name": "Disabled Readonly",
-          "path": "Tailwind/Components/Input/disabled-readonly/",
-          "description": "Disabled and readonly states",
-          "styles": [
-            "Disabled",
-            "Readonly",
-            "Readonly Filled",
-            "Disabled Filled"
-          ],
-          "searchTerms": [
-            "disabled input",
-            "readonly input",
-            "non-editable"
-          ]
-        },
-        {
-          "name": "Rounded Pill",
-          "path": "Tailwind/Components/Input/rounded-pill/",
-          "description": "Fully rounded pill-style input fields",
-          "styles": [
-            "Default",
-            "With Icon",
-            "Outlined",
-            "Dark"
-          ],
-          "searchTerms": [
-            "pill input",
-            "rounded input",
-            "search pill"
-          ]
-        },
-        {
-          "name": "Sharp Corner",
-          "path": "Tailwind/Components/Input/sharp-corner/",
-          "description": "Sharp rectangular input fields",
-          "styles": [
-            "Default",
-            "Dense",
-            "Industrial",
-            "Inline Row"
-          ],
-          "searchTerms": [
-            "sharp input",
-            "rectangular input",
-            "industrial"
-          ]
-        },
-        {
-          "name": "Gradient Border",
-          "path": "Tailwind/Components/Input/gradient-border/",
-          "description": "Input fields with gradient border effects",
-          "styles": [
-            "Blue Purple",
-            "Cyan Blue",
-            "Warm Dark",
-            "Dark Inner"
-          ],
-          "searchTerms": [
-            "gradient border",
-            "colorful input",
-            "gradient input"
-          ]
-        },
-        {
-          "name": "Glassmorphism",
-          "path": "Tailwind/Components/Input/glassmorphism/",
-          "description": "Frosted glass effect input fields",
-          "styles": [
-            "Light Background",
-            "Dark Background",
-            "Blur Heavy",
-            "Card Form"
-          ],
-          "searchTerms": [
-            "glassmorphism",
-            "frosted glass",
-            "blur input"
+            "saas input",
+            "modern input",
+            "startup input"
           ]
         },
         {
@@ -2774,65 +2961,280 @@
           ]
         },
         {
-          "name": "Dark Mode",
-          "path": "Tailwind/Components/Input/dark-mode/",
-          "description": "Input fields designed for dark backgrounds",
+          "name": "Number Stepper",
+          "path": "Tailwind/Components/Input/number-stepper/",
+          "description": "Input with increment/decrement buttons",
+          "styles": [
+            "Default",
+            "Compact",
+            "Pill",
+            "With Limits"
+          ],
+          "searchTerms": [
+            "number stepper",
+            "counter",
+            "quantity input"
+          ]
+        },
+        {
+          "name": "OTP 6-Digit Input",
+          "path": "Tailwind/Components/Input/otp-6-digit/",
+          "description": "One-time password input components with verification code styling",
+          "styles": [
+            "input",
+            "otp",
+            "verification",
+            "code"
+          ],
+          "features": [
+            "input",
+            "otp",
+            "verification",
+            "code",
+            "auth"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "otp",
+            "verification",
+            "code",
+            "auth"
+          ]
+        },
+        {
+          "name": "Outlined",
+          "path": "Tailwind/Components/Input/outlined/",
+          "description": "Classic bordered style with label",
+          "styles": [
+            "Default",
+            "With Label",
+            "With Helper",
+            "Dark Mode"
+          ],
+          "searchTerms": [
+            "outlined input",
+            "bordered input",
+            "classic input"
+          ]
+        },
+        {
+          "name": "Password Toggle",
+          "path": "Tailwind/Components/Input/password-toggle/",
+          "description": "Password with show/hide toggle",
+          "styles": [
+            "Default",
+            "With Strength",
+            "Modern",
+            "Floating"
+          ],
+          "searchTerms": [
+            "password input",
+            "password toggle",
+            "show hide password"
+          ]
+        },
+        {
+          "name": "Phone Input",
+          "path": "Tailwind/Components/Input/phone-input/",
+          "description": "Phone number input components with country code selection and formatting",
+          "styles": [
+            "input",
+            "phone",
+            "tel",
+            "mobile"
+          ],
+          "features": [
+            "input",
+            "phone",
+            "tel",
+            "mobile",
+            "contact"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "phone",
+            "tel",
+            "mobile",
+            "contact"
+          ]
+        },
+        {
+          "name": "Radio Styled",
+          "path": "Tailwind/Components/Input/radio-styled/",
+          "description": "Custom radio button designs",
+          "styles": [
+            "Default",
+            "Card Style",
+            "Button Group"
+          ],
+          "searchTerms": [
+            "radio button",
+            "radio input",
+            "option select"
+          ]
+        },
+        {
+          "name": "Range Slider",
+          "path": "Tailwind/Components/Input/range-slider/",
+          "description": "Numeric range selection",
           "styles": [
             "Standard",
-            "Subtle Border",
-            "Glow Effect",
-            "Terminal"
+            "With Labels",
+            "Dual Handle",
+            "With Steps"
           ],
           "searchTerms": [
-            "dark input",
-            "dark mode",
-            "terminal input"
+            "range slider",
+            "slider",
+            "volume control"
           ]
         },
         {
-          "name": "Corporate",
-          "path": "Tailwind/Components/Input/corporate/",
-          "description": "Enterprise-style form inputs",
+          "name": "Rich Text Editor",
+          "path": "Tailwind/Components/Input/rich-text-editor/",
+          "description": "Rich text editor components with formatting toolbar and comment styles",
           "styles": [
-            "Form Header",
-            "Card Form",
-            "Grid Layout"
+            "input",
+            "rich-text",
+            "editor",
+            "wysiwyg"
           ],
-          "searchTerms": [
-            "corporate input",
-            "enterprise",
-            "business form"
+          "features": [
+            "input",
+            "rich-text",
+            "editor",
+            "wysiwyg",
+            "content"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "rich-text",
+            "editor",
+            "wysiwyg",
+            "content"
           ]
         },
         {
-          "name": "Modern SaaS",
-          "path": "Tailwind/Components/Input/modern-saas/",
-          "description": "Modern SaaS-style inputs with premium feel",
+          "name": "Rounded Pill",
+          "path": "Tailwind/Components/Input/rounded-pill/",
+          "description": "Fully rounded pill-style input fields",
           "styles": [
-            "Clean Card",
-            "Gradient CTA",
-            "Stats Display"
+            "Default",
+            "With Icon",
+            "Outlined",
+            "Dark"
           ],
           "searchTerms": [
-            "saas input",
-            "modern input",
-            "startup input"
+            "pill input",
+            "rounded input",
+            "search pill"
           ]
         },
         {
-          "name": "Animated Focus",
-          "path": "Tailwind/Components/Input/animated-focus/",
-          "description": "Input fields with smooth focus transitions",
+          "name": "Search Bar",
+          "path": "Tailwind/Components/Input/search-bar/",
+          "description": "Search-specific styling with rounded corners",
           "styles": [
-            "Ring Expand",
-            "Border Slide",
-            "Floating Label",
-            "Underline Expand"
+            "Default",
+            "Compact",
+            "Extended",
+            "With Filters"
           ],
           "searchTerms": [
-            "animated input",
-            "focus animation",
-            "transition"
+            "search bar",
+            "search input",
+            "finder"
+          ]
+        },
+        {
+          "name": "Search with Autocomplete",
+          "path": "Tailwind/Components/Input/search-with-autocomplete/",
+          "description": "Search input components with autocomplete dropdown suggestions",
+          "styles": [
+            "input",
+            "search",
+            "autocomplete",
+            "dropdown"
+          ],
+          "features": [
+            "input",
+            "search",
+            "autocomplete",
+            "dropdown",
+            "suggestions"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "search",
+            "autocomplete",
+            "dropdown",
+            "suggestions"
+          ]
+        },
+        {
+          "name": "Search with Filters",
+          "path": "Tailwind/Components/Input/search-with-filters/",
+          "description": "Search input components with filter chips and advanced filtering options",
+          "styles": [
+            "input",
+            "search",
+            "filter",
+            "search-bar"
+          ],
+          "features": [
+            "input",
+            "search",
+            "filter",
+            "search-bar",
+            "filter-chips"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "search",
+            "filter",
+            "search-bar",
+            "filter-chips"
+          ]
+        },
+        {
+          "name": "Sharp Corner",
+          "path": "Tailwind/Components/Input/sharp-corner/",
+          "description": "Sharp rectangular input fields",
+          "styles": [
+            "Default",
+            "Dense",
+            "Industrial",
+            "Inline Row"
+          ],
+          "searchTerms": [
+            "sharp input",
+            "rectangular input",
+            "industrial"
           ]
         },
         {
@@ -2868,96 +3270,19 @@
           ]
         },
         {
-          "name": "Number Stepper",
-          "path": "Tailwind/Components/Input/number-stepper/",
-          "description": "Input with increment/decrement buttons",
+          "name": "Textarea",
+          "path": "Tailwind/Components/Input/textarea/",
+          "description": "Multi-line text input",
           "styles": [
             "Default",
-            "Compact",
-            "Pill",
-            "With Limits"
+            "Auto-resize",
+            "With Counter",
+            "Rich"
           ],
           "searchTerms": [
-            "number stepper",
-            "counter",
-            "quantity input"
-          ]
-        },
-        {
-          "name": "Date Picker",
-          "path": "Tailwind/Components/Input/date-picker/",
-          "description": "Date input components with calendar",
-          "styles": [
-            "Standard",
-            "With Icon",
-            "Date Range",
-            "Calendar Card"
-          ],
-          "searchTerms": [
-            "date picker",
-            "calendar input",
-            "date input"
-          ]
-        },
-        {
-          "name": "File Upload",
-          "path": "Tailwind/Components/Input/file-upload/",
-          "description": "File upload with drag-drop and preview",
-          "styles": [
-            "Drag Drop Zone",
-            "File Preview",
-            "Button Style"
-          ],
-          "searchTerms": [
-            "file upload",
-            "drag drop",
-            "attachment"
-          ]
-        },
-        {
-          "name": "Color Picker",
-          "path": "Tailwind/Components/Input/color-picker/",
-          "description": "Color selection components",
-          "styles": [
-            "Native Picker",
-            "Color Swatches",
-            "Gradient Swatches"
-          ],
-          "searchTerms": [
-            "color picker",
-            "color input",
-            "swatches"
-          ]
-        },
-        {
-          "name": "Range Slider",
-          "path": "Tailwind/Components/Input/range-slider/",
-          "description": "Numeric range selection",
-          "styles": [
-            "Standard",
-            "With Labels",
-            "Dual Handle",
-            "With Steps"
-          ],
-          "searchTerms": [
-            "range slider",
-            "slider",
-            "volume control"
-          ]
-        },
-        {
-          "name": "Checkbox Styled",
-          "path": "Tailwind/Components/Input/checkbox-styled/",
-          "description": "Custom checkbox designs",
-          "styles": [
-            "Default",
-            "Custom Styled",
-            "With Description"
-          ],
-          "searchTerms": [
-            "checkbox",
-            "check input",
-            "selection"
+            "textarea",
+            "multiline input",
+            "text area"
           ]
         },
         {
@@ -2976,18 +3301,111 @@
           ]
         },
         {
-          "name": "Radio Styled",
-          "path": "Tailwind/Components/Input/radio-styled/",
-          "description": "Custom radio button designs",
+          "name": "URL Input",
+          "path": "Tailwind/Components/Input/url-input/",
+          "description": "URL input components with prefix, icon, and link preview styles",
+          "styles": [
+            "input",
+            "url",
+            "link",
+            "website"
+          ],
+          "features": [
+            "input",
+            "url",
+            "link",
+            "website"
+          ],
+          "files": [
+            "code.html",
+            "metadata.json",
+            "preview.html"
+          ],
+          "tags": [
+            "input",
+            "url",
+            "link",
+            "website"
+          ]
+        },
+        {
+          "name": "Underline",
+          "path": "Tailwind/Components/Input/underline/",
+          "description": "Minimal underline style with focus animation",
           "styles": [
             "Default",
-            "Card Style",
-            "Button Group"
+            "With Label",
+            "Dark Mode",
+            "Accent Color"
           ],
           "searchTerms": [
-            "radio button",
-            "radio input",
-            "option select"
+            "underline input",
+            "minimal input",
+            "bottom border input"
+          ]
+        },
+        {
+          "name": "Validation States",
+          "path": "Tailwind/Components/Input/validation-states/",
+          "description": "Success, error, warning states",
+          "styles": [
+            "Success",
+            "Error",
+            "Warning",
+            "Disabled"
+          ],
+          "searchTerms": [
+            "validation input",
+            "form validation",
+            "error input"
+          ]
+        },
+        {
+          "name": "With Helper Text",
+          "path": "Tailwind/Components/Input/with-helper/",
+          "description": "Input with helper/error message",
+          "styles": [
+            "Helper Text",
+            "Error Message",
+            "With Tip",
+            "Multiple"
+          ],
+          "searchTerms": [
+            "helper text",
+            "input with message",
+            "form help"
+          ]
+        },
+        {
+          "name": "With Prefix",
+          "path": "Tailwind/Components/Input/with-prefix/",
+          "description": "Text prefix (e.g., $)",
+          "styles": [
+            "Currency",
+            "URL",
+            "Domain",
+            "Social"
+          ],
+          "searchTerms": [
+            "prefix input",
+            "input with prefix",
+            "currency input"
+          ]
+        },
+        {
+          "name": "With Suffix",
+          "path": "Tailwind/Components/Input/with-suffix/",
+          "description": "Text suffix (e.g., .com)",
+          "styles": [
+            "Domain",
+            "File Type",
+            "Unit",
+            "Extension"
+          ],
+          "searchTerms": [
+            "suffix input",
+            "input with suffix",
+            "extension input"
           ]
         }
       ]
@@ -6572,6 +6990,6064 @@
         "section",
         "vanilla"
       ]
+    },
+    {
+      "name": "Accordions",
+      "path": "Vanilla/Components/Accordions/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla accordion and collapsible components with pure HTML, CSS, and minimal JavaScript. Includes CSS-only accordions, panels, and animated collapsibles.",
+      "variantsCount": 5,
+      "variants": [
+        {
+          "name": "Accordion",
+          "path": "Vanilla/Components/Accordions/accordion/",
+          "description": "Accordion with responsive design with animations.",
+          "styles": [
+            "accordion",
+            "animation",
+            "responsive",
+            "layout"
+          ],
+          "features": [
+            "accordion",
+            "animation",
+            "responsive",
+            "layout",
+            "form",
+            "dropdown"
+          ],
+          "files": [
+            "README.md",
+            "accordion.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "accordion",
+            "animation",
+            "responsive",
+            "layout",
+            "form",
+            "dropdown",
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Accordion Panel",
+          "path": "Vanilla/Components/Accordions/accordion-panel/",
+          "description": "Accordion Panel with animations and hover interactions.",
+          "styles": [
+            "accordion",
+            "animation",
+            "hover-effect",
+            "shadow"
+          ],
+          "features": [
+            "accordion",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "layout",
+            "button"
+          ],
+          "files": [
+            "README.md",
+            "accordion-panel.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "accordion",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "layout",
+            "button",
+            "form",
+            "dropdown"
+          ]
+        },
+        {
+          "name": "Collapsible",
+          "path": "Vanilla/Components/Accordions/collapsible/",
+          "description": "Collapsible and hover interactions.",
+          "styles": [
+            "accordion",
+            "hover-effect",
+            "layout",
+            "button"
+          ],
+          "features": [
+            "accordion",
+            "hover-effect",
+            "layout",
+            "button",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "collapsible.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "accordion",
+            "hover-effect",
+            "layout",
+            "button",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Collapsible Accordion",
+          "path": "Vanilla/Components/Accordions/collapsible-accordion/",
+          "description": "Collapsible Accordion with responsive design with animations and hover interactions.",
+          "styles": [
+            "accordion",
+            "animation",
+            "hover-effect",
+            "responsive"
+          ],
+          "features": [
+            "accordion",
+            "animation",
+            "hover-effect",
+            "responsive",
+            "flexbox",
+            "center"
+          ],
+          "files": [
+            "README.md",
+            "collapsible-accordion.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "accordion",
+            "animation",
+            "hover-effect",
+            "responsive",
+            "flexbox",
+            "center",
+            "layout",
+            "button"
+          ]
+        },
+        {
+          "name": "Css Only Accordion",
+          "path": "Vanilla/Components/Accordions/css-only-accordion/",
+          "description": "Css Only Accordion with animations.",
+          "styles": [
+            "accordion",
+            "theming",
+            "accessibility",
+            "animation"
+          ],
+          "features": [
+            "accordion",
+            "theming",
+            "accessibility",
+            "animation",
+            "layout",
+            "form"
+          ],
+          "files": [
+            "README.md",
+            "css-only-accordion.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "accordion",
+            "theming",
+            "accessibility",
+            "animation",
+            "layout",
+            "form",
+            "table",
+            "color"
+          ]
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "accordion",
+        "animation",
+        "border",
+        "button",
+        "center",
+        "color",
+        "dropdown",
+        "flexbox",
+        "form",
+        "hover-effect",
+        "layout",
+        "responsive",
+        "shadow",
+        "table"
+      ],
+      "searchTerms": [
+        "accordions"
+      ]
+    },
+    {
+      "name": "Alerts",
+      "path": "Vanilla/Components/Alerts/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla alert and notification banner components. Includes alert messages with animations and cookie consent banners.",
+      "variantsCount": 2,
+      "variants": [
+        {
+          "name": "Alert Messages",
+          "path": "Vanilla/Components/Alerts/alert-messages/",
+          "description": "Alert Messages with animations and hover interactions.",
+          "styles": [
+            "animation",
+            "hover-effect",
+            "button",
+            "badge"
+          ],
+          "features": [
+            "animation",
+            "hover-effect",
+            "button",
+            "badge",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "alert-messages.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "animation",
+            "hover-effect",
+            "button",
+            "badge",
+            "table",
+            "typography",
+            "color",
+            "click"
+          ]
+        },
+        {
+          "name": "Cookie Consent Banner",
+          "path": "Vanilla/Components/Alerts/cookie-consent-banner/",
+          "description": "Cookie Consent Banner. \u2014 Cookie Consent Banner variant.",
+          "styles": [
+            "storage",
+            "center",
+            "button",
+            "form"
+          ],
+          "features": [
+            "storage",
+            "center",
+            "button",
+            "form",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "cookie-consent-banner.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "storage",
+            "center",
+            "button",
+            "form",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ]
+        }
+      ],
+      "tags": [
+        "animation",
+        "badge",
+        "border",
+        "button",
+        "center",
+        "click",
+        "color",
+        "form",
+        "hover-effect",
+        "storage",
+        "table",
+        "typography"
+      ],
+      "searchTerms": [
+        "alerts"
+      ]
+    },
+    {
+      "name": "Avatars",
+      "path": "Vanilla/Components/Avatars/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla avatar and contact chip components for user representation.",
+      "variantsCount": 1,
+      "variants": [
+        {
+          "name": "Contact Chip",
+          "path": "Vanilla/Components/Avatars/contact-chip/",
+          "description": "Contact Chip. \u2014 Contact Chip variant.",
+          "styles": [
+            "table",
+            "typography",
+            "color",
+            "border"
+          ],
+          "features": [
+            "table",
+            "typography",
+            "color",
+            "border",
+            "image",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "contact-chip.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "typography",
+            "color",
+            "border",
+            "image",
+            "api"
+          ]
+        }
+      ],
+      "tags": [
+        "api",
+        "border",
+        "color",
+        "image",
+        "table",
+        "typography"
+      ],
+      "searchTerms": [
+        "avatars"
+      ]
+    },
+    {
+      "name": "Badges",
+      "path": "Vanilla/Components/Badges/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla notification badge components including CSS-only and interactive variants.",
+      "variantsCount": 2,
+      "variants": [
+        {
+          "name": "Css Only Notification Badge",
+          "path": "Vanilla/Components/Badges/css-only-notification-badge/",
+          "description": "Css Only Notification Badge. \u2014 Css Only Notification Badge variant.",
+          "styles": [
+            "badge",
+            "theming",
+            "accessibility",
+            "animation"
+          ],
+          "features": [
+            "badge",
+            "theming",
+            "accessibility",
+            "animation",
+            "form",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "css-only-notification-badge.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "badge",
+            "theming",
+            "accessibility",
+            "animation",
+            "form",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Notification Badge",
+          "path": "Vanilla/Components/Badges/notification-badge/",
+          "description": "Notification Badge and hover interactions.",
+          "styles": [
+            "badge",
+            "hover-effect",
+            "typography",
+            "color"
+          ],
+          "features": [
+            "badge",
+            "hover-effect",
+            "typography",
+            "color",
+            "border",
+            "pseudo-class"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "notification-badge.html"
+          ],
+          "tags": [
+            "badge",
+            "hover-effect",
+            "typography",
+            "color",
+            "border",
+            "pseudo-class"
+          ]
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "animation",
+        "badge",
+        "border",
+        "color",
+        "form",
+        "hover-effect",
+        "pseudo-class",
+        "table",
+        "theming",
+        "typography"
+      ],
+      "searchTerms": [
+        "badges"
+      ]
+    },
+    {
+      "name": "Buttons",
+      "path": "Vanilla/Components/Buttons/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla button components in many styles - 3D, gradient, neumorphic, floating action, social, split, and more. Pure HTML, CSS, and JS.",
+      "variantsCount": 14,
+      "variants": [
+        {
+          "name": "3d Button Effect",
+          "path": "Vanilla/Components/Buttons/3d-button-effect/",
+          "description": "3d Button Effect with animations.",
+          "styles": [
+            "ripple",
+            "button",
+            "animation",
+            "shadow"
+          ],
+          "features": [
+            "ripple",
+            "button",
+            "animation",
+            "shadow",
+            "table",
+            "color"
+          ],
+          "files": [
+            "3d-button-effect.html",
+            "README.md",
+            "metadata.json"
+          ],
+          "tags": [
+            "ripple",
+            "button",
+            "animation",
+            "shadow",
+            "table",
+            "color",
+            "border",
+            "click"
+          ]
+        },
+        {
+          "name": "Action Buttons",
+          "path": "Vanilla/Components/Buttons/action-buttons/",
+          "description": "Action Buttons and hover interactions.",
+          "styles": [
+            "button",
+            "landing-page",
+            "hover-effect",
+            "tabs"
+          ],
+          "features": [
+            "button",
+            "landing-page",
+            "hover-effect",
+            "tabs",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "action-buttons.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "button",
+            "landing-page",
+            "hover-effect",
+            "tabs",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Back To Top Button",
+          "path": "Vanilla/Components/Buttons/back-to-top-button/",
+          "description": "Back To Top Button. \u2014 Back To Top Button variant.",
+          "styles": [
+            "glassmorphism",
+            "button",
+            "tooltip",
+            "badge"
+          ],
+          "features": [
+            "glassmorphism",
+            "button",
+            "tooltip",
+            "badge",
+            "loader",
+            "theming"
+          ],
+          "files": [
+            "README.md",
+            "back-to-top-button.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "glassmorphism",
+            "button",
+            "tooltip",
+            "badge",
+            "loader",
+            "theming",
+            "color",
+            "touch"
+          ]
+        },
+        {
+          "name": "Download Button",
+          "path": "Vanilla/Components/Buttons/download-button/",
+          "description": "Download Button. \u2014 Download Button variant.",
+          "styles": [
+            "button",
+            "typography",
+            "color",
+            "border"
+          ],
+          "features": [
+            "button",
+            "typography",
+            "color",
+            "border",
+            "api",
+            "icons"
+          ],
+          "files": [
+            "README.md",
+            "download-button.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "button",
+            "typography",
+            "color",
+            "border",
+            "api",
+            "icons"
+          ]
+        },
+        {
+          "name": "Nested Animated Button",
+          "path": "Vanilla/Components/Buttons/nested-animated-button/",
+          "description": "Nested Animated Button. \u2014 Nested Animated Button variant.",
+          "styles": [
+            "animation",
+            "button"
+          ],
+          "features": [
+            "animation",
+            "button"
+          ],
+          "files": [
+            "README.md",
+            "animated-button.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "animation",
+            "button"
+          ]
+        },
+        {
+          "name": "Nested Gradient Button",
+          "path": "Vanilla/Components/Buttons/nested-gradient-button/",
+          "description": "Nested Gradient Button. \u2014 Nested Gradient Button variant.",
+          "styles": [
+            "gradient",
+            "button"
+          ],
+          "features": [
+            "gradient",
+            "button"
+          ],
+          "files": [
+            "README.md",
+            "gradient-button.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "gradient",
+            "button"
+          ]
+        },
+        {
+          "name": "Pulsing Button",
+          "path": "Vanilla/Components/Buttons/pulsing-button/",
+          "description": "Pulsing Button with animations.",
+          "styles": [
+            "pulse",
+            "button",
+            "animation",
+            "shadow"
+          ],
+          "features": [
+            "pulse",
+            "button",
+            "animation",
+            "shadow",
+            "table",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "pulsing-button.html"
+          ],
+          "tags": [
+            "pulse",
+            "button",
+            "animation",
+            "shadow",
+            "table",
+            "color",
+            "border",
+            "click"
+          ]
+        },
+        {
+          "name": "Radio Button Group",
+          "path": "Vanilla/Components/Buttons/radio-button-group/",
+          "description": "Radio Button Group. \u2014 Radio Button Group variant.",
+          "styles": [
+            "button",
+            "form",
+            "table",
+            "form-element"
+          ],
+          "features": [
+            "button",
+            "form",
+            "table",
+            "form-element"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "radio-button-group.html"
+          ],
+          "tags": [
+            "button",
+            "form",
+            "table",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Skewed Button",
+          "path": "Vanilla/Components/Buttons/skewed-button/",
+          "description": "Skewed Button with animations and hover interactions.",
+          "styles": [
+            "button",
+            "animation",
+            "hover-effect",
+            "form"
+          ],
+          "features": [
+            "button",
+            "animation",
+            "hover-effect",
+            "form",
+            "table",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "skewed-button.html"
+          ],
+          "tags": [
+            "button",
+            "animation",
+            "hover-effect",
+            "form",
+            "table",
+            "color",
+            "border",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Snippet 09 Floating Action Button",
+          "path": "Vanilla/Components/Buttons/snippet-09-floating-action-button/",
+          "description": "Snippet 09 Floating Action Button with responsive design with animations and hover interactions.",
+          "styles": [
+            "button",
+            "landing-page",
+            "animation",
+            "hover-effect"
+          ],
+          "features": [
+            "button",
+            "landing-page",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-09-floating-action-button.html"
+          ],
+          "tags": [
+            "button",
+            "landing-page",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "center"
+          ]
+        },
+        {
+          "name": "Snippet 21 Neumorphic Button",
+          "path": "Vanilla/Components/Buttons/snippet-21-neumorphic-button/",
+          "description": "Snippet 21 Neumorphic Button with responsive design with animations and hover interactions.",
+          "styles": [
+            "shadow",
+            "button",
+            "animation",
+            "hover-effect"
+          ],
+          "features": [
+            "shadow",
+            "button",
+            "animation",
+            "hover-effect",
+            "glassmorphism",
+            "responsive"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-21-neumorphic-button.css"
+          ],
+          "tags": [
+            "shadow",
+            "button",
+            "animation",
+            "hover-effect",
+            "glassmorphism",
+            "responsive",
+            "center",
+            "form"
+          ]
+        },
+        {
+          "name": "Snippet 24 3d Press Button",
+          "path": "Vanilla/Components/Buttons/snippet-24-3d-press-button/",
+          "description": "Snippet 24 3d Press Button with responsive design with animations and hover interactions.",
+          "styles": [
+            "button",
+            "keyboard",
+            "animation",
+            "hover-effect"
+          ],
+          "features": [
+            "button",
+            "keyboard",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-24-3d-press-button.css"
+          ],
+          "tags": [
+            "button",
+            "keyboard",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "center"
+          ]
+        },
+        {
+          "name": "Social Buttons",
+          "path": "Vanilla/Components/Buttons/social-buttons/",
+          "description": "Social Buttons and hover interactions.",
+          "styles": [
+            "button",
+            "hover-effect",
+            "center",
+            "table"
+          ],
+          "features": [
+            "button",
+            "hover-effect",
+            "center",
+            "table",
+            "typography",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "social-buttons.html"
+          ],
+          "tags": [
+            "button",
+            "hover-effect",
+            "center",
+            "table",
+            "typography",
+            "color",
+            "api",
+            "pseudo-class"
+          ]
+        },
+        {
+          "name": "Split Button",
+          "path": "Vanilla/Components/Buttons/split-button/",
+          "description": "Split Button and hover interactions.",
+          "styles": [
+            "button",
+            "string",
+            "hover-effect",
+            "shadow"
+          ],
+          "features": [
+            "button",
+            "string",
+            "hover-effect",
+            "shadow",
+            "dropdown",
+            "navbar"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "split-button.html"
+          ],
+          "tags": [
+            "button",
+            "string",
+            "hover-effect",
+            "shadow",
+            "dropdown",
+            "navbar",
+            "table",
+            "typography"
+          ]
+        }
+      ],
+      "tags": [
+        "animation",
+        "api",
+        "badge",
+        "border",
+        "button",
+        "center",
+        "click",
+        "color",
+        "dropdown",
+        "flexbox",
+        "form",
+        "form-element",
+        "glassmorphism",
+        "gradient",
+        "hover-effect"
+      ],
+      "searchTerms": [
+        "buttons"
+      ]
+    },
+    {
+      "name": "Cards",
+      "path": "Vanilla/Components/Cards/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla card components - product cards, profile cards, pricing cards, flip cards, glassmorphism cards, and equal-height layouts.",
+      "variantsCount": 15,
+      "variants": [
+        {
+          "name": "Blog Post Card",
+          "path": "Vanilla/Components/Cards/blog-post-card/",
+          "description": "Blog Post Card with animations and hover interactions.",
+          "styles": [
+            "card",
+            "blog",
+            "animation",
+            "hover-effect"
+          ],
+          "features": [
+            "card",
+            "blog",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "layout"
+          ],
+          "files": [
+            "README.md",
+            "blog-post-card.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "card",
+            "blog",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "layout",
+            "table",
+            "image"
+          ]
+        },
+        {
+          "name": "Container Query Card",
+          "path": "Vanilla/Components/Cards/container-query-card/",
+          "description": "Container Query Card. \u2014 Container Query Card variant.",
+          "styles": [
+            "layout",
+            "card",
+            "container-query",
+            "container-queries"
+          ],
+          "features": [
+            "layout",
+            "card",
+            "container-query",
+            "container-queries",
+            "flexbox",
+            "dropdown"
+          ],
+          "files": [
+            "README.md",
+            "container-query-card.css",
+            "metadata.json"
+          ],
+          "tags": [
+            "layout",
+            "card",
+            "container-query",
+            "container-queries",
+            "flexbox",
+            "dropdown",
+            "tabs",
+            "table"
+          ]
+        },
+        {
+          "name": "Equal Height Cards Flexbox",
+          "path": "Vanilla/Components/Cards/equal-height-cards-flexbox/",
+          "description": "Equal Height Cards Flexbox. \u2014 Equal Height Cards Flexbox variant.",
+          "styles": [
+            "card",
+            "typography",
+            "shadow",
+            "responsive"
+          ],
+          "features": [
+            "card",
+            "typography",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "layout"
+          ],
+          "files": [
+            "README.md",
+            "equal-height-cards-flexbox.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "card",
+            "typography",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "layout",
+            "table",
+            "color"
+          ]
+        },
+        {
+          "name": "Equal Height Cards Grid",
+          "path": "Vanilla/Components/Cards/equal-height-cards-grid/",
+          "description": "Equal Height Cards Grid. \u2014 Equal Height Cards Grid variant.",
+          "styles": [
+            "grid",
+            "card",
+            "typography",
+            "shadow"
+          ],
+          "features": [
+            "grid",
+            "card",
+            "typography",
+            "shadow",
+            "layout",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "equal-height-cards-grid.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "grid",
+            "card",
+            "typography",
+            "shadow",
+            "layout",
+            "table",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Flip Card",
+          "path": "Vanilla/Components/Cards/flip-card/",
+          "description": "Flip Card with animations and hover interactions.",
+          "styles": [
+            "card",
+            "animation",
+            "hover-effect",
+            "shadow"
+          ],
+          "features": [
+            "card",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "flexbox",
+            "center"
+          ],
+          "files": [
+            "README.md",
+            "flip-card.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "card",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "flexbox",
+            "center",
+            "form",
+            "table"
+          ]
+        },
+        {
+          "name": "Flipping Card",
+          "path": "Vanilla/Components/Cards/flipping-card/",
+          "description": "Flipping Card with animations and hover interactions.",
+          "styles": [
+            "card",
+            "animation",
+            "hover-effect",
+            "flexbox"
+          ],
+          "features": [
+            "card",
+            "animation",
+            "hover-effect",
+            "flexbox",
+            "center",
+            "form"
+          ],
+          "files": [
+            "README.md",
+            "flipping-card.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "card",
+            "animation",
+            "hover-effect",
+            "flexbox",
+            "center",
+            "form",
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Frosted Glass Card",
+          "path": "Vanilla/Components/Cards/frosted-glass-card/",
+          "description": "Frosted Glass Card. \u2014 Frosted Glass Card variant.",
+          "styles": [
+            "glassmorphism",
+            "card",
+            "shadow",
+            "center"
+          ],
+          "features": [
+            "glassmorphism",
+            "card",
+            "shadow",
+            "center",
+            "modal",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "frosted-glass-card.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "glassmorphism",
+            "card",
+            "shadow",
+            "center",
+            "modal",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Glassmorphism Card",
+          "path": "Vanilla/Components/Cards/glassmorphism-card/",
+          "description": "Glassmorphism Card with responsive design.",
+          "styles": [
+            "glassmorphism",
+            "card",
+            "shadow",
+            "responsive"
+          ],
+          "features": [
+            "glassmorphism",
+            "card",
+            "shadow",
+            "responsive",
+            "table",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "glassmorphism-card.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "glassmorphism",
+            "card",
+            "shadow",
+            "responsive",
+            "table",
+            "color",
+            "border",
+            "drag"
+          ]
+        },
+        {
+          "name": "Nested Product Card",
+          "path": "Vanilla/Components/Cards/nested-product-card/",
+          "description": "Nested Product Card. \u2014 Nested Product Card variant.",
+          "styles": [
+            "card",
+            "ecommerce",
+            "image",
+            "icon"
+          ],
+          "features": [
+            "card",
+            "ecommerce",
+            "image",
+            "icon",
+            "svg"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "product-card.html"
+          ],
+          "tags": [
+            "card",
+            "ecommerce",
+            "image",
+            "icon",
+            "svg"
+          ]
+        },
+        {
+          "name": "Nested Profile Card",
+          "path": "Vanilla/Components/Cards/nested-profile-card/",
+          "description": "Nested Profile Card. \u2014 Nested Profile Card variant.",
+          "styles": [
+            "card",
+            "image",
+            "icon",
+            "svg"
+          ],
+          "features": [
+            "card",
+            "image",
+            "icon",
+            "svg"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "profile-card.html"
+          ],
+          "tags": [
+            "card",
+            "image",
+            "icon",
+            "svg"
+          ]
+        },
+        {
+          "name": "Pricing Card",
+          "path": "Vanilla/Components/Cards/pricing-card/",
+          "description": "Pricing Card. \u2014 Pricing Card variant.",
+          "styles": [
+            "card",
+            "ecommerce",
+            "layout",
+            "button"
+          ],
+          "features": [
+            "card",
+            "ecommerce",
+            "layout",
+            "button",
+            "table",
+            "accessibility"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "pricing-card.html"
+          ],
+          "tags": [
+            "card",
+            "ecommerce",
+            "layout",
+            "button",
+            "table",
+            "accessibility",
+            "semantic",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Product Card",
+          "path": "Vanilla/Components/Cards/product-card/",
+          "description": "Product Card. \u2014 Product Card variant.",
+          "styles": [
+            "card",
+            "ecommerce",
+            "shadow",
+            "center"
+          ],
+          "features": [
+            "card",
+            "ecommerce",
+            "shadow",
+            "center",
+            "button",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "product-card.html"
+          ],
+          "tags": [
+            "card",
+            "ecommerce",
+            "shadow",
+            "center",
+            "button",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Profile Card",
+          "path": "Vanilla/Components/Cards/profile-card/",
+          "description": "Profile Card. \u2014 Profile Card variant.",
+          "styles": [
+            "card",
+            "shadow",
+            "center",
+            "button"
+          ],
+          "features": [
+            "card",
+            "shadow",
+            "center",
+            "button",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "profile-card.html"
+          ],
+          "tags": [
+            "card",
+            "shadow",
+            "center",
+            "button",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Snippet 04 Equal Height Cards",
+          "path": "Vanilla/Components/Cards/snippet-04-equal-height-cards/",
+          "description": "Snippet 04 Equal Height Cards with animations and hover interactions.",
+          "styles": [
+            "404",
+            "card",
+            "typography",
+            "animation"
+          ],
+          "features": [
+            "404",
+            "card",
+            "typography",
+            "animation",
+            "hover-effect",
+            "shadow"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-04-equal-height-cards.css"
+          ],
+          "tags": [
+            "404",
+            "card",
+            "typography",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox"
+          ]
+        },
+        {
+          "name": "Staff Card",
+          "path": "Vanilla/Components/Cards/staff-card/",
+          "description": "Staff Card. \u2014 Staff Card variant.",
+          "styles": [
+            "card",
+            "center",
+            "form",
+            "table"
+          ],
+          "features": [
+            "card",
+            "center",
+            "form",
+            "table",
+            "typography",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "staff-card.html"
+          ],
+          "tags": [
+            "card",
+            "center",
+            "form",
+            "table",
+            "typography",
+            "color",
+            "border",
+            "image"
+          ]
+        }
+      ],
+      "tags": [
+        "404",
+        "accessibility",
+        "animation",
+        "blog",
+        "border",
+        "button",
+        "card",
+        "center",
+        "color",
+        "container-queries",
+        "container-query",
+        "drag",
+        "dropdown",
+        "ecommerce",
+        "flexbox"
+      ],
+      "searchTerms": [
+        "cards"
+      ]
+    },
+    {
+      "name": "Display",
+      "path": "Vanilla/Components/Display/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla display and layout components - dark mode toggle, footers, sticky footers, table layouts, and visibility toggles.",
+      "variantsCount": 7,
+      "variants": [
+        {
+          "name": "Dark Mode Toggle",
+          "path": "Vanilla/Components/Display/dark-mode-toggle/",
+          "description": "Dark Mode Toggle, supports dark mode.",
+          "styles": [
+            "dark-mode",
+            "button",
+            "color",
+            "border"
+          ],
+          "features": [
+            "dark-mode",
+            "button",
+            "color",
+            "border",
+            "click"
+          ],
+          "files": [
+            "README.md",
+            "dark-mode-toggle.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "dark-mode",
+            "button",
+            "color",
+            "border",
+            "click"
+          ]
+        },
+        {
+          "name": "Footer",
+          "path": "Vanilla/Components/Display/footer/",
+          "description": "Footer. \u2014 Footer variant.",
+          "styles": [
+            "card",
+            "semantic",
+            "center",
+            "table"
+          ],
+          "features": [
+            "card",
+            "semantic",
+            "center",
+            "table",
+            "typography",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "footer.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "card",
+            "semantic",
+            "center",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Simple Footer",
+          "path": "Vanilla/Components/Display/simple-footer/",
+          "description": "Simple Footer. \u2014 Simple Footer variant.",
+          "styles": [
+            "card",
+            "semantic",
+            "center",
+            "form"
+          ],
+          "features": [
+            "card",
+            "semantic",
+            "center",
+            "form",
+            "navbar",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "simple-footer.html"
+          ],
+          "tags": [
+            "card",
+            "semantic",
+            "center",
+            "form",
+            "navbar",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Snippet 03 Sticky Footer",
+          "path": "Vanilla/Components/Display/snippet-03-sticky-footer/",
+          "description": "Snippet 03 Sticky Footer. \u2014 Snippet 03 Sticky Footer variant.",
+          "styles": [
+            "card",
+            "semantic",
+            "responsive",
+            "flexbox"
+          ],
+          "features": [
+            "card",
+            "semantic",
+            "responsive",
+            "flexbox",
+            "layout",
+            "navbar"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-03-sticky-footer.css"
+          ],
+          "tags": [
+            "card",
+            "semantic",
+            "responsive",
+            "flexbox",
+            "layout",
+            "navbar",
+            "table",
+            "color"
+          ]
+        },
+        {
+          "name": "Sticky Footer",
+          "path": "Vanilla/Components/Display/sticky-footer/",
+          "description": "Sticky Footer. \u2014 Sticky Footer variant.",
+          "styles": [
+            "card",
+            "semantic",
+            "center",
+            "table"
+          ],
+          "features": [
+            "card",
+            "semantic",
+            "center",
+            "table",
+            "typography",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "sticky-footer.html"
+          ],
+          "tags": [
+            "card",
+            "semantic",
+            "center",
+            "table",
+            "typography",
+            "color",
+            "scroll",
+            "date"
+          ]
+        },
+        {
+          "name": "Table Header Body Footer",
+          "path": "Vanilla/Components/Display/table-header-body-footer/",
+          "description": "Table Header Body Footer. \u2014 Table Header Body Footer variant.",
+          "styles": [
+            "card",
+            "navbar",
+            "tabs",
+            "table"
+          ],
+          "features": [
+            "card",
+            "navbar",
+            "tabs",
+            "table",
+            "semantic",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "table-header-body-footer.html"
+          ],
+          "tags": [
+            "card",
+            "navbar",
+            "tabs",
+            "table",
+            "semantic",
+            "typography",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Toggle Element Visibility",
+          "path": "Vanilla/Components/Display/toggle-element-visibility/",
+          "description": "Toggle Element Visibility. \u2014 Toggle Element Visibility variant.",
+          "styles": [
+            "web-components",
+            "table"
+          ],
+          "features": [
+            "web-components",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "toggle-element-visibility.js"
+          ],
+          "tags": [
+            "web-components",
+            "table"
+          ]
+        }
+      ],
+      "tags": [
+        "border",
+        "button",
+        "card",
+        "center",
+        "click",
+        "color",
+        "dark-mode",
+        "date",
+        "flexbox",
+        "form",
+        "layout",
+        "navbar",
+        "responsive",
+        "scroll",
+        "semantic"
+      ],
+      "searchTerms": [
+        "display"
+      ]
+    },
+    {
+      "name": "Dropdowns",
+      "path": "Vanilla/Components/Dropdowns/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla dropdown components including hover-triggered CSS dropdowns.",
+      "variantsCount": 1,
+      "variants": [
+        {
+          "name": "Snippet 12 Hover Dropdown",
+          "path": "Vanilla/Components/Dropdowns/snippet-12-hover-dropdown/",
+          "description": "Snippet 12 Hover Dropdown with responsive design with animations and hover interactions.",
+          "styles": [
+            "hover-effect",
+            "dropdown",
+            "tooltip",
+            "drag"
+          ],
+          "features": [
+            "hover-effect",
+            "dropdown",
+            "tooltip",
+            "drag",
+            "pseudo-class",
+            "animation"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-12-hover-dropdown.css"
+          ],
+          "tags": [
+            "hover-effect",
+            "dropdown",
+            "tooltip",
+            "drag",
+            "pseudo-class",
+            "animation",
+            "shadow",
+            "responsive"
+          ]
+        }
+      ],
+      "tags": [
+        "animation",
+        "drag",
+        "dropdown",
+        "hover-effect",
+        "pseudo-class",
+        "responsive",
+        "shadow",
+        "tooltip"
+      ],
+      "searchTerms": [
+        "dropdowns"
+      ]
+    },
+    {
+      "name": "Forms",
+      "path": "Vanilla/Components/Forms/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla form components organized by type - contact, login, register, newsletter, search, and other form inputs.",
+      "variantsCount": 6,
+      "variants": [
+        {
+          "name": "Contact",
+          "path": "Vanilla/Components/Forms/Contact/",
+          "description": "Contact subcategory with 0 snippet(s): ",
+          "styles": [
+            "Contact"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "forms",
+            "contact"
+          ]
+        },
+        {
+          "name": "Login",
+          "path": "Vanilla/Components/Forms/Login/",
+          "description": "Login subcategory with 0 snippet(s): ",
+          "styles": [
+            "Login"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "forms",
+            "login"
+          ]
+        },
+        {
+          "name": "Newsletter",
+          "path": "Vanilla/Components/Forms/Newsletter/",
+          "description": "Newsletter subcategory with 0 snippet(s): ",
+          "styles": [
+            "Newsletter"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "forms",
+            "newsletter"
+          ]
+        },
+        {
+          "name": "Other",
+          "path": "Vanilla/Components/Forms/Other/",
+          "description": "Other subcategory with 0 snippet(s): ",
+          "styles": [
+            "Other"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "forms",
+            "other"
+          ]
+        },
+        {
+          "name": "Register",
+          "path": "Vanilla/Components/Forms/Register/",
+          "description": "Register subcategory with 0 snippet(s): ",
+          "styles": [
+            "Register"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "forms",
+            "register"
+          ]
+        },
+        {
+          "name": "Search",
+          "path": "Vanilla/Components/Forms/Search/",
+          "description": "Search subcategory with 0 snippet(s): ",
+          "styles": [
+            "Search"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "forms",
+            "search"
+          ]
+        }
+      ],
+      "tags": [
+        "contact",
+        "forms",
+        "login",
+        "newsletter",
+        "other",
+        "register",
+        "search"
+      ],
+      "searchTerms": [
+        "forms"
+      ]
+    },
+    {
+      "name": "Loaders",
+      "path": "Vanilla/Components/Loaders/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla loading indicators - bouncing loaders, progress bars, circular progress, skeleton loaders, and progress steps.",
+      "variantsCount": 8,
+      "variants": [
+        {
+          "name": "Bouncing Loader",
+          "path": "Vanilla/Components/Loaders/bouncing-loader/",
+          "description": "Bouncing Loader with animations.",
+          "styles": [
+            "bounce",
+            "loader",
+            "animation",
+            "flexbox"
+          ],
+          "features": [
+            "bounce",
+            "loader",
+            "animation",
+            "flexbox",
+            "center",
+            "form"
+          ],
+          "files": [
+            "README.md",
+            "bouncing-loader.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "bounce",
+            "loader",
+            "animation",
+            "flexbox",
+            "center",
+            "form",
+            "badge",
+            "table"
+          ]
+        },
+        {
+          "name": "Circular Progress Bar",
+          "path": "Vanilla/Components/Loaders/circular-progress-bar/",
+          "description": "Circular Progress Bar. \u2014 Circular Progress Bar variant.",
+          "styles": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "form-element"
+          ],
+          "features": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "form-element",
+            "gradient",
+            "flexbox"
+          ],
+          "files": [
+            "README.md",
+            "circular-progress-bar.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "form-element",
+            "gradient",
+            "flexbox",
+            "center",
+            "table"
+          ]
+        },
+        {
+          "name": "Css Only Progress Bar",
+          "path": "Vanilla/Components/Loaders/css-only-progress-bar/",
+          "description": "Css Only Progress Bar with animations.",
+          "styles": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "theming"
+          ],
+          "features": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "theming",
+            "accessibility",
+            "form-element"
+          ],
+          "files": [
+            "README.md",
+            "css-only-progress-bar.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "theming",
+            "accessibility",
+            "form-element",
+            "animation",
+            "gradient"
+          ]
+        },
+        {
+          "name": "Loader",
+          "path": "Vanilla/Components/Loaders/loader/",
+          "description": "Loader with animations. \u2014 Loader variant.",
+          "styles": [
+            "loader",
+            "animation",
+            "form",
+            "badge"
+          ],
+          "features": [
+            "loader",
+            "animation",
+            "form",
+            "badge",
+            "table",
+            "border"
+          ],
+          "files": [
+            "README.md",
+            "loader.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "loader",
+            "animation",
+            "form",
+            "badge",
+            "table",
+            "border",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Nested Bouncing Dots",
+          "path": "Vanilla/Components/Loaders/nested-bouncing-dots/",
+          "description": "Nested Bouncing Dots. \u2014 Nested Bouncing Dots variant.",
+          "styles": [
+            "bounce",
+            "loader"
+          ],
+          "features": [
+            "bounce",
+            "loader"
+          ],
+          "files": [
+            "README.md",
+            "bouncing-dots.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "bounce",
+            "loader"
+          ]
+        },
+        {
+          "name": "Progress Bar",
+          "path": "Vanilla/Components/Loaders/progress-bar/",
+          "description": "Progress Bar. \u2014 Progress Bar variant.",
+          "styles": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "form-element"
+          ],
+          "features": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "form-element",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "progress-bar.html"
+          ],
+          "tags": [
+            "navbar",
+            "sidebar",
+            "loader",
+            "form-element",
+            "table"
+          ]
+        },
+        {
+          "name": "Progress Steps",
+          "path": "Vanilla/Components/Loaders/progress-steps/",
+          "description": "Progress Steps. \u2014 Progress Steps variant.",
+          "styles": [
+            "loader",
+            "form-element",
+            "flexbox",
+            "center"
+          ],
+          "features": [
+            "loader",
+            "form-element",
+            "flexbox",
+            "center",
+            "form",
+            "badge"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "progress-steps.html"
+          ],
+          "tags": [
+            "loader",
+            "form-element",
+            "flexbox",
+            "center",
+            "form",
+            "badge",
+            "table",
+            "color"
+          ]
+        },
+        {
+          "name": "Skeleton Loader",
+          "path": "Vanilla/Components/Loaders/skeleton-loader/",
+          "description": "Skeleton Loader with animations.",
+          "styles": [
+            "loader",
+            "animation",
+            "card",
+            "table"
+          ],
+          "features": [
+            "loader",
+            "animation",
+            "card",
+            "table",
+            "accessibility",
+            "semantic"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "skeleton-loader.html"
+          ],
+          "tags": [
+            "loader",
+            "animation",
+            "card",
+            "table",
+            "accessibility",
+            "semantic",
+            "form-element",
+            "blog"
+          ]
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "animation",
+        "badge",
+        "blog",
+        "border",
+        "bounce",
+        "card",
+        "center",
+        "color",
+        "flexbox",
+        "form",
+        "form-element",
+        "gradient",
+        "loader",
+        "navbar"
+      ],
+      "searchTerms": [
+        "loaders"
+      ]
+    },
+    {
+      "name": "Marketing",
+      "path": "Vanilla/Components/Marketing/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla marketing section components - FAQ accordions, hero jumbotrons, pricing tables, and testimonial sliders.",
+      "variantsCount": 4,
+      "variants": [
+        {
+          "name": "Faq",
+          "path": "Vanilla/Components/Marketing/FAQ/",
+          "description": "Faq subcategory with 0 snippet(s): ",
+          "styles": [
+            "Faq"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "marketing",
+            "faq"
+          ]
+        },
+        {
+          "name": "Hero",
+          "path": "Vanilla/Components/Marketing/Hero/",
+          "description": "Hero subcategory with 0 snippet(s): ",
+          "styles": [
+            "Hero"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "marketing",
+            "hero"
+          ]
+        },
+        {
+          "name": "Pricing",
+          "path": "Vanilla/Components/Marketing/Pricing/",
+          "description": "Pricing subcategory with 0 snippet(s): ",
+          "styles": [
+            "Pricing"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "marketing",
+            "pricing"
+          ]
+        },
+        {
+          "name": "Testimonials",
+          "path": "Vanilla/Components/Marketing/Testimonials/",
+          "description": "Testimonials subcategory with 0 snippet(s): ",
+          "styles": [
+            "Testimonials"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "marketing",
+            "testimonials"
+          ]
+        }
+      ],
+      "tags": [
+        "faq",
+        "hero",
+        "marketing",
+        "pricing",
+        "testimonials"
+      ],
+      "searchTerms": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "Media",
+      "path": "Vanilla/Components/Media/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla media components - images, audio/video players, iframes, canvas, picture element, image maps, sliders, and responsive embeds.",
+      "variantsCount": 17,
+      "variants": [
+        {
+          "name": "Accessible Image",
+          "path": "Vanilla/Components/Media/accessible-image/",
+          "description": "Accessible Image. \u2014 Accessible Image variant.",
+          "styles": [
+            "image",
+            "accessibility",
+            "table",
+            "typography"
+          ],
+          "features": [
+            "image",
+            "accessibility",
+            "table",
+            "typography",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "accessible-image.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "image",
+            "accessibility",
+            "table",
+            "typography",
+            "api"
+          ]
+        },
+        {
+          "name": "Audio Embed",
+          "path": "Vanilla/Components/Media/audio-embed/",
+          "description": "Audio Embed. \u2014 Audio Embed variant.",
+          "styles": [
+            "video",
+            "table",
+            "image"
+          ],
+          "features": [
+            "video",
+            "table",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "audio-embed.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "video",
+            "table",
+            "image"
+          ]
+        },
+        {
+          "name": "Canvas Element",
+          "path": "Vanilla/Components/Media/canvas-element/",
+          "description": "Canvas Element. \u2014 Canvas Element variant.",
+          "styles": [
+            "web-components",
+            "canvas",
+            "table",
+            "typography"
+          ],
+          "features": [
+            "web-components",
+            "canvas",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ],
+          "files": [
+            "README.md",
+            "canvas-element.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "web-components",
+            "canvas",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Figure Figcaption",
+          "path": "Vanilla/Components/Media/figure-figcaption/",
+          "description": "Figure Figcaption. \u2014 Figure Figcaption variant.",
+          "styles": [
+            "table",
+            "image",
+            "api"
+          ],
+          "features": [
+            "table",
+            "image",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "figure-figcaption.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "image",
+            "api"
+          ]
+        },
+        {
+          "name": "Figure With Figcaption",
+          "path": "Vanilla/Components/Media/figure-with-figcaption/",
+          "description": "Figure With Figcaption. \u2014 Figure With Figcaption variant.",
+          "styles": [
+            "table",
+            "center",
+            "typography",
+            "color"
+          ],
+          "features": [
+            "table",
+            "center",
+            "typography",
+            "color",
+            "border",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "figure-with-figcaption.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "center",
+            "typography",
+            "color",
+            "border",
+            "image",
+            "api"
+          ]
+        },
+        {
+          "name": "Full Width Image",
+          "path": "Vanilla/Components/Media/full-width-image/",
+          "description": "Full Width Image. \u2014 Full Width Image variant.",
+          "styles": [
+            "table",
+            "image",
+            "media-query",
+            "api"
+          ],
+          "features": [
+            "table",
+            "image",
+            "media-query",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "full-width-image.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "image",
+            "media-query",
+            "api"
+          ]
+        },
+        {
+          "name": "Html5 Audio Player",
+          "path": "Vanilla/Components/Media/html5-audio-player/",
+          "description": "Html5 Audio Player. \u2014 Html5 Audio Player variant.",
+          "styles": [
+            "table",
+            "image",
+            "video"
+          ],
+          "features": [
+            "table",
+            "image",
+            "video"
+          ],
+          "files": [
+            "README.md",
+            "html5-audio-player.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "image",
+            "video"
+          ]
+        },
+        {
+          "name": "Html5 Video Player",
+          "path": "Vanilla/Components/Media/html5-video-player/",
+          "description": "Html5 Video Player. \u2014 Html5 Video Player variant.",
+          "styles": [
+            "video",
+            "table",
+            "image"
+          ],
+          "features": [
+            "video",
+            "table",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "html5-video-player.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "video",
+            "table",
+            "image"
+          ]
+        },
+        {
+          "name": "Iframe Embed",
+          "path": "Vanilla/Components/Media/iframe-embed/",
+          "description": "Iframe Embed. \u2014 Iframe Embed variant.",
+          "styles": [
+            "video",
+            "table",
+            "image",
+            "api"
+          ],
+          "features": [
+            "video",
+            "table",
+            "image",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "iframe-embed.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "video",
+            "table",
+            "image",
+            "api"
+          ]
+        },
+        {
+          "name": "Image Map",
+          "path": "Vanilla/Components/Media/image-map/",
+          "description": "Image Map. \u2014 Image Map variant.",
+          "styles": [
+            "image",
+            "array",
+            "button",
+            "table"
+          ],
+          "features": [
+            "image",
+            "array",
+            "button",
+            "table",
+            "click",
+            "portfolio"
+          ],
+          "files": [
+            "README.md",
+            "image-map.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "image",
+            "array",
+            "button",
+            "table",
+            "click",
+            "portfolio",
+            "clip-path"
+          ]
+        },
+        {
+          "name": "Image Slider",
+          "path": "Vanilla/Components/Media/image-slider/",
+          "description": "Image Slider. \u2014 Image Slider variant.",
+          "styles": [
+            "carousel",
+            "image",
+            "shadow",
+            "flexbox"
+          ],
+          "features": [
+            "carousel",
+            "image",
+            "shadow",
+            "flexbox",
+            "center",
+            "button"
+          ],
+          "files": [
+            "README.md",
+            "image-slider.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "carousel",
+            "image",
+            "shadow",
+            "flexbox",
+            "center",
+            "button",
+            "form",
+            "dropdown"
+          ]
+        },
+        {
+          "name": "Picture Element",
+          "path": "Vanilla/Components/Media/picture-element/",
+          "description": "Picture Element. \u2014 Picture Element variant.",
+          "styles": [
+            "image",
+            "web-components",
+            "table",
+            "media-query"
+          ],
+          "features": [
+            "image",
+            "web-components",
+            "table",
+            "media-query"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "picture-element.html"
+          ],
+          "tags": [
+            "image",
+            "web-components",
+            "table",
+            "media-query"
+          ]
+        },
+        {
+          "name": "Pop Up Image",
+          "path": "Vanilla/Components/Media/pop-up-image/",
+          "description": "Pop Up Image with animations and hover interactions.",
+          "styles": [
+            "modal",
+            "tooltip",
+            "image",
+            "keyboard"
+          ],
+          "features": [
+            "modal",
+            "tooltip",
+            "image",
+            "keyboard",
+            "login",
+            "animation"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "pop-up-image.html"
+          ],
+          "tags": [
+            "modal",
+            "tooltip",
+            "image",
+            "keyboard",
+            "login",
+            "animation",
+            "hover-effect",
+            "center"
+          ]
+        },
+        {
+          "name": "Responsive Embed",
+          "path": "Vanilla/Components/Media/responsive-embed/",
+          "description": "Responsive Embed. \u2014 Responsive Embed variant.",
+          "styles": [
+            "responsive",
+            "video",
+            "layout",
+            "table"
+          ],
+          "features": [
+            "responsive",
+            "video",
+            "layout",
+            "table",
+            "color",
+            "border"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "responsive-embed.css"
+          ],
+          "tags": [
+            "responsive",
+            "video",
+            "layout",
+            "table",
+            "color",
+            "border",
+            "semantic"
+          ]
+        },
+        {
+          "name": "Responsive Picture",
+          "path": "Vanilla/Components/Media/responsive-picture/",
+          "description": "Responsive Picture. \u2014 Responsive Picture variant.",
+          "styles": [
+            "responsive",
+            "image",
+            "table",
+            "api"
+          ],
+          "features": [
+            "responsive",
+            "image",
+            "table",
+            "api",
+            "media-query"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "responsive-picture.html"
+          ],
+          "tags": [
+            "responsive",
+            "image",
+            "table",
+            "api",
+            "media-query"
+          ]
+        },
+        {
+          "name": "Responsive Video Container",
+          "path": "Vanilla/Components/Media/responsive-video-container/",
+          "description": "Responsive Video Container. \u2014 Responsive Video Container variant.",
+          "styles": [
+            "responsive",
+            "layout",
+            "video",
+            "container-query"
+          ],
+          "features": [
+            "responsive",
+            "layout",
+            "video",
+            "container-query",
+            "container-queries",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "responsive-video-container.html"
+          ],
+          "tags": [
+            "responsive",
+            "layout",
+            "video",
+            "container-query",
+            "container-queries",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Video Background",
+          "path": "Vanilla/Components/Media/video-background/",
+          "description": "Video Background. \u2014 Video Background variant.",
+          "styles": [
+            "color",
+            "video",
+            "layout",
+            "table"
+          ],
+          "features": [
+            "color",
+            "video",
+            "layout",
+            "table",
+            "image",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "video-background.html"
+          ],
+          "tags": [
+            "color",
+            "video",
+            "layout",
+            "table",
+            "image",
+            "api",
+            "semantic",
+            "media-query"
+          ]
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "animation",
+        "api",
+        "array",
+        "border",
+        "button",
+        "canvas",
+        "carousel",
+        "center",
+        "click",
+        "clip-path",
+        "color",
+        "container-queries",
+        "container-query",
+        "dropdown"
+      ],
+      "searchTerms": [
+        "media"
+      ]
+    },
+    {
+      "name": "Modals",
+      "path": "Vanilla/Components/Modals/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla modal and dialog components - modal boxes, dialogs, focus-trap modals, popup chat windows, toast notifications, and device-optimized modals.",
+      "variantsCount": 12,
+      "variants": [
+        {
+          "name": "Dialog Element",
+          "path": "Vanilla/Components/Modals/dialog-element/",
+          "description": "Dialog Element. \u2014 Dialog Element variant.",
+          "styles": [
+            "modal",
+            "web-components",
+            "button",
+            "form"
+          ],
+          "features": [
+            "modal",
+            "web-components",
+            "button",
+            "form",
+            "table",
+            "form-element"
+          ],
+          "files": [
+            "README.md",
+            "dialog-element.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "modal",
+            "web-components",
+            "button",
+            "form",
+            "table",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Focus Trap Modal",
+          "path": "Vanilla/Components/Modals/focus-trap-modal/",
+          "description": "Focus Trap Modal. \u2014 Focus Trap Modal variant.",
+          "styles": [
+            "modal",
+            "table",
+            "keyboard",
+            "pseudo-class"
+          ],
+          "features": [
+            "modal",
+            "table",
+            "keyboard",
+            "pseudo-class",
+            "layout",
+            "button"
+          ],
+          "files": [
+            "Focus Trap (modal).js",
+            "README.md",
+            "metadata.json"
+          ],
+          "tags": [
+            "modal",
+            "table",
+            "keyboard",
+            "pseudo-class",
+            "layout",
+            "button",
+            "form",
+            "dropdown"
+          ]
+        },
+        {
+          "name": "Modal Box",
+          "path": "Vanilla/Components/Modals/modal-box/",
+          "description": "Modal Box. \u2014 Modal Box variant.",
+          "styles": [
+            "shadow",
+            "form",
+            "modal",
+            "dropdown"
+          ],
+          "features": [
+            "shadow",
+            "form",
+            "modal",
+            "dropdown",
+            "aspect-ratio",
+            "center"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "modal-box.html"
+          ],
+          "tags": [
+            "shadow",
+            "form",
+            "modal",
+            "dropdown",
+            "aspect-ratio",
+            "center",
+            "button",
+            "table"
+          ]
+        },
+        {
+          "name": "Modal Dialog",
+          "path": "Vanilla/Components/Modals/modal-dialog/",
+          "description": "Modal Dialog. \u2014 Modal Dialog variant.",
+          "styles": [
+            "modal",
+            "button",
+            "form",
+            "table"
+          ],
+          "features": [
+            "modal",
+            "button",
+            "form",
+            "table",
+            "typography",
+            "accessibility"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "modal-dialog.html"
+          ],
+          "tags": [
+            "modal",
+            "button",
+            "form",
+            "table",
+            "typography",
+            "accessibility",
+            "form-element",
+            "login"
+          ]
+        },
+        {
+          "name": "Modal Dialog Backdrop",
+          "path": "Vanilla/Components/Modals/modal-dialog-backdrop/",
+          "description": "Modal Dialog Backdrop. \u2014 Modal Dialog Backdrop variant.",
+          "styles": [
+            "glassmorphism",
+            "modal",
+            "drag",
+            "backdrop-filter"
+          ],
+          "features": [
+            "glassmorphism",
+            "modal",
+            "drag",
+            "backdrop-filter",
+            "shadow",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "modal-dialog-backdrop.css"
+          ],
+          "tags": [
+            "glassmorphism",
+            "modal",
+            "drag",
+            "backdrop-filter",
+            "shadow",
+            "table",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Modal Popup",
+          "path": "Vanilla/Components/Modals/modal-popup/",
+          "description": "Modal Popup. \u2014 Modal Popup variant.",
+          "styles": [
+            "modal",
+            "flexbox",
+            "center",
+            "button"
+          ],
+          "features": [
+            "modal",
+            "flexbox",
+            "center",
+            "button",
+            "table",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "modal-popup.html"
+          ],
+          "tags": [
+            "modal",
+            "flexbox",
+            "center",
+            "button",
+            "table",
+            "color",
+            "border",
+            "click"
+          ]
+        },
+        {
+          "name": "Nested Simple Modal",
+          "path": "Vanilla/Components/Modals/nested-simple-modal/",
+          "description": "Nested Simple Modal. \u2014 Nested Simple Modal variant.",
+          "styles": [
+            "modal",
+            "button",
+            "table",
+            "date"
+          ],
+          "features": [
+            "modal",
+            "button",
+            "table",
+            "date"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "simple-modal.html"
+          ],
+          "tags": [
+            "modal",
+            "button",
+            "table",
+            "date"
+          ]
+        },
+        {
+          "name": "Popup Chat Window",
+          "path": "Vanilla/Components/Modals/popup-chat-window/",
+          "description": "Popup Chat Window. \u2014 Popup Chat Window variant.",
+          "styles": [
+            "modal",
+            "layout",
+            "button",
+            "form"
+          ],
+          "features": [
+            "modal",
+            "layout",
+            "button",
+            "form",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "popup-chat-window.html"
+          ],
+          "tags": [
+            "modal",
+            "layout",
+            "button",
+            "form",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Snippet 07 Device Optimized Modal",
+          "path": "Vanilla/Components/Modals/snippet-07-device-optimized-modal/",
+          "description": "Snippet 07 Device Optimized Modal with responsive design with animations and hover interactions.",
+          "styles": [
+            "modal",
+            "animation",
+            "hover-effect",
+            "shadow"
+          ],
+          "features": [
+            "modal",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-07-device-optimized-modal.html"
+          ],
+          "tags": [
+            "modal",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "center",
+            "button"
+          ]
+        },
+        {
+          "name": "Snippet 08 Toast Notification",
+          "path": "Vanilla/Components/Modals/snippet-08-toast-notification/",
+          "description": "Snippet 08 Toast Notification with animations and hover interactions.",
+          "styles": [
+            "badge",
+            "animation",
+            "hover-effect",
+            "shadow"
+          ],
+          "features": [
+            "badge",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "flexbox",
+            "center"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-08-toast-notification.html"
+          ],
+          "tags": [
+            "badge",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "flexbox",
+            "center",
+            "layout",
+            "button"
+          ]
+        },
+        {
+          "name": "Toast Notification",
+          "path": "Vanilla/Components/Modals/toast-notification/",
+          "description": "Toast Notification. \u2014 Toast Notification variant.",
+          "styles": [
+            "badge",
+            "shadow",
+            "button",
+            "table"
+          ],
+          "features": [
+            "badge",
+            "shadow",
+            "button",
+            "table",
+            "color",
+            "border"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "toast-notification.html"
+          ],
+          "tags": [
+            "badge",
+            "shadow",
+            "button",
+            "table",
+            "color",
+            "border",
+            "click",
+            "date"
+          ]
+        },
+        {
+          "name": "Toast Notification Markup",
+          "path": "Vanilla/Components/Modals/toast-notification-markup/",
+          "description": "Toast Notification Markup. \u2014 Toast Notification Markup variant.",
+          "styles": [
+            "badge",
+            "layout",
+            "button",
+            "table"
+          ],
+          "features": [
+            "badge",
+            "layout",
+            "button",
+            "table",
+            "accessibility",
+            "date"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "toast-notification-markup.html"
+          ],
+          "tags": [
+            "badge",
+            "layout",
+            "button",
+            "table",
+            "accessibility",
+            "date",
+            "semantic",
+            "form-element"
+          ]
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "animation",
+        "aspect-ratio",
+        "backdrop-filter",
+        "badge",
+        "border",
+        "button",
+        "center",
+        "click",
+        "color",
+        "date",
+        "drag",
+        "dropdown",
+        "flexbox",
+        "form"
+      ],
+      "searchTerms": [
+        "modals"
+      ]
+    },
+    {
+      "name": "Navigation",
+      "path": "Vanilla/Components/Navigation/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla navigation components - breadcrumbs, menus, navbars, pagination, sidebars, scroll-to-top, and sticky headers.",
+      "variantsCount": 8,
+      "variants": [
+        {
+          "name": "Breadcrumb",
+          "path": "Vanilla/Components/Navigation/Breadcrumb/",
+          "description": "Breadcrumb subcategory with 0 snippet(s): ",
+          "styles": [
+            "Breadcrumb"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "navigation",
+            "breadcrumb"
+          ]
+        },
+        {
+          "name": "Menu",
+          "path": "Vanilla/Components/Navigation/Menu/",
+          "description": "Menu subcategory with 0 snippet(s): ",
+          "styles": [
+            "Menu"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "navigation",
+            "menu"
+          ]
+        },
+        {
+          "name": "Navbar",
+          "path": "Vanilla/Components/Navigation/Navbar/",
+          "description": "Navbar subcategory with 0 snippet(s): ",
+          "styles": [
+            "Navbar"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "navigation",
+            "navbar"
+          ]
+        },
+        {
+          "name": "Other",
+          "path": "Vanilla/Components/Navigation/Other/",
+          "description": "Other subcategory with 0 snippet(s): ",
+          "styles": [
+            "Other"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "navigation",
+            "other"
+          ]
+        },
+        {
+          "name": "Pagination",
+          "path": "Vanilla/Components/Navigation/Pagination/",
+          "description": "Pagination subcategory with 0 snippet(s): ",
+          "styles": [
+            "Pagination"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "navigation",
+            "pagination"
+          ]
+        },
+        {
+          "name": "Sidebar",
+          "path": "Vanilla/Components/Navigation/Sidebar/",
+          "description": "Sidebar subcategory with 0 snippet(s): ",
+          "styles": [
+            "Sidebar"
+          ],
+          "features": [
+            "vanilla html/css/js"
+          ],
+          "files": [
+            "(subfolder)"
+          ],
+          "tags": [
+            "navigation",
+            "sidebar"
+          ]
+        },
+        {
+          "name": "Responsive Sticky Header With Shadow",
+          "path": "Vanilla/Components/Navigation/responsive-sticky-header-with-shadow/",
+          "description": "Responsive Sticky Header With Shadow with animations.",
+          "styles": [
+            "shadow",
+            "responsive",
+            "card",
+            "navbar"
+          ],
+          "features": [
+            "shadow",
+            "responsive",
+            "card",
+            "navbar",
+            "table",
+            "semantic"
+          ],
+          "files": [
+            "README.md",
+            "Responsive Sticky Header with Shadow.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "shadow",
+            "responsive",
+            "card",
+            "navbar",
+            "table",
+            "semantic",
+            "web-components",
+            "animation"
+          ]
+        },
+        {
+          "name": "Scroll To Top",
+          "path": "Vanilla/Components/Navigation/scroll-to-top/",
+          "description": "Scroll To Top. \u2014 Scroll To Top variant.",
+          "styles": [
+            "parallax",
+            "button",
+            "tooltip",
+            "badge"
+          ],
+          "features": [
+            "parallax",
+            "button",
+            "tooltip",
+            "badge",
+            "loader",
+            "theming"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "scroll-to-top.html"
+          ],
+          "tags": [
+            "parallax",
+            "button",
+            "tooltip",
+            "badge",
+            "loader",
+            "theming",
+            "scroll",
+            "touch"
+          ]
+        }
+      ],
+      "tags": [
+        "animation",
+        "badge",
+        "breadcrumb",
+        "button",
+        "card",
+        "loader",
+        "menu",
+        "navbar",
+        "navigation",
+        "other",
+        "pagination",
+        "parallax",
+        "responsive",
+        "scroll",
+        "semantic"
+      ],
+      "searchTerms": [
+        "navigation"
+      ]
+    },
+    {
+      "name": "Other",
+      "path": "Vanilla/Components/Other/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla misc components - a large collection of UI elements including carousels, timelines, calendars, code blocks, countdown timers, social media, layouts, semantic elements, and more.",
+      "variantsCount": 65,
+      "variants": [
+        {
+          "name": "Abbr Element",
+          "path": "Vanilla/Components/Other/abbr-element/",
+          "description": "Abbr Element. \u2014 Abbr Element variant.",
+          "styles": [
+            "web-components",
+            "table",
+            "image"
+          ],
+          "features": [
+            "web-components",
+            "table",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "abbr-element.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "web-components",
+            "table",
+            "image"
+          ]
+        },
+        {
+          "name": "Address Tag",
+          "path": "Vanilla/Components/Other/address-tag/",
+          "description": "Address Tag. \u2014 Address Tag variant.",
+          "styles": [
+            "table",
+            "semantic"
+          ],
+          "features": [
+            "table",
+            "semantic"
+          ],
+          "files": [
+            "README.md",
+            "address-tag.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "semantic"
+          ]
+        },
+        {
+          "name": "Bdi Element",
+          "path": "Vanilla/Components/Other/bdi-element/",
+          "description": "Bdi Element. \u2014 Bdi Element variant.",
+          "styles": [
+            "web-components",
+            "form",
+            "table",
+            "typography"
+          ],
+          "features": [
+            "web-components",
+            "form",
+            "table",
+            "typography",
+            "form-element"
+          ],
+          "files": [
+            "README.md",
+            "bdi-element.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "web-components",
+            "form",
+            "table",
+            "typography",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Blockquote Citation",
+          "path": "Vanilla/Components/Other/blockquote-citation/",
+          "description": "Blockquote Citation. \u2014 Blockquote Citation variant.",
+          "styles": [
+            "table",
+            "typography",
+            "color",
+            "border"
+          ],
+          "features": [
+            "table",
+            "typography",
+            "color",
+            "border",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "blockquote-citation.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "typography",
+            "color",
+            "border",
+            "image"
+          ]
+        },
+        {
+          "name": "Blockquote With Cite",
+          "path": "Vanilla/Components/Other/blockquote-with-cite/",
+          "description": "Blockquote With Cite. \u2014 Blockquote With Cite variant.",
+          "styles": [
+            "table",
+            "layout",
+            "typography",
+            "api"
+          ],
+          "features": [
+            "table",
+            "layout",
+            "typography",
+            "api",
+            "semantic"
+          ],
+          "files": [
+            "README.md",
+            "blockquote-with-cite.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "layout",
+            "typography",
+            "api",
+            "semantic"
+          ]
+        },
+        {
+          "name": "Calendar Widget",
+          "path": "Vanilla/Components/Other/calendar-widget/",
+          "description": "Calendar Widget. \u2014 Calendar Widget variant.",
+          "styles": [
+            "grid",
+            "center",
+            "table",
+            "typography"
+          ],
+          "features": [
+            "grid",
+            "center",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ],
+          "files": [
+            "README.md",
+            "calendar-widget.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "grid",
+            "center",
+            "table",
+            "typography",
+            "color",
+            "border",
+            "date",
+            "string"
+          ]
+        },
+        {
+          "name": "Carousel",
+          "path": "Vanilla/Components/Other/carousel/",
+          "description": "Carousel with animations. \u2014 Carousel variant.",
+          "styles": [
+            "carousel",
+            "animation",
+            "layout",
+            "button"
+          ],
+          "features": [
+            "carousel",
+            "animation",
+            "layout",
+            "button",
+            "form",
+            "dropdown"
+          ],
+          "files": [
+            "README.md",
+            "carousel.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "carousel",
+            "animation",
+            "layout",
+            "button",
+            "form",
+            "dropdown",
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Centered Website",
+          "path": "Vanilla/Components/Other/centered-website/",
+          "description": "Centered Website. \u2014 Centered Website variant.",
+          "styles": [
+            "center",
+            "layout",
+            "table"
+          ],
+          "features": [
+            "center",
+            "layout",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "centered-website.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "center",
+            "layout",
+            "table"
+          ]
+        },
+        {
+          "name": "Code Block",
+          "path": "Vanilla/Components/Other/code-block/",
+          "description": "Code Block. \u2014 Code Block variant.",
+          "styles": [
+            "form",
+            "table",
+            "typography",
+            "utility"
+          ],
+          "features": [
+            "form",
+            "table",
+            "typography",
+            "utility",
+            "form-element"
+          ],
+          "files": [
+            "README.md",
+            "code-block.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "form",
+            "table",
+            "typography",
+            "utility",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Content Editable",
+          "path": "Vanilla/Components/Other/content-editable/",
+          "description": "Content Editable. \u2014 Content Editable variant.",
+          "styles": [
+            "tabs",
+            "table",
+            "typography"
+          ],
+          "features": [
+            "tabs",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "content-editable.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "tabs",
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Corner Ribbon",
+          "path": "Vanilla/Components/Other/corner-ribbon/",
+          "description": "Corner Ribbon. \u2014 Corner Ribbon variant.",
+          "styles": [
+            "animation",
+            "shadow",
+            "center",
+            "form"
+          ],
+          "features": [
+            "animation",
+            "shadow",
+            "center",
+            "form",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "corner-ribbon.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "animation",
+            "shadow",
+            "center",
+            "form",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Countdown Timer",
+          "path": "Vanilla/Components/Other/countdown-timer/",
+          "description": "Countdown Timer. \u2014 Countdown Timer variant.",
+          "styles": [
+            "badge",
+            "table",
+            "date",
+            "center"
+          ],
+          "features": [
+            "badge",
+            "table",
+            "date",
+            "center",
+            "typography",
+            "utility"
+          ],
+          "files": [
+            "README.md",
+            "countdown-timer.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "badge",
+            "table",
+            "date",
+            "center",
+            "typography",
+            "utility",
+            "ecommerce"
+          ]
+        },
+        {
+          "name": "Creative Image Hover",
+          "path": "Vanilla/Components/Other/creative-image-hover/",
+          "description": "Creative Image Hover with animations and hover interactions.",
+          "styles": [
+            "hover-effect",
+            "tooltip",
+            "image",
+            "pseudo-class"
+          ],
+          "features": [
+            "hover-effect",
+            "tooltip",
+            "image",
+            "pseudo-class",
+            "animation",
+            "flexbox"
+          ],
+          "files": [
+            "README.md",
+            "creative-image-hover.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "hover-effect",
+            "tooltip",
+            "image",
+            "pseudo-class",
+            "animation",
+            "flexbox",
+            "center",
+            "layout"
+          ]
+        },
+        {
+          "name": "Css Triangle Shape",
+          "path": "Vanilla/Components/Other/css-triangle-shape/",
+          "description": "Css Triangle Shape. \u2014 Css Triangle Shape variant.",
+          "styles": [
+            "table",
+            "theming",
+            "clip-path",
+            "form"
+          ],
+          "features": [
+            "table",
+            "theming",
+            "clip-path",
+            "form",
+            "dropdown",
+            "tooltip"
+          ],
+          "files": [
+            "README.md",
+            "css-triangle-shape.css",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "theming",
+            "clip-path",
+            "form",
+            "dropdown",
+            "tooltip",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Css Variable Fallback",
+          "path": "Vanilla/Components/Other/css-variable-fallback/",
+          "description": "Css Variable Fallback. \u2014 Css Variable Fallback variant.",
+          "styles": [
+            "theming",
+            "css-variable",
+            "table",
+            "color"
+          ],
+          "features": [
+            "theming",
+            "css-variable",
+            "table",
+            "color",
+            "utility"
+          ],
+          "files": [
+            "README.md",
+            "css-variable-fallback.css",
+            "metadata.json"
+          ],
+          "tags": [
+            "theming",
+            "css-variable",
+            "table",
+            "color",
+            "utility"
+          ]
+        },
+        {
+          "name": "Definition List",
+          "path": "Vanilla/Components/Other/definition-list/",
+          "description": "Definition List. \u2014 Definition List variant.",
+          "styles": [
+            "form-element",
+            "typography"
+          ],
+          "features": [
+            "form-element",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "definition-list.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "form-element",
+            "typography"
+          ]
+        },
+        {
+          "name": "Details Summary",
+          "path": "Vanilla/Components/Other/details-summary/",
+          "description": "Details Summary. \u2014 Details Summary variant.",
+          "styles": [
+            "accordion",
+            "button",
+            "form",
+            "table"
+          ],
+          "features": [
+            "accordion",
+            "button",
+            "form",
+            "table",
+            "click",
+            "form-element"
+          ],
+          "files": [
+            "README.md",
+            "details-summary.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "accordion",
+            "button",
+            "form",
+            "table",
+            "click",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Device Mockups",
+          "path": "Vanilla/Components/Other/device-mockups/",
+          "description": "Device Mockups. \u2014 Device Mockups variant.",
+          "styles": [
+            "table",
+            "color",
+            "border",
+            "image"
+          ],
+          "features": [
+            "table",
+            "color",
+            "border",
+            "image",
+            "api",
+            "portfolio"
+          ],
+          "files": [
+            "README.md",
+            "device-mockups.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "color",
+            "border",
+            "image",
+            "api",
+            "portfolio",
+            "ecommerce"
+          ]
+        },
+        {
+          "name": "Diagonal Background",
+          "path": "Vanilla/Components/Other/diagonal-background/",
+          "description": "Diagonal Background. \u2014 Diagonal Background variant.",
+          "styles": [
+            "color",
+            "animation",
+            "layout",
+            "form"
+          ],
+          "features": [
+            "color",
+            "animation",
+            "layout",
+            "form",
+            "navbar",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "diagonal-background.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "color",
+            "animation",
+            "layout",
+            "form",
+            "navbar",
+            "table",
+            "border",
+            "semantic"
+          ]
+        },
+        {
+          "name": "Direction Aware Hover",
+          "path": "Vanilla/Components/Other/direction-aware-hover/",
+          "description": "Direction Aware Hover with animations and hover interactions.",
+          "styles": [
+            "hover-effect",
+            "flexbox",
+            "tooltip",
+            "pseudo-class"
+          ],
+          "features": [
+            "hover-effect",
+            "flexbox",
+            "tooltip",
+            "pseudo-class",
+            "animation",
+            "form"
+          ],
+          "files": [
+            "README.md",
+            "direction-aware-hover.css",
+            "metadata.json"
+          ],
+          "tags": [
+            "hover-effect",
+            "flexbox",
+            "tooltip",
+            "pseudo-class",
+            "animation",
+            "form",
+            "card",
+            "modal"
+          ]
+        },
+        {
+          "name": "Dotted Separator",
+          "path": "Vanilla/Components/Other/dotted-separator/",
+          "description": "Dotted Separator. \u2014 Dotted Separator variant.",
+          "styles": [
+            "gradient",
+            "layout",
+            "table",
+            "color"
+          ],
+          "features": [
+            "gradient",
+            "layout",
+            "table",
+            "color",
+            "border",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "dotted-separator.css",
+            "metadata.json"
+          ],
+          "tags": [
+            "gradient",
+            "layout",
+            "table",
+            "color",
+            "border",
+            "image",
+            "semantic"
+          ]
+        },
+        {
+          "name": "Draggable Element",
+          "path": "Vanilla/Components/Other/draggable-element/",
+          "description": "Draggable Element. \u2014 Draggable Element variant.",
+          "styles": [
+            "drag",
+            "web-components",
+            "table",
+            "typography"
+          ],
+          "features": [
+            "drag",
+            "web-components",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "draggable-element.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "drag",
+            "web-components",
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Favicon Link",
+          "path": "Vanilla/Components/Other/favicon-link/",
+          "description": "Favicon Link. \u2014 Favicon Link variant.",
+          "styles": [
+            "typing-effect",
+            "icon",
+            "tabs",
+            "table"
+          ],
+          "features": [
+            "typing-effect",
+            "icon",
+            "tabs",
+            "table",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "favicon-link.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "typing-effect",
+            "icon",
+            "tabs",
+            "table",
+            "image"
+          ]
+        },
+        {
+          "name": "Fieldset Legend",
+          "path": "Vanilla/Components/Other/fieldset-legend/",
+          "description": "Fieldset Legend. \u2014 Fieldset Legend variant.",
+          "styles": [
+            "form-element",
+            "form",
+            "typography"
+          ],
+          "features": [
+            "form-element",
+            "form",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "fieldset-legend.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "form-element",
+            "form",
+            "typography"
+          ]
+        },
+        {
+          "name": "Filter List",
+          "path": "Vanilla/Components/Other/filter-list/",
+          "description": "Filter List. \u2014 Filter List variant.",
+          "styles": [
+            "glassmorphism",
+            "array",
+            "form-element",
+            "backdrop-filter"
+          ],
+          "features": [
+            "glassmorphism",
+            "array",
+            "form-element",
+            "backdrop-filter",
+            "form",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "filter-list.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "glassmorphism",
+            "array",
+            "form-element",
+            "backdrop-filter",
+            "form",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Focus Visible Accessibility",
+          "path": "Vanilla/Components/Other/focus-visible-accessibility/",
+          "description": "Focus Visible Accessibility. \u2014 Focus Visible Accessibility variant.",
+          "styles": [
+            "keyboard",
+            "pseudo-class",
+            "button",
+            "form"
+          ],
+          "features": [
+            "keyboard",
+            "pseudo-class",
+            "button",
+            "form",
+            "dropdown",
+            "navbar"
+          ],
+          "files": [
+            "README.md",
+            "focus-visible-accessibility.css",
+            "metadata.json"
+          ],
+          "tags": [
+            "keyboard",
+            "pseudo-class",
+            "button",
+            "form",
+            "dropdown",
+            "navbar",
+            "tabs",
+            "accordion"
+          ]
+        },
+        {
+          "name": "Full Screen Overlay",
+          "path": "Vanilla/Components/Other/full-screen-overlay/",
+          "description": "Full Screen Overlay. \u2014 Full Screen Overlay variant.",
+          "styles": [
+            "modal",
+            "accessibility",
+            "badge",
+            "loader"
+          ],
+          "features": [
+            "modal",
+            "accessibility",
+            "badge",
+            "loader",
+            "table",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "full-screen-overlay.css",
+            "metadata.json"
+          ],
+          "tags": [
+            "modal",
+            "accessibility",
+            "badge",
+            "loader",
+            "table",
+            "color"
+          ]
+        },
+        {
+          "name": "Full Screen Search",
+          "path": "Vanilla/Components/Other/full-screen-search/",
+          "description": "Full Screen Search. \u2014 Full Screen Search variant.",
+          "styles": [
+            "accessibility",
+            "center",
+            "button",
+            "form"
+          ],
+          "features": [
+            "accessibility",
+            "center",
+            "button",
+            "form",
+            "modal",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "full-screen-search.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "accessibility",
+            "center",
+            "button",
+            "form",
+            "modal",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Glowing Icon",
+          "path": "Vanilla/Components/Other/glowing-icon/",
+          "description": "Glowing Icon with animations and hover interactions.",
+          "styles": [
+            "icon",
+            "animation",
+            "hover-effect",
+            "shadow"
+          ],
+          "features": [
+            "icon",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "button",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "glowing-icon.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "icon",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "button",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Holy Grail Layout Flex",
+          "path": "Vanilla/Components/Other/holy-grail-layout-flex/",
+          "description": "Holy Grail Layout Flex. \u2014 Holy Grail Layout Flex variant.",
+          "styles": [
+            "flexbox",
+            "layout",
+            "responsive",
+            "navbar"
+          ],
+          "features": [
+            "flexbox",
+            "layout",
+            "responsive",
+            "navbar",
+            "sidebar",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "holy-grail-layout.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "flexbox",
+            "layout",
+            "responsive",
+            "navbar",
+            "sidebar",
+            "color",
+            "semantic",
+            "blog"
+          ]
+        },
+        {
+          "name": "Holy Grail Layout Grid",
+          "path": "Vanilla/Components/Other/holy-grail-layout-grid/",
+          "description": "Holy Grail Layout Grid with responsive design.",
+          "styles": [
+            "grid",
+            "layout",
+            "responsive",
+            "center"
+          ],
+          "features": [
+            "grid",
+            "layout",
+            "responsive",
+            "center",
+            "navbar",
+            "sidebar"
+          ],
+          "files": [
+            "README.md",
+            "holy-grail-layout.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "grid",
+            "layout",
+            "responsive",
+            "center",
+            "navbar",
+            "sidebar",
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Horizontal Rule",
+          "path": "Vanilla/Components/Other/horizontal-rule/",
+          "description": "Horizontal Rule. \u2014 Horizontal Rule variant.",
+          "styles": [
+            "table",
+            "typography"
+          ],
+          "features": [
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "horizontal-rule.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Image Overlay Effect",
+          "path": "Vanilla/Components/Other/image-overlay-effect/",
+          "description": "Image Overlay Effect with animations and hover interactions.",
+          "styles": [
+            "ripple",
+            "modal",
+            "image",
+            "animation"
+          ],
+          "features": [
+            "ripple",
+            "modal",
+            "image",
+            "animation",
+            "hover-effect",
+            "center"
+          ],
+          "files": [
+            "README.md",
+            "image-overlay-effect.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "ripple",
+            "modal",
+            "image",
+            "animation",
+            "hover-effect",
+            "center",
+            "layout",
+            "form"
+          ]
+        },
+        {
+          "name": "Image Zoom On Hover",
+          "path": "Vanilla/Components/Other/image-zoom-on-hover/",
+          "description": "Image Zoom On Hover with animations and hover interactions.",
+          "styles": [
+            "animation",
+            "hover-effect",
+            "gradient",
+            "responsive"
+          ],
+          "features": [
+            "animation",
+            "hover-effect",
+            "gradient",
+            "responsive",
+            "flexbox",
+            "layout"
+          ],
+          "files": [
+            "README.md",
+            "image-zoom-on-hover.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "animation",
+            "hover-effect",
+            "gradient",
+            "responsive",
+            "flexbox",
+            "layout",
+            "button",
+            "dropdown"
+          ]
+        },
+        {
+          "name": "List Group",
+          "path": "Vanilla/Components/Other/list-group/",
+          "description": "List Group. \u2014 List Group variant.",
+          "styles": [
+            "form-element",
+            "flexbox",
+            "color",
+            "border"
+          ],
+          "features": [
+            "form-element",
+            "flexbox",
+            "color",
+            "border",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "list-group.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "form-element",
+            "flexbox",
+            "color",
+            "border",
+            "api"
+          ]
+        },
+        {
+          "name": "Main Element",
+          "path": "Vanilla/Components/Other/main-element/",
+          "description": "Main Element. \u2014 Main Element variant.",
+          "styles": [
+            "semantic",
+            "coming-soon",
+            "web-components",
+            "table"
+          ],
+          "features": [
+            "semantic",
+            "coming-soon",
+            "web-components",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "main-element.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "semantic",
+            "coming-soon",
+            "web-components",
+            "table"
+          ]
+        },
+        {
+          "name": "Mark Text",
+          "path": "Vanilla/Components/Other/mark-text/",
+          "description": "Mark Text. \u2014 Mark Text variant.",
+          "styles": [
+            "form",
+            "tooltip",
+            "typography",
+            "canvas"
+          ],
+          "features": [
+            "form",
+            "tooltip",
+            "typography",
+            "canvas",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "mark-text.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "form",
+            "tooltip",
+            "typography",
+            "canvas",
+            "table"
+          ]
+        },
+        {
+          "name": "Media Object",
+          "path": "Vanilla/Components/Other/media-object/",
+          "description": "Media Object. \u2014 Media Object variant.",
+          "styles": [
+            "responsive",
+            "media-query",
+            "flexbox",
+            "typography"
+          ],
+          "features": [
+            "responsive",
+            "media-query",
+            "flexbox",
+            "typography",
+            "image",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "media-object.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "responsive",
+            "media-query",
+            "flexbox",
+            "typography",
+            "image",
+            "api",
+            "blog"
+          ]
+        },
+        {
+          "name": "Meter Element",
+          "path": "Vanilla/Components/Other/meter-element/",
+          "description": "Meter Element. \u2014 Meter Element variant.",
+          "styles": [
+            "form-element",
+            "web-components",
+            "table"
+          ],
+          "features": [
+            "form-element",
+            "web-components",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "meter-element.html"
+          ],
+          "tags": [
+            "form-element",
+            "web-components",
+            "table"
+          ]
+        },
+        {
+          "name": "Mix Blend Mode Multiply",
+          "path": "Vanilla/Components/Other/mix-blend-mode-multiply/",
+          "description": "Mix Blend Mode Multiply. \u2014 Mix Blend Mode Multiply variant.",
+          "styles": [
+            "dark-mode",
+            "modern-css",
+            "modal",
+            "table"
+          ],
+          "features": [
+            "dark-mode",
+            "modern-css",
+            "modal",
+            "table",
+            "typography",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "mix-blend-mode-multiply.css"
+          ],
+          "tags": [
+            "dark-mode",
+            "modern-css",
+            "modal",
+            "table",
+            "typography",
+            "color",
+            "image"
+          ]
+        },
+        {
+          "name": "Mixed Column Layout",
+          "path": "Vanilla/Components/Other/mixed-column-layout/",
+          "description": "Mixed Column Layout. \u2014 Mixed Column Layout variant.",
+          "styles": [
+            "layout",
+            "responsive",
+            "flexbox",
+            "sidebar"
+          ],
+          "features": [
+            "layout",
+            "responsive",
+            "flexbox",
+            "sidebar",
+            "typography",
+            "semantic"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "mixed-column-layout.html"
+          ],
+          "tags": [
+            "layout",
+            "responsive",
+            "flexbox",
+            "sidebar",
+            "typography",
+            "semantic"
+          ]
+        },
+        {
+          "name": "Output Element",
+          "path": "Vanilla/Components/Other/output-element/",
+          "description": "Output Element. \u2014 Output Element variant.",
+          "styles": [
+            "form-element",
+            "web-components",
+            "form",
+            "table"
+          ],
+          "features": [
+            "form-element",
+            "web-components",
+            "form",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "output-element.html"
+          ],
+          "tags": [
+            "form-element",
+            "web-components",
+            "form",
+            "table"
+          ]
+        },
+        {
+          "name": "Parallax Scrolling Effect",
+          "path": "Vanilla/Components/Other/parallax-scrolling-effect/",
+          "description": "Parallax Scrolling Effect. \u2014 Parallax Scrolling Effect variant.",
+          "styles": [
+            "parallax",
+            "ripple",
+            "scroll",
+            "center"
+          ],
+          "features": [
+            "parallax",
+            "ripple",
+            "scroll",
+            "center",
+            "layout",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "parallax-scrolling-effect.html"
+          ],
+          "tags": [
+            "parallax",
+            "ripple",
+            "scroll",
+            "center",
+            "layout",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Pills",
+          "path": "Vanilla/Components/Other/pills/",
+          "description": "Pills. \u2014 Pills variant.",
+          "styles": [
+            "flexbox",
+            "navbar",
+            "color",
+            "border"
+          ],
+          "features": [
+            "flexbox",
+            "navbar",
+            "color",
+            "border",
+            "semantic"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "pills.html"
+          ],
+          "tags": [
+            "flexbox",
+            "navbar",
+            "color",
+            "border",
+            "semantic"
+          ]
+        },
+        {
+          "name": "Portfolio Gallery",
+          "path": "Vanilla/Components/Other/portfolio-gallery/",
+          "description": "Portfolio Gallery. \u2014 Portfolio Gallery variant.",
+          "styles": [
+            "portfolio",
+            "responsive",
+            "flexbox",
+            "center"
+          ],
+          "features": [
+            "portfolio",
+            "responsive",
+            "flexbox",
+            "center",
+            "table",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "portfolio-gallery.html"
+          ],
+          "tags": [
+            "portfolio",
+            "responsive",
+            "flexbox",
+            "center",
+            "table",
+            "image",
+            "api",
+            "media-query"
+          ]
+        },
+        {
+          "name": "Range Slider",
+          "path": "Vanilla/Components/Other/range-slider/",
+          "description": "Range Slider. \u2014 Range Slider variant.",
+          "styles": [
+            "carousel",
+            "form",
+            "table",
+            "form-element"
+          ],
+          "features": [
+            "carousel",
+            "form",
+            "table",
+            "form-element"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "range-slider.html"
+          ],
+          "tags": [
+            "carousel",
+            "form",
+            "table",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Responsive Image Gallery",
+          "path": "Vanilla/Components/Other/responsive-image-gallery/",
+          "description": "Responsive Image Gallery with responsive design.",
+          "styles": [
+            "responsive",
+            "image",
+            "portfolio",
+            "flexbox"
+          ],
+          "features": [
+            "responsive",
+            "image",
+            "portfolio",
+            "flexbox",
+            "table",
+            "border"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "responsive-image-gallery.html"
+          ],
+          "tags": [
+            "responsive",
+            "image",
+            "portfolio",
+            "flexbox",
+            "table",
+            "border",
+            "api",
+            "media-query"
+          ]
+        },
+        {
+          "name": "Scroll Snap Container",
+          "path": "Vanilla/Components/Other/scroll-snap-container/",
+          "description": "Scroll Snap Container. \u2014 Scroll Snap Container variant.",
+          "styles": [
+            "parallax",
+            "layout",
+            "scroll",
+            "scroll-behavior"
+          ],
+          "features": [
+            "parallax",
+            "layout",
+            "scroll",
+            "scroll-behavior",
+            "container-query",
+            "container-queries"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "scroll-snap-container.css"
+          ],
+          "tags": [
+            "parallax",
+            "layout",
+            "scroll",
+            "scroll-behavior",
+            "container-query",
+            "container-queries",
+            "flexbox",
+            "dropdown"
+          ]
+        },
+        {
+          "name": "Semantic Layout",
+          "path": "Vanilla/Components/Other/semantic-layout/",
+          "description": "Semantic Layout. \u2014 Semantic Layout variant.",
+          "styles": [
+            "layout",
+            "semantic",
+            "form",
+            "navbar"
+          ],
+          "features": [
+            "layout",
+            "semantic",
+            "form",
+            "navbar",
+            "sidebar",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "semantic-layout.html"
+          ],
+          "tags": [
+            "layout",
+            "semantic",
+            "form",
+            "navbar",
+            "sidebar",
+            "table",
+            "typography",
+            "border"
+          ]
+        },
+        {
+          "name": "Simple Ordered List",
+          "path": "Vanilla/Components/Other/simple-ordered-list/",
+          "description": "Simple Ordered List. \u2014 Simple Ordered List variant.",
+          "styles": [
+            "form-element",
+            "table"
+          ],
+          "features": [
+            "form-element",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "simple-ordered-list.html"
+          ],
+          "tags": [
+            "form-element",
+            "table"
+          ]
+        },
+        {
+          "name": "Simple Unordered List",
+          "path": "Vanilla/Components/Other/simple-unordered-list/",
+          "description": "Simple Unordered List. \u2014 Simple Unordered List variant.",
+          "styles": [
+            "form-element",
+            "table"
+          ],
+          "features": [
+            "form-element",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "simple-unordered-list.html"
+          ],
+          "tags": [
+            "form-element",
+            "table"
+          ]
+        },
+        {
+          "name": "Skill Bar",
+          "path": "Vanilla/Components/Other/skill-bar/",
+          "description": "Skill Bar with animations. \u2014 Skill Bar variant.",
+          "styles": [
+            "navbar",
+            "sidebar",
+            "animation",
+            "table"
+          ],
+          "features": [
+            "navbar",
+            "sidebar",
+            "animation",
+            "table",
+            "typography",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "skill-bar.html"
+          ],
+          "tags": [
+            "navbar",
+            "sidebar",
+            "animation",
+            "table",
+            "typography",
+            "color",
+            "border",
+            "portfolio"
+          ]
+        },
+        {
+          "name": "Skip Link",
+          "path": "Vanilla/Components/Other/skip-link/",
+          "description": "Skip Link. \u2014 Skip Link variant.",
+          "styles": [
+            "typing-effect",
+            "table",
+            "color",
+            "keyboard"
+          ],
+          "features": [
+            "typing-effect",
+            "table",
+            "color",
+            "keyboard",
+            "semantic",
+            "pseudo-class"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "skip-link.html"
+          ],
+          "tags": [
+            "typing-effect",
+            "table",
+            "color",
+            "keyboard",
+            "semantic",
+            "pseudo-class"
+          ]
+        },
+        {
+          "name": "Snippet 06 Dark Mode Toggle",
+          "path": "Vanilla/Components/Other/snippet-06-dark-mode-toggle/",
+          "description": "Snippet 06 Dark Mode Toggle with animations and hover interactions.",
+          "styles": [
+            "dark-mode",
+            "animation",
+            "hover-effect",
+            "flexbox"
+          ],
+          "features": [
+            "dark-mode",
+            "animation",
+            "hover-effect",
+            "flexbox",
+            "center",
+            "button"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-06-dark-mode-toggle.html"
+          ],
+          "tags": [
+            "dark-mode",
+            "animation",
+            "hover-effect",
+            "flexbox",
+            "center",
+            "button",
+            "form",
+            "dropdown"
+          ]
+        },
+        {
+          "name": "Snippet 15 Password Visibility Toggle",
+          "path": "Vanilla/Components/Other/snippet-15-password-visibility-toggle/",
+          "description": "Snippet 15 Password Visibility Toggle with responsive design with animations and hover interactions.",
+          "styles": [
+            "login",
+            "animation",
+            "hover-effect",
+            "shadow"
+          ],
+          "features": [
+            "login",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-15-password-visibility-toggle.html"
+          ],
+          "tags": [
+            "login",
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "center",
+            "layout"
+          ]
+        },
+        {
+          "name": "Snippet 19 Sliding Indicator",
+          "path": "Vanilla/Components/Other/snippet-19-sliding-indicator/",
+          "description": "Snippet 19 Sliding Indicator with responsive design with animations and hover interactions.",
+          "styles": [
+            "badge",
+            "animation",
+            "hover-effect",
+            "gradient"
+          ],
+          "features": [
+            "badge",
+            "animation",
+            "hover-effect",
+            "gradient",
+            "shadow",
+            "responsive"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-19-sliding-indicator.css"
+          ],
+          "tags": [
+            "badge",
+            "animation",
+            "hover-effect",
+            "gradient",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "center"
+          ]
+        },
+        {
+          "name": "Social Media Icons",
+          "path": "Vanilla/Components/Other/social-media-icons/",
+          "description": "Social Media Icons with animations and hover interactions.",
+          "styles": [
+            "responsive",
+            "icon",
+            "media-query",
+            "animation"
+          ],
+          "features": [
+            "responsive",
+            "icon",
+            "media-query",
+            "animation",
+            "hover-effect",
+            "layout"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "social-media-icons.html"
+          ],
+          "tags": [
+            "responsive",
+            "icon",
+            "media-query",
+            "animation",
+            "hover-effect",
+            "layout",
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Social Media Share Links",
+          "path": "Vanilla/Components/Other/social-media-share-links/",
+          "description": "Social Media Share Links. \u2014 Social Media Share Links variant.",
+          "styles": [
+            "responsive",
+            "media-query",
+            "form",
+            "accordion"
+          ],
+          "features": [
+            "responsive",
+            "media-query",
+            "form",
+            "accordion",
+            "table",
+            "typography"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "social-media-share-links.html"
+          ],
+          "tags": [
+            "responsive",
+            "media-query",
+            "form",
+            "accordion",
+            "table",
+            "typography",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Sticky Notes",
+          "path": "Vanilla/Components/Other/sticky-notes/",
+          "description": "Sticky Notes. \u2014 Sticky Notes variant.",
+          "styles": [
+            "shadow",
+            "table",
+            "color"
+          ],
+          "features": [
+            "shadow",
+            "table",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "sticky-notes.html"
+          ],
+          "tags": [
+            "shadow",
+            "table",
+            "color"
+          ]
+        },
+        {
+          "name": "Sticky Social Bar",
+          "path": "Vanilla/Components/Other/sticky-social-bar/",
+          "description": "Sticky Social Bar with animations.",
+          "styles": [
+            "navbar",
+            "sidebar",
+            "animation",
+            "center"
+          ],
+          "features": [
+            "navbar",
+            "sidebar",
+            "animation",
+            "center",
+            "form",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "sticky-social-bar.html"
+          ],
+          "tags": [
+            "navbar",
+            "sidebar",
+            "animation",
+            "center",
+            "form",
+            "table",
+            "typography",
+            "color"
+          ]
+        },
+        {
+          "name": "Svg Circle",
+          "path": "Vanilla/Components/Other/svg-circle/",
+          "description": "Svg Circle. \u2014 Svg Circle variant.",
+          "styles": [
+            "icon",
+            "svg",
+            "layout",
+            "table"
+          ],
+          "features": [
+            "icon",
+            "svg",
+            "layout",
+            "table",
+            "color",
+            "canvas"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "svg-circle.html"
+          ],
+          "tags": [
+            "icon",
+            "svg",
+            "layout",
+            "table",
+            "color",
+            "canvas"
+          ]
+        },
+        {
+          "name": "Text With Background Image",
+          "path": "Vanilla/Components/Other/text-with-background-image/",
+          "description": "Text With Background Image. \u2014 Text With Background Image variant.",
+          "styles": [
+            "form",
+            "tooltip",
+            "table",
+            "typography"
+          ],
+          "features": [
+            "form",
+            "tooltip",
+            "table",
+            "typography",
+            "color",
+            "image"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "text-with-background-image.html"
+          ],
+          "tags": [
+            "form",
+            "tooltip",
+            "table",
+            "typography",
+            "color",
+            "image",
+            "canvas",
+            "api"
+          ]
+        },
+        {
+          "name": "Time Element",
+          "path": "Vanilla/Components/Other/time-element/",
+          "description": "Time Element. \u2014 Time Element variant.",
+          "styles": [
+            "date",
+            "web-components",
+            "form",
+            "table"
+          ],
+          "features": [
+            "date",
+            "web-components",
+            "form",
+            "table",
+            "form-element"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "time-element.html"
+          ],
+          "tags": [
+            "date",
+            "web-components",
+            "form",
+            "table",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Timeline",
+          "path": "Vanilla/Components/Other/timeline/",
+          "description": "Timeline. \u2014 Timeline variant.",
+          "styles": [
+            "date",
+            "layout",
+            "table",
+            "color"
+          ],
+          "features": [
+            "date",
+            "layout",
+            "table",
+            "color",
+            "border",
+            "media-query"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "timeline.html"
+          ],
+          "tags": [
+            "date",
+            "layout",
+            "table",
+            "color",
+            "border",
+            "media-query",
+            "pseudo-class"
+          ]
+        },
+        {
+          "name": "Weather Widget",
+          "path": "Vanilla/Components/Other/weather-widget/",
+          "description": "Weather Widget. \u2014 Weather Widget variant.",
+          "styles": [
+            "table",
+            "center",
+            "typography",
+            "border"
+          ],
+          "features": [
+            "table",
+            "center",
+            "typography",
+            "border",
+            "icon",
+            "api"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "weather-widget.html"
+          ],
+          "tags": [
+            "table",
+            "center",
+            "typography",
+            "border",
+            "icon",
+            "api",
+            "icons"
+          ]
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "accordion",
+        "animation",
+        "api",
+        "array",
+        "backdrop-filter",
+        "badge",
+        "blog",
+        "border",
+        "button",
+        "canvas",
+        "card",
+        "carousel",
+        "center",
+        "click"
+      ],
+      "searchTerms": [
+        "other"
+      ]
+    },
+    {
+      "name": "Ratings",
+      "path": "Vanilla/Components/Ratings/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla rating components - CSS-only star ratings, interactive rating stars, and user rating widgets.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Css Only Star Rating",
+          "path": "Vanilla/Components/Ratings/css-only-star-rating/",
+          "description": "Css Only Star Rating. \u2014 Css Only Star Rating variant.",
+          "styles": [
+            "theming",
+            "touch",
+            "accessibility",
+            "form"
+          ],
+          "features": [
+            "theming",
+            "touch",
+            "accessibility",
+            "form",
+            "typography",
+            "color"
+          ],
+          "files": [
+            "README.md",
+            "css-only-star-rating.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "theming",
+            "touch",
+            "accessibility",
+            "form",
+            "typography",
+            "color",
+            "form-element"
+          ]
+        },
+        {
+          "name": "Snippet 17 Rating Stars",
+          "path": "Vanilla/Components/Ratings/snippet-17-rating-stars/",
+          "description": "Snippet 17 Rating Stars with responsive design with animations and hover interactions.",
+          "styles": [
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive"
+          ],
+          "features": [
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "center"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-17-rating-stars.html"
+          ],
+          "tags": [
+            "animation",
+            "hover-effect",
+            "shadow",
+            "responsive",
+            "flexbox",
+            "center",
+            "layout",
+            "button"
+          ]
+        },
+        {
+          "name": "User Rating",
+          "path": "Vanilla/Components/Ratings/user-rating/",
+          "description": "User Rating. \u2014 User Rating variant.",
+          "styles": [
+            "table",
+            "typography",
+            "color",
+            "api"
+          ],
+          "features": [
+            "table",
+            "typography",
+            "color",
+            "api",
+            "icons"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "user-rating.html"
+          ],
+          "tags": [
+            "table",
+            "typography",
+            "color",
+            "api",
+            "icons"
+          ]
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "animation",
+        "api",
+        "button",
+        "center",
+        "color",
+        "flexbox",
+        "form",
+        "form-element",
+        "hover-effect",
+        "icons",
+        "layout",
+        "responsive",
+        "shadow",
+        "table"
+      ],
+      "searchTerms": [
+        "ratings"
+      ]
+    },
+    {
+      "name": "Tables",
+      "path": "Vanilla/Components/Tables/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla table components - simple tables, captions, merged cells, and scoped tables.",
+      "variantsCount": 4,
+      "variants": [
+        {
+          "name": "Simple Table",
+          "path": "Vanilla/Components/Tables/simple-table/",
+          "description": "Simple Table. \u2014 Simple Table variant.",
+          "styles": [
+            "tabs",
+            "table",
+            "navbar",
+            "typography"
+          ],
+          "features": [
+            "tabs",
+            "table",
+            "navbar",
+            "typography",
+            "border",
+            "semantic"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "simple-table.html"
+          ],
+          "tags": [
+            "tabs",
+            "table",
+            "navbar",
+            "typography",
+            "border",
+            "semantic"
+          ]
+        },
+        {
+          "name": "Table Caption",
+          "path": "Vanilla/Components/Tables/table-caption/",
+          "description": "Table Caption. \u2014 Table Caption variant.",
+          "styles": [
+            "tabs",
+            "table"
+          ],
+          "features": [
+            "tabs",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "table-caption.html"
+          ],
+          "tags": [
+            "tabs",
+            "table"
+          ]
+        },
+        {
+          "name": "Table Merged Cells",
+          "path": "Vanilla/Components/Tables/table-merged-cells/",
+          "description": "Table Merged Cells. \u2014 Table Merged Cells variant.",
+          "styles": [
+            "tabs",
+            "table",
+            "border"
+          ],
+          "features": [
+            "tabs",
+            "table",
+            "border"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "table-merged-cells.html"
+          ],
+          "tags": [
+            "tabs",
+            "table",
+            "border"
+          ]
+        },
+        {
+          "name": "Table Scope",
+          "path": "Vanilla/Components/Tables/table-scope/",
+          "description": "Table Scope. \u2014 Table Scope variant.",
+          "styles": [
+            "tabs",
+            "table"
+          ],
+          "features": [
+            "tabs",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "table-scope.html"
+          ],
+          "tags": [
+            "tabs",
+            "table"
+          ]
+        }
+      ],
+      "tags": [
+        "border",
+        "navbar",
+        "semantic",
+        "table",
+        "tabs",
+        "typography"
+      ],
+      "searchTerms": [
+        "tables"
+      ]
+    },
+    {
+      "name": "Tabs",
+      "path": "Vanilla/Components/Tabs/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla tab components - tabbed content, CSS tabs, full-page tabs, and tab components.",
+      "variantsCount": 5,
+      "variants": [
+        {
+          "name": "Full Page Tabs",
+          "path": "Vanilla/Components/Tabs/full-page-tabs/",
+          "description": "Full Page Tabs. \u2014 Full Page Tabs variant.",
+          "styles": [
+            "404",
+            "tabs",
+            "pagination",
+            "typing-effect"
+          ],
+          "features": [
+            "404",
+            "tabs",
+            "pagination",
+            "typing-effect",
+            "center",
+            "button"
+          ],
+          "files": [
+            "README.md",
+            "full-page-tabs.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "404",
+            "tabs",
+            "pagination",
+            "typing-effect",
+            "center",
+            "button",
+            "table",
+            "typography"
+          ]
+        },
+        {
+          "name": "Snippet 05 Tabbed Content",
+          "path": "Vanilla/Components/Tabs/snippet-05-tabbed-content/",
+          "description": "Snippet 05 Tabbed Content with responsive design with animations.",
+          "styles": [
+            "tabs",
+            "animation",
+            "responsive",
+            "flexbox"
+          ],
+          "features": [
+            "tabs",
+            "animation",
+            "responsive",
+            "flexbox",
+            "layout",
+            "button"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-05-tabbed-content.html"
+          ],
+          "tags": [
+            "tabs",
+            "animation",
+            "responsive",
+            "flexbox",
+            "layout",
+            "button",
+            "form",
+            "dropdown"
+          ]
+        },
+        {
+          "name": "Snippet 18 Css Tabs",
+          "path": "Vanilla/Components/Tabs/snippet-18-css-tabs/",
+          "description": "Snippet 18 Css Tabs with responsive design with animations and hover interactions.",
+          "styles": [
+            "tabs",
+            "theming",
+            "animation",
+            "hover-effect"
+          ],
+          "features": [
+            "tabs",
+            "theming",
+            "animation",
+            "hover-effect",
+            "responsive",
+            "flexbox"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "snippet-18-css-tabs.css"
+          ],
+          "tags": [
+            "tabs",
+            "theming",
+            "animation",
+            "hover-effect",
+            "responsive",
+            "flexbox",
+            "center",
+            "layout"
+          ]
+        },
+        {
+          "name": "Tabs",
+          "path": "Vanilla/Components/Tabs/tabs/",
+          "description": "Tabs with animations and hover interactions.",
+          "styles": [
+            "tabs",
+            "animation",
+            "hover-effect",
+            "typing-effect"
+          ],
+          "features": [
+            "tabs",
+            "animation",
+            "hover-effect",
+            "typing-effect",
+            "button",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "tabs.html"
+          ],
+          "tags": [
+            "tabs",
+            "animation",
+            "hover-effect",
+            "typing-effect",
+            "button",
+            "table",
+            "color",
+            "border"
+          ]
+        },
+        {
+          "name": "Tabs Component",
+          "path": "Vanilla/Components/Tabs/tabs-component/",
+          "description": "Tabs Component with animations.",
+          "styles": [
+            "tabs",
+            "web-components",
+            "animation",
+            "flexbox"
+          ],
+          "features": [
+            "tabs",
+            "web-components",
+            "animation",
+            "flexbox",
+            "button",
+            "form"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "tabs-component.html"
+          ],
+          "tags": [
+            "tabs",
+            "web-components",
+            "animation",
+            "flexbox",
+            "button",
+            "form",
+            "dropdown",
+            "navbar"
+          ]
+        }
+      ],
+      "tags": [
+        "404",
+        "animation",
+        "border",
+        "button",
+        "center",
+        "color",
+        "dropdown",
+        "flexbox",
+        "form",
+        "hover-effect",
+        "layout",
+        "navbar",
+        "pagination",
+        "responsive",
+        "table"
+      ],
+      "searchTerms": [
+        "tabs"
+      ]
+    },
+    {
+      "name": "Tooltips",
+      "path": "Vanilla/Components/Tooltips/",
+      "tech": "Vanilla HTML/CSS/JS",
+      "category": "Components",
+      "description": "Vanilla tooltip components - CSS-only tooltips, interactive tooltips, and tooltip text variants.",
+      "variantsCount": 3,
+      "variants": [
+        {
+          "name": "Css Only Tooltip",
+          "path": "Vanilla/Components/Tooltips/css-only-tooltip/",
+          "description": "Css Only Tooltip with animations and hover interactions.",
+          "styles": [
+            "tooltip",
+            "theming",
+            "accessibility",
+            "animation"
+          ],
+          "features": [
+            "tooltip",
+            "theming",
+            "accessibility",
+            "animation",
+            "hover-effect",
+            "center"
+          ],
+          "files": [
+            "README.md",
+            "css-only-tooltip.html",
+            "metadata.json"
+          ],
+          "tags": [
+            "tooltip",
+            "theming",
+            "accessibility",
+            "animation",
+            "hover-effect",
+            "center",
+            "button",
+            "form"
+          ]
+        },
+        {
+          "name": "Tooltip",
+          "path": "Vanilla/Components/Tooltips/tooltip/",
+          "description": "Tooltip with responsive design with animations and hover interactions.",
+          "styles": [
+            "tooltip",
+            "animation",
+            "hover-effect",
+            "responsive"
+          ],
+          "features": [
+            "tooltip",
+            "animation",
+            "hover-effect",
+            "responsive",
+            "center",
+            "button"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "tooltip.html"
+          ],
+          "tags": [
+            "tooltip",
+            "animation",
+            "hover-effect",
+            "responsive",
+            "center",
+            "button",
+            "form",
+            "table"
+          ]
+        },
+        {
+          "name": "Tooltip Text",
+          "path": "Vanilla/Components/Tooltips/tooltip-text/",
+          "description": "Tooltip Text and hover interactions.",
+          "styles": [
+            "form",
+            "tooltip",
+            "typography",
+            "canvas"
+          ],
+          "features": [
+            "form",
+            "tooltip",
+            "typography",
+            "canvas",
+            "hover-effect",
+            "table"
+          ],
+          "files": [
+            "README.md",
+            "metadata.json",
+            "tooltip-text.html"
+          ],
+          "tags": [
+            "form",
+            "tooltip",
+            "typography",
+            "canvas",
+            "hover-effect",
+            "table",
+            "form-element"
+          ]
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "animation",
+        "button",
+        "canvas",
+        "center",
+        "form",
+        "form-element",
+        "hover-effect",
+        "responsive",
+        "table",
+        "theming",
+        "tooltip",
+        "typography"
+      ],
+      "searchTerms": [
+        "tooltips"
+      ]
     }
   ],
   "plannedFamilies": {
@@ -6701,22 +13177,40 @@
       "path": "Vanilla/",
       "status": "active",
       "families": [
+        "Accordions",
+        "Alerts",
+        "Avatars",
+        "Badges",
+        "Buttons",
         "CTA",
+        "Cards",
         "Contact",
         "Content",
+        "Display",
+        "Dropdowns",
         "FAQ",
         "Features",
         "Footer",
+        "Forms",
         "Gallery",
         "Hero",
+        "Loaders",
         "Logos",
+        "Marketing",
+        "Media",
+        "Modals",
         "Navigation",
+        "Other",
         "Pricing",
         "Process",
         "Products",
+        "Ratings",
         "Statistics",
+        "Tables",
+        "Tabs",
         "Team",
-        "Testimonials"
+        "Testimonials",
+        "Tooltips"
       ]
     },
     {
