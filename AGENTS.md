@@ -48,6 +48,16 @@ This works because the `<script>` parses inside the root. Panel animation uses t
 - NO React/Vue/Alpine/Bootstrap/jQuery.
 - 2-space indentation. Semantic HTML. Accessibility required (ARIA, keyboard, focus rings).
 
+## Tailwind Sections — `Tailwind/Sections/`
+Multi-style website sections organized as `category/section/style/` (three levels, all kebab-case). Each style folder contains exactly: `preview.html` (full `<!DOCTYPE html>` page with Tailwind CDN + app-context shell), `code.html` (snippet only — no DOCTYPE/CDN), `metadata.json` (keys: name, slug, category, subcategory, section, style, description, framework, language, tags, features, responsive, dependencies). `slug` = `<section>-<style>`.
+
+Three shared design styles with distinct token palettes (canonical reference in `Tailwind/Sections/STYLE_TOKENS.md`):
+- `neo-brutalism` — Archivo + JetBrains Mono; hard `border-2 border-black`, offset `shadow-[8px_8px_0_0_#000]`, flat bright accents (#FFE600/#FF4FA3/#00E676/#00C2FF), press-down hover, cream `#FFFDF5` bg. Scope attrs use `="nb"`.
+- `vercel` — Geist + Geist Mono; dark `#050505`/`#0a0a0a`, `border-white/10` hairlines, single teal `#50e3c2` accent, white primary buttons. Scope attrs use `="vc"`.
+- `sharp-glassmorphism` — Sora + JetBrains Mono; `bg-white/10 backdrop-blur-2xl` glass over animated `.sg-mesh` gradient (fuchsia/indigo/cyan), gradient CTAs, cyan `#6ee7ff` glow. Scope attrs use `="sg"`. Glass needs a colored backdrop to read.
+
+JS scoped via `document.currentScript.closest('[data-<thing>="<style>"]')` so snippets work standalone. Categories: ai-product (ai-chat-interface, model-comparison, prompt-library, agent-workflow), saas, developer, app-ui, marketing, premium-visual. Registered in `snippets-index.json` `families[]` with `tech: "Tailwind CSS"`, `category: "Sections"`, path = `Tailwind/Sections/<category>/<section>/`; variants are the style folders. Also listed under `technologies[].families` for Tailwind CSS.
+
 ## Vanilla Sections (Neo-Brutalist) — `Vanilla/Sections/`
 - 65 self-contained website sections across 16 families (Hero, Navigation, Features, Logos, Statistics, Products, Pricing, Testimonials, Team, Process, Content, Gallery, FAQ, CTA, Contact, Footer).
 - Folder = `Vanilla/Sections/<Family>/<kebab-slug>/` containing exactly: `<slug>.html` (self-contained: inline `<style>` + `<script>`, full `<!DOCTYPE html>`, body class `nb`), `metadata.json`, `README.md`. This matches the existing Vanilla component convention (one `.html` per variant), NOT the Tailwind code.html/preview.html split.
