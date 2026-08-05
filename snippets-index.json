@@ -1,18 +1,388 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
-    "totalFamilies": 20,
-    "totalVariants": 160,
+    "totalFamilies": 27,
+    "totalVariants": 312,
     "totalSubVariants": 6,
-    "totalStyles": 162,
+    "totalStyles": 318,
     "technologies": [
       "Tailwind CSS",
       "Vanilla HTML/CSS/JS"
     ]
   },
   "families": [
+    {
+      "name": "Accordions",
+      "path": "Tailwind/Components/Accordions/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete accordion component family with 15 production-ready variants covering every use case from basic documentation to timelines and settings panels",
+      "variantsCount": 15,
+      "variants": [
+        {
+          "name": "Animated Accordion",
+          "path": "Tailwind/Components/Accordions/animated-accordion/",
+          "description": "Premium accordion with a plus-to-close rotating circle indicator, content fade+slide-in, and an accent border that scales in on open. Showcase-grade motion polish.",
+          "styles": [
+            "animated",
+            "motion",
+            "premium",
+            "fade"
+          ],
+          "features": [
+            "rotating plus indicator",
+            "accent border reveal",
+            "content fade+slide",
+            "circle color shift",
+            "hover lift",
+            "staggered transitions"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Basic Accordion",
+          "path": "Tailwind/Components/Accordions/basic-accordion/",
+          "description": "Simple documentation accordion with chevron rotation and smooth height animation. Clean, accessible, and ready for knowledge bases and developer docs.",
+          "styles": [
+            "basic",
+            "documentation",
+            "collapsible",
+            "faq"
+          ],
+          "features": [
+            "chevron rotation",
+            "height animation",
+            "independent toggles",
+            "focus rings",
+            "aria-expanded",
+            "grid-rows animation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Bordered Accordion",
+          "path": "Tailwind/Components/Accordions/bordered-accordion/",
+          "description": "Enterprise accordion with distinct bordered cards, leading status icons, status chips, and metadata grids. Each section is self-contained for compliance and admin panels.",
+          "styles": [
+            "bordered",
+            "enterprise",
+            "admin",
+            "compliance"
+          ],
+          "features": [
+            "bordered cards",
+            "status chips",
+            "metadata grid",
+            "icon accents",
+            "open-state ring",
+            "focus-visible rings"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Dark Accordion",
+          "path": "Tailwind/Components/Accordions/dark-accordion/",
+          "description": "Modern dark-mode dashboard accordion with single-open behavior, glowing status dots, metric delta badges, and an indigo active accent. Built for analytics and admin panels.",
+          "styles": [
+            "dark",
+            "dashboard",
+            "analytics",
+            "single-open"
+          ],
+          "features": [
+            "dark theme",
+            "glowing status dots",
+            "metric deltas",
+            "metadata grid",
+            "single-open mode",
+            "indigo accent"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "FAQ Accordion",
+          "path": "Tailwind/Components/Accordions/faq-accordion/",
+          "description": "Landing-page FAQ with numbered badges, category chips, and single-open behavior. Includes a smooth height animation and a contact CTA for product pages.",
+          "styles": [
+            "faq",
+            "landing",
+            "single-open",
+            "numbered"
+          ],
+          "features": [
+            "numbered badges",
+            "category meta",
+            "single-open mode",
+            "chevron rotation",
+            "hover lift",
+            "focus rings"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Glass Accordion",
+          "path": "Tailwind/Components/Accordions/glass-accordion/",
+          "description": "Glassmorphism accordion with frosted translucent panels, hairline white borders, and soft glow over a vivid gradient backdrop. Ideal for hero and AI product sections.",
+          "styles": [
+            "glass",
+            "glassmorphism",
+            "frosted",
+            "translucent"
+          ],
+          "features": [
+            "backdrop blur",
+            "translucent panels",
+            "hairline white borders",
+            "soft glow shadow",
+            "chevron rotation",
+            "vivid backdrop"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Icon Accordion",
+          "path": "Tailwind/Components/Accordions/icon-accordion/",
+          "description": "Accordion with leading category icons in tinted squares and two-line headers. Panels reveal related link lists, ideal for knowledge bases and support centers.",
+          "styles": [
+            "icon",
+            "knowledge-base",
+            "support",
+            "categories"
+          ],
+          "features": [
+            "leading category icons",
+            "tinted icon squares",
+            "link lists in panels",
+            "two-line headers",
+            "chevron rotation",
+            "hover color shifts"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Minimal Accordion",
+          "path": "Tailwind/Components/Accordions/minimal-accordion/",
+          "description": "Borderless, typography-led accordion with a plus/minus indicator that animates into a minus. Ultra-clean hierarchy for modern SaaS and marketing pages.",
+          "styles": [
+            "minimal",
+            "clean",
+            "plus-minus",
+            "borderless"
+          ],
+          "features": [
+            "plus/minus indicator",
+            "borderless design",
+            "typography hierarchy",
+            "smooth indicator animation",
+            "hover dim",
+            "focus rings"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Multi Open Accordion",
+          "path": "Tailwind/Components/Accordions/multi-open-accordion/",
+          "description": "Faceted filter panel where multiple sections stay open at once. Each section holds checkbox filters with a live selected-count badge for e-commerce and directory filtering.",
+          "styles": [
+            "multi-open",
+            "filter",
+            "facets",
+            "checkbox"
+          ],
+          "features": [
+            "multi-open sections",
+            "checkbox filters",
+            "live count badges",
+            "fieldsets for a11y",
+            "default-open sections",
+            "chevron rotation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Nested Accordion",
+          "path": "Tailwind/Components/Accordions/nested-accordion/",
+          "description": "Two-level documentation tree. Chapters expand to reveal page lists, and individual pages open nested sub-lists with a connector line. Sidebar-chevron rotates 90 degrees.",
+          "styles": [
+            "nested",
+            "documentation",
+            "tree",
+            "navigation"
+          ],
+          "features": [
+            "two-level nesting",
+            "page count badges",
+            "connector lines",
+            "90deg chevron",
+            "active page marker",
+            "independent toggles"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Pricing FAQ",
+          "path": "Tailwind/Components/Accordions/pricing-faq/",
+          "description": "Pricing-page FAQ grouped by plan tier with tier-colored section badges and upgrade CTAs inside answers. Single-open behavior keeps the focus on one question at a time.",
+          "styles": [
+            "pricing",
+            "faq",
+            "plans",
+            "saas"
+          ],
+          "features": [
+            "plan-tier grouping",
+            "tier color badges",
+            "in-answer CTAs",
+            "single-open mode",
+            "per-tier focus rings",
+            "smooth height animation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Settings Accordion",
+          "path": "Tailwind/Components/Accordions/settings-accordion/",
+          "description": "Application settings accordion whose panels hold form controls, toggles, and a danger zone. Single-open sections grouped like a real settings page.",
+          "styles": [
+            "settings",
+            "forms",
+            "toggles",
+            "admin"
+          ],
+          "features": [
+            "form controls in panels",
+            "toggle switches",
+            "danger zone",
+            "section icons",
+            "single-open mode",
+            "labeled inputs"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Sidebar Accordion",
+          "path": "Tailwind/Components/Accordions/sidebar-accordion/",
+          "description": "Documentation navigation sidebar where category groups expand to reveal link lists with an active-page marker and connector line. Multi-open so readers keep context while browsing.",
+          "styles": [
+            "sidebar",
+            "navigation",
+            "docs",
+            "multi-open"
+          ],
+          "features": [
+            "active page marker",
+            "connector line",
+            "section counts",
+            "multi-open mode",
+            "90deg chevron",
+            "hover states"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Single Open Accordion",
+          "path": "Tailwind/Components/Accordions/single-open-accordion/",
+          "description": "Generic accordion enforcing one-open-at-a-time behavior with an expanding accent bar and a live open-count announcement. For terms, policies, and focused help centers.",
+          "styles": [
+            "single-open",
+            "exclusive",
+            "policy",
+            "help-center"
+          ],
+          "features": [
+            "one-open enforcement",
+            "accent bar reveal",
+            "live open count",
+            "aria-live count",
+            "keyboard support",
+            "focus rings"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Timeline Accordion",
+          "path": "Tailwind/Components/Accordions/timeline-accordion/",
+          "description": "Expandable project timeline rendered as a vertical-rail accordion. Each milestone shows date, status dot, and an expandable panel with deliverables and progress.",
+          "styles": [
+            "timeline",
+            "milestones",
+            "roadmap",
+            "project"
+          ],
+          "features": [
+            "vertical rail",
+            "status dots",
+            "progress bars",
+            "deliverable checklists",
+            "date chips",
+            "chevron rotation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
     {
       "name": "Buttons",
       "path": "Tailwind/Components/Buttons/",
@@ -489,6 +859,1575 @@
             "Button-Minimal.html",
             "index.json",
             "README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "path": "Tailwind/Components/Cards/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete card component family with 40 production-ready variants covering every use case from profile and pricing cards to dashboard stats and CTA",
+      "variantsCount": 40,
+      "variants": [
+        {
+          "name": "Profile Card",
+          "path": "Tailwind/Components/Cards/01-profile-card/",
+          "description": "Modern profile card with avatar, stats, and action buttons. Features hover animations and status indicator.",
+          "styles": [
+            "profile",
+            "user",
+            "social",
+            "avatar"
+          ],
+          "features": [
+            "hover animations",
+            "status indicator",
+            "skill badges",
+            "stats display",
+            "action buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Pricing Card",
+          "path": "Tailwind/Components/Cards/02-pricing-card/",
+          "description": "Premium SaaS pricing card with gradient background, feature list, and call-to-action. Features atmospheric glow effects.",
+          "styles": [
+            "pricing",
+            "saas",
+            "subscription",
+            "premium"
+          ],
+          "features": [
+            "gradient background",
+            "atmospheric glow",
+            "feature checklist",
+            "badge indicator",
+            "CTA button"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Product Card",
+          "path": "Tailwind/Components/Cards/03-product-card/",
+          "description": "E-commerce product card with image zoom, badges, ratings, and quick actions. Perfect for online stores.",
+          "styles": [
+            "product",
+            "ecommerce",
+            "shop",
+            "image"
+          ],
+          "features": [
+            "image hover zoom",
+            "badges",
+            "star ratings",
+            "wishlist button",
+            "add to cart"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Blog Card",
+          "path": "Tailwind/Components/Cards/04-blog-card/",
+          "description": "Editorial blog card with featured image, category tag, author info, and social engagement buttons.",
+          "styles": [
+            "blog",
+            "article",
+            "post",
+            "editorial"
+          ],
+          "features": [
+            "featured image",
+            "category badge",
+            "author avatar",
+            "engagement buttons",
+            "gradient overlay"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Team Member Card",
+          "path": "Tailwind/Components/Cards/05-team-member-card/",
+          "description": "Professional team member card with avatar, role, bio excerpt, skill tags, and social links.",
+          "styles": [
+            "team",
+            "member",
+            "about",
+            "company"
+          ],
+          "features": [
+            "verified badge",
+            "bio excerpt",
+            "skill tags",
+            "social links",
+            "decorative corner"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Testimonial Card",
+          "path": "Tailwind/Components/Cards/06-testimonial-card/",
+          "description": "Warm testimonial card with quote styling, author info, star rating, and verification badge.",
+          "styles": [
+            "testimonial",
+            "review",
+            "quote",
+            "feedback"
+          ],
+          "features": [
+            "quote icon",
+            "star rating",
+            "verified badge",
+            "author details",
+            "warm color scheme"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Feature Card",
+          "path": "Tailwind/Components/Cards/07-feature-card/",
+          "description": "Feature showcase card with icon, title, description, and checklist benefits. Includes hover effects.",
+          "styles": [
+            "feature",
+            "benefits",
+            "showcase",
+            "saas"
+          ],
+          "features": [
+            "icon box",
+            "checklist",
+            "hover effects",
+            "gradient background",
+            "arrow link"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Dashboard Stat Card",
+          "path": "Tailwind/Components/Cards/08-dashboard-stat-card/",
+          "description": "Dashboard stat card showing key metrics with icon, value, trend indicator, and comparison.",
+          "styles": [
+            "dashboard",
+            "stats",
+            "metrics",
+            "analytics"
+          ],
+          "features": [
+            "icon",
+            "trend badge",
+            "value display",
+            "comparison",
+            "clean layout"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Analytics Card",
+          "path": "Tailwind/Components/Cards/09-analytics-card/",
+          "description": "Comprehensive analytics card with chart visualization, time selector, metrics summary, and trend data.",
+          "styles": [
+            "analytics",
+            "chart",
+            "data",
+            "dashboard"
+          ],
+          "features": [
+            "bar chart",
+            "time filter",
+            "trend indicator",
+            "mini stats",
+            "visual data"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "KPI Card",
+          "path": "Tailwind/Components/Cards/10-kpi-card/",
+          "description": "Executive KPI card with 2x2 grid of metrics, progress bars, status badges, and color-coded gradients.",
+          "styles": [
+            "kpi",
+            "metrics",
+            "performance",
+            "dashboard"
+          ],
+          "features": [
+            "2x2 grid",
+            "progress bars",
+            "status badges",
+            "gradient backgrounds",
+            "color coding"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Statistics Card",
+          "path": "Tailwind/Components/Cards/11-statistics-card/",
+          "description": "Dark-themed statistics card with gradient icons, live badge, progress bar, and avatar group.",
+          "styles": [
+            "statistics",
+            "dark",
+            "metrics",
+            "social"
+          ],
+          "features": [
+            "dark theme",
+            "gradient icons",
+            "live badge",
+            "progress bar",
+            "avatar group"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Notification Card",
+          "path": "Tailwind/Components/Cards/12-notification-card/",
+          "description": "Notification panel with header, badge count, grouped notifications, and action links.",
+          "styles": [
+            "notification",
+            "alerts",
+            "activity",
+            "dashboard"
+          ],
+          "features": [
+            "badge count",
+            "notification list",
+            "timestamps",
+            "icons",
+            "mark all read"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Event Card",
+          "path": "Tailwind/Components/Cards/13-event-card/",
+          "description": "Event card with date badge, location, attendee avatars, RSVP button, and status badge.",
+          "styles": [
+            "event",
+            "calendar",
+            "rsvp",
+            "conference"
+          ],
+          "features": [
+            "date badge",
+            "status badge",
+            "location info",
+            "attendee avatars",
+            "RSVP button"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Music Card",
+          "path": "Tailwind/Components/Cards/14-music-card/",
+          "description": "Vibrant music player card with gradient background, album art, progress bar, and playback controls.",
+          "styles": [
+            "music",
+            "player",
+            "audio",
+            "streaming"
+          ],
+          "features": [
+            "gradient background",
+            "album art",
+            "progress bar",
+            "playback controls",
+            "animated bars"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Video Card",
+          "path": "Tailwind/Components/Cards/15-video-card/",
+          "description": "Video thumbnail card with play button overlay, duration badge, channel info, and save button.",
+          "styles": [
+            "video",
+            "youtube",
+            "streaming",
+            "media"
+          ],
+          "features": [
+            "video thumbnail",
+            "play button",
+            "duration badge",
+            "channel info",
+            "view count"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Weather Card",
+          "path": "Tailwind/Components/Cards/16-weather-card/",
+          "description": "Beautiful weather card with gradient sky, current conditions, forecast, and location info.",
+          "styles": [
+            "weather",
+            "forecast",
+            "climate",
+            "location"
+          ],
+          "features": [
+            "gradient sky",
+            "temperature display",
+            "forecast grid",
+            "weather icons",
+            "location info"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Social Post Card",
+          "path": "Tailwind/Components/Cards/17-social-post-card/",
+          "description": "Social media post card with user info, content, image, hashtags, and interaction buttons.",
+          "styles": [
+            "social",
+            "post",
+            "twitter",
+            "facebook"
+          ],
+          "features": [
+            "user profile",
+            "verified badge",
+            "post content",
+            "image",
+            "engagement buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "NFT Card",
+          "path": "Tailwind/Components/Cards/18-nft-card/",
+          "description": "Dark-themed NFT marketplace card with art preview, bidding info, countdown, and creator attribution.",
+          "styles": [
+            "nft",
+            "crypto",
+            "art",
+            "marketplace"
+          ],
+          "features": [
+            "dark theme",
+            "art preview",
+            "bid info",
+            "countdown",
+            "creator badge"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Checkout Summary Card",
+          "path": "Tailwind/Components/Cards/19-checkout-summary-card/",
+          "description": "E-commerce checkout summary with items, pricing breakdown, promo code input, and secure checkout CTA.",
+          "styles": [
+            "checkout",
+            "ecommerce",
+            "cart",
+            "payment"
+          ],
+          "features": [
+            "item list",
+            "price breakdown",
+            "promo code",
+            "total",
+            "security badge"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Order Summary Card",
+          "path": "Tailwind/Components/Cards/20-order-summary-card/",
+          "description": "Order tracking card with status badges, product list, delivery info, and action buttons.",
+          "styles": [
+            "order",
+            "tracking",
+            "delivery",
+            "ecommerce"
+          ],
+          "features": [
+            "order ID",
+            "status badge",
+            "product list",
+            "delivery date",
+            "action buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Chat Conversation Card",
+          "path": "Tailwind/Components/Cards/21-chat-conversation-card/",
+          "description": "Chat interface card with conversation thread, message bubbles, timestamps, and input field.",
+          "styles": [
+            "chat",
+            "messaging",
+            "conversation",
+            "messenger"
+          ],
+          "features": [
+            "user header",
+            "message bubbles",
+            "timestamps",
+            "input field",
+            "action buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "File Card",
+          "path": "Tailwind/Components/Cards/22-file-card/",
+          "description": "File browser card with file type icon, metadata, sharing info, and action buttons on hover.",
+          "styles": [
+            "file",
+            "document",
+            "cloud",
+            "storage"
+          ],
+          "features": [
+            "file type icon",
+            "file metadata",
+            "sharing info",
+            "avatar group",
+            "hover actions"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Job Listing Card",
+          "path": "Tailwind/Components/Cards/23-job-listing-card/",
+          "description": "Professional job listing card with company info, salary range, tags, description, and applicant count.",
+          "styles": [
+            "job",
+            "career",
+            "hiring",
+            "employment"
+          ],
+          "features": [
+            "company logo",
+            "salary range",
+            "job tags",
+            "applicant avatars",
+            "save button"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Course Card",
+          "path": "Tailwind/Components/Cards/24-course-card/",
+          "description": "Learning platform course card with instructor info, ratings, duration, pricing, and enrollment CTA.",
+          "styles": [
+            "course",
+            "learning",
+            "education",
+            "udemy"
+          ],
+          "features": [
+            "bestseller badge",
+            "instructor avatar",
+            "star rating",
+            "price display",
+            "enrollment button"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Timeline Card",
+          "path": "Tailwind/Components/Cards/25-timeline-card/",
+          "description": "Vertical timeline card with connected events, icons, dates, and descriptions.",
+          "styles": [
+            "timeline",
+            "history",
+            "events",
+            "progress"
+          ],
+          "features": [
+            "vertical timeline",
+            "colored icons",
+            "dates",
+            "descriptions",
+            "connector line"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Glass Card",
+          "path": "Tailwind/Components/Cards/26-glass-card/",
+          "description": "Glassmorphism card with blur effect, gradient background, translucent elements, and frosted panels.",
+          "styles": [
+            "glass",
+            "glassmorphism",
+            "blur",
+            "modern"
+          ],
+          "features": [
+            "blur backdrop",
+            "gradient background",
+            "frosted panels",
+            "translucent buttons",
+            "metrics grid"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Minimal Card",
+          "path": "Tailwind/Components/Cards/27-minimal-card/",
+          "description": "Ultra-minimal stat card with clean typography, subtle indicator, and essential information only.",
+          "styles": [
+            "minimal",
+            "clean",
+            "simple",
+            "stat"
+          ],
+          "features": [
+            "minimal design",
+            "clean typography",
+            "status indicator",
+            "no borders",
+            "essential info"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Corporate Card",
+          "path": "Tailwind/Components/Cards/28-corporate-card/",
+          "description": "Professional corporate report card with header, metrics grid, progress bars, and export actions.",
+          "styles": [
+            "corporate",
+            "report",
+            "business",
+            "metrics"
+          ],
+          "features": [
+            "header banner",
+            "confidential badge",
+            "metrics grid",
+            "progress bars",
+            "footer actions"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Modern SaaS Card",
+          "path": "Tailwind/Components/Cards/29-modern-saas-card/",
+          "description": "Modern SaaS dashboard card with analytics chart, trend indicator, filter dropdown, and mini stats.",
+          "styles": [
+            "saas",
+            "dashboard",
+            "analytics",
+            "modern"
+          ],
+          "features": [
+            "gradient icon",
+            "chart visualization",
+            "trend badge",
+            "filter dropdown",
+            "mini stats grid"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Gradient Card",
+          "path": "Tailwind/Components/Cards/30-gradient-card/",
+          "description": "Vibrant gradient card with earnings stats, progress bar, pattern overlay, and white CTA button.",
+          "styles": [
+            "gradient",
+            "colorful",
+            "earnings",
+            "progress"
+          ],
+          "features": [
+            "gradient background",
+            "pattern overlay",
+            "icon box",
+            "progress bar",
+            "contrast CTA"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "User Profile Overview Card",
+          "path": "Tailwind/Components/Cards/31-user-profile-overview-card/",
+          "description": "Comprehensive user profile card with header banner, avatar overlap, bio, skills, stats, and location.",
+          "styles": [
+            "profile",
+            "user",
+            "overview",
+            "social"
+          ],
+          "features": [
+            "gradient header",
+            "overlapping avatar",
+            "bio section",
+            "skill badges",
+            "stats grid"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Activity Feed Card",
+          "path": "Tailwind/Components/Cards/32-activity-feed-card/",
+          "description": "Activity feed card with grouped events, icons, user avatars, timestamps, and amounts.",
+          "styles": [
+            "activity",
+            "feed",
+            "events",
+            "notifications"
+          ],
+          "features": [
+            "activity list",
+            "icons",
+            "user avatars",
+            "timestamps",
+            "amount badges"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Project Card",
+          "path": "Tailwind/Components/Cards/33-project-card/",
+          "description": "Project overview card with gradient header, progress bar, team avatars, status badge, and metadata.",
+          "styles": [
+            "project",
+            "management",
+            "progress",
+            "team"
+          ],
+          "features": [
+            "gradient header",
+            "status badge",
+            "progress bar",
+            "team avatars",
+            "task count"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Task Card",
+          "path": "Tailwind/Components/Cards/34-task-card/",
+          "description": "Compact task card with checkbox, labels, assignee, due date, and comment/attachment counts.",
+          "styles": [
+            "task",
+            "todo",
+            "kanban",
+            "checkbox"
+          ],
+          "features": [
+            "checkbox",
+            "task labels",
+            "due date",
+            "assignee",
+            "comment count"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Achievement Card",
+          "path": "Tailwind/Components/Cards/35-achievement-card/",
+          "description": "Celebratory achievement card with badge icon, stats, badge, and share button for gamification.",
+          "styles": [
+            "achievement",
+            "badge",
+            "gamification",
+            "reward"
+          ],
+          "features": [
+            "badge icon",
+            "achievement badge",
+            "stats grid",
+            "share button",
+            "celebratory design"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Metric Card",
+          "path": "Tailwind/Components/Cards/36-metric-card/",
+          "description": "Compact metric card with mini sparkline chart, trend indicator, icon, and current value.",
+          "styles": [
+            "metric",
+            "kpi",
+            "sparkline",
+            "dashboard"
+          ],
+          "features": [
+            "sparkline chart",
+            "trend badge",
+            "icon",
+            "value display",
+            "compact layout"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Support Ticket Card",
+          "path": "Tailwind/Components/Cards/37-support-ticket-card/",
+          "description": "Customer support ticket card with priority badge, conversation thread, timestamps, and action buttons.",
+          "styles": [
+            "support",
+            "ticket",
+            "helpdesk",
+            "customer-service"
+          ],
+          "features": [
+            "ticket ID",
+            "priority badge",
+            "conversation",
+            "customer info",
+            "action buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "FAQ Card",
+          "path": "Tailwind/Components/Cards/38-faq-card/",
+          "description": "Expandable FAQ card with accordion items, expand/collapse animations, and contact CTA.",
+          "styles": [
+            "faq",
+            "accordion",
+            "help",
+            "questions"
+          ],
+          "features": [
+            "accordion items",
+            "expand/collapse",
+            "chevron animation",
+            "support CTA",
+            "clean layout"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Newsletter Card",
+          "path": "Tailwind/Components/Cards/39-newsletter-card/",
+          "description": "Vibrant newsletter subscription card with email input, gradient background, and trust badges.",
+          "styles": [
+            "newsletter",
+            "subscribe",
+            "email",
+            "marketing"
+          ],
+          "features": [
+            "gradient background",
+            "email input",
+            "subscribe button",
+            "trust badges",
+            "frosted elements"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Call-to-Action Card",
+          "path": "Tailwind/Components/Cards/40-cta-card/",
+          "description": "Bold CTA card with dark theme, gradient accents, dual buttons, and trust indicators.",
+          "styles": [
+            "cta",
+            "call-to-action",
+            "conversion",
+            "landing"
+          ],
+          "features": [
+            "dark theme",
+            "gradient icon",
+            "dual CTA buttons",
+            "trust badges",
+            "responsive layout"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dropdowns",
+      "path": "Tailwind/Components/Dropdowns/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete dropdown component family with 30 production-ready variants covering every use case from basic menus to mega menus, command palettes, and context menus",
+      "variantsCount": 30,
+      "variants": [
+        {
+          "name": "Action Menu",
+          "path": "Tailwind/Components/Dropdowns/action-menu/",
+          "description": "Action menu dropdown with keyboard shortcuts, grouped actions, and destructive action options for document management.",
+          "styles": [
+            "menu",
+            "actions",
+            "shortcuts",
+            "document"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Animated Menu",
+          "path": "Tailwind/Components/Dropdowns/animated-menu/",
+          "description": "Richly animated dropdown with gradient button, staggered entrance animation, icon scaling, and glow effects.",
+          "styles": [
+            "animated",
+            "gradient",
+            "effects",
+            "staggered"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Avatar Menu",
+          "path": "Tailwind/Components/Dropdowns/avatar-menu/",
+          "description": "Avatar dropdown with gradient profile header, online status indicator, quick stats, and badges.",
+          "styles": [
+            "avatar",
+            "profile",
+            "user",
+            "online-status"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Basic Dropdown",
+          "path": "Tailwind/Components/Dropdowns/basic-dropdown/",
+          "description": "Simple, clean dropdown menu with click-to-toggle interaction and standard navigation options.",
+          "styles": [
+            "menu",
+            "basic",
+            "navigation"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Checkbox Menu",
+          "path": "Tailwind/Components/Dropdowns/checkbox-menu/",
+          "description": "Multi-select checkbox menu for toggling table column visibility with count badge and reset functionality.",
+          "styles": [
+            "checkbox",
+            "multi-select",
+            "table",
+            "columns"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Click Menu",
+          "path": "Tailwind/Components/Dropdowns/click-menu/",
+          "description": "Click-triggered dropdown menu with embedded profile card and user actions.",
+          "styles": [
+            "click",
+            "menu",
+            "profile",
+            "actions"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Command Menu",
+          "path": "Tailwind/Components/Dropdowns/command-menu/",
+          "description": "IDE-style command palette with keyboard shortcuts, search filtering, grouped commands, and keyboard navigation hints.",
+          "styles": [
+            "command-palette",
+            "keyboard",
+            "shortcuts",
+            "search"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Context Menu",
+          "path": "Tailwind/Components/Dropdowns/context-menu/",
+          "description": "Right-click context menu with grouped actions, keyboard shortcuts, and screen-edge detection for file management applications.",
+          "styles": [
+            "menu",
+            "context",
+            "right-click",
+            "file-manager"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Date Filter",
+          "path": "Tailwind/Components/Dropdowns/date-filter/",
+          "description": "Date range filter with quick presets (today, this week, this month) and custom date pickers.",
+          "styles": [
+            "date",
+            "range",
+            "calendar",
+            "filter"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Divider Menu",
+          "path": "Tailwind/Components/Dropdowns/divider-menu/",
+          "description": "Menu with section dividers and labeled categories for organizing complex action sets.",
+          "styles": [
+            "divider",
+            "sections",
+            "categorized",
+            "file-manager"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Filter Menu",
+          "path": "Tailwind/Components/Dropdowns/filter-menu/",
+          "description": "Data filtering dropdown with checkboxes, status indicators, categories, count badges, and date range picker.",
+          "styles": [
+            "filter",
+            "checkbox",
+            "data",
+            "table"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Floating Menu",
+          "path": "Tailwind/Components/Dropdowns/floating-menu/",
+          "description": "Contextual floating menu that appears at click position with screen-edge detection and backdrop blur.",
+          "styles": [
+            "floating",
+            "contextual",
+            "position",
+            "click"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Hover Menu",
+          "path": "Tailwind/Components/Dropdowns/hover-menu/",
+          "description": "Dropdown menu that opens on hover with smooth fade-in and slide-up animations.",
+          "styles": [
+            "hover",
+            "animation",
+            "tooltip",
+            "css-only"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Icon Menu",
+          "path": "Tailwind/Components/Dropdowns/icon-menu/",
+          "description": "Icon-only menu dropdowns with notification badges for home, settings, notifications, and user profile.",
+          "styles": [
+            "icon",
+            "navigation",
+            "badge",
+            "toolbar"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Language Switcher",
+          "path": "Tailwind/Components/Dropdowns/language-switcher/",
+          "description": "Language selector dropdown with country flags, search functionality, grouped languages, and RTL support.",
+          "styles": [
+            "language",
+            "i18n",
+            "locale",
+            "flags"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Mega Menu",
+          "path": "Tailwind/Components/Dropdowns/mega-menu/",
+          "description": "Rich mega menu navigation with multi-column layouts, category sections, icons, and featured promotional area.",
+          "styles": [
+            "mega-menu",
+            "navigation",
+            "header",
+            "multi-column"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Mobile Menu",
+          "path": "Tailwind/Components/Dropdowns/mobile-menu/",
+          "description": "Slide-in mobile navigation drawer with overlay, user profile header, and sticky footer actions.",
+          "styles": [
+            "mobile",
+            "navigation",
+            "drawer",
+            "slide-in"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Multi Level Menu",
+          "path": "Tailwind/Components/Dropdowns/multi-level-menu/",
+          "description": "Nested dropdown menu with three levels of submenus for e-commerce category navigation.",
+          "styles": [
+            "multi-level",
+            "nested",
+            "navigation",
+            "hierarchical"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Multi Select",
+          "path": "Tailwind/Components/Dropdowns/multi-select/",
+          "description": "Multi-select dropdown with checkboxes, technology badges, and removable tags for multiple selections.",
+          "styles": [
+            "multi-select",
+            "checkbox",
+            "tags",
+            "form"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Notification Menu",
+          "path": "Tailwind/Components/Dropdowns/notification-menu/",
+          "description": "Notification center dropdown with user avatars, unread indicators, timestamps, and read/unread states.",
+          "styles": [
+            "notification",
+            "alerts",
+            "badge",
+            "bell"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Profile Menu",
+          "path": "Tailwind/Components/Dropdowns/profile-menu/",
+          "description": "User profile dropdown with gradient header, avatar, and comprehensive account actions including settings, billing, and sign out.",
+          "styles": [
+            "menu",
+            "profile",
+            "user",
+            "account"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Quick Actions Menu",
+          "path": "Tailwind/Components/Dropdowns/quick-actions-menu/",
+          "description": "Grid-based quick actions menu with 8 action buttons, icon scaling on hover, and colorful icons.",
+          "styles": [
+            "quick-actions",
+            "grid",
+            "icon-buttons",
+            "toolbar"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Radio Menu",
+          "path": "Tailwind/Components/Dropdowns/radio-menu/",
+          "description": "Single-select radio button menu for priority selection with color indicators.",
+          "styles": [
+            "radio",
+            "priority",
+            "select",
+            "status"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Searchable Select",
+          "path": "Tailwind/Components/Dropdowns/searchable-select/",
+          "description": "Searchable dropdown with real-time filtering, country flags, and no-results state for large lists.",
+          "styles": [
+            "select",
+            "search",
+            "filter",
+            "autocomplete"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Select Dropdown",
+          "path": "Tailwind/Components/Dropdowns/select-dropdown/",
+          "description": "Enhanced select dropdown with icons, descriptions, and smooth arrow rotation animation.",
+          "styles": [
+            "select",
+            "form",
+            "icons",
+            "categorized"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Sidebar Menu",
+          "path": "Tailwind/Components/Dropdowns/sidebar-menu/",
+          "description": "Dark sidebar navigation with expandable submenus, status indicators, and badge notifications.",
+          "styles": [
+            "sidebar",
+            "navigation",
+            "admin",
+            "dark-mode"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Sort Menu",
+          "path": "Tailwind/Components/Dropdowns/sort-menu/",
+          "description": "Sorting dropdown with date, alphabetical, and price sorting options with check indicators.",
+          "styles": [
+            "sort",
+            "order",
+            "filter",
+            "table"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Status Menu",
+          "path": "Tailwind/Components/Dropdowns/status-menu/",
+          "description": "User status selector dropdown with active, away, busy, offline, and do not disturb options with animated indicators.",
+          "styles": [
+            "status",
+            "online",
+            "presence",
+            "chat"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Theme Switcher",
+          "path": "Tailwind/Components/Dropdowns/theme-switcher/",
+          "description": "Theme switcher dropdown with light, dark, system, and sepia themes plus accent color selection.",
+          "styles": [
+            "theme",
+            "dark-mode",
+            "light-mode",
+            "appearance"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "User Account Menu",
+          "path": "Tailwind/Components/Dropdowns/user-account-menu/",
+          "description": "Comprehensive account management dropdown with quick stats, settings navigation, and security options.",
+          "styles": [
+            "menu",
+            "account",
+            "user",
+            "settings"
+          ],
+          "features": [
+            "Tailwind CSS",
+            "Responsive",
+            "Accessible"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
           ]
         }
       ]
@@ -1503,6 +3442,1430 @@
       ]
     },
     {
+      "name": "Navigation",
+      "path": "Tailwind/Components/Navigation/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete navigation component family with 35 production-ready variants covering every use case from basic navbars to sidebars, breadcrumbs, pagination, and mega navigation",
+      "variantsCount": 35,
+      "variants": [
+        {
+          "name": "Admin Sidebar",
+          "path": "Tailwind/Components/Navigation/admin-sidebar/",
+          "description": "Feature-rich dark admin sidebar with search, badge counts, and organized sections. Designed for comprehensive admin panels.",
+          "styles": [
+            "sidebar",
+            "admin",
+            "dark",
+            "management"
+          ],
+          "features": [
+            "Dark theme with slate colors",
+            "Integrated search bar",
+            "Badge counts for items",
+            "Organized section headers",
+            "Admin role display"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Basic Navbar",
+          "path": "Tailwind/Components/Navigation/basic-navbar/",
+          "description": "Clean horizontal navigation with essential links and actions. Perfect foundation for any marketing or product website.",
+          "styles": [
+            "navbar",
+            "header",
+            "horizontal"
+          ],
+          "features": [
+            "Responsive mobile menu",
+            "Hover states",
+            "Active link styling",
+            "CTA button"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Blog Navbar",
+          "path": "Tailwind/Components/Navigation/blog-navbar/",
+          "description": "Clean blog navigation with category links, subscribe CTA, and minimal design. Perfect for content-focused publishing platforms.",
+          "styles": [
+            "navbar",
+            "blog",
+            "content",
+            "publishing"
+          ],
+          "features": [
+            "Clean minimal design",
+            "Category navigation",
+            "Subscribe CTA",
+            "Search icon",
+            "Content-focused layout"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Bottom Navigation",
+          "path": "Tailwind/Components/Navigation/bottom-navigation/",
+          "description": "Mobile bottom tab navigation with centered floating action button. Perfect for social media and content creation apps.",
+          "styles": [
+            "bottom",
+            "mobile",
+            "tabs",
+            "fab"
+          ],
+          "features": [
+            "Bottom tab bar layout",
+            "Floating centered action button",
+            "Badge notification indicator",
+            "Profile avatar in navigation",
+            "Hover states"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Breadcrumb",
+          "path": "Tailwind/Components/Navigation/breadcrumb/",
+          "description": "Hierarchical path navigation showing user's location. Multiple styles with separators, icons, and collapsed variants.",
+          "styles": [
+            "breadcrumb",
+            "path",
+            "hierarchy"
+          ],
+          "features": [
+            "Standard separator style",
+            "Icon-enhanced variant",
+            "Collapsed variant",
+            "aria-current page indicator",
+            "SEO-friendly structure"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Category Navigation",
+          "path": "Tailwind/Components/Navigation/category-navigation/",
+          "description": "Hierarchical category tree navigation with emoji icons and item counts. Perfect for marketplaces and directories.",
+          "styles": [
+            "category",
+            "tree",
+            "directory"
+          ],
+          "features": [
+            "Expandable categories",
+            "Emoji icons",
+            "Item counts",
+            "Nested links",
+            "Active state"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Centered Navbar",
+          "path": "Tailwind/Components/Navigation/centered-navbar/",
+          "description": "Logo-centered navigation with symmetrical link groups on both sides. Ideal for brand-focused marketing sites.",
+          "styles": [
+            "navbar",
+            "centered",
+            "logo"
+          ],
+          "features": [
+            "Centered logo with absolute positioning",
+            "Balanced navigation groups",
+            "Rounded CTA button",
+            "Gradient logo text"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Collapsible Sidebar",
+          "path": "Tailwind/Components/Navigation/collapsible-sidebar/",
+          "description": "Expandable sidebar with toggle functionality and collapsible menu sections. Features smooth animations and compact mode.",
+          "styles": [
+            "sidebar",
+            "collapsible",
+            "expandable"
+          ],
+          "features": [
+            "Toggle collapse functionality",
+            "Collapsible menu sections",
+            "Smooth CSS transitions",
+            "Compact mode with hidden text",
+            "Active state highlighting"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Corporate Navbar",
+          "path": "Tailwind/Components/Navigation/corporate-navbar/",
+          "description": "Professional corporate navigation with search, help center, notifications, and user profile. Designed for enterprise applications.",
+          "styles": [
+            "navbar",
+            "corporate",
+            "enterprise",
+            "dashboard"
+          ],
+          "features": [
+            "Professional corporate styling",
+            "Integrated search bar",
+            "User profile with role",
+            "Notification indicator",
+            "Help button"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Dashboard Sidebar",
+          "path": "Tailwind/Components/Navigation/dashboard-sidebar/",
+          "description": "Professional dashboard sidebar with icon-based navigation, grouped sections, and user profile. Perfect for analytics and business dashboards.",
+          "styles": [
+            "sidebar",
+            "dashboard",
+            "admin"
+          ],
+          "features": [
+            "Fixed sidebar layout",
+            "Icon-based navigation",
+            "Grouped menu sections",
+            "Active state highlighting",
+            "User profile with logout"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Dock Navigation",
+          "path": "Tailwind/Components/Navigation/dock-navigation/",
+          "description": "macOS-style dock navigation with magnification effect on hover. Modern operating system inspired design.",
+          "styles": [
+            "dock",
+            "macOS",
+            "icons"
+          ],
+          "features": [
+            "Magnification effect",
+            "Tooltips on hover",
+            "Gradient app icons",
+            "Backdrop blur",
+            "OS-style aesthetic"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Documentation Navbar",
+          "path": "Tailwind/Components/Navigation/documentation-navbar/",
+          "description": "Dark-themed documentation navigation with version selector, search, and developer-focused links. Perfect for SDK and framework docs.",
+          "styles": [
+            "navbar",
+            "docs",
+            "documentation",
+            "developer"
+          ],
+          "features": [
+            "Version selector dropdown",
+            "Command palette search hint",
+            "GitHub link",
+            "Dark theme optimized for reading",
+            "Changelog link"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Ecommerce Navbar",
+          "path": "Tailwind/Components/Navigation/ecommerce-navbar/",
+          "description": "Full-featured ecommerce navigation with top bar, search, categories, cart, wishlist, and account links. Complete shopping experience.",
+          "styles": [
+            "navbar",
+            "ecommerce",
+            "shop",
+            "cart"
+          ],
+          "features": [
+            "Top information bar",
+            "Integrated search with button",
+            "Cart with item count badge",
+            "Category navigation",
+            "Wishlist and account buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Floating Navigation",
+          "path": "Tailwind/Components/Navigation/floating-navigation/",
+          "description": "Floating pill-shaped navigation bar with backdrop blur. Modern and elegant mobile-first navigation design.",
+          "styles": [
+            "floating",
+            "pill",
+            "mobile"
+          ],
+          "features": [
+            "Floating pill shape",
+            "Backdrop blur effect",
+            "Responsive labels",
+            "Active state styling",
+            "Hover transitions"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Glass Navbar",
+          "path": "Tailwind/Components/Navigation/glass-navbar/",
+          "description": "Elegant frosted glass effect navigation with backdrop blur. Perfect for creative platforms and modern landing pages.",
+          "styles": [
+            "navbar",
+            "glass",
+            "blur",
+            "frosted"
+          ],
+          "features": [
+            "Frosted glass effect with backdrop blur",
+            "Semi-transparent backgrounds",
+            "Gradient avatar",
+            "Search bar with glass styling"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Gradient Navbar",
+          "path": "Tailwind/Components/Navigation/gradient-navbar/",
+          "description": "Vibrant gradient navigation with multi-color backgrounds. Perfect for creative brands and bold marketing pages.",
+          "styles": [
+            "navbar",
+            "gradient",
+            "colorful",
+            "marketing"
+          ],
+          "features": [
+            "Multi-color gradient background",
+            "Semi-transparent logo background",
+            "High contrast text",
+            "Bold marketing aesthetic"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Hamburger Menu",
+          "path": "Tailwind/Components/Navigation/hamburger-menu/",
+          "description": "Animated hamburger menu with slide-out panel and X transformation. Perfect for mobile menus and user dropdowns.",
+          "styles": [
+            "hamburger",
+            "menu",
+            "mobile",
+            "dropdown"
+          ],
+          "features": [
+            "Animated hamburger-to-X transformation",
+            "Slide-out menu animation",
+            "User profile header",
+            "Sign out action",
+            "Click-outside dismiss"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Horizontal Navigation",
+          "path": "Tailwind/Components/Navigation/horizontal-navigation/",
+          "description": "Wide horizontal menu with optional dropdowns. Multiple styles including standard, dropdown, and pills variants.",
+          "styles": [
+            "horizontal",
+            "menu",
+            "tabs"
+          ],
+          "features": [
+            "Horizontal layout",
+            "Dropdown support",
+            "Active state styling",
+            "Pills variant",
+            "Hover transitions"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Icon Navigation",
+          "path": "Tailwind/Components/Navigation/icon-navigation/",
+          "description": "Icon-driven navigation with optional labels. Compact and standard variants for space-efficient navigation.",
+          "styles": [
+            "icon",
+            "compact",
+            "toolbar"
+          ],
+          "features": [
+            "Icon-only layout",
+            "aria-label for accessibility",
+            "Active state styling",
+            "Compact and standard sizes",
+            "Hover transitions"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Mega Navigation",
+          "path": "Tailwind/Components/Navigation/mega-navigation/",
+          "description": "Multi-column dropdown navigation with rich content. Perfect for e-commerce and content-heavy websites.",
+          "styles": [
+            "mega",
+            "dropdown",
+            "menu",
+            "ecommerce"
+          ],
+          "features": [
+            "Multi-column dropdown layout",
+            "Category grouping",
+            "Featured promo section",
+            "Hover reveal animation",
+            "Cart with badge"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Mini Sidebar",
+          "path": "Tailwind/Components/Navigation/mini-sidebar/",
+          "description": "Compact icon-only sidebar with tooltips. Perfect for music apps, dashboards, and space-efficient navigation.",
+          "styles": [
+            "sidebar",
+            "mini",
+            "icon",
+            "compact"
+          ],
+          "features": [
+            "Icon-only compact design",
+            "Tooltip titles on hover",
+            "Dark theme",
+            "Profile avatar",
+            "Add action button"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Mobile Navigation",
+          "path": "Tailwind/Components/Navigation/mobile-navigation/",
+          "description": "Native-style mobile app navigation with top header and bottom tab bar. Perfect for fintech, social, and mobile-first applications.",
+          "styles": [
+            "mobile",
+            "bottom",
+            "tabs",
+            "app"
+          ],
+          "features": [
+            "Top header with logo and actions",
+            "Bottom tab navigation",
+            "Safe area support",
+            "Active state styling",
+            "Notification badge"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Multi-level Navigation",
+          "path": "Tailwind/Components/Navigation/multi-level-navigation/",
+          "description": "Nested dropdown navigation with multiple levels. Perfect for complex documentation and admin interfaces.",
+          "styles": [
+            "nested",
+            "dropdown",
+            "multi-level"
+          ],
+          "features": [
+            "Nested dropdown structure",
+            "3 levels deep",
+            "Hover reveal",
+            "Arrow indicators",
+            "Active state highlighting"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Offcanvas Sidebar",
+          "path": "Tailwind/Components/Navigation/offcanvas-sidebar/",
+          "description": "Slide-out navigation for mobile with overlay. Perfect for food delivery apps, e-commerce, and mobile-first interfaces.",
+          "styles": [
+            "sidebar",
+            "mobile",
+            "offcanvas",
+            "drawer"
+          ],
+          "features": [
+            "Slide-out animation",
+            "Dark overlay backdrop",
+            "Close button and tap-outside dismiss",
+            "Category sections with emojis",
+            "User profile at bottom"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Pagination",
+          "path": "Tailwind/Components/Navigation/pagination/",
+          "description": "Page navigation component with multiple styles. Includes standard, compact, and first/last variants.",
+          "styles": [
+            "pagination",
+            "pages"
+          ],
+          "features": [
+            "Standard numbered pagination",
+            "Previous/Next arrows",
+            "Ellipsis for large page counts",
+            "Compact variant with results count",
+            "First/Last page buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Profile Navigation",
+          "path": "Tailwind/Components/Navigation/profile-navigation/",
+          "description": "User profile dropdown with header, menu items, and sign out action. Perfect for authenticated app navigation.",
+          "styles": [
+            "profile",
+            "dropdown",
+            "user"
+          ],
+          "features": [
+            "Profile avatar button",
+            "Gradient header with user info",
+            "Menu navigation items",
+            "Sign out action",
+            "Click-outside dismiss"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "SaaS Navbar",
+          "path": "Tailwind/Components/Navigation/saas-navbar/",
+          "description": "Modern SaaS navigation with beta badge and marketing-focused layout. Perfect for software product landing pages.",
+          "styles": [
+            "navbar",
+            "saas",
+            "software",
+            "landing"
+          ],
+          "features": [
+            "Beta badge indicator",
+            "Modern SaaS styling",
+            "Minimal navigation",
+            "Strong CTA focus"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Search Navigation",
+          "path": "Tailwind/Components/Navigation/search-navigation/",
+          "description": "Search-focused navigation with filters and category pills. Perfect for file managers, docs, and content platforms.",
+          "styles": [
+            "search",
+            "filter",
+            "finder"
+          ],
+          "features": [
+            "Large search input",
+            "Filter action buttons",
+            "Category pills/chips",
+            "Responsive layout",
+            "Icon integration"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Settings Navigation",
+          "path": "Tailwind/Components/Navigation/settings-navigation/",
+          "description": "Settings page navigation with grouped options. Perfect for account settings, preferences, and admin panels.",
+          "styles": [
+            "settings",
+            "preferences",
+            "account"
+          ],
+          "features": [
+            "Vertical navigation sidebar",
+            "Active state highlighting",
+            "Settings form example",
+            "Icon support",
+            "Responsive layout"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Split Navbar",
+          "path": "Tailwind/Components/Navigation/split-navbar/",
+          "description": "Dark-themed split navigation with logo on left, centered links, and user actions on right. Perfect for SaaS dashboards.",
+          "styles": [
+            "navbar",
+            "dark",
+            "saas",
+            "dashboard"
+          ],
+          "features": [
+            "Dark theme with slate colors",
+            "Hover dropdown menu",
+            "Notification bell icon",
+            "User avatar"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Step Navigation",
+          "path": "Tailwind/Components/Navigation/step-navigation/",
+          "description": "Multi-step process indicator with completed, current, and upcoming states. Perfect for wizards and checkout flows.",
+          "styles": [
+            "steps",
+            "wizard",
+            "progress",
+            "checkout"
+          ],
+          "features": [
+            "Horizontal step indicator",
+            "Completed step with checkmark",
+            "Current active step",
+            "Upcoming steps grayed out",
+            "Connectors between steps"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Sticky Navbar",
+          "path": "Tailwind/Components/Navigation/sticky-navbar/",
+          "description": "Sticky navigation with backdrop blur that stays visible while scrolling. Includes integrated search bar and healthcare-themed design.",
+          "styles": [
+            "navbar",
+            "sticky",
+            "backdrop",
+            "search"
+          ],
+          "features": [
+            "Sticky positioning with backdrop blur",
+            "Integrated search bar",
+            "Notification bell",
+            "Healthcare-themed design"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Tab Navigation",
+          "path": "Tailwind/Components/Navigation/tab-navigation/",
+          "description": "Horizontal tab navigation with bottom border indicator. Perfect for page sections and content organization.",
+          "styles": [
+            "tabs",
+            "segments"
+          ],
+          "features": [
+            "Bottom border indicator",
+            "Icon support",
+            "Active state styling",
+            "Hover transitions",
+            "Pills variant"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Transparent Navbar",
+          "path": "Tailwind/Components/Navigation/transparent-navbar/",
+          "description": "Overlay navigation designed for hero sections and landing pages. Features semi-transparent styling that blends with any background.",
+          "styles": [
+            "navbar",
+            "transparent",
+            "overlay",
+            "landing"
+          ],
+          "features": [
+            "Absolute positioned",
+            "Semi-transparent styling",
+            "Hero-optimized layout",
+            "CTA button with shadow"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Vertical Navigation",
+          "path": "Tailwind/Components/Navigation/vertical-navigation/",
+          "description": "Stacked vertical menu items with icon support. Perfect for sidebar layouts and settings pages.",
+          "styles": [
+            "vertical",
+            "sidebar",
+            "menu"
+          ],
+          "features": [
+            "Vertical stacked layout",
+            "Icon support",
+            "Active state highlighting",
+            "Hover transitions",
+            "Rounded item styling"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Progress",
+      "path": "Tailwind/Components/Progress/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete progress component family with 6 production-ready variants covering loading and completion states from linear bars and spinners to skeletons, steppers, timelines, and multi-file uploads",
+      "variantsCount": 6,
+      "variants": [
+        {
+          "name": "Linear Progress Bar",
+          "path": "Tailwind/Components/Progress/linear-bar/",
+          "description": "Animated horizontal progress bar with percentage label and gradient fill, in determinate, completed, and indeterminate modes",
+          "styles": [
+            "Determinate",
+            "Indeterminate",
+            "Completed"
+          ],
+          "features": [
+            "determinate fill animation",
+            "indeterminate sliding mode",
+            "percentage label",
+            "gradient fill",
+            "completed state",
+            "role=progressbar",
+            "aria-valuenow/valuetext",
+            "tabular-nums"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Circular Spinner",
+          "path": "Tailwind/Components/Progress/circular-spinner/",
+          "description": "Spinning ring loading indicator in four sizes and multiple colors, with an optional text label - pure CSS animation",
+          "styles": [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "Colored",
+            "With label"
+          ],
+          "features": [
+            "4 sizes",
+            "color variants",
+            "optional label",
+            "pure CSS animation",
+            "role=status",
+            "aria-live polite",
+            "aria-hidden on decorative svg"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Skeleton Loader",
+          "path": "Tailwind/Components/Progress/skeleton-loader/",
+          "description": "Shimmering placeholder skeletons matching the shape of incoming content - card image, avatar, title, text lines, plus a list-row variant",
+          "styles": [
+            "Card",
+            "List row",
+            "Text block"
+          ],
+          "features": [
+            "card skeleton",
+            "list-row skeleton",
+            "shimmer animation",
+            "layout-shift prevention",
+            "prefers-reduced-motion safe",
+            "role=status",
+            "aria-live polite",
+            "aria-label"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Segmented Stepper",
+          "path": "Tailwind/Components/Progress/segmented-stepper/",
+          "description": "Horizontal multi-step progress stepper for checkouts and wizards with completed/current/upcoming states and a connecting progress line",
+          "styles": [
+            "Completed",
+            "Current",
+            "Upcoming",
+            "3-step"
+          ],
+          "features": [
+            "completed/current/upcoming states",
+            "connecting progress line",
+            "checkmark on completed steps",
+            "responsive labels",
+            "interactive next/back",
+            "data-stepper-step driven",
+            "aria-hidden on decorative icons",
+            "focus-visible ring"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Step Progress Timeline",
+          "path": "Tailwind/Components/Progress/step-progress/",
+          "description": "Vertical milestone timeline showing ordered stages with status dots, timestamps, and descriptions - ideal for order tracking and onboarding",
+          "styles": [
+            "Completed",
+            "Current",
+            "Pending",
+            "Vertical"
+          ],
+          "features": [
+            "completed/current/pending states",
+            "connecting vertical rail",
+            "status dots with ring",
+            "timestamps",
+            "descriptions",
+            "aria-hidden on decorative icons",
+            "semantic ordered list",
+            "responsive"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Upload Progress",
+          "path": "Tailwind/Components/Progress/upload-progress/",
+          "description": "Multi-file upload list where each file shows an animated progress bar and percentage, then transitions to a green success check when complete",
+          "styles": [
+            "Uploading",
+            "Completed",
+            "Removable"
+          ],
+          "features": [
+            "per-file progress bars",
+            "percentage labels",
+            "success state transition",
+            "remove mid-upload",
+            "programmatic addFile()",
+            "role=progressbar",
+            "aria-valuenow",
+            "tabular-nums",
+            "focus-visible ring"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tables",
+      "path": "Tailwind/Components/Tables/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete table component family with 20 production-ready variants covering every use case from basic data tables to expandable rows, filters, sorting, and pagination",
+      "variantsCount": 20,
+      "variants": [
+        {
+          "name": "Analytics Table",
+          "path": "Tailwind/Components/Tables/analytics-table/",
+          "description": "Marketing analytics table showing traffic sources with channel icons, conversion metrics, revenue data, and inline sparkline trend charts.",
+          "styles": [
+            "analytics",
+            "marketing",
+            "metrics",
+            "conversions"
+          ],
+          "features": [
+            "channel icons",
+            "conversion rates",
+            "sparkline charts",
+            "revenue metrics",
+            "trend indicators"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Basic Table",
+          "path": "Tailwind/Components/Tables/basic-table/",
+          "description": "Clean and professional data table with project information including icons, status badges, dates, and budget. Features subtle hover states and well-organized data hierarchy.",
+          "styles": [
+            "basic",
+            "data",
+            "projects",
+            "dashboard"
+          ],
+          "features": [
+            "project icons",
+            "status badges",
+            "hover states",
+            "clean hierarchy",
+            "budget display"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Bordered Table",
+          "path": "Tailwind/Components/Tables/bordered-table/",
+          "description": "Financial performance table with full grid borders. Features gradient header, growth indicators with arrows, and a summary footer row with totals.",
+          "styles": [
+            "bordered",
+            "finance",
+            "financial",
+            "business"
+          ],
+          "features": [
+            "full grid borders",
+            "gradient header",
+            "growth indicators",
+            "totals footer",
+            "hover states"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Compact Table",
+          "path": "Tailwind/Components/Tables/compact-table/",
+          "description": "Dense cryptocurrency market data table with compact spacing. Features cryptocurrency logos, inline sparkline charts, percentage changes with color coding, and efficient use of horizontal space.",
+          "styles": [
+            "compact",
+            "crypto",
+            "market",
+            "dense"
+          ],
+          "features": [
+            "compact spacing",
+            "crypto logos",
+            "sparklines",
+            "percentage changes",
+            "market data"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Expandable Table",
+          "path": "Tailwind/Components/Tables/expandable-table/",
+          "description": "Project management table with expandable rows. Click rows to reveal team members, dates, and budget details with animated expansion and color-coded borders.",
+          "styles": [
+            "expandable",
+            "accordion",
+            "projects",
+            "nested"
+          ],
+          "features": [
+            "expandable rows",
+            "team avatars",
+            "progress bars",
+            "animated expansion",
+            "detail panels"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "File Manager Table",
+          "path": "Tailwind/Components/Tables/file-manager-table/",
+          "description": "File explorer table with file type icons, modification dates, file sizes, and type labels. Features color-coded file type indicators and hover states.",
+          "styles": [
+            "files",
+            "documents",
+            "explorer",
+            "manager"
+          ],
+          "features": [
+            "file icons",
+            "file sizes",
+            "modification dates",
+            "type labels",
+            "hover states"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Filterable Table",
+          "path": "Tailwind/Components/Tables/filterable-table/",
+          "description": "Task management table with multi-filter dropdowns. Filter by status, priority, and category with reset functionality. Ideal for project management dashboards.",
+          "styles": [
+            "filter",
+            "filterable",
+            "tasks",
+            "project"
+          ],
+          "features": [
+            "multi-filter",
+            "dropdown filters",
+            "reset button",
+            "task icons",
+            "priority badges"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Hover Table",
+          "path": "Tailwind/Components/Tables/hover-table/",
+          "description": "Event management table with rich hover interactions. Features color-coded hover states, animated action buttons that appear on row hover, attendee avatars, and status indicators with pulse animations.",
+          "styles": [
+            "hover",
+            "events",
+            "interactive",
+            "animated"
+          ],
+          "features": [
+            "color-coded hover",
+            "animated actions",
+            "attendee avatars",
+            "status badges",
+            "pulse animation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Invoice Table",
+          "path": "Tailwind/Components/Tables/invoice-table/",
+          "description": "Financial invoice tracking table with client logos, invoice numbers, payment status badges, due dates, and action buttons for viewing and marking paid.",
+          "styles": [
+            "invoice",
+            "billing",
+            "finance",
+            "payments"
+          ],
+          "features": [
+            "client logos",
+            "invoice numbers",
+            "due dates",
+            "status badges",
+            "payment actions"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Leaderboard Table",
+          "path": "Tailwind/Components/Tables/leaderboard-table/",
+          "description": "Gaming leaderboard with dark theme, medal badges, player avatars, levels, scores, and win rate. Features ranked display with premium styling for top 3 positions.",
+          "styles": [
+            "leaderboard",
+            "gaming",
+            "rankings",
+            "scores"
+          ],
+          "features": [
+            "dark theme",
+            "medal badges",
+            "player avatars",
+            "levels",
+            "scores",
+            "win rate"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Order Management Table",
+          "path": "Tailwind/Components/Tables/order-management-table/",
+          "description": "E-commerce order tracking table with customer info, order details, status badges with animations, shipping locations, and action buttons for order management.",
+          "styles": [
+            "orders",
+            "ecommerce",
+            "shipping",
+            "tracking"
+          ],
+          "features": [
+            "order IDs",
+            "customer avatars",
+            "status badges",
+            "shipping locations",
+            "action buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Paginated Table",
+          "path": "Tailwind/Components/Tables/paginated-table/",
+          "description": "Subscription management table with complete pagination controls. Features per-page selection, page numbers, previous/next navigation, and result count display.",
+          "styles": [
+            "pagination",
+            "paginated",
+            "subscriptions",
+            "billing"
+          ],
+          "features": [
+            "pagination controls",
+            "per-page selector",
+            "page numbers",
+            "navigation arrows",
+            "result count"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Pricing Comparison Table",
+          "path": "Tailwind/Components/Tables/pricing-comparison-table/",
+          "description": "Feature comparison matrix for SaaS pricing plans. Highlights popular tier, shows checkmarks and X marks for features, includes CTA buttons in footer row.",
+          "styles": [
+            "pricing",
+            "comparison",
+            "features",
+            "plans"
+          ],
+          "features": [
+            "feature matrix",
+            "highlighted column",
+            "checkmarks",
+            "pricing display",
+            "CTA buttons"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Product Inventory Table",
+          "path": "Tailwind/Components/Tables/product-inventory-table/",
+          "description": "E-commerce inventory management table with product images, SKU codes, category badges, stock level bars, and status indicators for stock tracking.",
+          "styles": [
+            "inventory",
+            "products",
+            "ecommerce",
+            "stock"
+          ],
+          "features": [
+            "product images",
+            "SKU codes",
+            "stock bars",
+            "category badges",
+            "status indicators"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Responsive Table",
+          "path": "Tailwind/Components/Tables/responsive-table/",
+          "description": "Order management table with horizontal scrolling for mobile devices. Features customer avatars, order status badges, and adapts to different screen sizes while maintaining readability.",
+          "styles": [
+            "responsive",
+            "orders",
+            "horizontal scroll",
+            "mobile"
+          ],
+          "features": [
+            "horizontal scroll",
+            "mobile-friendly",
+            "customer avatars",
+            "status badges",
+            "adaptive layout"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Searchable Table",
+          "path": "Tailwind/Components/Tables/searchable-table/",
+          "description": "Article library table with real-time search functionality. Filters by title, excerpt, author, and category with smooth animations and a no-results empty state.",
+          "styles": [
+            "search",
+            "searchable",
+            "articles",
+            "blog"
+          ],
+          "features": [
+            "real-time search",
+            "multi-column filter",
+            "empty state",
+            "article thumbnails",
+            "category badges"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Selectable Table",
+          "path": "Tailwind/Components/Tables/selectable-table/",
+          "description": "Employee selection table with bulk actions. Features select all checkbox, individual row selection, animated bulk action button, and row highlighting on selection.",
+          "styles": [
+            "selectable",
+            "checkbox",
+            "bulk",
+            "selection"
+          ],
+          "features": [
+            "checkbox selection",
+            "select all",
+            "bulk actions",
+            "animated button",
+            "row highlighting"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Sortable Table",
+          "path": "Tailwind/Components/Tables/sortable-table/",
+          "description": "Employee directory table with interactive column sorting. Click any column header to sort data. Supports alphabetical, numeric, and custom data sorting with visual feedback.",
+          "styles": [
+            "sortable",
+            "sorting",
+            "employees",
+            "directory"
+          ],
+          "features": [
+            "click to sort",
+            "multiple column types",
+            "visual feedback",
+            "performance bars",
+            "hover states"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Striped Table",
+          "path": "Tailwind/Components/Tables/striped-table/",
+          "description": "Recruitment pipeline table with alternating row colors for improved readability. Features candidate photos, match scores with progress bars, and application status badges.",
+          "styles": [
+            "striped",
+            "recruitment",
+            "candidates",
+            "pipeline"
+          ],
+          "features": [
+            "alternating rows",
+            "candidate photos",
+            "match scores",
+            "progress bars",
+            "status badges"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "User Management Table",
+          "path": "Tailwind/Components/Tables/user-management-table/",
+          "description": "Professional admin table for managing users with avatars, role icons, department assignments, online status indicators, and action menus. Includes sidebar navigation for admin dashboard context.",
+          "styles": [
+            "admin",
+            "dashboard",
+            "users",
+            "management"
+          ],
+          "features": [
+            "user avatars",
+            "status indicators",
+            "role icons",
+            "action menus",
+            "department display"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Tabs",
       "path": "Tailwind/Components/Tabs/",
       "tech": "Tailwind CSS",
@@ -1863,6 +5226,167 @@
             "notification badge",
             "app screen panels",
             "arrow-key navigation"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toasts",
+      "path": "Tailwind/Components/Toasts/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete toast notification family with 6 production-ready variants covering every feedback use case from basic auto-dismiss to persistent progress and stacked queues",
+      "variantsCount": 6,
+      "variants": [
+        {
+          "name": "Basic Toast",
+          "path": "Tailwind/Components/Toasts/basic-toast/",
+          "description": "Auto-dismissing success toast with icon, message, and close button",
+          "styles": [
+            "Success",
+            "Auto-dismiss",
+            "Hover to pause"
+          ],
+          "features": [
+            "auto-dismiss after 4s",
+            "pause on hover",
+            "close button",
+            "aria-live polite region",
+            "role status",
+            "template-based rendering",
+            "focus-visible ring",
+            "slide-in transition"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Status Toasts",
+          "path": "Tailwind/Components/Toasts/status-toasts/",
+          "description": "Four semantic toast variants - success, error, warning, info - each with matching icon, color, and ARIA role",
+          "styles": [
+            "Success",
+            "Error",
+            "Warning",
+            "Info"
+          ],
+          "features": [
+            "4 semantic types",
+            "matching icons and colors",
+            "role=alert for errors/warnings",
+            "role=status for success/info",
+            "auto-dismiss",
+            "pause on hover",
+            "close button",
+            "focus-visible ring"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Action Toast",
+          "path": "Tailwind/Components/Toasts/action-toast/",
+          "description": "Toast with an inline action button (Undo). Fires a callback on action, or auto-dismisses if ignored",
+          "styles": [
+            "Undo action",
+            "Destructive feedback",
+            "Reversible"
+          ],
+          "features": [
+            "inline action button",
+            "onAction callback",
+            "6s auto-dismiss",
+            "pause on hover",
+            "close button",
+            "role status",
+            "aria-live polite",
+            "focus-visible ring"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Stacked Toasts",
+          "path": "Tailwind/Components/Toasts/stacked-toasts/",
+          "description": "Notification queue that stacks incoming toasts vertically with a staggered slide-in and dismiss-all control",
+          "styles": [
+            "Queue",
+            "Multiple",
+            "Dismiss all"
+          ],
+          "features": [
+            "vertical stacking",
+            "staggered slide-in",
+            "individual auto-dismiss",
+            "dismiss-all control",
+            "pause on hover",
+            "close button",
+            "role status",
+            "aria-live polite"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Persistent Toast",
+          "path": "Tailwind/Components/Toasts/persistent-toast/",
+          "description": "Toast that stays open until dismissed, with a shrinking countdown progress bar that pauses on hover",
+          "styles": [
+            "Progress bar",
+            "Countdown",
+            "Upload result"
+          ],
+          "features": [
+            "countdown progress bar",
+            "stays open until dismissed",
+            "pause on hover",
+            "resume on leave",
+            "close button",
+            "role status",
+            "aria-live polite",
+            "focus-visible ring"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Minimal Toast",
+          "path": "Tailwind/Components/Toasts/minimal-toast/",
+          "description": "Compact pill-shaped toast for terse icon-led feedback like Copied or Saved, centered at the bottom",
+          "styles": [
+            "Pill",
+            "Compact",
+            "Dark theme"
+          ],
+          "features": [
+            "pill shape",
+            "centered bottom position",
+            "icon + label only",
+            "2s auto-dismiss",
+            "dark theme",
+            "pause on hover",
+            "role status",
+            "aria-live polite"
           ],
           "files": [
             "code.html",
@@ -2999,10 +6523,17 @@
       "path": "Tailwind/",
       "status": "active",
       "families": [
+        "Accordions",
         "Buttons",
+        "Cards",
+        "Dropdowns",
         "Input",
         "Modals",
-        "Accordions"
+        "Navigation",
+        "Progress",
+        "Tables",
+        "Tabs",
+        "Toasts"
       ]
     },
     {
