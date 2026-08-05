@@ -5,13 +5,14 @@ Thanks for helping improve **DevSnips**! This repository is a lightweight collec
 ## Contribution flow
 
 1. Fork the repository.
-2. Create a descriptive branch, for example `feat/modal-snippet`.
-3. Add or update snippets in:
-   - `devsnips/snippets/html-snippets/`
-   - `devsnips/snippets/css-snippets/`
-   - `devsnips/snippets/js-snippets/`
-4. Update `snippets-index.json` when you add/remove snippets.
-5. Run local checks and open a PR.
+2. Create a descriptive branch, for example `feat/toast-snippet`.
+3. Add or update snippets in the right family folder:
+   - `Tailwind/Components/<Family>/<variant-slug>/` — Tailwind components
+   - `Vanilla/Components/<Family>/<variant-slug>/` — Vanilla HTML/CSS/JS components
+   - `Vanilla/Sections/<Family>/<variant-slug>/` — Neo-Brutalist website sections
+4. Every Tailwind/`Vanilla/Components` variant folder contains exactly three files: `code.html` (component only), `preview.html` (full page with Tailwind CDN + app context), and `metadata.json` (see the schema in `COMPONENT_STRUCTURE.md`).
+5. Update `snippets-index.json` when you add/remove snippets — add the family to `families[]`, list it under `technologies[].families`, and recompute `stats`.
+6. Run local checks and open a PR.
 
 ## Code style rules
 
