@@ -6,7 +6,7 @@ Reusable frontend components organized as design system families.
 
 ```
 ├── Tailwind/
-│   ├── Components/            # 11 families, 247 variants
+│   ├── Components/            # 12 families, 253 variants
 │   │   ├── Accordions/        # 15 variants
 │   │   ├── Buttons/           # 15 variants
 │   │   ├── Cards/             # 40 variants
@@ -17,7 +17,8 @@ Reusable frontend components organized as design system families.
 │   │   ├── Progress/          # 6 variants
 │   │   ├── Tables/            # 20 variants
 │   │   ├── Tabs/              # 15 variants
-│   │   └── Toasts/            # 6 variants
+│   │   ├── Toasts/            # 6 variants
+│   │   └── Tooltips/          # 6 variants
 │   ├── Pages/
 │   ├── Sections/
 │   ├── Templates/
@@ -55,6 +56,7 @@ Reusable frontend components organized as design system families.
 | **Tables** | 20 | Analytics, Basic, Bordered, Compact, Expandable, File-Manager, Filterable, Hover, Invoice, Leaderboard, Order-Management, Paginated, Pricing-Comparison, Product-Inventory, Responsive, Searchable, Selectable, Sortable, Striped, User-Management |
 | **Tabs** | 15 | Multiple tab variants |
 | **Toasts** | 6 | Basic, Status (Success/Error/Warning/Info), Action (Undo), Stacked, Persistent (progress bar), Minimal (pill) |
+| **Tooltips** | 6 | Basic (top+arrow), Directional (top/right/bottom/left), Rich (title+description), Delayed (600ms), Icon (icon-button a11y), Status (success/warning/error/info themed) |
 
 ### Vanilla
 

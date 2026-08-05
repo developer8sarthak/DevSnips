@@ -3,10 +3,10 @@
   "lastUpdated": "2026-08-05",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
-    "totalFamilies": 27,
-    "totalVariants": 312,
+    "totalFamilies": 28,
+    "totalVariants": 318,
     "totalSubVariants": 6,
-    "totalStyles": 318,
+    "totalStyles": 324,
     "technologies": [
       "Tailwind CSS",
       "Vanilla HTML/CSS/JS"
@@ -5397,6 +5397,165 @@
       ]
     },
     {
+      "name": "Tooltips",
+      "path": "Tailwind/Components/Tooltips/",
+      "tech": "Tailwind CSS",
+      "category": "Components",
+      "description": "Complete tooltip component family with 6 production-ready variants covering every use case from basic hover hints to directional positioning, rich help content, delayed reveal, icon-button labeling, and status indicators. Pure CSS - no JavaScript.",
+      "variantsCount": 6,
+      "variants": [
+        {
+          "name": "Basic Tooltip",
+          "path": "Tailwind/Components/Tooltips/basic-tooltip/",
+          "description": "Top-positioned tooltip with arrow that appears on hover and keyboard focus, pure CSS via the data-tooltip attribute",
+          "styles": [
+            "Top",
+            "With arrow"
+          ],
+          "features": [
+            "top position with arrow",
+            "hover trigger",
+            "focus-visible trigger",
+            "fade + slide animation",
+            "pure CSS no JS",
+            "role=tooltip",
+            "aria-describedby",
+            "z-index layering"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Directional Tooltip",
+          "path": "Tailwind/Components/Tooltips/directional-tooltip/",
+          "description": "Tooltips in all four directions - top, right, bottom, left - with arrows that reposition automatically via the data-tooltip-pos attribute",
+          "styles": [
+            "Top",
+            "Right",
+            "Bottom",
+            "Left"
+          ],
+          "features": [
+            "4 directions",
+            "auto-positioned arrows",
+            "data-tooltip-pos attribute",
+            "hover + focus triggers",
+            "fade + slide animation",
+            "pure CSS no JS",
+            "z-index layering"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Rich Tooltip",
+          "path": "Tailwind/Components/Tooltips/rich-tooltip/",
+          "description": "Wide tooltip with rich content - a title plus a multi-line description - ideal for help text on form fields and complex UI elements",
+          "styles": [
+            "Title + description",
+            "Multi-line",
+            "Wide box"
+          ],
+          "features": [
+            "title + description content",
+            "multi-line wrapping",
+            "wider tooltip box",
+            "hover + focus triggers",
+            "shadow elevation",
+            "pure CSS no JS",
+            "role=tooltip",
+            "aria-describedby",
+            "icon trigger"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Delayed Tooltip",
+          "path": "Tailwind/Components/Tooltips/delayed-tooltip/",
+          "description": "Tooltip that waits 600ms before appearing on hover so quick mouse-overs don't flicker, then hides instantly on exit via CSS transition-delay",
+          "styles": [
+            "Delayed show",
+            "Instant hide"
+          ],
+          "features": [
+            "600ms show delay",
+            "instant hide on exit",
+            "instant on keyboard focus",
+            "transition-delay driven",
+            "pure CSS no JS",
+            "role=tooltip",
+            "aria-describedby"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Icon Tooltip",
+          "path": "Tailwind/Components/Tooltips/icon-tooltip/",
+          "description": "Tooltip on an icon-only button - the key accessibility use case where the tooltip serves as the visible label with aria-label and role=tooltip",
+          "styles": [
+            "Share",
+            "Settings",
+            "Delete",
+            "Toolbar"
+          ],
+          "features": [
+            "icon-button labeling",
+            "aria-label",
+            "role=tooltip companion",
+            "hover + focus triggers",
+            "compact tooltip sizing",
+            "pure CSS no JS",
+            "focus-visible ring"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Status Tooltip",
+          "path": "Tailwind/Components/Tooltips/status-tooltip/",
+          "description": "Status indicator dot with a color-themed tooltip - success, warning, error, info - where the tooltip background and arrow match the semantic status",
+          "styles": [
+            "Success",
+            "Warning",
+            "Error",
+            "Info"
+          ],
+          "features": [
+            "status dot indicators",
+            "4 semantic colors",
+            "themed tooltip + arrow",
+            "data-tooltip-status attribute",
+            "hover + focus triggers",
+            "pure CSS no JS",
+            "aria-label",
+            "role=tooltip companion"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hero",
       "path": "Vanilla/Sections/Hero/",
       "tech": "Vanilla HTML/CSS/JS",
@@ -6533,7 +6692,8 @@
         "Progress",
         "Tables",
         "Tabs",
-        "Toasts"
+        "Toasts",
+        "Tooltips"
       ]
     },
     {
