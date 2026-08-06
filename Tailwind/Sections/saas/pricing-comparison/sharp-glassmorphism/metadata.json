@@ -1,0 +1,31 @@
+{
+  "name": "Pricing Comparison Table — Sharp Glassmorphism",
+  "slug": "pricing-comparison-sharp-glassmorphism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "pricing-comparison",
+  "style": "sharp-glassmorphism",
+  "description": "Sharp Glassmorphism comparison matrix with a sticky plan header, grouped feature rows, and check/dash/slash glyphs.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "pricing",
+    "comparison",
+    "matrix",
+    "saas",
+    "plans",
+    "sharp-glassmorphism"
+  ],
+  "features": [
+    "sticky plan header",
+    "grouped feature rows",
+    "check/dash/slash glyphs",
+    "sticky first column",
+    "per-column CTAs"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Sora, JetBrains Mono"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Product Workflow — Neo-Brutalism",
+  "slug": "product-workflow-neo-brutalism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "product-workflow",
+  "style": "neo-brutalism",
+  "description": "Neo-Brutalism numbered three-step workflow with a step rail and a live-swapping code/command preview panel.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "workflow",
+    "how-it-works",
+    "saas",
+    "steps",
+    "code-preview",
+    "neo-brutalism"
+  ],
+  "features": [
+    "numbered three-step workflow",
+    "step rail",
+    "live-swapping code preview",
+    "scoped step switcher"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Archivo, JetBrains Mono"
+  ]
+}

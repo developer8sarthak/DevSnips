@@ -1,0 +1,32 @@
+{
+  "name": "Dashboard Preview Hero — Vercel",
+  "slug": "dashboard-hero-vercel",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "dashboard-hero",
+  "style": "vercel",
+  "description": "Vercel dashboard preview hero with a centered headline, dual CTAs, and a live analytics dashboard mock with KPI cards, a chart, and an activity feed.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "hero",
+    "dashboard",
+    "saas",
+    "analytics",
+    "kpi",
+    "vercel"
+  ],
+  "features": [
+    "centered headline",
+    "dual CTAs",
+    "dashboard mock",
+    "KPI cards",
+    "chart",
+    "live activity feed"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Geist, Geist Mono"
+  ]
+}

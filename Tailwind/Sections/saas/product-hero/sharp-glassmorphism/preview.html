@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS Product Hero — Sharp Glassmorphism | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Sora', sans-serif; }
+    .font-sora { font-family: 'Sora', sans-serif; }
+    .sg-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+    .sg-dot { display: inline-block; height: 6px; width: 6px; border-radius: 9999px; background: #6ee7ff; box-shadow: 0 0 8px #6ee7ff; }
+    .sg-glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 4px 20px -4px rgba(168,85,247,0.5); }
+    ::selection { background: rgba(168,85,247,0.4); color: #fff; }
+    .sg-mesh {
+      background: radial-gradient(at 18% 18%, rgba(236,72,153,0.55) 0px, transparent 50%), radial-gradient(at 82% 12%, rgba(99,102,241,0.55) 0px, transparent 50%), radial-gradient(at 75% 78%, rgba(34,211,238,0.45) 0px, transparent 50%), radial-gradient(at 22% 82%, rgba(168,85,247,0.5) 0px, transparent 50%), #0b0a1f;
+      background-size: 180% 180%; animation: sg-pan 18s ease-in-out infinite alternate;
+    }
+    @keyframes sg-pan { 0% { background-position: 0% 0%; } 100% { background-position: 100% 100%; } }
+  </style>
+</head>
+<body class="sg-mesh relative min-h-screen overflow-hidden text-white antialiased">
+
+  <header class="relative z-30">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <div class="flex items-center gap-2.5">
+        <div class="flex h-8 w-8 items-center justify-center rounded-lg border border-white/20 bg-white/10 backdrop-blur-md">
+          <span class="font-sora text-sm font-bold">F</span>
+        </div>
+        <span class="font-sora text-[15px] font-semibold tracking-tight">Flowbase</span>
+        <span class="sg-mono ml-1 rounded-md border border-white/15 bg-white/10 px-1.5 py-0.5 text-[10px] text-white/70">SAAS</span>
+      </div>
+      <nav class="flex items-center gap-1">
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Product</a>
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Pricing</a>
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Docs</a>
+        <button type="button" class="sg-mono ml-1 rounded-md border border-white/20 bg-white/15 px-3 py-1.5 text-[12px] font-medium text-white backdrop-blur-md transition-colors hover:bg-white/25">Sign in</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+<!--
+Snippet Name: SaaS Product Hero — Sharp Glassmorphism
+Description: Frosted-glass SaaS product hero with a headline, dual CTAs, trust logos, and a framed product UI preview.
+Author: DevSnips Contributors
+Usage Example: Drop at the top of a landing page. Swap the headline, CTAs, and the mock UI preview.
+-->
+<section class="relative w-full" data-hero="sg">
+
+  
+
+  <div class="mx-auto max-w-6xl px-6 pb-20 pt-16 sm:pt-24">
+    <div class="mb-8"><span class="sg-mono inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[12px] text-white/80 backdrop-blur-md"><span class="sg-dot"></span> SaaS / Product</span></div>
+    <div class="max-w-3xl">
+      <h1 class="font-sora text-[40px] font-bold leading-[1.05] tracking-tight sm:text-[60px]">Ship support that<br><span class="bg-gradient-to-r from-fuchsia-300 to-cyan-200 bg-clip-text text-transparent">moves at dev speed.</span></h1>
+      <p class="font-sora mt-5 max-w-xl text-[16px] leading-relaxed text-white/70">Flowbase unifies your tickets, AI replies, and customer history into one fast workspace. Built for teams who treat support like a product surface — not a cost center.</p>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <a href="#" class="font-sora inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-fuchsia-500 to-indigo-500 px-6 py-3 text-[14px] font-semibold text-white shadow-[0_8px_30px_-6px_rgba(168,85,247,0.6)] transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-200/60">Start free — no card <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#" class="font-sora inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-6 py-3 text-[14px] text-white backdrop-blur-md transition-colors hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg> Watch 2-min demo</a>
+      </div>
+      <div class="mt-10 flex flex-col gap-3"><p class="sg-mono text-[11px] uppercase tracking-wider text-white/50">Trusted by fast-moving teams</p><div class="flex flex-wrap items-center gap-x-6 gap-y-3 text-white/60"><span class="font-sora text-[15px] font-semibold tracking-tight">Vercel</span><span class="font-sora text-[15px] font-semibold tracking-tight">Linear</span><span class="font-sora text-[15px] font-semibold tracking-tight">Raycast</span><span class="font-sora text-[15px] font-semibold tracking-tight">Resend</span><span class="font-sora text-[15px] font-semibold tracking-tight">Cal.com</span></div></div>
+    </div>
+    <div class="relative mt-16">
+      <div class="overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-2xl ">
+        <div class="absolute left-0 right-0 top-0 h-px bg-gradient-to-r from-transparent via-white/50 to-transparent" aria-hidden="true"></div>
+        <div class="flex items-center justify-between border-b border-white/15 px-4 py-3"><div class="flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-white/30"></span><span class="h-2.5 w-2.5 rounded-full bg-white/30"></span><span class="h-2.5 w-2.5 rounded-full bg-white/30"></span></div><div class="sg-mono rounded-lg border border-white/15 bg-white/10 px-3 py-1 text-[11px] text-white/70">app.flowbase.io/inbox</div><span class="sg-dot"></span></div>
+        <div class="grid grid-cols-1 sm:grid-cols-[180px_1fr]">
+          <aside class="hidden border-r border-white/15 p-3 sm:block"><nav class="space-y-1"><a href="#" class="flex items-center gap-2 rounded-lg border border-white/15 bg-white/10 px-2.5 py-2 text-[13px] text-white"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 12h-6l-2 3h-4l-2-3H2"/></svg> Inbox <span class="sg-mono ml-auto rounded bg-white/15 px-1.5 text-[10px] text-white/80">128</span></a></nav></aside>
+          <div class="divide-y divide-white/15">
+            <div class="flex items-start gap-3 px-4 py-3.5 hover:bg-white/5"><span class="sg-mono mt-0.5 shrink-0 rounded-md border border-white/15 bg-white/10 px-1.5 py-0.5 text-[10px] text-white/70">#A1</span><div class="min-w-0 flex-1"><p class="font-sora truncate text-[13px] text-white">Payment failed on annual plan</p><p class="font-sora mt-1 truncate text-[12px] text-white/55">Myria Co. · SLA breaching</p></div><span class="h-2 w-2 shrink-0 rounded-full bg-[#6ee7ff] shadow-[0_0_8px_#6ee7ff]"></span></div>
+            <div class="flex items-start gap-3 px-4 py-3.5 hover:bg-white/5"><span class="sg-mono mt-0.5 shrink-0 rounded-md border border-white/15 bg-white/10 px-1.5 py-0.5 text-[10px] text-white/70">#A2</span><div class="min-w-0 flex-1"><p class="font-sora truncate text-[13px] text-white">SSO login redirects to wrong org</p><p class="font-sora mt-1 truncate text-[12px] text-white/55">Northbeam · waiting on customer</p></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="sg-glow absolute -right-3 -top-3 hidden rounded-2xl border border-white/20 bg-white/10 px-3 py-2 backdrop-blur-2xl sm:block"><p class="sg-mono text-[10px] uppercase tracking-wider text-white/60">Median first reply</p><p class="font-sora mt-0.5 text-[18px] font-bold text-[#6ee7ff]">1m 42s</p></div>
+    </div>
+  </div>
+</section>
+  </main>
+</body>
+</html>

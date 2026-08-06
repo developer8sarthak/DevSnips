@@ -1,0 +1,30 @@
+{
+  "name": "SaaS Metrics / Stats — Sharp Glassmorphism",
+  "slug": "metrics-sharp-glassmorphism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "metrics",
+  "style": "sharp-glassmorphism",
+  "description": "Sharp Glassmorphism metrics section with a giant stat block, a count-up ticker, and a stat card grid.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "metrics",
+    "stats",
+    "saas",
+    "count-up",
+    "numbers",
+    "sharp-glassmorphism"
+  ],
+  "features": [
+    "giant featured stat",
+    "count-up on scroll",
+    "stat card grid",
+    "accent icon tiles"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Sora, JetBrains Mono"
+  ]
+}

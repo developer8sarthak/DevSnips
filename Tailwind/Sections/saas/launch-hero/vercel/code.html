@@ -1,0 +1,33 @@
+<!--
+Snippet Name: Startup Launch Hero — Vercel
+Description: Dark monochrome startup launch hero with a live countdown ticker, dual CTAs, and a stacked product-card collage.
+Author: DevSnips Contributors
+Usage Example: Drop at the top of a launch page. The countdown updates itself via an inline scoped script.
+-->
+<section class="relative w-full overflow-hidden" data-launch="vc">
+
+  <div class="vc-grid-bg pointer-events-none absolute inset-x-0 top-0 -z-10 h-[420px]" aria-hidden="true"></div>
+
+  <div class="mx-auto max-w-6xl px-6 py-16 sm:py-24">
+<div class="grid grid-cols-1 gap-10 lg:grid-cols-[1.15fr_1fr] lg:items-center">
+      <div><div class="mb-8 flex flex-wrap items-center gap-3"><span class="vc-mono inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5 text-[11px] text-white/70"><span class="vc-dot"></span> Public Beta</span><span class="vc-mono text-[11px] uppercase tracking-wider text-white/45">Launches in</span><span data-countdown class="inline-flex items-center gap-1 vc-mono text-[11px] font-medium"><span class="rounded-md border border-white/10 bg-white/[0.04] px-2 py-1 tabular-nums" data-cd-d>02</span><span class="text-white/30">:</span><span class="rounded-md border border-white/10 bg-white/[0.04] px-2 py-1 tabular-nums" data-cd-h>14</span><span class="text-white/30">:</span><span class="rounded-md border border-white/10 bg-white/[0.04] px-2 py-1 tabular-nums" data-cd-m>23</span><span class="text-white/30">:</span><span class="rounded-md border border-[#50e3c2]/30 bg-[#50e3c2]/10 px-2 py-1 tabular-nums text-[#50e3c2]" data-cd-s>09</span></span></div><div><h1 class="font-g text-[44px] font-semibold leading-[1.02] tracking-tight sm:text-[64px]">Ship faster than<br><span class="bg-gradient-to-r from-white to-white/40 bg-clip-text text-transparent">the big guys.</span></h1></div><p class="font-g mt-6 max-w-md text-[15px] leading-relaxed text-white/50">Flowbase Beta gives startups the support stack enterprises charge six figures for — AI triage, SLAs, audit logs, and a UI your team will actually open on Monday.</p><div class="mt-8 flex flex-col gap-3 sm:flex-row"><a href="#" class="font-g inline-flex items-center justify-center gap-2 rounded-lg bg-white px-5 py-3 text-[14px] font-medium text-black transition-colors hover:bg-white/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40">Claim your beta spot <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#" class="font-g inline-flex items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/[0.02] px-5 py-3 text-[14px] text-white/80 transition-colors hover:border-white/20 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30"> Read the changelog</a></div><dl class="mt-10 grid grid-cols-3 gap-px overflow-hidden rounded-lg border border-white/10 bg-white/[0.07]"><div class="bg-[#0a0a0a] px-4 py-3"><dt class="vc-mono text-[10px] uppercase tracking-wider text-white/40">Beta teams</dt><dd class="font-g mt-1 text-2xl font-semibold text-white">1,240</dd></div><div class="bg-[#0a0a0a] px-4 py-3"><dt class="vc-mono text-[10px] uppercase tracking-wider text-white/40">Tickets/day</dt><dd class="font-g mt-1 text-2xl font-semibold text-white">38k</dd></div><div class="bg-[#0a0a0a] px-4 py-3"><dt class="vc-mono text-[10px] uppercase tracking-wider text-white/40">CSAT</dt><dd class="font-g mt-1 text-2xl font-semibold text-white">98%</dd></div></dl></div>
+      <div class="relative h-[360px] sm:h-[420px]">
+        <div class="absolute right-0 top-0 w-[78%] rounded-[14px] border border-white/10 bg-[#0a0a0a] p-4 shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_20px_60px_-20px_rgba(0,0,0,0.9)]">
+          <div class="flex items-center justify-between"><p class="vc-mono text-[10px] uppercase tracking-wider text-white/40">/ weekly volume</p><span class="rounded-md border border-white/10 bg-[#50e3c2]/10 px-2 py-0.5 vc-mono text-[10px] text-[#50e3c2]">+24%</span></div>
+          <div class="mt-4 flex h-28 items-end gap-2"><div class="w-full rounded-t bg-white/15" style="height:38%"></div><div class="w-full rounded-t bg-white/15" style="height:62%"></div><div class="w-full rounded-t bg-white/15" style="height:48%"></div><div class="w-full rounded-t bg-[#50e3c2]/60" style="height:88%"></div><div class="w-full rounded-t bg-[#50e3c2]/60" style="height:72%"></div><div class="w-full rounded-t bg-white" style="height:100%"></div><div class="w-full rounded-t bg-white/30" style="height:54%"></div></div>
+        </div>
+        <div class="absolute bottom-0 left-0 w-[64%] rounded-[14px] border border-white/15 bg-[#50e3c2]/10 p-4 shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_20px_60px_-20px_rgba(0,0,0,0.9)]"><div class="flex items-center justify-between"><span class="vc-mono rounded-md border border-white/10 bg-white/[0.04] px-2 py-0.5 text-[10px]">#A-128</span><span class="vc-mono rounded-md border border-white/10 bg-white px-2 py-0.5 text-[10px] text-black">AI</span></div><p class="font-g mt-3 text-lg font-semibold leading-tight">"How do I export audit logs via the API?"</p></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const root = document.currentScript.closest('[data-launch]');
+      const target = new Date(Date.now() + 1000 * 60 * 60 * 54);
+      const d = root.querySelector('[data-cd-d]'), h = root.querySelector('[data-cd-h]'), m = root.querySelector('[data-cd-m]'), s = root.querySelector('[data-cd-s]');
+      const pad = n => String(n).padStart(2, '0');
+      function tick() { const t = Math.max(0, Math.floor((target - Date.now()) / 1000)); if(d)d.textContent=pad(Math.floor(t/86400)); if(h)h.textContent=pad(Math.floor((t%86400)/3600)); if(m)m.textContent=pad(Math.floor((t%3600)/60)); if(s)s.textContent=pad(t%60); }
+      tick(); setInterval(tick, 1000);
+    })();
+  </script>
+</section>

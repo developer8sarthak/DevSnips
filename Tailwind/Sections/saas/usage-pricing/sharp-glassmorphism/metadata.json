@@ -1,0 +1,30 @@
+{
+  "name": "Usage Based Pricing — Sharp Glassmorphism",
+  "slug": "usage-pricing-sharp-glassmorphism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "usage-pricing",
+  "style": "sharp-glassmorphism",
+  "description": "Sharp Glassmorphism usage-based pricing with a draggable usage slider, tier-rate table, volume savings bar, and CTAs.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "pricing",
+    "usage-based",
+    "metered",
+    "saas",
+    "slider",
+    "sharp-glassmorphism"
+  ],
+  "features": [
+    "live usage slider",
+    "tier-rate table",
+    "volume savings bar",
+    "dual CTAs"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Sora, JetBrains Mono"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Free Trial CTA — Sharp Glassmorphism",
+  "slug": "trial-cta-sharp-glassmorphism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "trial-cta",
+  "style": "sharp-glassmorphism",
+  "description": "Sharp Glassmorphism free trial CTA banner with a no-credit-card checklist, dual CTAs, and a teams-started badge.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "cta",
+    "trial",
+    "saas",
+    "banner",
+    "conversion",
+    "sharp-glassmorphism"
+  ],
+  "features": [
+    "full-bleed CTA banner",
+    "no-credit-card checklist",
+    "dual CTAs",
+    "teams-started badge"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Sora, JetBrains Mono"
+  ]
+}

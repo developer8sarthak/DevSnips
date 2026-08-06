@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Trial CTA — Sharp Glassmorphism | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Sora', sans-serif; }
+    .font-sora { font-family: 'Sora', sans-serif; }
+    .sg-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+    .sg-dot { display: inline-block; height: 6px; width: 6px; border-radius: 9999px; background: #6ee7ff; box-shadow: 0 0 8px #6ee7ff; }
+    .sg-glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 4px 20px -4px rgba(168,85,247,0.5); }
+    ::selection { background: rgba(168,85,247,0.4); color: #fff; }
+    .sg-mesh {
+      background: radial-gradient(at 18% 18%, rgba(236,72,153,0.55) 0px, transparent 50%), radial-gradient(at 82% 12%, rgba(99,102,241,0.55) 0px, transparent 50%), radial-gradient(at 75% 78%, rgba(34,211,238,0.45) 0px, transparent 50%), radial-gradient(at 22% 82%, rgba(168,85,247,0.5) 0px, transparent 50%), #0b0a1f;
+      background-size: 180% 180%; animation: sg-pan 18s ease-in-out infinite alternate;
+    }
+    @keyframes sg-pan { 0% { background-position: 0% 0%; } 100% { background-position: 100% 100%; } }
+  </style>
+</head>
+<body class="sg-mesh relative min-h-screen overflow-hidden text-white antialiased">
+
+  <header class="relative z-30">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <div class="flex items-center gap-2.5">
+        <div class="flex h-8 w-8 items-center justify-center rounded-lg border border-white/20 bg-white/10 backdrop-blur-md">
+          <span class="font-sora text-sm font-bold">F</span>
+        </div>
+        <span class="font-sora text-[15px] font-semibold tracking-tight">Flowbase</span>
+        <span class="sg-mono ml-1 rounded-md border border-white/15 bg-white/10 px-1.5 py-0.5 text-[10px] text-white/70">SAAS</span>
+      </div>
+      <nav class="flex items-center gap-1">
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Product</a>
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Pricing</a>
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Docs</a>
+        <button type="button" class="sg-mono ml-1 rounded-md border border-white/20 bg-white/15 px-3 py-1.5 text-[12px] font-medium text-white backdrop-blur-md transition-colors hover:bg-white/25">Sign in</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+<!--
+Snippet Name: Free Trial CTA — Sharp Glassmorphism
+Description: Frosted-glass free trial CTA banner with a no-credit-card checklist and dual CTAs.
+Author: DevSnips Contributors
+Usage Example: Drop near the end of a landing page to drive trial signups.
+-->
+<section class="relative w-full overflow-hidden px-6 py-16 sm:py-24" data-cta="sg">
+
+  
+
+  <div class="mx-auto max-w-6xl">
+    <div class="relative rounded-2xl border border-white/20 bg-white/10 p-8 backdrop-blur-2xl sm:p-12">
+      <div class="absolute left-0 right-0 top-0 h-px bg-gradient-to-r from-transparent via-white/60 to-transparent" aria-hidden="true"></div>
+      <span class="sg-mono absolute -top-3 right-6 hidden rotate-3 rounded-lg border border-white/20 bg-gradient-to-r from-fuchsia-500 to-indigo-500 px-3 py-1 text-[11px] font-semibold text-white sm:block">★ 14-day guarantee</span>
+      <div class="grid grid-cols-1 gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-center">
+        <div>
+          <span class="sg-mono inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[12px] text-white/80 backdrop-blur-md"><span class="sg-dot"></span> Free trial</span>
+          <div class="mt-6"><h1 class="font-sora text-[40px] font-bold leading-[1.05] tracking-tight sm:text-[60px]">Try it.<br>Then ship it.</h1></div>
+          <p class="font-sora mt-5 max-w-md text-[16px] leading-relaxed text-white/70">14 days, the entire Scale plan, no credit card. Wire it up to your events in under five minutes and watch the inbox clear itself.</p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row"><a href="#" class="font-sora inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-fuchsia-500 to-indigo-500 px-6 py-3 text-[14px] font-semibold text-white shadow-[0_8px_30px_-6px_rgba(168,85,247,0.6)] transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-200/60">Start free trial <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#" class="font-sora inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-6 py-3 text-[14px] text-white backdrop-blur-md transition-colors hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40"> Book a demo</a></div>
+        </div>
+        <div class="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-md">
+          <p class="sg-mono text-[11px] uppercase tracking-wider text-white/55">/ what you get</p>
+          <ul class="mt-4 space-y-3" role="list"><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#6ee7ff]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="sg-mono text-[12px] uppercase tracking-wider text-white/85">No credit card</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#6ee7ff]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="sg-mono text-[12px] uppercase tracking-wider text-white/85">Full Scale plan unlocked</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#6ee7ff]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="sg-mono text-[12px] uppercase tracking-wider text-white/85">5-min setup, sample data</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#6ee7ff]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="sg-mono text-[12px] uppercase tracking-wider text-white/85">Cancel anytime — keep your data</span></li></ul>
+          <div class="mt-6 flex items-center gap-3 border-t border-white/15 pt-4"><div class="flex -space-x-2"><span class="h-7 w-7 rounded-lg border border-white/20 bg-white/15 backdrop-blur-md"></span><span class="h-7 w-7 rounded-lg border border-white/20 bg-white/15 backdrop-blur-md"></span><span class="h-7 w-7 rounded-lg border border-white/20 bg-white/15 backdrop-blur-md"></span></div><p class="sg-mono text-[11px] text-white/55">4,200+ teams started this week</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+</body>
+</html>

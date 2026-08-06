@@ -1,0 +1,29 @@
+{
+  "name": "SaaS Feature Grid — Vercel",
+  "slug": "feature-grid-vercel",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "feature-grid",
+  "style": "vercel",
+  "description": "Vercel 6-up feature grid with icon tiles, punchy titles, descriptions, and a CTA strip.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "features",
+    "feature-grid",
+    "saas",
+    "bento",
+    "vercel"
+  ],
+  "features": [
+    "6-up feature grid",
+    "icon tiles",
+    "feature titles",
+    "CTA strip"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Geist, Geist Mono"
+  ]
+}

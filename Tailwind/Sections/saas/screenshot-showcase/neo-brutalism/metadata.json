@@ -1,0 +1,30 @@
+{
+  "name": "Product Screenshot Showcase — Neo-Brutalism",
+  "slug": "screenshot-showcase-neo-brutalism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "screenshot-showcase",
+  "style": "neo-brutalism",
+  "description": "Neo-Brutalism tabbed screenshot gallery that swaps the large preview live, with caption metadata.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "screenshots",
+    "gallery",
+    "showcase",
+    "saas",
+    "tabs",
+    "neo-brutalism"
+  ],
+  "features": [
+    "tabbed gallery",
+    "live preview swap",
+    "thumbnail tabs",
+    "caption rail"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Archivo, JetBrains Mono"
+  ]
+}

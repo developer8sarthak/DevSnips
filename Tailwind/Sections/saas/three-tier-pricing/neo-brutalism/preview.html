@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Tier Pricing — Neo-Brutalism | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Archivo', sans-serif; }
+    .font-archivo { font-family: 'Archivo', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    ::selection { background: #FFE600; color: #000; }
+    .nb-grid-bg { background-image: linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px); background-size: 28px 28px; background-position: -1px -1px; }
+  </style>
+</head>
+<body class="min-h-screen bg-[#FFFDF5] text-black antialiased">
+
+  <header class="sticky top-0 z-30 border-b-2 border-black bg-white">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
+      <div class="flex items-center gap-3">
+        <div class="flex h-10 w-10 items-center justify-center border-2 border-black bg-[#FF4FA3] text-white shadow-[3px_3px_0_0_#000]">
+          <span class="font-archivo text-lg font-extrabold">F</span>
+        </div>
+        <span class="font-archivo text-lg font-extrabold uppercase tracking-tight">Flowbase</span>
+        <span class="ml-1 hidden border-2 border-black bg-[#00C2FF] px-2 py-0.5 font-mono text-[10px] font-bold uppercase sm:inline">SAAS</span>
+      </div>
+      <nav class="flex items-center gap-2">
+        <a href="#" class="hidden font-mono text-[11px] font-bold uppercase hover:underline sm:inline">Product</a>
+        <a href="#" class="hidden font-mono text-[11px] font-bold uppercase hover:underline sm:inline">Pricing</a>
+        <a href="#" class="hidden font-mono text-[11px] font-bold uppercase hover:underline sm:inline">Docs</a>
+        <button type="button" class="border-2 border-black bg-black px-3 py-2 font-mono text-[11px] font-bold uppercase text-white shadow-[3px_3px_0_0_#FFE600] transition-transform duration-100 hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_0_#FFE600]">Sign in</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+<!--
+Snippet Name: Three Tier Pricing — Neo-Brutalism
+Description: Brutalist three-tier pricing with a working monthly/annual billing toggle and a highlighted popular tier.
+Author: DevSnips Contributors
+Usage Example: Drop into a pricing section. Toggle the switch to swap prices live.
+-->
+<section class="relative w-full px-5 py-16 sm:px-8 sm:py-24" data-pricing="nb">
+
+  <div class="mx-auto max-w-6xl">
+    <div class="mx-auto max-w-2xl text-center"><span class="border-2 border-black bg-[#00C2FF] px-2.5 py-1 font-mono text-[11px] font-bold uppercase tracking-wider shadow-[3px_3px_0_0_#000]">Pricing</span><div class="mt-5"><h2 class="font-archivo text-[40px] font-extrabold uppercase leading-[0.95] tracking-tight sm:text-[56px]">Plans that scale with your<br><span class="inline-block bg-[#FFE600] px-2">inbox.</span></h2></div><div role="radiogroup" aria-label="Billing period" class="mt-7 inline-flex items-center border-2 border-black bg-white p-1 shadow-[4px_4px_0_0_#000]"><button type="button" data-billing="monthly" aria-pressed="true" role="radio" class="billing-btn border-2 border-transparent px-4 py-1.5 font-mono text-[12px] font-bold uppercase transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-[#FF4FA3]">Monthly</button><button type="button" data-billing="annual" aria-pressed="false" role="radio" class="billing-btn border-2 border-transparent px-4 py-1.5 font-mono text-[12px] font-bold uppercase transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-[#FF4FA3]">Annual <span class="ml-1 border-2 border-black bg-[#00E676] px-1 py-0.5 text-[10px]">-20%</span></button></div></div>
+    <div class="mt-12 grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-center"><article class="relative border-2 border-black bg-white p-6 shadow-[8px_8px_0_0_#000] transition-transform duration-100 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[2px_2px_0_0_#000]">
+      
+      <p class="font-mono text-[11px] font-bold uppercase tracking-wider text-black/60">Starter</p>
+      <h3 class="font-archivo mt-2 text-xl font-extrabold uppercase">Solo</h3>
+      <p class="font-mono mt-2 text-[12px] font-medium leading-relaxed text-black/70">For side-projects and your first 1k events.</p>
+      <div class="mt-6 flex items-end gap-1.5 border-b border-black pb-6"><span class="font-archivo text-[44px] font-extrabold leading-none" data-price="starter">$0</span><span class="font-mono mb-1 text-[12px] font-bold text-black/50" data-period="starter">/mo</span></div>
+      <ul class="mt-6 flex-1 space-y-3.5" role="list"><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">1k events / day</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">1 seat</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black/30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14"/></svg><span class="font-mono text-[13px] font-bold">Community support</span></li></ul>
+      <a href="#" class="mt-7 inline-flex w-full items-center justify-center border-2 border-black bg-black px-4 py-3 font-mono text-[13px] font-bold uppercase text-white shadow-[5px_5px_0_0_#000] transition-transform duration-100 hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_0_#000]">Start free</a>
+    </article><article class="relative border-2 border-black bg-white p-6 shadow-[8px_8px_0_0_#000] transition-transform duration-100 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[2px_2px_0_0_#000]">
+      <span class="absolute -top-3 left-1/2 -translate-x-1/2 border-2 border-black bg-[#FF4FA3] px-3 py-1 font-mono text-[11px] font-bold uppercase text-white shadow-[3px_3px_0_0_#000]">★ Most popular</span>
+      <p class="font-mono text-[11px] font-bold uppercase tracking-wider text-black/60">Scale</p>
+      <h3 class="font-archivo mt-2 text-xl font-extrabold uppercase">Growing team</h3>
+      <p class="font-mono mt-2 text-[12px] font-medium leading-relaxed text-black/70">For products that need automation, SLAs, and dashboards.</p>
+      <div class="mt-6 flex items-end gap-1.5 border-b border-black pb-6"><span class="font-archivo text-[44px] font-extrabold leading-none" data-price="scale">$49</span><span class="font-mono mb-1 text-[12px] font-bold text-black/50" data-period="scale">/mo</span></div>
+      <ul class="mt-6 flex-1 space-y-3.5" role="list"><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">1M events / day</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">10 seats + SSO</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">AI triage + automations</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">Priority email support</span></li></ul>
+      <a href="#" class="mt-7 inline-flex w-full items-center justify-center border-2 border-black bg-[#FFE600] px-4 py-3 font-mono text-[13px] font-bold uppercase shadow-[5px_5px_0_0_#000] transition-transform duration-100 hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_0_#000]">Start 14-day trial</a>
+    </article><article class="relative border-2 border-black bg-white p-6 shadow-[8px_8px_0_0_#000] transition-transform duration-100 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[2px_2px_0_0_#000]">
+      
+      <p class="font-mono text-[11px] font-bold uppercase tracking-wider text-black/60">Enterprise</p>
+      <h3 class="font-archivo mt-2 text-xl font-extrabold uppercase">Org-wide</h3>
+      <p class="font-mono mt-2 text-[12px] font-medium leading-relaxed text-black/70">Unlimited everything, with security and SLAs your CFO will sign off on.</p>
+      <div class="mt-6 flex items-end gap-1.5 border-b border-black pb-6"><span class="font-archivo text-[44px] font-extrabold leading-none" data-price="enterprise">Custom</span><span class="font-mono mb-1 text-[12px] font-bold text-black/50" data-period="enterprise">/mo</span></div>
+      <ul class="mt-6 flex-1 space-y-3.5" role="list"><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">Unlimited events</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">SAML, SCIM, audit exports</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">99.99% uptime SLA</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-mono text-[13px] font-bold">Dedicated CSM</span></li></ul>
+      <a href="#" class="mt-7 inline-flex w-full items-center justify-center border-2 border-black bg-black px-4 py-3 font-mono text-[13px] font-bold uppercase text-white shadow-[5px_5px_0_0_#000] transition-transform duration-100 hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_0_#000]">Talk to sales</a>
+    </article></div>
+  </div>
+  <script>
+    (function () {
+      const root = document.currentScript.closest('[data-pricing]');
+      const prices = {"starter":{"monthly":"$0","annual":"$0"},"scale":{"monthly":"$49","annual":"$39"},"enterprise":{"monthly":"Custom","annual":"Custom"}};
+      const btns = root.querySelectorAll('[data-billing]');
+      function apply(period) {
+        btns.forEach(b => {
+          const active = b.dataset.billing === period;
+          b.setAttribute('aria-pressed', active ? 'true' : 'false');
+          b.classList.toggle("bg-black",active); b.classList.toggle("text-white",active); b.classList.toggle("border-[#FF4FA3]",active);
+        });
+        Object.keys(prices).forEach(tier => {
+          const p = root.querySelector('[data-price="' + tier + '"]');
+          if (p) p.textContent = prices[tier][period];
+        });
+      }
+      btns.forEach(b => b.addEventListener('click', () => apply(b.dataset.billing)));
+      apply("monthly");
+    })();
+  </script>
+</section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "Startup Launch Hero — Vercel",
+  "slug": "launch-hero-vercel",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "launch-hero",
+  "style": "vercel",
+  "description": "Vercel startup launch hero with a live countdown ticker, headline, dual CTAs, beta stats, and a stacked product-card collage.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "hero",
+    "launch",
+    "countdown",
+    "saas",
+    "announcement",
+    "vercel"
+  ],
+  "features": [
+    "live countdown ticker",
+    "dual CTAs",
+    "beta stats strip",
+    "stacked product-card collage"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Geist, Geist Mono"
+  ]
+}

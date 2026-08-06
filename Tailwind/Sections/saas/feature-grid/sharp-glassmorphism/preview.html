@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS Feature Grid — Sharp Glassmorphism | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Sora', sans-serif; }
+    .font-sora { font-family: 'Sora', sans-serif; }
+    .sg-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+    .sg-dot { display: inline-block; height: 6px; width: 6px; border-radius: 9999px; background: #6ee7ff; box-shadow: 0 0 8px #6ee7ff; }
+    .sg-glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 4px 20px -4px rgba(168,85,247,0.5); }
+    ::selection { background: rgba(168,85,247,0.4); color: #fff; }
+    .sg-mesh {
+      background: radial-gradient(at 18% 18%, rgba(236,72,153,0.55) 0px, transparent 50%), radial-gradient(at 82% 12%, rgba(99,102,241,0.55) 0px, transparent 50%), radial-gradient(at 75% 78%, rgba(34,211,238,0.45) 0px, transparent 50%), radial-gradient(at 22% 82%, rgba(168,85,247,0.5) 0px, transparent 50%), #0b0a1f;
+      background-size: 180% 180%; animation: sg-pan 18s ease-in-out infinite alternate;
+    }
+    @keyframes sg-pan { 0% { background-position: 0% 0%; } 100% { background-position: 100% 100%; } }
+  </style>
+</head>
+<body class="sg-mesh relative min-h-screen overflow-hidden text-white antialiased">
+
+  <header class="relative z-30">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <div class="flex items-center gap-2.5">
+        <div class="flex h-8 w-8 items-center justify-center rounded-lg border border-white/20 bg-white/10 backdrop-blur-md">
+          <span class="font-sora text-sm font-bold">F</span>
+        </div>
+        <span class="font-sora text-[15px] font-semibold tracking-tight">Flowbase</span>
+        <span class="sg-mono ml-1 rounded-md border border-white/15 bg-white/10 px-1.5 py-0.5 text-[10px] text-white/70">SAAS</span>
+      </div>
+      <nav class="flex items-center gap-1">
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Product</a>
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Pricing</a>
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Docs</a>
+        <button type="button" class="sg-mono ml-1 rounded-md border border-white/20 bg-white/15 px-3 py-1.5 text-[12px] font-medium text-white backdrop-blur-md transition-colors hover:bg-white/25">Sign in</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+<!--
+Snippet Name: SaaS Feature Grid — Sharp Glassmorphism
+Description: Frosted-glass 6-up feature grid with icon tiles, titles, descriptions, and a CTA strip.
+Author: DevSnips Contributors
+Usage Example: Drop into a product features section. Reorder features or swap icon tiles.
+-->
+<section class="relative w-full px-6 py-16 sm:py-24" data-features="sg">
+
+  <div class="mx-auto max-w-6xl">
+    <div class="mb-10 max-w-2xl"><span class="sg-mono inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[12px] text-white/80 backdrop-blur-md"><span class="sg-dot"></span> Product surface</span><div class="mt-5"><h2 class="font-sora text-[36px] font-bold leading-[1.05] tracking-tight sm:text-[48px]">Everything<br>your team needs.</h2></div></div>
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"><article class="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-2xl transition-transform hover:-translate-y-1 "><div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-gradient-to-br from-fuchsia-500 to-indigo-500 text-white shadow-[0_4px_20px_-4px_rgba(168,85,247,0.6)]"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M22 2 12 12"/></svg></div><h3 class="font-sora mt-4 text-lg font-bold text-white">AI triage</h3><p class="font-sora mt-2 text-[13px] leading-relaxed text-white/65">Auto-routes every ticket to the right team and drafts a reply in under 3 seconds.</p></article><article class="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-2xl transition-transform hover:-translate-y-1 "><div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-gradient-to-br from-fuchsia-500 to-indigo-500 text-white shadow-[0_4px_20px_-4px_rgba(168,85,247,0.6)]"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h3 class="font-sora mt-4 text-lg font-bold text-white">SLA engine</h3><p class="font-sora mt-2 text-[13px] leading-relaxed text-white/65">Per-plan SLAs with breach alerts and automatic escalation to on-call engineers.</p></article><article class="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-2xl transition-transform hover:-translate-y-1 "><div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-gradient-to-br from-fuchsia-500 to-indigo-500 text-white shadow-[0_4px_20px_-4px_rgba(168,85,247,0.6)]"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-5"/></svg></div><h3 class="font-sora mt-4 text-lg font-bold text-white">Live insights</h3><p class="font-sora mt-2 text-[13px] leading-relaxed text-white/65">Realtime dashboards for volume, CSAT, and tag trends — exportable to CSV in one click.</p></article><article class="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-2xl transition-transform hover:-translate-y-1 "><div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-gradient-to-br from-fuchsia-500 to-indigo-500 text-white shadow-[0_4px_20px_-4px_rgba(168,85,247,0.6)]"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3 class="font-sora mt-4 text-lg font-bold text-white">Audit logs</h3><p class="font-sora mt-2 text-[13px] leading-relaxed text-white/65">Tamper-evidence logs for every action, streamed to your SIEM via secure webhook.</p></article><article class="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-2xl transition-transform hover:-translate-y-1 "><div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-gradient-to-br from-fuchsia-500 to-indigo-500 text-white shadow-[0_4px_20px_-4px_rgba(168,85,247,0.6)]"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3 class="font-sora mt-4 text-lg font-bold text-white">Enterprise SSO</h3><p class="font-sora mt-2 text-[13px] leading-relaxed text-white/65">SAML + SCIM provisioning for Okta, Entra, and Google Workspace out of the box.</p></article><article class="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-2xl transition-transform hover:-translate-y-1 "><div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-gradient-to-br from-fuchsia-500 to-indigo-500 text-white shadow-[0_4px_20px_-4px_rgba(168,85,247,0.6)]"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div><h3 class="font-sora mt-4 text-lg font-bold text-white">Workflow builder</h3><p class="font-sora mt-2 text-[13px] leading-relaxed text-white/65">Drag-and-drop automations that branch on intent, sentiment, and customer tier.</p></article></div>
+    <div class="mt-12 flex flex-col items-start justify-between gap-4 rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-2xl sm:flex-row sm:items-center"><p class="font-sora text-xl font-bold text-white">Want the full tour?</p><a href="#" class="font-sora inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-fuchsia-500 to-indigo-500 px-6 py-3 text-[14px] font-semibold text-white shadow-[0_8px_30px_-6px_rgba(168,85,247,0.6)] transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-200/60">Book a 20-min call <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+  </main>
+</body>
+</html>

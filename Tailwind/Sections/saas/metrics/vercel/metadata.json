@@ -1,0 +1,30 @@
+{
+  "name": "SaaS Metrics / Stats — Vercel",
+  "slug": "metrics-vercel",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "metrics",
+  "style": "vercel",
+  "description": "Vercel metrics section with a giant stat block, a count-up ticker, and a stat card grid.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "metrics",
+    "stats",
+    "saas",
+    "count-up",
+    "numbers",
+    "vercel"
+  ],
+  "features": [
+    "giant featured stat",
+    "count-up on scroll",
+    "stat card grid",
+    "accent icon tiles"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Geist, Geist Mono"
+  ]
+}

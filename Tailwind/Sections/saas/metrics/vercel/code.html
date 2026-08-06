@@ -1,0 +1,41 @@
+<!--
+Snippet Name: SaaS Metrics / Stats — Vercel
+Description: Dark monochrome metrics section with a giant stat block, count-up ticker, and a stat card grid.
+Author: DevSnips Contributors
+Usage Example: Drop into a stats band. The count-up animates on scroll.
+-->
+<section class="relative w-full overflow-hidden px-6 py-16 sm:py-24" data-metrics="vc">
+
+  <div class="vc-grid-bg pointer-events-none absolute inset-x-0 top-0 -z-10 h-[420px]" aria-hidden="true"></div>
+
+  <div class="mx-auto max-w-6xl">
+    <div class="mb-12 flex items-center gap-4"><span class="vc-mono rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5 text-[11px] text-white/55"><span class="vc-dot"></span> / by the numbers</span><span class="h-px flex-1 bg-white/10"></span><span class="vc-mono text-[11px] text-white/35">Q3 · 2026</span></div>
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-[1.2fr_1fr] lg:items-center"><div class="rounded-[14px] border border-white/10 bg-[#0a0a0a] p-8 shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_20px_60px_-20px_rgba(0,0,0,0.9)] sm:p-10"><p class="vc-mono text-[12px] uppercase tracking-wider text-white/60">Events processed / day</p><p class="font-g mt-3 text-[72px] font-semibold leading-none tabular-nums sm:text-[120px]"><span data-count="3.4" data-suffix="B">0</span></p><p class="vc-mono mt-4 text-[13px] text-white/50">↑ 218% YoY · zero dropped events</p></div><div><h2 class="font-g text-[34px] font-semibold leading-[1.05] tracking-tight sm:text-[48px]">Numbers our<br>customers ship<br>by.</h2><p class="font-g mt-5 max-w-md text-[15px] leading-relaxed text-white/50">Every stat below is computed live from production, not a marketing deck. We publish the methodology too.</p></div></div><div class="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-white/10 bg-white/[0.07] lg:grid-cols-4"><div class="rounded-lg border border-white/10 bg-[#0a0a0a] p-5"><div class="flex h-11 w-11 items-center justify-center rounded-md border border-white/15 bg-white/[0.06] text-white"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-5"/></svg></div><p class="font-g mt-4 text-4xl font-semibold tabular-nums"><span data-count="98" data-suffix="">0</span></p><p class="vc-mono mt-1 text-[11px] uppercase tracking-wider text-white/45">CSAT score</p></div><div class="rounded-lg border border-white/10 bg-[#0a0a0a] p-5"><div class="flex h-11 w-11 items-center justify-center rounded-md border border-white/15 bg-white/[0.06] text-white"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><p class="font-g mt-4 text-4xl font-semibold tabular-nums"><span data-count="1.7m" data-suffix="">0</span></p><p class="vc-mono mt-1 text-[11px] uppercase tracking-wider text-white/45">Median first reply</p></div><div class="rounded-lg border border-white/10 bg-[#0a0a0a] p-5"><div class="flex h-11 w-11 items-center justify-center rounded-md border border-white/15 bg-white/[0.06] text-white"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5.5 2 12l3.5 6.5h17L22 12 18.5 5.5z"/></svg></div><p class="font-g mt-4 text-4xl font-semibold tabular-nums"><span data-count="4200" data-suffix="+">0</span></p><p class="vc-mono mt-1 text-[11px] uppercase tracking-wider text-white/45">Teams onboarded</p></div><div class="rounded-lg border border-white/10 bg-[#0a0a0a] p-5"><div class="flex h-11 w-11 items-center justify-center rounded-md border border-white/15 bg-white/[0.06] text-white"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><p class="font-g mt-4 text-4xl font-semibold tabular-nums"><span data-count="99.99" data-suffix="">0</span></p><p class="vc-mono mt-1 text-[11px] uppercase tracking-wider text-white/45">Uptime SLA</p></div></div>
+  </div>
+  <script>
+    (function () {
+      const root = document.currentScript.closest('[data-metrics]');
+      const els = root.querySelectorAll('[data-count]');
+      let done = false;
+      function run() {
+        els.forEach(el => {
+          const target = parseFloat(el.dataset.count);
+          const suffix = el.dataset.suffix || "";
+          const decimals = (el.dataset.count.split('.')[1] || '').length;
+          const dur = 1400; const start = performance.now();
+          function step(now) {
+            const t = Math.min(1, (now - start) / dur);
+            const ease = 1 - Math.pow(1 - t, 3);
+            const val = target * ease;
+            el.textContent = (decimals ? val.toFixed(decimals) : Math.round(val).toLocaleString('en-US')) + suffix;
+            if (t < 1) requestAnimationFrame(step);
+            else el.textContent = (decimals ? target.toFixed(decimals) : target.toLocaleString('en-US')) + suffix;
+          }
+          requestAnimationFrame(step);
+        });
+      }
+      const io = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting && !done) { done = true; run(); } }); }, { threshold: 0.25 });
+      io.observe(root);
+    })();
+  </script>
+</section>

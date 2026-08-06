@@ -1,0 +1,30 @@
+{
+  "name": "Free Trial CTA — Vercel",
+  "slug": "trial-cta-vercel",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "trial-cta",
+  "style": "vercel",
+  "description": "Vercel free trial CTA banner with a no-credit-card checklist, dual CTAs, and a teams-started badge.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "cta",
+    "trial",
+    "saas",
+    "banner",
+    "conversion",
+    "vercel"
+  ],
+  "features": [
+    "full-bleed CTA banner",
+    "no-credit-card checklist",
+    "dual CTAs",
+    "teams-started badge"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Geist, Geist Mono"
+  ]
+}

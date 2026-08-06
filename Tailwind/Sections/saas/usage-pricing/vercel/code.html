@@ -1,0 +1,61 @@
+<!--
+Snippet Name: Usage Based Pricing — Vercel
+Description: Dark monochrome usage-based pricing with a live usage slider, tier-rate table, and savings bar.
+Author: DevSnips Contributors
+Usage Example: Drop into a pricing section. Drag the slider to recompute the estimate live.
+-->
+<section class="relative w-full px-6 py-16 sm:py-24" data-usage="vc">
+
+  
+
+  <div class="mx-auto max-w-6xl">
+    <div class="mb-12 max-w-xl"><span class="vc-mono inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-[11px] text-white/55"><span class="vc-dot"></span> / metered</span><div class="mt-5"><h2 class="font-g text-[34px] font-semibold leading-[1.05] tracking-tight sm:text-[48px]">Pay for what you use.<br>nothing more.</h2></div><p class="font-g mt-4 max-w-xl text-[15px] leading-relaxed text-white/50">No seats. No tiers. One rate card, billed to the event. Move the slider to see your number.</p></div>
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_1fr] lg:items-start"><div class="overflow-hidden rounded-[14px] border border-white/10 bg-[#0a0a0a] shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_20px_60px_-20px_rgba(0,0,0,0.9)] p-6 sm:p-8">
+          <p class="vc-mono text-[11px] uppercase tracking-wider text-white/60">Monthly events</p>
+          <div class="mt-2 flex items-end gap-2"><span class="font-g text-5xl font-semibold tabular-nums" data-usage-value>500,000</span><span class="vc-mono mb-2 text-[12px] text-white/50">events</span></div>
+          <div class="mt-6"><input type="range" min="10000" max="10000000" step="10000" value="500000" data-slider class="h-2 w-full cursor-pointer appearance-none rounded-full border border-white/10 bg-white/[0.04] accent-[#50e3c2] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#50e3c2]" aria-label="Monthly events"><div class="mt-2 flex justify-between vc-mono text-[10px] text-white/40"><span>10k</span><span>10M</span></div></div>
+          <div class="mt-8 rounded-lg border border-white/10 bg-[#0a0a0a] p-5"><div class="flex items-center justify-between"><span class="vc-mono text-[11px] uppercase tracking-wider text-white/60">Estimated bill</span><span class="vc-mono text-[11px] text-[#50e3c2]" data-tier-label>tier 2 · band</span></div><div class="mt-2 flex items-end gap-2"><span class="font-g text-5xl font-semibold tabular-nums text-white" data-estimate>$2,750</span><span class="vc-mono mb-2 text-[12px] text-white/40">/mo</span></div>
+          <div class="mt-5"><div class="flex items-center justify-between vc-mono text-[10px] text-white/45"><span>volume savings</span><span data-savings>You save $305/mo</span></div><div class="mt-2 h-2 w-full overflow-hidden rounded-full border border-white/10 bg-white/[0.06]"><div class="h-full bg-[#50e3c2]" data-savings-bar style="width:30%"></div></div></div></div>
+          <div class="mt-6 flex flex-col gap-3 sm:flex-row"><a href="#" class="font-g inline-flex items-center justify-center gap-2 rounded-lg bg-white px-5 py-3 text-[14px] font-medium text-black transition-colors hover:bg-white/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40">Start metered plan </a><a href="#" class="font-g inline-flex items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/[0.02] px-5 py-3 text-[14px] text-white/80 transition-colors hover:border-white/20 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30"> Open cost calculator</a></div>
+        </div><div class="overflow-hidden rounded-[14px] border border-white/10 bg-[#0a0a0a] shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_20px_60px_-20px_rgba(0,0,0,0.9)] "><div class="flex items-center justify-between border-b border-white/[0.07] px-5 py-3"><p class="vc-mono text-[11px] uppercase tracking-wider text-white/45">/ rate card</p><span class="vc-dot"></span></div><ul class="divide-y divide-white/[0.06]"><li class="flex items-center justify-between px-5 py-4 border-b border-white/[0.07]"><div><p class="font-g text-[15px] font-medium text-white">Tier 1 · 0–100k</p><p class="vc-mono text-[11px] text-white/45">First 100k events / month</p></div><span class="font-g text-xl font-semibold tabular-nums text-white">$0.0085<span class="vc-mono text-[11px] text-white/40">  /ea</span></span></li><li class="flex items-center justify-between px-5 py-4 border-b border-white/[0.07]"><div><p class="font-g text-[15px] font-medium text-white">Tier 2 · 100k–1M</p><p class="vc-mono text-[11px] text-white/45">Next 900k events / month</p></div><span class="font-g text-xl font-semibold tabular-nums text-white">$0.0040<span class="vc-mono text-[11px] text-white/40">  /ea</span></span></li><li class="flex items-center justify-between px-5 py-4 border-b border-white/[0.07]"><div><p class="font-g text-[15px] font-medium text-white">Tier 3 · 1M–10M</p><p class="vc-mono text-[11px] text-white/45">Next 9M events / month</p></div><span class="font-g text-xl font-semibold tabular-nums text-white">$0.0019<span class="vc-mono text-[11px] text-white/40">  /ea</span></span></li><li class="flex items-center justify-between px-5 py-4 "><div><p class="font-g text-[15px] font-medium text-white">Tier 4 · 10M+</p><p class="vc-mono text-[11px] text-white/45">Custom volume pricing</p></div><span class="font-g text-xl font-semibold tabular-nums text-white">Custom<span class="vc-mono text-[11px] text-white/40"></span></span></li></ul><div class="border-t border-white/[0.07] px-5 py-3"><p class="vc-mono text-[11px] text-white/35">no seat fees · no minimums · cancel anytime</p></div></div></div>
+  </div>
+  <script>
+    (function () {
+      const root = document.currentScript.closest('[data-usage]');
+      const slider = root.querySelector('[data-slider]');
+      const val = root.querySelector('[data-usage-value]');
+      const est = root.querySelector('[data-estimate]');
+      const tier = root.querySelector('[data-tier-label]');
+      const sav = root.querySelector('[data-savings]');
+      const bar = root.querySelector('[data-savings-bar]');
+      const bands = [{"upto":100000,"rate":0.0085,"label":"tier 1"},{"upto":1000000,"rate":0.0040,"label":"tier 2"},{"upto":10000000,"rate":0.0019,"label":"tier 3"}];
+      const fmt = n => n.toLocaleString('en-US');
+      function compute(v) {
+        let cost = 0, prev = 0, label = "tier 1";
+        for (const b of bands) {
+          if (v > prev) {
+            const slice = Math.min(v, b.upto) - prev;
+            cost += slice * b.rate;
+            if (v <= b.upto) label = b.label;
+            prev = b.upto;
+          }
+        }
+        if (v >= 10000000) label = "tier 4 · custom";
+        const flat = v * 0.0085;
+        const save = Math.max(0, flat - cost);
+        return { cost, label, save };
+      }
+      function update() {
+        const v = +slider.value;
+        val.textContent = fmt(v);
+        const { cost, label, save } = compute(v);
+        est.textContent = "$" + Math.round(cost).toLocaleString('en-US');
+        tier.textContent = label + " · band";
+        sav.textContent = save > 0 ? ("You save $" + Math.round(save).toLocaleString('en-US') + "/mo") : "No savings yet";
+        bar.style.width = Math.min(100, (save / (v * 0.0085)) * 100) + "%";
+      }
+      slider.addEventListener('input', update);
+      update();
+    })();
+  </script>
+</section>

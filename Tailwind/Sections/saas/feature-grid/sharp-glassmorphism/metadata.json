@@ -1,0 +1,29 @@
+{
+  "name": "SaaS Feature Grid — Sharp Glassmorphism",
+  "slug": "feature-grid-sharp-glassmorphism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "feature-grid",
+  "style": "sharp-glassmorphism",
+  "description": "Sharp Glassmorphism 6-up feature grid with icon tiles, punchy titles, descriptions, and a CTA strip.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "features",
+    "feature-grid",
+    "saas",
+    "bento",
+    "sharp-glassmorphism"
+  ],
+  "features": [
+    "6-up feature grid",
+    "icon tiles",
+    "feature titles",
+    "CTA strip"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Sora, JetBrains Mono"
+  ]
+}

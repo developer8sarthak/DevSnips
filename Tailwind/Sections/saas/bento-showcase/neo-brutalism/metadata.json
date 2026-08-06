@@ -1,0 +1,29 @@
+{
+  "name": "Bento Feature Showcase — Neo-Brutalism",
+  "slug": "bento-showcase-neo-brutalism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "bento-showcase",
+  "style": "neo-brutalism",
+  "description": "Neo-Brutalism asymmetric bento grid with a hero waveform tile, integrations, command palette, security, and global edge tiles.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "bento",
+    "bento-grid",
+    "saas",
+    "features",
+    "neo-brutalism"
+  ],
+  "features": [
+    "asymmetric bento layout",
+    "hero waveform tile",
+    "integration + command palette tiles",
+    "security + global edge tiles"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Archivo, JetBrains Mono"
+  ]
+}

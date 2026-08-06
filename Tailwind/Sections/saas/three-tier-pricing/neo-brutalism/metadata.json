@@ -1,0 +1,30 @@
+{
+  "name": "Three Tier Pricing — Neo-Brutalism",
+  "slug": "three-tier-pricing-neo-brutalism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "three-tier-pricing",
+  "style": "neo-brutalism",
+  "description": "Neo-Brutalism three-tier pricing with a working monthly/annual billing toggle, a highlighted popular tier, and check/dash feature lists.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "pricing",
+    "three-tier",
+    "saas",
+    "plans",
+    "billing-toggle",
+    "neo-brutalism"
+  ],
+  "features": [
+    "three pricing tiers",
+    "working billing toggle",
+    "highlighted popular tier",
+    "check/dash feature lists"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Archivo, JetBrains Mono"
+  ]
+}

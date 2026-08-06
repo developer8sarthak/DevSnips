@@ -1,0 +1,30 @@
+{
+  "name": "Startup Launch Hero — Sharp Glassmorphism",
+  "slug": "launch-hero-sharp-glassmorphism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "launch-hero",
+  "style": "sharp-glassmorphism",
+  "description": "Sharp Glassmorphism startup launch hero with a live countdown ticker, headline, dual CTAs, beta stats, and a stacked product-card collage.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "hero",
+    "launch",
+    "countdown",
+    "saas",
+    "announcement",
+    "sharp-glassmorphism"
+  ],
+  "features": [
+    "live countdown ticker",
+    "dual CTAs",
+    "beta stats strip",
+    "stacked product-card collage"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Sora, JetBrains Mono"
+  ]
+}

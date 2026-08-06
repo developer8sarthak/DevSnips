@@ -1,0 +1,32 @@
+{
+  "name": "Dashboard Preview Hero — Neo-Brutalism",
+  "slug": "dashboard-hero-neo-brutalism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "dashboard-hero",
+  "style": "neo-brutalism",
+  "description": "Neo-Brutalism dashboard preview hero with a centered headline, dual CTAs, and a live analytics dashboard mock with KPI cards, a chart, and an activity feed.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "hero",
+    "dashboard",
+    "saas",
+    "analytics",
+    "kpi",
+    "neo-brutalism"
+  ],
+  "features": [
+    "centered headline",
+    "dual CTAs",
+    "dashboard mock",
+    "KPI cards",
+    "chart",
+    "live activity feed"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Archivo, JetBrains Mono"
+  ]
+}

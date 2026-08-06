@@ -1,0 +1,32 @@
+{
+  "name": "Enterprise SaaS Footer — Neo-Brutalism",
+  "slug": "enterprise-footer-neo-brutalism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "enterprise-footer",
+  "style": "neo-brutalism",
+  "description": "Neo-Brutalism enterprise SaaS footer with a newsletter form, 5-column link grid, status pill, compliance badges, and a legal bar.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "footer",
+    "enterprise",
+    "saas",
+    "newsletter",
+    "compliance",
+    "neo-brutalism"
+  ],
+  "features": [
+    "newsletter form",
+    "5-column link grid",
+    "status pill",
+    "compliance badges",
+    "legal bar",
+    "social links"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Archivo, JetBrains Mono"
+  ]
+}

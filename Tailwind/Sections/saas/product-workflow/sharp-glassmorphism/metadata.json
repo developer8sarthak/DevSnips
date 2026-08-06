@@ -1,0 +1,30 @@
+{
+  "name": "Product Workflow — Sharp Glassmorphism",
+  "slug": "product-workflow-sharp-glassmorphism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "product-workflow",
+  "style": "sharp-glassmorphism",
+  "description": "Sharp Glassmorphism numbered three-step workflow with a step rail and a live-swapping code/command preview panel.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "workflow",
+    "how-it-works",
+    "saas",
+    "steps",
+    "code-preview",
+    "sharp-glassmorphism"
+  ],
+  "features": [
+    "numbered three-step workflow",
+    "step rail",
+    "live-swapping code preview",
+    "scoped step switcher"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Sora, JetBrains Mono"
+  ]
+}

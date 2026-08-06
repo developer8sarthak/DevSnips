@@ -1,0 +1,29 @@
+{
+  "name": "Customer Logo Cloud — Neo-Brutalism",
+  "slug": "logo-cloud-neo-brutalism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "logo-cloud",
+  "style": "neo-brutalism",
+  "description": "Neo-Brutalism customer logo cloud with wordmark-style SVG logos and a pull-quote.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "logos",
+    "logo-cloud",
+    "customers",
+    "saas",
+    "wordmarks",
+    "neo-brutalism"
+  ],
+  "features": [
+    "wordmark SVG logo grid",
+    "pull-quote with avatar",
+    "responsive layout"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Archivo, JetBrains Mono"
+  ]
+}

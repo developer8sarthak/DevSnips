@@ -1,0 +1,31 @@
+{
+  "name": "SaaS Product Hero — Neo-Brutalism",
+  "slug": "product-hero-neo-brutalism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "product-hero",
+  "style": "neo-brutalism",
+  "description": "Brutalist SaaS product hero with a left-aligned headline, dual CTAs, trust logo row, and a framed product UI preview with a floating SLA stat chip.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "hero",
+    "product-hero",
+    "neo-brutalism",
+    "saas",
+    "product-preview",
+    "trust-logos"
+  ],
+  "features": [
+    "left-aligned headline",
+    "primary + secondary CTAs",
+    "trust logo row",
+    "framed product UI preview",
+    "floating SLA stat chip"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Archivo, JetBrains Mono"
+  ]
+}

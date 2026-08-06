@@ -1,0 +1,32 @@
+{
+  "name": "Enterprise SaaS Footer — Sharp Glassmorphism",
+  "slug": "enterprise-footer-sharp-glassmorphism",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "enterprise-footer",
+  "style": "sharp-glassmorphism",
+  "description": "Sharp Glassmorphism enterprise SaaS footer with a newsletter form, 5-column link grid, status pill, compliance badges, and a legal bar.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "footer",
+    "enterprise",
+    "saas",
+    "newsletter",
+    "compliance",
+    "sharp-glassmorphism"
+  ],
+  "features": [
+    "newsletter form",
+    "5-column link grid",
+    "status pill",
+    "compliance badges",
+    "legal bar",
+    "social links"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Sora, JetBrains Mono"
+  ]
+}

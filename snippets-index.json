@@ -4,7 +4,7 @@
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
     "totalFamilies": 71,
-    "totalVariants": 556,
+    "totalVariants": 586,
     "totalSubVariants": 6,
     "totalStyles": 351,
     "technologies": [
@@ -13705,7 +13705,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Conversion-focused SaaS product hero with headline, CTAs, trust logos, and a product UI preview.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "SaaS Product Hero — Vercel",
@@ -13740,6 +13740,62 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "SaaS Product Hero — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/product-hero/neo-brutalism/",
+          "description": "Brutalist SaaS product hero with a left-aligned headline, dual CTAs, trust logo row, and a framed product UI preview with a floating SLA stat chip.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "left-aligned headline",
+            "primary + secondary CTAs",
+            "trust logo row",
+            "framed product UI preview",
+            "floating SLA stat chip"
+          ],
+          "tags": [
+            "hero",
+            "product-hero",
+            "neo-brutalism",
+            "saas",
+            "product-preview",
+            "trust-logos"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "SaaS Product Hero — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/product-hero/sharp-glassmorphism/",
+          "description": "Frosted-glass SaaS product hero with a left-aligned headline, dual CTAs, trust logo row, and a framed product UI preview with a floating SLA stat chip.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "left-aligned headline",
+            "primary + secondary CTAs",
+            "trust logo row",
+            "framed product UI preview",
+            "floating SLA stat chip"
+          ],
+          "tags": [
+            "hero",
+            "product-hero",
+            "sharp-glassmorphism",
+            "saas",
+            "product-preview",
+            "trust-logos"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -13763,7 +13819,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Bold startup launch hero with countdown, headline, CTAs, and a product card collage.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Startup Launch Hero — Neo-Brutalism",
@@ -13797,6 +13853,60 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Startup Launch Hero — Vercel",
+          "path": "Tailwind/Sections/saas/launch-hero/vercel/",
+          "description": "Vercel startup launch hero with a live countdown ticker, headline, dual CTAs, beta stats, and a stacked product-card collage.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "live countdown ticker",
+            "dual CTAs",
+            "beta stats strip",
+            "stacked product-card collage"
+          ],
+          "tags": [
+            "hero",
+            "launch",
+            "countdown",
+            "saas",
+            "announcement",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Startup Launch Hero — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/launch-hero/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism startup launch hero with a live countdown ticker, headline, dual CTAs, beta stats, and a stacked product-card collage.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "live countdown ticker",
+            "dual CTAs",
+            "beta stats strip",
+            "stacked product-card collage"
+          ],
+          "tags": [
+            "hero",
+            "launch",
+            "countdown",
+            "saas",
+            "announcement",
+            "sharp-glassmorphism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -13820,7 +13930,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Dashboard preview hero with headline, CTAs, and a live analytics dashboard mock.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Dashboard Preview Hero — Sharp Glassmorphism",
@@ -13854,6 +13964,64 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Dashboard Preview Hero — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/dashboard-hero/neo-brutalism/",
+          "description": "Neo-Brutalism dashboard preview hero with a centered headline, dual CTAs, and a live analytics dashboard mock with KPI cards, a chart, and an activity feed.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "centered headline",
+            "dual CTAs",
+            "dashboard mock",
+            "KPI cards",
+            "chart",
+            "live activity feed"
+          ],
+          "tags": [
+            "hero",
+            "dashboard",
+            "saas",
+            "analytics",
+            "kpi",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Dashboard Preview Hero — Vercel",
+          "path": "Tailwind/Sections/saas/dashboard-hero/vercel/",
+          "description": "Vercel dashboard preview hero with a centered headline, dual CTAs, and a live analytics dashboard mock with KPI cards, a chart, and an activity feed.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "centered headline",
+            "dual CTAs",
+            "dashboard mock",
+            "KPI cards",
+            "chart",
+            "live activity feed"
+          ],
+          "tags": [
+            "hero",
+            "dashboard",
+            "saas",
+            "analytics",
+            "kpi",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -13877,7 +14045,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Grid of core SaaS product features with icon tiles, titles, and descriptions.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "SaaS Feature Grid — Neo-Brutalism",
@@ -13909,6 +14077,58 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "SaaS Feature Grid — Vercel",
+          "path": "Tailwind/Sections/saas/feature-grid/vercel/",
+          "description": "Vercel 6-up feature grid with icon tiles, punchy titles, descriptions, and a CTA strip.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "6-up feature grid",
+            "icon tiles",
+            "feature titles",
+            "CTA strip"
+          ],
+          "tags": [
+            "features",
+            "feature-grid",
+            "saas",
+            "bento",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "SaaS Feature Grid — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/feature-grid/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism 6-up feature grid with icon tiles, punchy titles, descriptions, and a CTA strip.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "6-up feature grid",
+            "icon tiles",
+            "feature titles",
+            "CTA strip"
+          ],
+          "tags": [
+            "features",
+            "feature-grid",
+            "saas",
+            "bento",
+            "sharp-glassmorphism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -13932,7 +14152,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Asymmetric bento grid showcasing product capabilities across mixed-size tiles.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Bento Feature Showcase — Sharp Glassmorphism",
@@ -13965,6 +14185,58 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Bento Feature Showcase — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/bento-showcase/neo-brutalism/",
+          "description": "Neo-Brutalism asymmetric bento grid with a hero waveform tile, integrations, command palette, security, and global edge tiles.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "asymmetric bento layout",
+            "hero waveform tile",
+            "integration + command palette tiles",
+            "security + global edge tiles"
+          ],
+          "tags": [
+            "bento",
+            "bento-grid",
+            "saas",
+            "features",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Bento Feature Showcase — Vercel",
+          "path": "Tailwind/Sections/saas/bento-showcase/vercel/",
+          "description": "Vercel asymmetric bento grid with a hero waveform tile, integrations, command palette, security, and global edge tiles.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "asymmetric bento layout",
+            "hero waveform tile",
+            "integration + command palette tiles",
+            "security + global edge tiles"
+          ],
+          "tags": [
+            "bento",
+            "bento-grid",
+            "saas",
+            "features",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -13988,7 +14260,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Step-by-step product workflow with a live code/command preview that swaps per step.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Product Workflow Section — Vercel",
@@ -14021,6 +14293,60 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Product Workflow — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/product-workflow/neo-brutalism/",
+          "description": "Neo-Brutalism numbered three-step workflow with a step rail and a live-swapping code/command preview panel.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "numbered three-step workflow",
+            "step rail",
+            "live-swapping code preview",
+            "scoped step switcher"
+          ],
+          "tags": [
+            "workflow",
+            "how-it-works",
+            "saas",
+            "steps",
+            "code-preview",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Product Workflow — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/product-workflow/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism numbered three-step workflow with a step rail and a live-swapping code/command preview panel.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "numbered three-step workflow",
+            "step rail",
+            "live-swapping code preview",
+            "scoped step switcher"
+          ],
+          "tags": [
+            "workflow",
+            "how-it-works",
+            "saas",
+            "steps",
+            "code-preview",
+            "sharp-glassmorphism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14044,7 +14370,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Three-tier SaaS pricing with a monthly/annual billing toggle and a highlighted popular plan.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Three Tier Pricing — Sharp Glassmorphism",
@@ -14078,6 +14404,60 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Three Tier Pricing — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/three-tier-pricing/neo-brutalism/",
+          "description": "Neo-Brutalism three-tier pricing with a working monthly/annual billing toggle, a highlighted popular tier, and check/dash feature lists.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "three pricing tiers",
+            "working billing toggle",
+            "highlighted popular tier",
+            "check/dash feature lists"
+          ],
+          "tags": [
+            "pricing",
+            "three-tier",
+            "saas",
+            "plans",
+            "billing-toggle",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Three Tier Pricing — Vercel",
+          "path": "Tailwind/Sections/saas/three-tier-pricing/vercel/",
+          "description": "Vercel three-tier pricing with a working monthly/annual billing toggle, a highlighted popular tier, and check/dash feature lists.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "three pricing tiers",
+            "working billing toggle",
+            "highlighted popular tier",
+            "check/dash feature lists"
+          ],
+          "tags": [
+            "pricing",
+            "three-tier",
+            "saas",
+            "plans",
+            "billing-toggle",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14101,7 +14481,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Metered usage-based pricing with a live usage slider, tier-rate table, and savings bar.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Usage Based Pricing — Neo-Brutalism",
@@ -14135,6 +14515,60 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Usage Based Pricing — Vercel",
+          "path": "Tailwind/Sections/saas/usage-pricing/vercel/",
+          "description": "Vercel usage-based pricing with a draggable usage slider, tier-rate table, volume savings bar, and CTAs.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "live usage slider",
+            "tier-rate table",
+            "volume savings bar",
+            "dual CTAs"
+          ],
+          "tags": [
+            "pricing",
+            "usage-based",
+            "metered",
+            "saas",
+            "slider",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Usage Based Pricing — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/usage-pricing/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism usage-based pricing with a draggable usage slider, tier-rate table, volume savings bar, and CTAs.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "live usage slider",
+            "tier-rate table",
+            "volume savings bar",
+            "dual CTAs"
+          ],
+          "tags": [
+            "pricing",
+            "usage-based",
+            "metered",
+            "saas",
+            "slider",
+            "sharp-glassmorphism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14158,7 +14592,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Plan comparison matrix with grouped feature rows and check/dash/slash glyphs.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Pricing Comparison Table — Vercel",
@@ -14192,6 +14626,62 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Pricing Comparison Table — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/pricing-comparison/neo-brutalism/",
+          "description": "Neo-Brutalism comparison matrix with a sticky plan header, grouped feature rows, and check/dash/slash glyphs.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "sticky plan header",
+            "grouped feature rows",
+            "check/dash/slash glyphs",
+            "sticky first column",
+            "per-column CTAs"
+          ],
+          "tags": [
+            "pricing",
+            "comparison",
+            "matrix",
+            "saas",
+            "plans",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Pricing Comparison Table — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/pricing-comparison/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism comparison matrix with a sticky plan header, grouped feature rows, and check/dash/slash glyphs.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "sticky plan header",
+            "grouped feature rows",
+            "check/dash/slash glyphs",
+            "sticky first column",
+            "per-column CTAs"
+          ],
+          "tags": [
+            "pricing",
+            "comparison",
+            "matrix",
+            "saas",
+            "plans",
+            "sharp-glassmorphism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14215,7 +14705,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Customer logo cloud with wordmark-style logos, a count chip, and a pull-quote.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Customer Logo Cloud — Vercel",
@@ -14248,6 +14738,58 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Customer Logo Cloud — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/logo-cloud/neo-brutalism/",
+          "description": "Neo-Brutalism customer logo cloud with wordmark-style SVG logos and a pull-quote.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "wordmark SVG logo grid",
+            "pull-quote with avatar",
+            "responsive layout"
+          ],
+          "tags": [
+            "logos",
+            "logo-cloud",
+            "customers",
+            "saas",
+            "wordmarks",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Customer Logo Cloud — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/logo-cloud/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism customer logo cloud with wordmark-style SVG logos and a pull-quote.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "wordmark SVG logo grid",
+            "pull-quote with avatar",
+            "responsive layout"
+          ],
+          "tags": [
+            "logos",
+            "logo-cloud",
+            "customers",
+            "saas",
+            "wordmarks",
+            "sharp-glassmorphism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14271,7 +14813,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Asymmetric testimonial grid with featured quote, medium, and compact stat-quote tiles.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Testimonial Grid — Sharp Glassmorphism",
@@ -14303,6 +14845,60 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Testimonial Grid — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/testimonials/neo-brutalism/",
+          "description": "Neo-Brutalism asymmetric testimonial grid with a featured quote, medium, and compact stat-quote tiles.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "asymmetric layout",
+            "featured quote tile",
+            "medium quote tiles",
+            "compact stat-quote tiles",
+            "avatar chips"
+          ],
+          "tags": [
+            "testimonials",
+            "social-proof",
+            "saas",
+            "quotes",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Testimonial Grid — Vercel",
+          "path": "Tailwind/Sections/saas/testimonials/vercel/",
+          "description": "Vercel asymmetric testimonial grid with a featured quote, medium, and compact stat-quote tiles.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "asymmetric layout",
+            "featured quote tile",
+            "medium quote tiles",
+            "compact stat-quote tiles",
+            "avatar chips"
+          ],
+          "tags": [
+            "testimonials",
+            "social-proof",
+            "saas",
+            "quotes",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14326,7 +14922,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Results metrics band with a giant stat block, count-up ticker, and a stat card grid.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "SaaS Metrics / Stats — Neo-Brutalism",
@@ -14360,6 +14956,60 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "SaaS Metrics / Stats — Vercel",
+          "path": "Tailwind/Sections/saas/metrics/vercel/",
+          "description": "Vercel metrics section with a giant stat block, a count-up ticker, and a stat card grid.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "giant featured stat",
+            "count-up on scroll",
+            "stat card grid",
+            "accent icon tiles"
+          ],
+          "tags": [
+            "metrics",
+            "stats",
+            "saas",
+            "count-up",
+            "numbers",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "SaaS Metrics / Stats — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/metrics/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism metrics section with a giant stat block, a count-up ticker, and a stat card grid.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "giant featured stat",
+            "count-up on scroll",
+            "stat card grid",
+            "accent icon tiles"
+          ],
+          "tags": [
+            "metrics",
+            "stats",
+            "saas",
+            "count-up",
+            "numbers",
+            "sharp-glassmorphism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14383,7 +15033,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Tabbed product screenshot gallery that swaps the large preview live.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Product Screenshot Showcase — Sharp Glassmorphism",
@@ -14416,6 +15066,60 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Product Screenshot Showcase — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/screenshot-showcase/neo-brutalism/",
+          "description": "Neo-Brutalism tabbed screenshot gallery that swaps the large preview live, with caption metadata.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "tabbed gallery",
+            "live preview swap",
+            "thumbnail tabs",
+            "caption rail"
+          ],
+          "tags": [
+            "screenshots",
+            "gallery",
+            "showcase",
+            "saas",
+            "tabs",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Product Screenshot Showcase — Vercel",
+          "path": "Tailwind/Sections/saas/screenshot-showcase/vercel/",
+          "description": "Vercel tabbed screenshot gallery that swaps the large preview live, with caption metadata.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "tabbed gallery",
+            "live preview swap",
+            "thumbnail tabs",
+            "caption rail"
+          ],
+          "tags": [
+            "screenshots",
+            "gallery",
+            "showcase",
+            "saas",
+            "tabs",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14439,7 +15143,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Full-bleed free trial CTA banner with a no-credit-card checklist and offset-shadow CTAs.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Free Trial CTA — Neo-Brutalism",
@@ -14472,6 +15176,60 @@
             "preview.html",
             "metadata.json"
           ]
+        },
+        {
+          "name": "Free Trial CTA — Vercel",
+          "path": "Tailwind/Sections/saas/trial-cta/vercel/",
+          "description": "Vercel free trial CTA banner with a no-credit-card checklist, dual CTAs, and a teams-started badge.",
+          "styles": [
+            "vercel"
+          ],
+          "features": [
+            "full-bleed CTA banner",
+            "no-credit-card checklist",
+            "dual CTAs",
+            "teams-started badge"
+          ],
+          "tags": [
+            "cta",
+            "trial",
+            "saas",
+            "banner",
+            "conversion",
+            "vercel"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Free Trial CTA — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/trial-cta/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism free trial CTA banner with a no-credit-card checklist, dual CTAs, and a teams-started badge.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "full-bleed CTA banner",
+            "no-credit-card checklist",
+            "dual CTAs",
+            "teams-started badge"
+          ],
+          "tags": [
+            "cta",
+            "trial",
+            "saas",
+            "banner",
+            "conversion",
+            "sharp-glassmorphism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
         }
       ],
       "tags": [
@@ -14495,7 +15253,7 @@
       "tech": "Tailwind CSS",
       "category": "Sections",
       "description": "Enterprise SaaS footer with newsletter, link grid, status pill, compliance badges, and legal bar.",
-      "variantsCount": 1,
+      "variantsCount": 3,
       "variants": [
         {
           "name": "Enterprise SaaS Footer — Vercel",
@@ -14523,6 +15281,64 @@
             "newsletter",
             "compliance",
             "teal-accent"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Enterprise SaaS Footer — Neo-Brutalism",
+          "path": "Tailwind/Sections/saas/enterprise-footer/neo-brutalism/",
+          "description": "Neo-Brutalism enterprise SaaS footer with a newsletter form, 5-column link grid, status pill, compliance badges, and a legal bar.",
+          "styles": [
+            "neo-brutalism"
+          ],
+          "features": [
+            "newsletter form",
+            "5-column link grid",
+            "status pill",
+            "compliance badges",
+            "legal bar",
+            "social links"
+          ],
+          "tags": [
+            "footer",
+            "enterprise",
+            "saas",
+            "newsletter",
+            "compliance",
+            "neo-brutalism"
+          ],
+          "files": [
+            "code.html",
+            "preview.html",
+            "metadata.json"
+          ]
+        },
+        {
+          "name": "Enterprise SaaS Footer — Sharp Glassmorphism",
+          "path": "Tailwind/Sections/saas/enterprise-footer/sharp-glassmorphism/",
+          "description": "Sharp Glassmorphism enterprise SaaS footer with a newsletter form, 5-column link grid, status pill, compliance badges, and a legal bar.",
+          "styles": [
+            "sharp-glassmorphism"
+          ],
+          "features": [
+            "newsletter form",
+            "5-column link grid",
+            "status pill",
+            "compliance badges",
+            "legal bar",
+            "social links"
+          ],
+          "tags": [
+            "footer",
+            "enterprise",
+            "saas",
+            "newsletter",
+            "compliance",
+            "sharp-glassmorphism"
           ],
           "files": [
             "code.html",

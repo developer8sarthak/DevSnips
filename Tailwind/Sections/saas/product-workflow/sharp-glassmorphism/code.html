@@ -1,0 +1,96 @@
+<!--
+Snippet Name: Product Workflow Section — Sharp Glassmorphism
+Description: Frosted-glass numbered workflow with a step rail and a live-swapping code preview panel.
+Author: DevSnips Contributors
+Usage Example: Drop into a "how it works" section. Click a step to swap the preview.
+-->
+<section class="relative w-full px-6 py-16 sm:py-24" data-workflow="sg">
+
+  <div class="mx-auto max-w-6xl">
+    <div class="mb-12 max-w-xl"><span class="sg-mono inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[12px] text-white/80 backdrop-blur-md"><span class="sg-dot"></span> How it works</span><div class="mt-5"><h2 class="font-sora text-[36px] font-bold leading-[1.05] tracking-tight sm:text-[48px]">From event to resolution<br>in three moves.</h2></div></div>
+    <div class="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_1fr]">
+      <ol class="relative space-y-2" role="list"><li><button type="button" data-step="1" aria-pressed="true" class="workflow-step group relative flex w-full items-start gap-4 rounded-2xl border border-white/20 bg-white/10 p-5 text-left backdrop-blur-2xl transition-transform hover:-translate-y-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40"><span class="step-num font-sora flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-white/15 bg-white/10 text-[14px] font-bold backdrop-blur-md">1</span><div class="min-w-0 flex-1"><h3 class="font-sora text-[17px] font-bold text-white">Ingest from anywhere</h3><p class="font-sora mt-1.5 text-[14px] leading-relaxed text-white/65">Stream events from your app, warehouse, or warehouse lake. We coerce schemas on the fly — no migration scripts.</p></div></button></li><li><button type="button" data-step="2" aria-pressed="false" class="workflow-step group relative flex w-full items-start gap-4 rounded-2xl border border-white/20 bg-white/10 p-5 text-left backdrop-blur-2xl transition-transform hover:-translate-y-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40"><span class="step-num font-sora flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-white/15 bg-white/10 text-[14px] font-bold backdrop-blur-md">2</span><div class="min-w-0 flex-1"><h3 class="font-sora text-[17px] font-bold text-white">Route with rules + AI</h3><p class="font-sora mt-1.5 text-[14px] leading-relaxed text-white/65">Combine deterministic rules and an intent model to assign, tag, and prioritize every event in milliseconds.</p></div></button></li><li><button type="button" data-step="3" aria-pressed="false" class="workflow-step group relative flex w-full items-start gap-4 rounded-2xl border border-white/20 bg-white/10 p-5 text-left backdrop-blur-2xl transition-transform hover:-translate-y-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40"><span class="step-num font-sora flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-white/15 bg-white/10 text-[14px] font-bold backdrop-blur-md">3</span><div class="min-w-0 flex-1"><h3 class="font-sora text-[17px] font-bold text-white">Resolve & close the loop</h3><p class="font-sora mt-1.5 text-[14px] leading-relaxed text-white/65">Auto-draft replies, escalate breaches, and write outcomes back to your source system — all audited.</p></div></button></li></ol>
+      <div class="lg:sticky lg:top-24 lg:self-start">
+        <div class="overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-2xl ">
+          <div class="flex items-center justify-between border-b border-white/15 px-4 py-3"><div class="flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-white/30"></span><span class="h-2.5 w-2.5 rounded-full bg-white/30"></span><span class="h-2.5 w-2.5 rounded-full bg-white/30"></span></div><span class="sg-mono rounded-lg border border-white/15 bg-white/10 px-3 py-1 text-[11px] text-white/70" data-preview-title>step 1 · ingest.ts</span><span class="sg-dot"></span></div>
+          <pre class="sg-mono overflow-x-auto p-5 text-[12.5px] leading-relaxed text-white/80"><code data-preview-body>// Stream product events to Flowbase
+import { Flowbase } from "@flowbase/sdk";
+
+const fb = new Flowbase(process.env.FB_KEY);
+
+await fb.events.ingest({
+  source: "web-app",
+  name:   "checkout.failed",
+  props:  { plan: "scale", amount: 2400, region: "eu-west" },
+});
+
+// schema coerced automatically ✓
+// backfill enabled by default ✓</code></pre>
+        </div>
+        <p class="sg-mono mt-3 text-[11px] text-white/35">preview updates as you select a step</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const root = document.currentScript.closest('[data-workflow]');
+      const steps = root.querySelectorAll('[data-step]');
+      const title = root.querySelector('[data-preview-title]');
+      const body = root.querySelector('[data-preview-body]');
+      const previews = { "1": { t: "step 1 · ingest.ts", c: `// Stream product events to Flowbase
+import { Flowbase } from "@flowbase/sdk";
+
+const fb = new Flowbase(process.env.FB_KEY);
+
+await fb.events.ingest({
+  source: "web-app",
+  name:   "checkout.failed",
+  props:  { plan: "scale", amount: 2400, region: "eu-west" },
+});
+
+// schema coerced automatically ✓
+// backfill enabled by default ✓` },
+        "2": { t: "step 2 · route.ts", c: `// Combine rules + intent model
+import { Flowbase } from "@flowbase/sdk";
+
+const fb = new Flowbase(process.env.FB_KEY);
+
+await fb.routes.add({
+  when: { event: "checkout.failed", plan: "scale" },
+  then: [
+    { tag: "billing", priority: "urgent" },
+    { assign: "oncall-emea" },
+    { draft: "ai-recovery" },
+  ],
+});
+
+// intent model reruns every 6h ✓` },
+        "3": { t: "step 3 · resolve.ts", c: `// Resolve, reply, and close the loop
+import { Flowbase } from "@flowbase/sdk";
+
+const fb = new Flowbase(process.env.FB_KEY);
+
+const r = await fb.tickets.resolve("A-128", {
+  reply:   "ai-recovery",
+  status:  "solved",
+  writeback: { source: "stripe", ref: "in_1AbC" },
+});
+
+console.log(r.auditUrl);
+// fully audited ✓  SLA preserved ✓` } };
+      function setStep(n) {
+        steps.forEach(s => {
+          const active = s.dataset.step === n;
+          s.setAttribute('aria-pressed', active ? 'true' : 'false');
+          const num = s.querySelector('.step-num');
+          if (num) { num.classList.toggle("bg-[#6ee7ff]",active); num.classList.toggle("text-black",active); s.classList.toggle("bg-white/20",active); s.classList.toggle("border-[#6ee7ff]/50",active); }
+        });
+        const p = previews[n];
+        if (title) title.textContent = p.t;
+        if (body) body.textContent = p.c;
+      }
+      steps.forEach(s => s.addEventListener('click', () => setStep(s.dataset.step)));
+      setStep("1");
+    })();
+  </script>
+</section>

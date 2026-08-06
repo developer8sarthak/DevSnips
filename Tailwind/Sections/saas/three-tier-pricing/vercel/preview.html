@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Tier Pricing — Vercel | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Geist', sans-serif; background: #050505; }
+    .font-g { font-family: 'Geist', sans-serif; }
+    .vc-mono { font-family: 'Geist Mono', ui-monospace, monospace; }
+    .vc-dot { display: inline-block; height: 6px; width: 6px; border-radius: 9999px; background: #50e3c2; box-shadow: 0 0 8px #50e3c2; }
+    ::selection { background: rgba(255,255,255,0.2); }
+    .vc-grid-bg {
+      background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: radial-gradient(80% 60% at 50% 0%, #000 40%, transparent 100%);
+    }
+  </style>
+</head>
+<body class="min-h-screen text-white antialiased">
+
+  <header class="sticky top-0 z-30 border-b border-white/[0.07] bg-[#050505]/80 backdrop-blur-xl">
+    <div class="mx-auto flex h-14 max-w-6xl items-center justify-between px-6">
+      <div class="flex items-center gap-2.5">
+        <svg class="h-5 w-5 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 2 19h20L12 2z"/></svg>
+        <span class="font-g text-[15px] font-semibold tracking-tight">Flowbase</span>
+        <span class="vc-mono ml-1 rounded-md border border-white/10 bg-white/[0.04] px-1.5 py-0.5 text-[10px] text-white/50">SAAS</span>
+      </div>
+      <nav class="flex items-center gap-1">
+        <a href="#" class="vc-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/50 transition-colors hover:bg-white/[0.05] hover:text-white sm:block">Product</a>
+        <a href="#" class="vc-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/50 transition-colors hover:bg-white/[0.05] hover:text-white sm:block">Pricing</a>
+        <a href="#" class="vc-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/50 transition-colors hover:bg-white/[0.05] hover:text-white sm:block">Docs</a>
+        <button type="button" class="vc-mono ml-1 rounded-md border border-white/10 bg-white px-3 py-1.5 text-[12px] font-medium text-black transition-colors hover:bg-white/90">Sign in</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+<!--
+Snippet Name: Three Tier Pricing — Vercel
+Description: Dark monochrome three-tier pricing with a working monthly/annual billing toggle and a highlighted popular tier.
+Author: DevSnips Contributors
+Usage Example: Drop into a pricing section. Toggle the switch to swap prices live.
+-->
+<section class="relative w-full px-6 py-16 sm:py-24" data-pricing="vc">
+
+  <div class="mx-auto max-w-6xl">
+    <div class="mx-auto max-w-2xl text-center"><span class="vc-mono inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-[11px] text-white/55"><span class="vc-dot"></span> Pricing</span><div class="mt-5"><h2 class="font-g text-[34px] font-semibold leading-[1.05] tracking-tight sm:text-[48px]">Plans that scale with your<br><span class="bg-gradient-to-r from-white to-white/40 bg-clip-text text-transparent">inbox.</span></h2></div><div role="radiogroup" aria-label="Billing period" class="mt-7 inline-flex items-center rounded-full border border-white/10 bg-white/[0.03] p-1"><button type="button" data-billing="monthly" aria-pressed="true" role="radio" class="billing-btn rounded-full px-4 py-1.5 vc-mono text-[12px] font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30">Monthly</button><button type="button" data-billing="annual" aria-pressed="false" role="radio" class="billing-btn rounded-full px-4 py-1.5 vc-mono text-[12px] font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30">Annual <span class="ml-1 rounded-md border border-white/10 bg-white/[0.06] px-1 py-0.5 text-[10px] text-white/60">-20%</span></button></div></div>
+    <div class="mt-12 grid grid-cols-1 gap-px overflow-hidden rounded-[14px] border border-white/10 bg-white/[0.07] md:grid-cols-3"><article class="relative bg-[#0a0a0a] p-6 transition-colors hover:bg-[#0c0c0c] border-white/10">
+      
+      <p class="vc-mono text-[11px] uppercase tracking-wider text-white/40">Starter</p>
+      <h3 class="font-g mt-2 text-[20px] font-semibold tracking-tight text-white">Solo</h3>
+      <p class="font-g mt-2 text-[14px] leading-relaxed text-white/50">For side-projects and your first 1k events.</p>
+      <div class="mt-6 flex items-end gap-1.5 border-b border-white/[0.07] pb-6"><span class="font-g text-[44px] font-semibold leading-none tracking-tighter text-white" data-price="starter">$0</span><span class="vc-mono mb-1 text-[12px] text-white/40" data-period="starter">/mo</span></div>
+      <ul class="mt-6 flex-1 space-y-3.5" role="list"><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">1k events / day</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">1 seat</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-white/30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14"/></svg><span class="font-g text-[14px] text-white/80">Community support</span></li></ul>
+      <a href="#" class="vc-mono mt-7 inline-flex w-full items-center justify-center rounded-lg border border-white/10 bg-white px-4 py-3 text-[14px] font-medium text-black transition-colors hover:bg-white/90">Start free</a>
+    </article><article class="relative bg-[#0a0a0a] p-6 transition-colors hover:bg-[#0c0c0c] border-[#50e3c2]/40">
+      <span class="vc-mono absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full border border-[#50e3c2]/30 bg-[#50e3c2]/10 px-3 py-1 text-[11px] text-[#50e3c2]"><span class="vc-dot"></span> Most popular</span>
+      <p class="vc-mono text-[11px] uppercase tracking-wider text-white/40">Scale</p>
+      <h3 class="font-g mt-2 text-[20px] font-semibold tracking-tight text-white">Growing team</h3>
+      <p class="font-g mt-2 text-[14px] leading-relaxed text-white/50">For products that need automation, SLAs, and dashboards.</p>
+      <div class="mt-6 flex items-end gap-1.5 border-b border-white/[0.07] pb-6"><span class="font-g text-[44px] font-semibold leading-none tracking-tighter text-white" data-price="scale">$49</span><span class="vc-mono mb-1 text-[12px] text-white/40" data-period="scale">/mo</span></div>
+      <ul class="mt-6 flex-1 space-y-3.5" role="list"><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">1M events / day</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">10 seats + SSO</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">AI triage + automations</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">Priority email support</span></li></ul>
+      <a href="#" class="vc-mono mt-7 inline-flex w-full items-center justify-center rounded-lg bg-[#50e3c2] px-4 py-3 text-[14px] font-medium text-black transition-colors hover:bg-[#50e3c2]/90">Start 14-day trial</a>
+    </article><article class="relative bg-[#0a0a0a] p-6 transition-colors hover:bg-[#0c0c0c] border-white/10">
+      
+      <p class="vc-mono text-[11px] uppercase tracking-wider text-white/40">Enterprise</p>
+      <h3 class="font-g mt-2 text-[20px] font-semibold tracking-tight text-white">Org-wide</h3>
+      <p class="font-g mt-2 text-[14px] leading-relaxed text-white/50">Unlimited everything, with security and SLAs your CFO will sign off on.</p>
+      <div class="mt-6 flex items-end gap-1.5 border-b border-white/[0.07] pb-6"><span class="font-g text-[44px] font-semibold leading-none tracking-tighter text-white" data-price="enterprise">Custom</span><span class="vc-mono mb-1 text-[12px] text-white/40" data-period="enterprise">/mo</span></div>
+      <ul class="mt-6 flex-1 space-y-3.5" role="list"><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">Unlimited events</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">SAML, SCIM, audit exports</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">99.99% uptime SLA</span></li><li class="flex items-start gap-3"><svg class="mt-0.5 h-4 w-4 shrink-0 text-[#50e3c2]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5L20 6"/></svg><span class="font-g text-[14px] text-white/80">Dedicated CSM</span></li></ul>
+      <a href="#" class="vc-mono mt-7 inline-flex w-full items-center justify-center rounded-lg border border-white/10 bg-white px-4 py-3 text-[14px] font-medium text-black transition-colors hover:bg-white/90">Talk to sales</a>
+    </article></div>
+  </div>
+  <script>
+    (function () {
+      const root = document.currentScript.closest('[data-pricing]');
+      const prices = {"starter":{"monthly":"$0","annual":"$0"},"scale":{"monthly":"$49","annual":"$39"},"enterprise":{"monthly":"Custom","annual":"Custom"}};
+      const btns = root.querySelectorAll('[data-billing]');
+      function apply(period) {
+        btns.forEach(b => {
+          const active = b.dataset.billing === period;
+          b.setAttribute('aria-pressed', active ? 'true' : 'false');
+          b.classList.toggle("bg-white",active); b.classList.toggle("text-black",active); b.classList.toggle("text-white/60",!active);
+        });
+        Object.keys(prices).forEach(tier => {
+          const p = root.querySelector('[data-price="' + tier + '"]');
+          if (p) p.textContent = prices[tier][period];
+        });
+      }
+      btns.forEach(b => b.addEventListener('click', () => apply(b.dataset.billing)));
+      apply("monthly");
+    })();
+  </script>
+</section>
+  </main>
+</body>
+</html>

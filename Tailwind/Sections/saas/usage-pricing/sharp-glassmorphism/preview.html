@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usage Based Pricing — Sharp Glassmorphism | DevSnips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Sora', sans-serif; }
+    .font-sora { font-family: 'Sora', sans-serif; }
+    .sg-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+    .sg-dot { display: inline-block; height: 6px; width: 6px; border-radius: 9999px; background: #6ee7ff; box-shadow: 0 0 8px #6ee7ff; }
+    .sg-glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 4px 20px -4px rgba(168,85,247,0.5); }
+    ::selection { background: rgba(168,85,247,0.4); color: #fff; }
+    .sg-mesh {
+      background: radial-gradient(at 18% 18%, rgba(236,72,153,0.55) 0px, transparent 50%), radial-gradient(at 82% 12%, rgba(99,102,241,0.55) 0px, transparent 50%), radial-gradient(at 75% 78%, rgba(34,211,238,0.45) 0px, transparent 50%), radial-gradient(at 22% 82%, rgba(168,85,247,0.5) 0px, transparent 50%), #0b0a1f;
+      background-size: 180% 180%; animation: sg-pan 18s ease-in-out infinite alternate;
+    }
+    @keyframes sg-pan { 0% { background-position: 0% 0%; } 100% { background-position: 100% 100%; } }
+  </style>
+</head>
+<body class="sg-mesh relative min-h-screen overflow-hidden text-white antialiased">
+
+  <header class="relative z-30">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <div class="flex items-center gap-2.5">
+        <div class="flex h-8 w-8 items-center justify-center rounded-lg border border-white/20 bg-white/10 backdrop-blur-md">
+          <span class="font-sora text-sm font-bold">F</span>
+        </div>
+        <span class="font-sora text-[15px] font-semibold tracking-tight">Flowbase</span>
+        <span class="sg-mono ml-1 rounded-md border border-white/15 bg-white/10 px-1.5 py-0.5 text-[10px] text-white/70">SAAS</span>
+      </div>
+      <nav class="flex items-center gap-1">
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Product</a>
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Pricing</a>
+        <a href="#" class="sg-mono hidden rounded-md px-3 py-1.5 text-[12px] text-white/60 transition-colors hover:bg-white/10 hover:text-white sm:block">Docs</a>
+        <button type="button" class="sg-mono ml-1 rounded-md border border-white/20 bg-white/15 px-3 py-1.5 text-[12px] font-medium text-white backdrop-blur-md transition-colors hover:bg-white/25">Sign in</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+<!--
+Snippet Name: Usage Based Pricing — Sharp Glassmorphism
+Description: Frosted-glass usage-based pricing with a live usage slider, tier-rate table, and savings bar.
+Author: DevSnips Contributors
+Usage Example: Drop into a pricing section. Drag the slider to recompute the estimate live.
+-->
+<section class="relative w-full px-6 py-16 sm:py-24" data-usage="sg">
+
+  
+
+  <div class="mx-auto max-w-6xl">
+    <div class="mb-12 max-w-xl"><span class="sg-mono inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[12px] text-white/80 backdrop-blur-md"><span class="sg-dot"></span> / metered</span><div class="mt-5"><h2 class="font-sora text-[36px] font-bold leading-[1.05] tracking-tight sm:text-[48px]">Pay for what you use.<br>nothing more.</h2></div><p class="font-sora mt-4 max-w-xl text-[16px] leading-relaxed text-white/70">No seats. No tiers. One rate card, billed to the event. Move the slider to see your number.</p></div>
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_1fr] lg:items-start"><div class="overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-2xl p-6 sm:p-8">
+          <p class="sg-mono text-[11px] uppercase tracking-wider text-white/60">Monthly events</p>
+          <div class="mt-2 flex items-end gap-2"><span class="font-sora text-5xl font-bold tabular-nums" data-usage-value>500,000</span><span class="sg-mono mb-2 text-[12px] text-white/55">events</span></div>
+          <div class="mt-6"><input type="range" min="10000" max="10000000" step="10000" value="500000" data-slider class="h-2 w-full cursor-pointer appearance-none rounded-full border border-white/20 bg-white/10 accent-[#6ee7ff] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#6ee7ff]" aria-label="Monthly events"><div class="mt-2 flex justify-between sg-mono text-[10px] text-white/45"><span>10k</span><span>10M</span></div></div>
+          <div class="sg-glow mt-8 rounded-xl border border-white/20 bg-white/10 p-5 backdrop-blur-md"><div class="flex items-center justify-between"><span class="sg-mono text-[11px] uppercase tracking-wider text-white/60">Estimated bill</span><span class="sg-mono text-[11px] text-[#6ee7ff]" data-tier-label>tier 2 · band</span></div><div class="mt-2 flex items-end gap-2"><span class="font-sora text-5xl font-bold tabular-nums" data-estimate>$2,750</span><span class="sg-mono mb-2 text-[12px] text-white/55">/mo</span></div>
+          <div class="mt-5"><div class="flex items-center justify-between sg-mono text-[10px] text-white/50"><span>volume savings</span><span data-savings>You save $305/mo</span></div><div class="mt-2 h-2 w-full overflow-hidden rounded-full border border-white/15 bg-white/10"><div class="h-full bg-gradient-to-r from-fuchsia-500 to-cyan-300" data-savings-bar style="width:30%"></div></div></div></div>
+          <div class="mt-6 flex flex-col gap-3 sm:flex-row"><a href="#" class="font-sora inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-fuchsia-500 to-indigo-500 px-6 py-3 text-[14px] font-semibold text-white shadow-[0_8px_30px_-6px_rgba(168,85,247,0.6)] transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-200/60">Start metered plan </a><a href="#" class="font-sora inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-6 py-3 text-[14px] text-white backdrop-blur-md transition-colors hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40"> Open cost calculator</a></div>
+        </div><div class="overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-2xl "><div class="absolute left-0 right-0 top-0 h-px bg-gradient-to-r from-transparent via-white/50 to-transparent"></div><div class="flex items-center justify-between border-b border-white/15 px-5 py-3"><p class="sg-mono text-[11px] uppercase tracking-wider text-white/55">/ rate card</p><span class="sg-dot"></span></div><ul class="divide-y divide-white/15"><li class="flex items-center justify-between px-5 py-4 border-b border-white/15"><div><p class="font-sora text-[15px] font-semibold text-white">Tier 1 · 0–100k</p><p class="sg-mono text-[11px] text-white/50">First 100k events / month</p></div><span class="font-sora text-xl font-bold tabular-nums text-white">$0.0085<span class="sg-mono text-[11px] text-white/40">  /ea</span></span></li><li class="flex items-center justify-between px-5 py-4 border-b border-white/15"><div><p class="font-sora text-[15px] font-semibold text-white">Tier 2 · 100k–1M</p><p class="sg-mono text-[11px] text-white/50">Next 900k events / month</p></div><span class="font-sora text-xl font-bold tabular-nums text-white">$0.0040<span class="sg-mono text-[11px] text-white/40">  /ea</span></span></li><li class="flex items-center justify-between px-5 py-4 border-b border-white/15"><div><p class="font-sora text-[15px] font-semibold text-white">Tier 3 · 1M–10M</p><p class="sg-mono text-[11px] text-white/50">Next 9M events / month</p></div><span class="font-sora text-xl font-bold tabular-nums text-white">$0.0019<span class="sg-mono text-[11px] text-white/40">  /ea</span></span></li><li class="flex items-center justify-between px-5 py-4 "><div><p class="font-sora text-[15px] font-semibold text-white">Tier 4 · 10M+</p><p class="sg-mono text-[11px] text-white/50">Custom volume pricing</p></div><span class="font-sora text-xl font-bold tabular-nums text-white">Custom<span class="sg-mono text-[11px] text-white/40"></span></span></li></ul><div class="border-t border-white/15 px-5 py-3"><p class="sg-mono text-[11px] text-white/45">no seat fees · no minimums · cancel anytime</p></div></div></div>
+  </div>
+  <script>
+    (function () {
+      const root = document.currentScript.closest('[data-usage]');
+      const slider = root.querySelector('[data-slider]');
+      const val = root.querySelector('[data-usage-value]');
+      const est = root.querySelector('[data-estimate]');
+      const tier = root.querySelector('[data-tier-label]');
+      const sav = root.querySelector('[data-savings]');
+      const bar = root.querySelector('[data-savings-bar]');
+      const bands = [{"upto":100000,"rate":0.0085,"label":"tier 1"},{"upto":1000000,"rate":0.0040,"label":"tier 2"},{"upto":10000000,"rate":0.0019,"label":"tier 3"}];
+      const fmt = n => n.toLocaleString('en-US');
+      function compute(v) {
+        let cost = 0, prev = 0, label = "tier 1";
+        for (const b of bands) {
+          if (v > prev) {
+            const slice = Math.min(v, b.upto) - prev;
+            cost += slice * b.rate;
+            if (v <= b.upto) label = b.label;
+            prev = b.upto;
+          }
+        }
+        if (v >= 10000000) label = "tier 4 · custom";
+        const flat = v * 0.0085;
+        const save = Math.max(0, flat - cost);
+        return { cost, label, save };
+      }
+      function update() {
+        const v = +slider.value;
+        val.textContent = fmt(v);
+        const { cost, label, save } = compute(v);
+        est.textContent = "$" + Math.round(cost).toLocaleString('en-US');
+        tier.textContent = label + " · band";
+        sav.textContent = save > 0 ? ("You save $" + Math.round(save).toLocaleString('en-US') + "/mo") : "No savings yet";
+        bar.style.width = Math.min(100, (save / (v * 0.0085)) * 100) + "%";
+      }
+      slider.addEventListener('input', update);
+      update();
+    })();
+  </script>
+</section>
+  </main>
+</body>
+</html>

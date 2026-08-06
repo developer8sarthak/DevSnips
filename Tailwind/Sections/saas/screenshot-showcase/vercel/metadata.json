@@ -1,0 +1,30 @@
+{
+  "name": "Product Screenshot Showcase — Vercel",
+  "slug": "screenshot-showcase-vercel",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "screenshot-showcase",
+  "style": "vercel",
+  "description": "Vercel tabbed screenshot gallery that swaps the large preview live, with caption metadata.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "screenshots",
+    "gallery",
+    "showcase",
+    "saas",
+    "tabs",
+    "vercel"
+  ],
+  "features": [
+    "tabbed gallery",
+    "live preview swap",
+    "thumbnail tabs",
+    "caption rail"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Geist, Geist Mono"
+  ]
+}

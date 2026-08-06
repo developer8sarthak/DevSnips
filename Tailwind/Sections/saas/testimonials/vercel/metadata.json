@@ -1,0 +1,30 @@
+{
+  "name": "Testimonial Grid — Vercel",
+  "slug": "testimonials-vercel",
+  "category": "Sections",
+  "subcategory": "saas",
+  "section": "testimonials",
+  "style": "vercel",
+  "description": "Vercel asymmetric testimonial grid with a featured quote, medium, and compact stat-quote tiles.",
+  "framework": "Tailwind CSS",
+  "language": "HTML",
+  "tags": [
+    "testimonials",
+    "social-proof",
+    "saas",
+    "quotes",
+    "vercel"
+  ],
+  "features": [
+    "asymmetric layout",
+    "featured quote tile",
+    "medium quote tiles",
+    "compact stat-quote tiles",
+    "avatar chips"
+  ],
+  "responsive": true,
+  "dependencies": [
+    "Tailwind CSS (CDN)",
+    "Google Fonts: Geist, Geist Mono"
+  ]
+}
