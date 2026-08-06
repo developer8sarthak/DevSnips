@@ -48,6 +48,10 @@ This works because the `<script>` parses inside the root. Panel animation uses t
 - NO React/Vue/Alpine/Bootstrap/jQuery.
 - 2-space indentation. Semantic HTML. Accessibility required (ARIA, keyboard, focus rings).
 
+## Tailwind SaaS Sections — `Tailwind/Sections/saas/`
+Premium SaaS website sections (one variant/style per section, mixed across the three design styles). Same 3-file convention as other Sections families (`code.html` / `preview.html` / `metadata.json`).
+15 sections shipped: product-hero (vercel), launch-hero (neo-brutalism), dashboard-hero (sharp-glassmorphism), feature-grid (neo-brutalism), bento-showcase (sharp-glassmorphism), product-workflow (vercel), three-tier-pricing (sharp-glassmorphism), usage-pricing (neo-brutalism), pricing-comparison (vercel), logo-cloud (vercel), testimonials (sharp-glassmorphism), metrics (neo-brutalism), screenshot-showcase (sharp-glassmorphism), trial-cta (neo-brutalism), enterprise-footer (vercel). Several include scoped vanilla-JS interactivity (countdown, billing toggle, usage calculator, workflow step switcher, screenshot tabs, count-up, newsletter) using the `document.currentScript.closest('[data-<scope>="<style>"]')` pattern. Registered in `snippets-index.json` under `tech: "Tailwind CSS"`, `category: "Sections"`.
+
 ## Tailwind Sections — `Tailwind/Sections/`
 Multi-style website sections organized as `category/section/style/` (three levels, all kebab-case). Each style folder contains exactly: `preview.html` (full `<!DOCTYPE html>` page with Tailwind CDN + app-context shell), `code.html` (snippet only — no DOCTYPE/CDN), `metadata.json` (keys: name, slug, category, subcategory, section, style, description, framework, language, tags, features, responsive, dependencies). `slug` = `<section>-<style>`.
 
