@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrations — Nexus AI</title>
+  <meta name="description" content="50+ native integrations and typed SDKs. Connect Nexus AI to your data, tools, and model providers.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/logo.svg">
+  <style>
+    :root { color-scheme: dark; }
+    html, body { background: #070B16; }
+    body { font-family: 'Inter', sans-serif; }
+    ::selection { background: rgba(139,92,246,0.35); }
+    .glow { position: absolute; border-radius: 9999px; filter: blur(80px); pointer-events: none; z-index: 0; }
+    .text-balance { text-wrap: balance; }
+  </style>
+</head>
+<body class="min-h-screen bg-[#070B16] text-white antialiased">
+
+  <!-- Navbar -->
+  <header data-navbar class="sticky top-0 z-50 border-b border-white/[0.06] bg-[#070B16]/80 backdrop-blur-xl">
+    <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8" aria-label="Primary">
+      <a href="../preview.html" class="flex items-center gap-2.5" aria-label="Nexus AI home">
+        <span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/30"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18V6l10 12V6"/></svg></span>
+        <span class="text-[15px] font-semibold tracking-tight text-white">Nexus<span class="text-white/50"> AI</span></span>
+      </a>
+      <div class="hidden items-center gap-1 lg:flex">
+        <a href="features.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Features</a>
+        <a href="integrations.html" class="rounded-lg bg-white/[0.06] px-3 py-2 text-sm text-white">Integrations</a>
+        <a href="pricing.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Pricing</a>
+        <a href="customers.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Customers</a>
+        <a href="blog.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Blog</a>
+        <a href="docs.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Docs</a>
+      </div>
+      <div class="hidden items-center gap-2 lg:flex">
+        <a href="login.html" class="rounded-lg px-3.5 py-2 text-sm font-medium text-white/80 transition-colors hover:text-white">Sign in</a>
+        <a href="signup.html" class="group inline-flex items-center gap-1.5 rounded-lg bg-white px-4 py-2 text-sm font-semibold text-[#070B16] shadow-sm transition-all hover:shadow-white/20 hover:shadow-lg">Start free <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <button type="button" data-nav-toggle class="inline-flex h-10 w-10 items-center justify-center rounded-lg text-white/80 lg:hidden" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </nav>
+    <div id="mobile-menu" data-mobile-menu class="hidden border-t border-white/[0.06] bg-[#070B16] px-6 py-4 lg:hidden">
+      <div class="flex flex-col gap-1">
+        <a href="features.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Features</a>
+        <a href="integrations.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Integrations</a>
+        <a href="pricing.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Pricing</a>
+        <a href="customers.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Customers</a>
+        <a href="blog.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Blog</a>
+        <a href="docs.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Docs</a>
+        <div class="mt-3 flex gap-2"><a href="login.html" class="flex-1 rounded-lg border border-white/10 px-4 py-2.5 text-center text-sm font-medium text-white">Sign in</a><a href="signup.html" class="flex-1 rounded-lg bg-white px-4 py-2.5 text-center text-sm font-semibold text-[#070B16]">Start free</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Integration hero -->
+    <section class="relative overflow-hidden">
+      <div class="glow left-1/2 top-[-10%] h-[360px] w-[560px] -translate-x-1/2 bg-cyan-500/15"></div>
+      <div class="relative mx-auto max-w-4xl px-6 pt-20 pb-16 text-center lg:px-8 lg:pt-28">
+        <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs font-medium text-white/70 backdrop-blur"><span class="h-1.5 w-1.5 rounded-full bg-gradient-to-br from-violet-400 to-cyan-400"></span> Integrations</div>
+        <h1 class="mt-6 text-balance text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">Connect Nexus AI to <span class="bg-gradient-to-br from-violet-400 via-indigo-300 to-cyan-300 bg-clip-text text-transparent">your entire stack</span></h1>
+        <p class="mx-auto mt-6 max-w-2xl text-balance text-lg leading-relaxed text-white/60">50+ native integrations, typed SDKs for every language, and a REST API for everything else. Sync data, trigger workflows, and pipe results where your team works.</p>
+        <div class="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <a href="docs.html" class="group inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:brightness-110 sm:w-auto">View API docs <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="signup.html" class="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/[0.04] px-6 py-3 text-sm font-medium text-white backdrop-blur transition-colors hover:bg-white/[0.08] sm:w-auto">Get API key</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- App ecosystem grid -->
+    <section class="py-20 lg:py-28">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+          <div>
+            <h2 class="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">App ecosystem</h2>
+            <p class="mt-2 text-white/55">Browse the catalog of native integrations.</p>
+          </div>
+          <div class="flex gap-2" role="tablist" aria-label="Filter integrations">
+            <button class="rounded-lg bg-white/[0.08] px-3.5 py-1.5 text-sm font-medium text-white" role="tab" aria-selected="true">All</button>
+            <button class="rounded-lg px-3.5 py-1.5 text-sm text-white/60 hover:bg-white/[0.06]" role="tab">Models</button>
+            <button class="rounded-lg px-3.5 py-1.5 text-sm text-white/60 hover:bg-white/[0.06]" role="tab">Data</button>
+            <button class="rounded-lg px-3.5 py-1.5 text-sm text-white/60 hover:bg-white/[0.06]" role="tab">Tools</button>
+          </div>
+        </div>
+        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- integration card -->
+          <div class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="grid h-11 w-11 place-items-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-lg font-bold text-white ring-1 ring-inset ring-white/10">O</div>
+            <h3 class="mt-4 font-semibold text-white">OpenAI</h3>
+            <p class="mt-1 text-xs text-white/50">GPT-4o, o1, embeddings</p>
+            <span class="mt-3 inline-block rounded-full bg-emerald-400/10 px-2 py-0.5 text-[10px] font-medium text-emerald-300">Models</span>
+          </div>
+          <div class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="grid h-11 w-11 place-items-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-lg font-bold text-white ring-1 ring-inset ring-white/10">A</div>
+            <h3 class="mt-4 font-semibold text-white">Anthropic</h3>
+            <p class="mt-1 text-xs text-white/50">Claude 3.5 Sonnet</p>
+            <span class="mt-3 inline-block rounded-full bg-emerald-400/10 px-2 py-0.5 text-[10px] font-medium text-emerald-300">Models</span>
+          </div>
+          <div class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="grid h-11 w-11 place-items-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-lg font-bold text-white ring-1 ring-inset ring-white/10">L</div>
+            <h3 class="mt-4 font-semibold text-white">Llama</h3>
+            <p class="mt-1 text-xs text-white/50">Self-hosted via Together</p>
+            <span class="mt-3 inline-block rounded-full bg-emerald-400/10 px-2 py-0.5 text-[10px] font-medium text-emerald-300">Models</span>
+          </div>
+          <div class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="grid h-11 w-11 place-items-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-lg font-bold text-white ring-1 ring-inset ring-white/10">P</div>
+            <h3 class="mt-4 font-semibold text-white">Pinecone</h3>
+            <p class="mt-1 text-xs text-white/50">Vector search</p>
+            <span class="mt-3 inline-block rounded-full bg-cyan-400/10 px-2 py-0.5 text-[10px] font-medium text-cyan-300">Data</span>
+          </div>
+          <div class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="grid h-11 w-11 place-items-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-lg font-bold text-white ring-1 ring-inset ring-white/10">S</div>
+            <h3 class="mt-4 font-semibold text-white">Slack</h3>
+            <p class="mt-1 text-xs text-white/50">Alerts &amp; approvals</p>
+            <span class="mt-3 inline-block rounded-full bg-violet-400/10 px-2 py-0.5 text-[10px] font-medium text-violet-300">Tools</span>
+          </div>
+          <div class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="grid h-11 w-11 place-items-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-lg font-bold text-white ring-1 ring-inset ring-white/10">G</div>
+            <h3 class="mt-4 font-semibold text-white">GitHub</h3>
+            <p class="mt-1 text-xs text-white/50">PR-eval gating</p>
+            <span class="mt-3 inline-block rounded-full bg-violet-400/10 px-2 py-0.5 text-[10px] font-medium text-violet-300">Tools</span>
+          </div>
+          <div class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="grid h-11 w-11 place-items-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-lg font-bold text-white ring-1 ring-inset ring-white/10">D</div>
+            <h3 class="mt-4 font-semibold text-white">Databricks</h3>
+            <p class="mt-1 text-xs text-white/50">Lakehouse sync</p>
+            <span class="mt-3 inline-block rounded-full bg-cyan-400/10 px-2 py-0.5 text-[10px] font-medium text-cyan-300">Data</span>
+          </div>
+          <div class="group rounded-2xl border border-white/[0.08] bg-gradient-to-br from-violet-500/10 to-cyan-400/[0.06] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="grid h-11 w-11 place-items-center rounded-xl bg-white/[0.06] text-sm font-semibold text-white ring-1 ring-inset ring-white/10">+43</div>
+            <h3 class="mt-4 font-semibold text-white">And many more</h3>
+            <p class="mt-1 text-xs text-white/50">Browse the full catalog</p>
+            <a href="docs.html" class="mt-3 inline-flex items-center gap-1 text-xs font-medium text-violet-300 hover:text-violet-200">View all <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- API section -->
+    <section class="relative overflow-hidden py-24 lg:py-32">
+      <div class="glow right-[-5%] top-1/4 h-[340px] w-[340px] bg-violet-600/15"></div>
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="grid items-center gap-16 lg:grid-cols-2">
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs font-medium text-white/70 backdrop-blur"><span class="h-1.5 w-1.5 rounded-full bg-gradient-to-br from-violet-400 to-cyan-400"></span> Developer API</div>
+            <h2 class="mt-5 text-balance text-4xl font-semibold tracking-tight sm:text-5xl">A typed SDK for every stack</h2>
+            <p class="mt-4 text-lg text-white/55">Fully typed client libraries with streaming, retries, and structured outputs built in. Or call the REST API directly from anywhere.</p>
+            <div class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+              <div class="rounded-lg border border-white/[0.08] bg-white/[0.03] px-3 py-2 text-center text-sm font-medium text-white/80">TypeScript</div>
+              <div class="rounded-lg border border-white/[0.08] bg-white/[0.03] px-3 py-2 text-center text-sm font-medium text-white/80">Python</div>
+              <div class="rounded-lg border border-white/[0.08] bg-white/[0.03] px-3 py-2 text-center text-sm font-medium text-white/80">Go</div>
+              <div class="rounded-lg border border-white/[0.08] bg-white/[0.03] px-3 py-2 text-center text-sm font-medium text-white/80">Ruby</div>
+            </div>
+            <a href="docs.html" class="mt-8 inline-flex items-center gap-2 rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-[#070B16] transition-colors hover:bg-white/90">Read API reference <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+          <div class="relative">
+            <div class="absolute -inset-6 -z-10 rounded-[2rem] bg-gradient-to-tr from-violet-500/15 to-cyan-400/10 blur-2xl"></div>
+            <div class="overflow-hidden rounded-2xl border border-white/10 bg-[#0B1020] shadow-2xl shadow-black/50">
+              <div class="flex items-center gap-2 border-b border-white/[0.06] px-4 py-3"><span class="h-3 w-3 rounded-full bg-red-400/70"></span><span class="h-3 w-3 rounded-full bg-amber-400/70"></span><span class="h-3 w-3 rounded-full bg-green-400/70"></span><span class="ml-2 text-xs text-white/40">quickstart.ts</span></div>
+              <pre class="overflow-x-auto p-5 text-xs leading-relaxed"><code><span class="text-violet-300">import</span> <span class="text-white/90">{ Nexus }</span> <span class="text-violet-300">from</span> <span class="text-emerald-300">"@nexus/sdk"</span><span class="text-white/90">;</span>
+
+<span class="text-violet-300">const</span> nexus <span class="text-white/90">=</span> <span class="text-violet-300">new</span> <span class="text-cyan-300">Nexus</span><span class="text-white/90">(process.env.NEXUS_KEY);</span>
+
+<span class="text-violet-300">const</span> stream <span class="text-white/90">= await nexus.</span><span class="text-cyan-300">stream</span><span class="text-white/90">({</span>
+  model<span class="text-white/90">:</span> <span class="text-emerald-300">"claude-3.5-sonnet"</span><span class="text-white/90">,</span>
+  input<span class="text-white/90">:</span> <span class="text-emerald-300">"Summarize this thread"</span><span class="text-white/90">,</span>
+  guardrails<span class="text-white/90">: [</span><span class="text-emerald-300">"pii"</span><span class="text-white/90">],</span>
+<span class="text-white/90">});</span>
+
+<span class="text-violet-300">for await</span> <span class="text-white/90">(</span><span class="text-violet-300">const</span> chunk <span class="text-violet-300">of</span> stream<span class="text-white/90">) {</span>
+  process.stdout.<span class="text-cyan-300">write</span><span class="text-white/90">(chunk.text);</span>
+<span class="text-white/90">}</span></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="relative overflow-hidden py-24 lg:py-32">
+      <div class="glow left-1/2 top-1/2 h-[360px] w-[640px] -translate-x-1/2 -translate-y-1/2 bg-gradient-to-br from-violet-600/25 to-cyan-500/15"></div>
+      <div class="mx-auto max-w-4xl px-6 text-center lg:px-8">
+        <h2 class="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">Build your first integration in minutes</h2>
+        <p class="mx-auto mt-5 max-w-xl text-lg text-white/60">Grab an API key and follow the quickstart. We'll have you streaming tokens in under five minutes.</p>
+        <div class="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <a href="signup.html" class="group inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:brightness-110 sm:w-auto">Get your API key <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="docs.html" class="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/[0.04] px-6 py-3 text-sm font-medium text-white backdrop-blur transition-colors hover:bg-white/[0.08] sm:w-auto">Read quickstart</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer data-footer class="relative border-t border-white/[0.06] bg-[#070B16]">
+    <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+      <div class="grid gap-12 lg:grid-cols-12">
+        <div class="lg:col-span-4">
+          <a href="../preview.html" class="flex items-center gap-2.5" aria-label="Nexus AI home"><span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/30"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18V6l10 12V6"/></svg></span><span class="text-[15px] font-semibold tracking-tight text-white">Nexus<span class="text-white/50"> AI</span></span></a>
+          <p class="mt-4 max-w-xs text-sm leading-relaxed text-white/55">The AI workspace for modern teams. Build, ship, and scale intelligent products from a single platform.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:col-span-8">
+          <div><h3 class="text-xs font-semibold uppercase tracking-wider text-white/40">Product</h3><ul class="mt-4 space-y-3 text-sm"><li><a href="features.html" class="text-white/65 transition-colors hover:text-white">Features</a></li><li><a href="integrations.html" class="text-white/65 transition-colors hover:text-white">Integrations</a></li><li><a href="pricing.html" class="text-white/65 transition-colors hover:text-white">Pricing</a></li><li><a href="dashboard.html" class="text-white/65 transition-colors hover:text-white">Dashboard</a></li><li><a href="docs.html" class="text-white/65 transition-colors hover:text-white">Documentation</a></li></ul></div>
+          <div><h3 class="text-xs font-semibold uppercase tracking-wider text-white/40">Company</h3><ul class="mt-4 space-y-3 text-sm"><li><a href="customers.html" class="text-white/65 transition-colors hover:text-white">Customers</a></li><li><a href="blog.html" class="text-white/65 transition-colors hover:text-white">Blog</a></li><li><a href="#" class="text-white/65 transition-colors hover:text-white">Careers</a></li><li><a href="#" class="text-white/65 transition-colors hover:text-white">About</a></li><li><a href="#" class="text-white/65 transition-colors hover:text-white">Contact</a></li></ul></div>
+          <div><h3 class="text-xs font-semibold uppercase tracking-wider text-white/40">Resources</h3><ul class="mt-4 space-y-3 text-sm"><li><a href="#" class="text-white/65 transition-colors hover:text-white">Changelog</a></li><li><a href="#" class="text-white/65 transition-colors hover:text-white">Community</a></li><li><a href="#" class="text-white/65 transition-colors hover:text-white">Support</a></li><li><a href="#" class="text-white/65 transition-colors hover:text-white">Status</a></li><li><a href="#" class="text-white/65 transition-colors hover:text-white">Security</a></li></ul></div>
+        </div>
+      </div>
+      <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/[0.06] pt-8 sm:flex-row">
+        <p class="text-sm text-white/45">© 2026 Nexus AI, Inc. All rights reserved.</p>
+        <div class="flex gap-5 text-sm"><a href="#" class="text-white/45 transition-colors hover:text-white">Privacy</a><a href="#" class="text-white/45 transition-colors hover:text-white">Terms</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const nav = document.querySelector('[data-navbar]');
+      if (!nav) return;
+      const toggle = nav.querySelector('[data-nav-toggle]');
+      const menu = nav.querySelector('[data-mobile-menu]');
+      if (!toggle || !menu) return;
+      toggle.addEventListener('click', () => {
+        const open = menu.classList.toggle('hidden') === false;
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+    })();
+  </script>
+</body>
+</html>

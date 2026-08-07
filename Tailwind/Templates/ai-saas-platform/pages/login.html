@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in — Nexus AI</title>
+  <meta name="description" content="Sign in to your Nexus AI workspace.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/logo.svg">
+  <style>
+    :root { color-scheme: dark; }
+    html, body { background: #070B16; }
+    body { font-family: 'Inter', sans-serif; }
+    ::selection { background: rgba(139,92,246,0.35); }
+    .glow { position: absolute; border-radius: 9999px; filter: blur(80px); pointer-events: none; z-index: 0; }
+    .text-balance { text-wrap: balance; }
+  </style>
+</head>
+<body class="min-h-screen bg-[#070B16] text-white antialiased">
+  <div class="grid min-h-screen lg:grid-cols-2">
+
+    <!-- Brand panel -->
+    <aside class="relative hidden overflow-hidden border-r border-white/[0.06] bg-[#0B1020] lg:flex lg:flex-col lg:justify-between lg:p-12">
+      <div class="glow left-1/4 top-1/4 h-[360px] w-[360px] bg-violet-600/25"></div>
+      <div class="glow right-0 bottom-0 h-[280px] w-[280px] bg-cyan-500/15"></div>
+      <div class="relative">
+        <a href="../preview.html" class="flex items-center gap-2.5" aria-label="Nexus AI home">
+          <span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/30"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18V6l10 12V6"/></svg></span>
+          <span class="text-[15px] font-semibold tracking-tight text-white">Nexus<span class="text-white/50"> AI</span></span>
+        </a>
+      </div>
+      <div class="relative">
+        <blockquote class="max-w-md text-balance text-2xl font-medium leading-snug text-white/90">"Nexus AI replaced four tools and cut our inference cost by more than half — all in a single quarter."</blockquote>
+        <div class="mt-6 flex items-center gap-3">
+          <img src="../assets/placeholders/avatar.svg" alt="" class="h-11 w-11 rounded-full ring-2 ring-white/10"/>
+          <div><p class="text-sm font-medium text-white">Maya Chen</p><p class="text-xs text-white/50">Head of AI · Linearly</p></div>
+        </div>
+      </div>
+      <div class="relative flex items-center gap-2 text-xs text-white/40">
+        <img src="../assets/illustrations/orb.svg" alt="" class="h-6 w-6 rounded-md"/>
+        <span>SOC 2 Type II · GDPR · 99.99% uptime</span>
+      </div>
+    </aside>
+
+    <!-- Form panel -->
+    <main class="relative flex items-center justify-center px-6 py-12 lg:px-8">
+      <div class="w-full max-w-sm">
+        <a href="../preview.html" class="mb-8 flex items-center gap-2.5 lg:hidden" aria-label="Nexus AI home">
+          <span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/30"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18V6l10 12V6"/></svg></span>
+          <span class="text-[15px] font-semibold tracking-tight text-white">Nexus<span class="text-white/50"> AI</span></span>
+        </a>
+
+        <h1 class="text-2xl font-semibold tracking-tight text-white">Welcome back</h1>
+        <p class="mt-2 text-sm text-white/55">Sign in to your Nexus AI workspace.</p>
+
+        <!-- Social -->
+        <div class="mt-8 grid grid-cols-2 gap-3">
+          <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-white/[0.08]">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12 2C6.5 2 2 6.5 2 12c0 4.4 2.9 8.2 6.8 9.5.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1 .8-.2 1.7-.3 2.5-.3s1.7.1 2.5.3c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.6 5 .3.3.6.9.6 1.8v2.7c0 .3.2.6.7.5C19.1 20.2 22 16.4 22 12c0-5.5-4.5-10-10-10Z"/></svg>
+            GitHub
+          </button>
+          <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-white/[0.08]">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12Z"/></svg>
+            Google
+          </button>
+        </div>
+
+        <div class="my-6 flex items-center gap-3 text-xs text-white/40">
+          <span class="h-px flex-1 bg-white/[0.08]"></span> or continue with email <span class="h-px flex-1 bg-white/[0.08]"></span>
+        </div>
+
+        <!-- Email/password form -->
+        <form class="space-y-4" aria-label="Sign in form">
+          <div>
+            <label for="email" class="mb-1.5 block text-sm font-medium text-white/80">Email</label>
+            <input id="email" type="email" required autocomplete="email" placeholder="you@company.com" class="w-full rounded-lg border border-white/10 bg-white/[0.04] px-3.5 py-2.5 text-sm text-white placeholder:text-white/35 focus:border-indigo-400/50 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"/>
+          </div>
+          <div>
+            <div class="mb-1.5 flex items-center justify-between">
+              <label for="password" class="block text-sm font-medium text-white/80">Password</label>
+              <a href="#" class="text-xs text-violet-300 hover:text-violet-200">Forgot?</a>
+            </div>
+            <input id="password" type="password" required autocomplete="current-password" placeholder="••••••••" class="w-full rounded-lg border border-white/10 bg-white/[0.04] px-3.5 py-2.5 text-sm text-white placeholder:text-white/35 focus:border-indigo-400/50 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"/>
+          </div>
+          <label class="flex items-center gap-2 text-sm text-white/60">
+            <input type="checkbox" class="h-4 w-4 rounded border-white/20 bg-white/[0.06] text-indigo-500 focus:ring-indigo-500/30"/>
+            Keep me signed in
+          </label>
+          <button type="submit" class="group flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:brightness-110">Sign in <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+
+        <p class="mt-8 text-center text-sm text-white/55">Don't have an account? <a href="signup.html" class="font-medium text-violet-300 hover:text-violet-200">Create one</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

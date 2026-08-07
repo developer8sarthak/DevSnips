@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — Nexus AI</title>
+  <meta name="description" content="Nexus AI application dashboard — analytics, AI usage metrics, charts, and recent activity.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/logo.svg">
+  <style>
+    :root { color-scheme: dark; }
+    html, body { background: #070B16; }
+    body { font-family: 'Inter', sans-serif; }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+    ::selection { background: rgba(139,92,246,0.35); }
+    .glow { position: absolute; border-radius: 9999px; filter: blur(80px); pointer-events: none; z-index: 0; }
+    .dash-link.active { background: rgba(139,92,246,0.12); color: #fff; }
+    @media (prefers-reduced-motion: no-preference) {
+      @keyframes growbar { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+      .bar { transform-origin: bottom; animation: growbar .8s ease-out both; }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-[#070B16] text-white antialiased">
+  <div class="flex min-h-screen">
+
+    <!-- Sidebar -->
+    <aside class="fixed inset-y-0 left-0 z-40 hidden w-64 flex-col border-r border-white/[0.06] bg-[#0B1020] px-4 py-6 lg:flex" aria-label="App navigation">
+      <a href="../preview.html" class="flex items-center gap-2.5 px-2" aria-label="Nexus AI home">
+        <span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/30"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18V6l10 12V6"/></svg></span>
+        <span class="text-[15px] font-semibold tracking-tight text-white">Nexus<span class="text-white/50"> AI</span></span>
+      </a>
+
+      <nav class="mt-8 space-y-1 text-sm">
+        <p class="px-3 pb-2 text-xs font-semibold uppercase tracking-wider text-white/40">Workspace</p>
+        <a href="dashboard.html" class="dash-link active flex items-center gap-3 rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg> Overview</a>
+        <a href="#" class="dash-link flex items-center gap-3 rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg> Requests</a>
+        <a href="#" class="dash-link flex items-center gap-3 rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l3-4 3 2 4-6"/></svg> Analytics</a>
+        <a href="#" class="dash-link flex items-center gap-3 rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 2 .8 3.5 2 5 1 1.2 1.5 2.4 1.5 4h7c0-1.6.5-2.8 1.5-4 1.2-1.5 2-3 2-5a7 7 0 0 0-7-7Z"/></svg> Models</a>
+        <a href="#" class="dash-link flex items-center gap-3 rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg> Guardrails</a>
+
+        <p class="px-3 pb-2 pt-6 text-xs font-semibold uppercase tracking-wider text-white/40">Account</p>
+        <a href="#" class="dash-link flex items-center gap-3 rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg> Team</a>
+        <a href="#" class="dash-link flex items-center gap-3 rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg> Billing</a>
+        <a href="#" class="dash-link flex items-center gap-3 rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 7 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1A1.6 1.6 0 0 0 3.6 14H3a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 4.6 8a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1A1.6 1.6 0 0 0 10 4.6V4a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 2.7 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1A1.6 1.6 0 0 0 19.4 10H21a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1Z"/></svg> Settings</a>
+      </nav>
+
+      <!-- Usage card -->
+      <div class="mt-auto rounded-xl border border-white/[0.08] bg-white/[0.03] p-4">
+        <div class="flex items-center justify-between text-xs"><span class="text-white/60">Token usage</span><span class="mono text-white/50">68%</span></div>
+        <div class="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-white/10"><div class="h-full w-[68%] rounded-full bg-gradient-to-r from-violet-400 to-cyan-400"></div></div>
+        <p class="mt-2 text-xs text-white/45">34M / 50M used this month</p>
+        <a href="pricing.html" class="mt-3 block rounded-lg bg-white/[0.06] py-2 text-center text-xs font-medium text-white transition-colors hover:bg-white/[0.1]">Upgrade plan</a>
+      </div>
+    </aside>
+
+    <!-- Main column -->
+    <div class="flex min-w-0 flex-1 flex-col lg:pl-64">
+      <!-- Top nav -->
+      <header class="sticky top-0 z-30 border-b border-white/[0.06] bg-[#070B16]/80 backdrop-blur-xl">
+        <div class="flex h-16 items-center gap-4 px-6 lg:px-8">
+          <button type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-lg text-white/80 lg:hidden" aria-label="Open menu"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+          <div class="hidden items-center gap-2 text-sm text-white/50 sm:flex">
+            <a href="../preview.html" class="hover:text-white">Workspace</a><span>/</span><span class="text-white">Overview</span>
+          </div>
+          <!-- Search -->
+          <div class="ml-auto hidden flex-1 justify-end sm:flex">
+            <div class="relative w-full max-w-xs">
+              <svg class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="search" placeholder="Search…" class="w-full rounded-lg border border-white/10 bg-white/[0.04] py-2 pl-9 pr-3 text-sm text-white placeholder:text-white/35 focus:border-indigo-400/50 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"/>
+            </div>
+          </div>
+          <button type="button" class="relative inline-flex h-9 w-9 items-center justify-center rounded-lg text-white/70 hover:bg-white/[0.06]" aria-label="Notifications">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21a2 2 0 0 0 4 0"/></svg>
+            <span class="absolute right-2 top-2 h-2 w-2 rounded-full bg-cyan-400 ring-2 ring-[#070B16]"></span>
+          </button>
+          <!-- Profile -->
+          <div class="flex items-center gap-2.5">
+            <img src="../assets/placeholders/avatar.svg" alt="" class="h-8 w-8 rounded-full ring-2 ring-white/10"/>
+            <div class="hidden sm:block"><p class="text-sm font-medium leading-tight text-white">Alex Rivera</p><p class="text-xs text-white/45">Pro plan</p></div>
+          </div>
+        </div>
+      </header>
+
+      <main class="flex-1 px-6 py-8 lg:px-8 lg:py-10">
+        <!-- Page header -->
+        <div class="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
+          <div>
+            <h1 class="text-2xl font-semibold tracking-tight text-white">Welcome back, Alex</h1>
+            <p class="mt-1 text-sm text-white/55">Here's what's happening with your AI workspace today.</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button type="button" class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.04] px-3.5 py-2 text-sm font-medium text-white transition-colors hover:bg-white/[0.08]">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg>
+              Last 30 days
+            </button>
+            <a href="docs.html" class="inline-flex items-center gap-2 rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:brightness-110">New request</a>
+          </div>
+        </div>
+
+        <!-- Analytics cards -->
+        <section class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4" aria-label="Key metrics">
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-5 backdrop-blur">
+            <div class="flex items-center justify-between"><span class="text-sm text-white/55">Total requests</span><span class="rounded-md bg-emerald-400/10 px-1.5 py-0.5 text-xs font-medium text-emerald-300">+12%</span></div>
+            <p class="mt-3 text-3xl font-semibold tracking-tight text-white">284,920</p>
+            <div class="mt-3 flex h-10 items-end gap-1" aria-hidden="true">
+              <div class="bar w-full rounded-t bg-white/10" style="height:30%"></div><div class="bar w-full rounded-t bg-white/10" style="height:50%"></div><div class="bar w-full rounded-t bg-white/10" style="height:40%"></div><div class="bar w-full rounded-t bg-white/10" style="height:70%"></div><div class="bar w-full rounded-t bg-white/10" style="height:55%"></div><div class="bar w-full rounded-t bg-gradient-to-t from-violet-500 to-cyan-400" style="height:90%"></div><div class="bar w-full rounded-t bg-white/10" style="height:60%"></div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-5 backdrop-blur">
+            <div class="flex items-center justify-between"><span class="text-sm text-white/55">Tokens used</span><span class="rounded-md bg-emerald-400/10 px-1.5 py-0.5 text-xs font-medium text-emerald-300">+8%</span></div>
+            <p class="mt-3 text-3xl font-semibold tracking-tight text-white">34.2M</p>
+            <p class="mt-3 text-xs text-white/45">of 50M monthly</p>
+            <div class="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-white/10"><div class="h-full w-[68%] rounded-full bg-gradient-to-r from-violet-400 to-cyan-400"></div></div>
+          </div>
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-5 backdrop-blur">
+            <div class="flex items-center justify-between"><span class="text-sm text-white/55">Avg latency</span><span class="rounded-md bg-emerald-400/10 px-1.5 py-0.5 text-xs font-medium text-emerald-300">-18%</span></div>
+            <p class="mt-3 text-3xl font-semibold tracking-tight text-white">142<span class="text-base font-normal text-white/45">ms</span></p>
+            <p class="mt-3 text-xs text-white/45">p95 · last 24h</p>
+          </div>
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-5 backdrop-blur">
+            <div class="flex items-center justify-between"><span class="text-sm text-white/55">Eval pass rate</span><span class="rounded-md bg-violet-400/10 px-1.5 py-0.5 text-xs font-medium text-violet-300">+6%</span></div>
+            <p class="mt-3 text-3xl font-semibold tracking-tight text-white">94%</p>
+            <p class="mt-3 text-xs text-white/45">golden-v3 dataset</p>
+          </div>
+        </section>
+
+        <!-- Charts + activity -->
+        <section class="mt-6 grid gap-4 lg:grid-cols-3">
+          <!-- Usage chart -->
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur lg:col-span-2">
+            <div class="flex items-center justify-between">
+              <div><h2 class="text-base font-semibold text-white">Request volume</h2><p class="text-sm text-white/45">Daily requests across all models</p></div>
+              <div class="flex gap-1 text-xs">
+                <button class="rounded-md bg-white/[0.08] px-2.5 py-1 font-medium text-white">30d</button>
+                <button class="rounded-md px-2.5 py-1 text-white/50 hover:bg-white/[0.06]">7d</button>
+                <button class="rounded-md px-2.5 py-1 text-white/50 hover:bg-white/[0.06]">24h</button>
+              </div>
+            </div>
+            <!-- Bar chart -->
+            <div class="mt-6 flex h-56 items-end gap-1.5" role="img" aria-label="Bar chart of daily request volume over 30 days">
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:35%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:48%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:30%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:62%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:55%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:40%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:72%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:50%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:65%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:45%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:80%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:58%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:70%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:42%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:88%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-cyan-500/50 to-cyan-300" style="height:96%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:60%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:75%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:50%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:68%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:52%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:84%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:46%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:78%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:64%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:90%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:54%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:72%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:48%"></div>
+              <div class="bar w-full rounded-t bg-gradient-to-t from-violet-500/40 to-violet-400" style="height:66%"></div>
+            </div>
+            <div class="mt-3 flex justify-between text-xs text-white/35"><span>Jul 8</span><span>Jul 22</span><span>Aug 5</span></div>
+          </div>
+
+          <!-- AI usage metrics / model mix -->
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur">
+            <h2 class="text-base font-semibold text-white">Model mix</h2>
+            <p class="text-sm text-white/45">Requests by provider</p>
+            <div class="mt-6 space-y-4">
+              <div>
+                <div class="flex items-center justify-between text-sm"><span class="text-white/70">Claude 3.5</span><span class="mono text-white/55">48%</span></div>
+                <div class="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-white/10"><div class="h-full w-[48%] rounded-full bg-gradient-to-r from-violet-400 to-indigo-400"></div></div>
+              </div>
+              <div>
+                <div class="flex items-center justify-between text-sm"><span class="text-white/70">GPT-4o</span><span class="mono text-white/55">31%</span></div>
+                <div class="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-white/10"><div class="h-full w-[31%] rounded-full bg-gradient-to-r from-indigo-400 to-cyan-400"></div></div>
+              </div>
+              <div>
+                <div class="flex items-center justify-between text-sm"><span class="text-white/70">Llama 3.1</span><span class="mono text-white/55">14%</span></div>
+                <div class="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-white/10"><div class="h-full w-[14%] rounded-full bg-gradient-to-r from-cyan-400 to-emerald-400"></div></div>
+              </div>
+              <div>
+                <div class="flex items-center justify-between text-sm"><span class="text-white/70">Self-hosted</span><span class="mono text-white/55">7%</span></div>
+                <div class="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-white/10"><div class="h-full w-[7%] rounded-full bg-white/40"></div></div>
+              </div>
+            </div>
+            <div class="mt-6 rounded-xl border border-white/[0.08] bg-white/[0.02] p-4">
+              <p class="text-xs text-white/45">Cache hit rate</p>
+              <p class="mt-1 text-2xl font-semibold text-white">62%</p>
+              <p class="mt-1 text-xs text-emerald-300">Saving ~$1,240 / mo</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Recent activity + cost -->
+        <section class="mt-6 grid gap-4 lg:grid-cols-3">
+          <!-- Recent activity -->
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur lg:col-span-2">
+            <div class="flex items-center justify-between"><h2 class="text-base font-semibold text-white">Recent activity</h2><a href="#" class="text-sm text-violet-300 hover:text-violet-200">View all</a></div>
+            <ul class="mt-4 divide-y divide-white/[0.06]">
+              <li class="flex items-center gap-3 py-3">
+                <span class="grid h-9 w-9 place-items-center rounded-lg bg-emerald-400/10 text-emerald-300"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0a12 12 0 1 0 0 24A12 12 0 0 0 12 0Zm3.7 6.2-4 4.3a1 1 0 0 1-1.4 0L6.3 6.6a1 1 0 1 1 1.4-1.4l1.3 1.3 3.3-3.5a1 1 0 1 1 1.4 1.2Z"/></svg></span>
+                <div class="min-w-0 flex-1"><p class="truncate text-sm text-white">Eval suite <span class="mono text-white/60">golden-v3</span> passed</p><p class="text-xs text-white/45">2 minutes ago · 94% accuracy</p></div>
+                <span class="mono rounded-md bg-emerald-400/10 px-2 py-0.5 text-xs text-emerald-300">pass</span>
+              </li>
+              <li class="flex items-center gap-3 py-3">
+                <span class="grid h-9 w-9 place-items-center rounded-lg bg-cyan-400/10 text-cyan-300"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></span>
+                <div class="min-w-0 flex-1"><p class="truncate text-sm text-white">Fallback to <span class="mono text-white/60">gpt-4o</span> triggered</p><p class="text-xs text-white/45">11 minutes ago · provider timeout</p></div>
+                <span class="mono rounded-md bg-amber-400/10 px-2 py-0.5 text-xs text-amber-300">warn</span>
+              </li>
+              <li class="flex items-center gap-3 py-3">
+                <span class="grid h-9 w-9 place-items-center rounded-lg bg-violet-400/10 text-violet-300"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 2 .8 3.5 2 5 1 1.2 1.5 2.4 1.5 4h7c0-1.6.5-2.8 1.5-4 1.2-1.5 2-3 2-5a7 7 0 0 0-7-7Z"/></svg></span>
+                <div class="min-w-0 flex-1"><p class="truncate text-sm text-white">New model <span class="mono text-white/60">claude-3.5-sonnet</span> added</p><p class="text-xs text-white/45">1 hour ago · by Alex Rivera</p></div>
+                <span class="mono rounded-md bg-white/[0.06] px-2 py-0.5 text-xs text-white/60">info</span>
+              </li>
+              <li class="flex items-center gap-3 py-3">
+                <span class="grid h-9 w-9 place-items-center rounded-lg bg-rose-400/10 text-rose-300"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+                <div class="min-w-0 flex-1"><p class="truncate text-sm text-white">Guardrail <span class="mono text-white/60">pii</span> blocked a request</p><p class="text-xs text-white/45">3 hours ago · redacted output</p></div>
+                <span class="mono rounded-md bg-rose-400/10 px-2 py-0.5 text-xs text-rose-300">block</span>
+              </li>
+              <li class="flex items-center gap-3 py-3">
+                <span class="grid h-9 w-9 place-items-center rounded-lg bg-emerald-400/10 text-emerald-300"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0a12 12 0 1 0 0 24A12 12 0 0 0 12 0Zm3.7 6.2-4 4.3a1 1 0 0 1-1.4 0L6.3 6.6a1 1 0 1 1 1.4-1.4l1.3 1.3 3.3-3.5a1 1 0 1 1 1.4 1.2Z"/></svg></span>
+                <div class="min-w-0 flex-1"><p class="truncate text-sm text-white">Deploy <span class="mono text-white/60">prompt-v12</span> promoted to production</p><p class="text-xs text-white/45">5 hours ago · by Maya Chen</p></div>
+                <span class="mono rounded-md bg-emerald-400/10 px-2 py-0.5 text-xs text-emerald-300">pass</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Cost analytics -->
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur">
+            <h2 class="text-base font-semibold text-white">Cost analytics</h2>
+            <p class="text-sm text-white/45">This month</p>
+            <p class="mt-4 text-3xl font-semibold tracking-tight text-white">$2,184</p>
+            <p class="mt-1 text-xs text-emerald-300">↓ 18% vs last month</p>
+            <div class="mt-6 space-y-3 text-sm">
+              <div class="flex items-center justify-between"><span class="text-white/65">Inference</span><span class="mono text-white/80">$1,420</span></div>
+              <div class="flex items-center justify-between"><span class="text-white/65">Embeddings</span><span class="mono text-white/80">$312</span></div>
+              <div class="flex items-center justify-between"><span class="text-white/65">Cache (saved)</span><span class="mono text-emerald-300">-$1,240</span></div>
+              <div class="flex items-center justify-between border-t border-white/[0.06] pt-3"><span class="font-medium text-white">Estimated</span><span class="mono font-semibold text-white">$1,492</span></div>
+            </div>
+            <a href="#" class="mt-6 block rounded-lg border border-white/10 bg-white/[0.04] py-2.5 text-center text-sm font-medium text-white transition-colors hover:bg-white/[0.08]">View detailed report</a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

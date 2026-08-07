@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI SaaS Platform — Multi-Page Template | DevSnips</title>
+  <meta name="description" content="A premium multi-page Tailwind CSS SaaS website template — 11 pages, dark mode, fully responsive, production-ready.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+  <style>
+    :root { color-scheme: dark; }
+    html, body { background: #070B16; }
+    body { font-family: 'Inter', sans-serif; }
+    ::selection { background: rgba(139,92,246,0.35); }
+    .glow { position: absolute; border-radius: 9999px; filter: blur(80px); pointer-events: none; z-index: 0; }
+    .grid-bg {
+      background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(70% 50% at 50% 0%, #000 30%, transparent 100%);
+    }
+    .text-balance { text-wrap: balance; }
+  </style>
+</head>
+<body class="min-h-screen bg-[#070B16] text-white antialiased">
+
+  <!-- Template shell navbar -->
+  <header class="sticky top-0 z-50 border-b border-white/[0.06] bg-[#070B16]/80 backdrop-blur-xl">
+    <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8" aria-label="Primary">
+      <a href="preview.html" class="flex items-center gap-2.5" aria-label="AI SaaS Platform template home">
+        <span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/30"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18V6l10 12V6"/></svg></span>
+        <span class="text-[15px] font-semibold tracking-tight text-white">Nexus<span class="text-white/50"> AI</span></span>
+        <span class="ml-2 hidden rounded-md border border-white/10 bg-white/[0.04] px-1.5 py-0.5 text-[10px] text-white/50 sm:inline">template</span>
+      </a>
+      <div class="hidden items-center gap-2 lg:flex">
+        <a href="pages/index.html" class="rounded-lg bg-white px-4 py-2 text-sm font-semibold text-[#070B16] shadow-sm transition-all hover:shadow-white/20 hover:shadow-lg">Open site →</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / template intro -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 grid-bg"></div>
+      <div class="glow left-1/2 top-[-10%] h-[420px] w-[620px] -translate-x-1/2 bg-violet-600/20"></div>
+      <div class="relative mx-auto max-w-7xl px-6 pt-20 pb-16 lg:px-8 lg:pt-28">
+        <div class="mx-auto max-w-3xl text-center">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] py-1 pl-1 pr-3 text-xs font-medium text-white/80 backdrop-blur">
+            <span class="rounded-full bg-gradient-to-br from-violet-500 to-cyan-400 px-2 py-0.5 text-[10px] font-semibold text-white">Template</span>
+            Premium multi-page · 11 pages
+          </div>
+          <h1 class="mt-6 text-balance text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">AI SaaS Platform <span class="block bg-gradient-to-br from-violet-400 via-indigo-300 to-cyan-300 bg-clip-text text-transparent">website template</span></h1>
+          <p class="mx-auto mt-6 max-w-xl text-balance text-lg leading-relaxed text-white/60">A complete, production-ready Tailwind CSS template for an AI SaaS startup. Marketing site, docs, auth, and a matching application dashboard — all in one consistent design system.</p>
+          <div class="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <a href="pages/index.html" class="group inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:brightness-110 sm:w-auto">Open the site <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="pages/dashboard.html" class="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/[0.04] px-6 py-3 text-sm font-medium text-white backdrop-blur transition-colors hover:bg-white/[0.08] sm:w-auto">View dashboard</a>
+          </div>
+        </div>
+
+        <!-- Preview image -->
+        <div class="relative mx-auto mt-16 max-w-6xl">
+          <div class="absolute -inset-x-8 -top-8 bottom-0 -z-10 rounded-[2rem] bg-gradient-to-b from-violet-500/10 to-transparent blur-2xl"></div>
+          <div class="overflow-hidden rounded-2xl border border-white/10 bg-[#0B1020] shadow-2xl shadow-black/50 ring-1 ring-white/[0.04]">
+            <div class="flex items-center gap-2 border-b border-white/[0.06] px-4 py-3"><span class="h-3 w-3 rounded-full bg-red-400/70"></span><span class="h-3 w-3 rounded-full bg-amber-400/70"></span><span class="h-3 w-3 rounded-full bg-green-400/70"></span><span class="ml-3 rounded-md bg-white/[0.04] px-3 py-1 text-xs text-white/40">pages/index.html</span></div>
+            <img src="assets/images/dashboard-mockup.svg" alt="Nexus AI template preview" class="w-full" loading="lazy"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pages index -->
+    <section class="py-20 lg:py-28">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">All 11 pages</h2>
+          <p class="mt-4 text-lg text-white/55">Every page a real SaaS product needs, sharing one navbar, footer, and design language.</p>
+        </div>
+        <div class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <a href="pages/index.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">01</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Home</h3>
+            <p class="mt-1 text-sm text-white/55">Full SaaS landing experience.</p>
+          </a>
+          <a href="pages/features.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">02</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Features</h3>
+            <p class="mt-1 text-sm text-white/55">Capabilities, comparison, CTA.</p>
+          </a>
+          <a href="pages/integrations.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">03</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Integrations</h3>
+            <p class="mt-1 text-sm text-white/55">Ecosystem grid &amp; API.</p>
+          </a>
+          <a href="pages/pricing.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">04</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Pricing</h3>
+            <p class="mt-1 text-sm text-white/55">Plans, toggle, comparison.</p>
+          </a>
+          <a href="pages/customers.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">05</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Customers</h3>
+            <p class="mt-1 text-sm text-white/55">Stories &amp; case studies.</p>
+          </a>
+          <a href="pages/blog.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">06</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Blog</h3>
+            <p class="mt-1 text-sm text-white/55">Featured &amp; article cards.</p>
+          </a>
+          <a href="pages/blog-post.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">07</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Blog post</h3>
+            <p class="mt-1 text-sm text-white/55">Article &amp; author layout.</p>
+          </a>
+          <a href="pages/docs.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">08</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Docs</h3>
+            <p class="mt-1 text-sm text-white/55">Sidebar, search, code.</p>
+          </a>
+          <a href="pages/login.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">09</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Login</h3>
+            <p class="mt-1 text-sm text-white/55">Split-screen auth.</p>
+          </a>
+          <a href="pages/signup.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">10</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Signup</h3>
+            <p class="mt-1 text-sm text-white/55">Benefits + registration.</p>
+          </a>
+          <a href="pages/dashboard.html" class="group rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur transition-colors hover:border-white/20">
+            <div class="flex items-center justify-between"><span class="text-sm font-medium text-white/50">11</span><svg class="h-4 w-4 text-white/30 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+            <h3 class="mt-4 font-semibold text-white group-hover:text-violet-200">Dashboard</h3>
+            <p class="mt-1 text-sm text-white/55">App UI, charts, metrics.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature highlights -->
+    <section class="py-16 lg:py-24">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur">
+            <div class="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-violet-300 ring-1 ring-inset ring-white/10"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/></svg></div>
+            <h3 class="font-semibold text-white">11 connected pages</h3>
+            <p class="mt-2 text-sm text-white/55">One shared navbar, footer, and design system across the whole template.</p>
+          </div>
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur">
+            <div class="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-cyan-300 ring-1 ring-inset ring-white/10"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l3-4 3 2 4-6"/></svg></div>
+            <h3 class="font-semibold text-white">Premium dark UI</h3>
+            <p class="mt-2 text-sm text-white/55">Glass panels, gradients, floating elements, and a refined neutral palette.</p>
+          </div>
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur">
+            <div class="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-emerald-300 ring-1 ring-inset ring-white/10"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg></div>
+            <h3 class="font-semibold text-white">Fully responsive</h3>
+            <p class="mt-2 text-sm text-white/55">Mobile, tablet, and desktop layouts with accessible, semantic markup.</p>
+          </div>
+          <div class="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur">
+            <div class="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500/20 to-cyan-400/20 text-violet-300 ring-1 ring-inset ring-white/10"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></div>
+            <h3 class="font-semibold text-white">Tailwind CDN only</h3>
+            <p class="mt-2 text-sm text-white/55">Pure HTML + Tailwind + vanilla JS. No frameworks, no build step.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="relative overflow-hidden py-24 lg:py-32">
+      <div class="glow left-1/2 top-1/2 h-[400px] w-[700px] -translate-x-1/2 -translate-y-1/2 bg-gradient-to-br from-violet-600/25 to-cyan-500/15"></div>
+      <div class="mx-auto max-w-4xl px-6 text-center lg:px-8">
+        <h2 class="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">Explore the full template</h2>
+        <p class="mx-auto mt-5 max-w-xl text-lg text-white/60">Open the home page and navigate through the complete site.</p>
+        <div class="mt-9"><a href="pages/index.html" class="group inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-[#070B16] shadow-lg transition-all hover:shadow-white/20">Open the site <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="relative border-t border-white/[0.06] bg-[#070B16]">
+    <div class="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+      <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
+        <p class="text-sm text-white/45">AI SaaS Platform template — part of DevSnips.</p>
+        <a href="pages/index.html" class="text-sm text-violet-300 hover:text-violet-200">Browse pages →</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
