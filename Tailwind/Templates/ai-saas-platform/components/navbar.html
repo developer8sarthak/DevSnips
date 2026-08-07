@@ -1,0 +1,66 @@
+<!--
+Snippet Name: Nexus AI Navbar
+Description: Premium sticky glass navbar with logo, mega-nav links, CTAs, and a mobile menu toggle (vanilla JS, scoped).
+Author: DevSnips Contributors
+Usage Example: Paste as the first element inside <body>. Links use relative paths (pages/...).
+-->
+<header data-navbar class="sticky top-0 z-50 border-b border-white/[0.06] bg-[#070B16]/80 backdrop-blur-xl">
+  <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8" aria-label="Primary">
+    <a href="../preview.html" class="flex items-center gap-2.5" aria-label="Nexus AI home">
+      <span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/30">
+        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18V6l10 12V6"/></svg>
+      </span>
+      <span class="text-[15px] font-semibold tracking-tight text-white">Nexus<span class="text-white/50"> AI</span></span>
+    </a>
+
+    <div class="hidden items-center gap-1 lg:flex">
+      <a href="features.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Features</a>
+      <a href="integrations.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Integrations</a>
+      <a href="pricing.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Pricing</a>
+      <a href="customers.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Customers</a>
+      <a href="blog.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Blog</a>
+      <a href="docs.html" class="rounded-lg px-3 py-2 text-sm text-white/70 transition-colors hover:bg-white/[0.06] hover:text-white">Docs</a>
+    </div>
+
+    <div class="hidden items-center gap-2 lg:flex">
+      <a href="login.html" class="rounded-lg px-3.5 py-2 text-sm font-medium text-white/80 transition-colors hover:text-white">Sign in</a>
+      <a href="signup.html" class="group inline-flex items-center gap-1.5 rounded-lg bg-white px-4 py-2 text-sm font-semibold text-[#070B16] shadow-sm transition-all hover:shadow-white/20 hover:shadow-lg">
+        Start free
+        <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <button type="button" data-nav-toggle class="inline-flex h-10 w-10 items-center justify-center rounded-lg text-white/80 lg:hidden" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </nav>
+
+  <div id="mobile-menu" data-mobile-menu class="hidden border-t border-white/[0.06] bg-[#070B16] px-6 py-4 lg:hidden">
+    <div class="flex flex-col gap-1">
+      <a href="features.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Features</a>
+      <a href="integrations.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Integrations</a>
+      <a href="pricing.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Pricing</a>
+      <a href="customers.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Customers</a>
+      <a href="blog.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Blog</a>
+      <a href="docs.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Docs</a>
+      <div class="mt-3 flex gap-2">
+        <a href="login.html" class="flex-1 rounded-lg border border-white/10 px-4 py-2.5 text-center text-sm font-medium text-white">Sign in</a>
+        <a href="signup.html" class="flex-1 rounded-lg bg-white px-4 py-2.5 text-center text-sm font-semibold text-[#070B16]">Start free</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  (function () {
+    const root = document.currentScript.closest('[data-navbar]');
+    if (!root) return;
+    const toggle = root.querySelector('[data-nav-toggle]');
+    const menu = root.querySelector('[data-mobile-menu]');
+    if (!toggle || !menu) return;
+    toggle.addEventListener('click', () => {
+      const open = menu.classList.toggle('hidden') === false;
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+  })();
+</script>

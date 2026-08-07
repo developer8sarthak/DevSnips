@@ -1,0 +1,17 @@
+{
+  "name": "AI SaaS Platform",
+  "technology": "tailwind",
+  "category": "templates",
+  "type": "multipage",
+  "pages": 11,
+  "style": "premium-modern-saas",
+  "responsive": true,
+  "darkMode": true,
+  "tags": [
+    "ai",
+    "saas",
+    "startup",
+    "dashboard",
+    "landing-page"
+  ]
+}

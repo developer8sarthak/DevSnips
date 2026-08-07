@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation — Nexus AI</title>
+  <meta name="description" content="Nexus AI developer documentation — quickstart, API reference, SDKs, and guides.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/logo.svg">
+  <style>
+    :root { color-scheme: dark; }
+    html, body { background: #070B16; }
+    body { font-family: 'Inter', sans-serif; }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+    ::selection { background: rgba(139,92,246,0.35); }
+    .text-balance { text-wrap: balance; }
+    .docs-nav .active { background: rgba(255,255,255,0.06); color: #fff; }
+  </style>
+</head>
+<body class="min-h-screen bg-[#070B16] text-white antialiased">
+
+  <!-- Top navbar (docs variant, with search) -->
+  <header data-navbar class="sticky top-0 z-50 border-b border-white/[0.06] bg-[#070B16]/80 backdrop-blur-xl">
+    <nav class="mx-auto flex h-16 max-w-[1600px] items-center justify-between px-6 lg:px-8" aria-label="Primary">
+      <a href="../preview.html" class="flex items-center gap-2.5" aria-label="Nexus AI home">
+        <span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-violet-500 via-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/30"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18V6l10 12V6"/></svg></span>
+        <span class="text-[15px] font-semibold tracking-tight text-white">Nexus<span class="text-white/50"> AI</span></span>
+        <span class="mono ml-2 hidden rounded-md border border-white/10 bg-white/[0.04] px-1.5 py-0.5 text-[10px] text-white/50 sm:inline">docs</span>
+      </a>
+      <!-- Search -->
+      <div class="hidden flex-1 px-8 lg:block">
+        <button type="button" class="group flex w-full max-w-md items-center gap-2 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2 text-sm text-white/40 backdrop-blur transition-colors hover:bg-white/[0.06]" aria-label="Search docs">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          Search the docs…
+          <kbd class="mono ml-auto rounded border border-white/10 bg-white/[0.06] px-1.5 text-[10px] text-white/50">⌘K</kbd>
+        </button>
+      </div>
+      <div class="hidden items-center gap-2 lg:flex">
+        <a href="docs.html" class="rounded-lg bg-white/[0.06] px-3 py-2 text-sm text-white">Docs</a>
+        <a href="signup.html" class="group inline-flex items-center gap-1.5 rounded-lg bg-white px-4 py-2 text-sm font-semibold text-[#070B16] shadow-sm transition-all hover:shadow-white/20 hover:shadow-lg">Get API key <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <button type="button" data-nav-toggle class="inline-flex h-10 w-10 items-center justify-center rounded-lg text-white/80 lg:hidden" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </nav>
+    <div id="mobile-menu" data-mobile-menu class="hidden border-t border-white/[0.06] bg-[#070B16] px-6 py-4 lg:hidden">
+      <div class="flex flex-col gap-1">
+        <a href="features.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Features</a>
+        <a href="pricing.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Pricing</a>
+        <a href="blog.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Blog</a>
+        <a href="docs.html" class="rounded-lg px-3 py-2.5 text-sm text-white/80 hover:bg-white/[0.06]">Docs</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mx-auto flex max-w-[1600px]">
+    <!-- Sidebar -->
+    <aside class="sticky top-16 hidden h-[calc(100vh-4rem)] w-64 shrink-0 overflow-y-auto border-r border-white/[0.06] px-4 py-8 lg:block" aria-label="Documentation navigation">
+      <nav class="docs-nav space-y-1 text-sm">
+        <p class="px-3 pb-2 text-xs font-semibold uppercase tracking-wider text-white/40">Getting started</p>
+        <a href="#quickstart" class="active block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">Quickstart</a>
+        <a href="#installation" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">Installation</a>
+        <a href="#auth" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">Authentication</a>
+
+        <p class="px-3 pb-2 pt-6 text-xs font-semibold uppercase tracking-wider text-white/40">Core concepts</p>
+        <a href="#inference" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">Inference</a>
+        <a href="#streaming" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">Streaming</a>
+        <a href="#evals" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">Evaluations</a>
+        <a href="#guardrails" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">Guardrails</a>
+
+        <p class="px-3 pb-2 pt-6 text-xs font-semibold uppercase tracking-wider text-white/40">Reference</p>
+        <a href="#api" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">API reference</a>
+        <a href="#sdks" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">SDKs</a>
+        <a href="#errors" class="block rounded-lg px-3 py-2 text-white/70 transition-colors hover:bg-white/[0.06]">Error codes</a>
+      </nav>
+    </aside>
+
+    <main class="min-w-0 flex-1 px-6 py-12 lg:px-12 lg:py-16">
+      <div class="mx-auto max-w-3xl">
+        <p class="text-sm text-white/45">Getting started</p>
+        <h1 id="quickstart" class="mt-2 text-balance text-4xl font-semibold tracking-tight sm:text-5xl">Quickstart</h1>
+        <p class="mt-4 text-lg text-white/60">Get from zero to your first streamed completion in under five minutes.</p>
+
+        <div class="mt-8 flex items-center gap-2 text-sm text-white/50">
+          <span class="mono rounded-md border border-white/10 bg-white/[0.04] px-2 py-0.5">5 min</span>
+          <span>·</span><span>Last updated Aug 2026</span>
+        </div>
+
+        <!-- Step 1 -->
+        <h2 id="installation" class="mt-12 text-2xl font-semibold tracking-tight text-white">1. Install the SDK</h2>
+        <p class="mt-3 text-white/65">Install the Nexus AI SDK for your language. All SDKs are open source and fully typed.</p>
+        <div class="mt-4 overflow-hidden rounded-xl border border-white/[0.08] bg-black/40">
+          <div class="flex items-center gap-2 border-b border-white/[0.06] px-4 py-2 text-xs text-white/40"><span class="mono">bash</span><button class="mono ml-auto rounded px-2 py-0.5 text-white/50 hover:bg-white/[0.06]">copy</button></div>
+          <pre class="mono overflow-x-auto p-4 text-xs leading-relaxed text-cyan-200"><code>npm install @nexus/sdk
+# or
+pip install nexus-ai</code></pre>
+        </div>
+
+        <!-- Step 2 -->
+        <h2 id="auth" class="mt-12 text-2xl font-semibold tracking-tight text-white">2. Get an API key</h2>
+        <p class="mt-3 text-white/65">Create a project in the dashboard and copy your API key. Store it as an environment variable — never commit it to source control.</p>
+        <div class="mt-4 overflow-hidden rounded-xl border border-white/[0.08] bg-black/40">
+          <div class="flex items-center gap-2 border-b border-white/[0.06] px-4 py-2 text-xs text-white/40"><span class="mono">bash</span></div>
+          <pre class="mono overflow-x-auto p-4 text-xs leading-relaxed text-cyan-200"><code>export NEXUS_API_KEY="nx_live_********"</code></pre>
+        </div>
+
+        <!-- Step 3 -->
+        <h2 id="inference" class="mt-12 text-2xl font-semibold tracking-tight text-white">3. Make your first request</h2>
+        <p class="mt-3 text-white/65">Initialize the client and run a completion. The same code works across every provider — just change the model alias.</p>
+        <div class="mt-4 overflow-hidden rounded-xl border border-white/[0.08] bg-black/40">
+          <div class="flex items-center gap-2 border-b border-white/[0.06] px-4 py-2 text-xs text-white/40"><span class="mono">typescript</span><button class="mono ml-auto rounded px-2 py-0.5 text-white/50 hover:bg-white/[0.06]">copy</button></div>
+          <pre class="mono overflow-x-auto p-4 text-xs leading-relaxed"><code><span class="text-violet-300">import</span> <span class="text-white/90">{ Nexus }</span> <span class="text-violet-300">from</span> <span class="text-emerald-300">"@nexus/sdk"</span><span class="text-white/90">;</span>
+
+<span class="text-violet-300">const</span> nexus <span class="text-white/90">=</span> <span class="text-violet-300">new</span> <span class="text-cyan-300">Nexus</span><span class="text-white/90">(process.env.NEXUS_API_KEY);</span>
+
+<span class="text-violet-300">const</span> res <span class="text-white/90">= await nexus.</span><span class="text-cyan-300">complete</span><span class="text-white/90">({</span>
+  model<span class="text-white/90">:</span> <span class="text-emerald-300">"smart-chat"</span><span class="text-white/90">,</span>
+  input<span class="text-white/90">:</span> <span class="text-emerald-300">"Explain vector search in one sentence."</span><span class="text-white/90">,</span>
+<span class="text-white/90">});</span>
+
+console.<span class="text-cyan-300">log</span><span class="text-white/90">(res.text);</span></code></pre>
+        </div>
+
+        <!-- Step 4 -->
+        <h2 id="streaming" class="mt-12 text-2xl font-semibold tracking-tight text-white">4. Stream tokens</h2>
+        <p class="mt-3 text-white/65">For real-time UX, stream the response token by token. Streaming is first-byte optimized and works across all providers.</p>
+        <div class="mt-4 overflow-hidden rounded-xl border border-white/[0.08] bg-black/40">
+          <div class="flex items-center gap-2 border-b border-white/[0.06] px-4 py-2 text-xs text-white/40"><span class="mono">typescript</span><button class="mono ml-auto rounded px-2 py-0.5 text-white/50 hover:bg-white/[0.06]">copy</button></div>
+          <pre class="mono overflow-x-auto p-4 text-xs leading-relaxed"><code><span class="text-violet-300">const</span> stream <span class="text-white/90">= await nexus.</span><span class="text-cyan-300">stream</span><span class="text-white/90">({</span>
+  model<span class="text-white/90">:</span> <span class="text-emerald-300">"smart-chat"</span><span class="text-white/90">,</span>
+  input<span class="text-white/90">:</span> <span class="text-emerald-300">"Draft a release note."</span><span class="text-white/90">,</span>
+<span class="text-white/90">});</span>
+
+<span class="text-violet-300">for await</span> <span class="text-white/90">(</span><span class="text-violet-300">const</span> chunk <span class="text-violet-300">of</span> stream<span class="text-white/90">) {</span>
+  process.stdout.<span class="text-cyan-300">write</span><span class="text-white/90">(chunk.text);</span>
+<span class="text-white/90">}</span></code></pre>
+        </div>
+
+        <!-- Evals -->
+        <h2 id="evals" class="mt-12 text-2xl font-semibold tracking-tight text-white">Run evaluations</h2>
+        <p class="mt-3 text-white/65">Define a golden dataset and a set of metrics, then run regressions before every release. Gate deploys on a quality threshold.</p>
+        <div class="mt-4 overflow-hidden rounded-xl border border-white/[0.08] bg-black/40">
+          <div class="flex items-center gap-2 border-b border-white/[0.06] px-4 py-2 text-xs text-white/40"><span class="mono">typescript</span></div>
+          <pre class="mono overflow-x-auto p-4 text-xs leading-relaxed"><code><span class="text-violet-300">const</span> result <span class="text-white/90">= await nexus.</span><span class="text-cyan-300">evals</span><span class="text-white/90">.</span><span class="text-cyan-300">run</span><span class="text-white/90">({</span>
+  dataset<span class="text-white/90">:</span> <span class="text-emerald-300">"golden-v3"</span><span class="text-white/90">,</span>
+  models<span class="text-white/90">: [</span><span class="text-emerald-300">"smart-chat"</span><span class="text-white/90">],</span>
+  metrics<span class="text-white/90">: [</span><span class="text-emerald-300">"accuracy"</span><span class="text-white/90">,</span> <span class="text-emerald-300">"latency"</span><span class="text-white/90">,</span> <span class="text-emerald-300">"cost"</span><span class="text-white/90">],</span>
+<span class="text-white/90">});</span>
+
+<span class="text-slate-400">// → { accuracy: 0.94, latency: 142ms, cost: 0.02 }</span></code></pre>
+        </div>
+
+        <!-- Next steps -->
+        <div class="mt-12 rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur">
+          <h2 class="text-lg font-semibold text-white">Next steps</h2>
+          <ul class="mt-3 space-y-2 text-sm text-white/65">
+            <li><a href="#guardrails" class="text-violet-300 hover:text-violet-200">Add safety guardrails →</a></li>
+            <li><a href="#api" class="text-violet-300 hover:text-violet-200">Explore the full API reference →</a></li>
+            <li><a href="integrations.html" class="text-violet-300 hover:text-violet-200">Browse integrations →</a></li>
+          </ul>
+        </div>
+
+        <!-- Help footer -->
+        <div class="mt-12 flex items-center justify-between border-t border-white/[0.06] pt-6 text-sm text-white/45">
+          <a href="#" class="hover:text-white">← Previous</a>
+          <a href="#" class="hover:text-white">Edit this page</a>
+          <a href="#" class="hover:text-white">Next →</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- On-this-page TOC -->
+    <aside class="sticky top-16 hidden h-[calc(100vh-4rem)] w-56 shrink-0 overflow-y-auto border-l border-white/[0.06] px-4 py-8 xl:block" aria-label="On this page">
+      <p class="px-3 pb-2 text-xs font-semibold uppercase tracking-wider text-white/40">On this page</p>
+      <nav class="space-y-1 text-sm">
+        <a href="#quickstart" class="block rounded-lg px-3 py-1.5 text-white/55 hover:text-white">Quickstart</a>
+        <a href="#installation" class="block rounded-lg px-3 py-1.5 text-white/55 hover:text-white">Install the SDK</a>
+        <a href="#auth" class="block rounded-lg px-3 py-1.5 text-white/55 hover:text-white">Get an API key</a>
+        <a href="#inference" class="block rounded-lg px-3 py-1.5 text-white/55 hover:text-white">First request</a>
+        <a href="#streaming" class="block rounded-lg px-3 py-1.5 text-white/55 hover:text-white">Stream tokens</a>
+        <a href="#evals" class="block rounded-lg px-3 py-1.5 text-white/55 hover:text-white">Run evaluations</a>
+      </nav>
+    </aside>
+  </div>
+
+  <script>
+    (function () {
+      const nav = document.querySelector('[data-navbar]');
+      if (!nav) return;
+      const toggle = nav.querySelector('[data-nav-toggle]');
+      const menu = nav.querySelector('[data-mobile-menu]');
+      if (!toggle || !menu) return;
+      toggle.addEventListener('click', () => {
+        const open = menu.classList.toggle('hidden') === false;
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+    })();
+  </script>
+</body>
+</html>
