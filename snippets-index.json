@@ -1,10 +1,10 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-08",
   "description": "DevSnips component library index - organized as design system families with production-ready variants",
   "stats": {
-    "totalFamilies": 86,
-    "totalVariants": 731,
+    "totalFamilies": 87,
+    "totalVariants": 732,
     "totalSubVariants": 0,
     "totalStyles": 1728,
     "technologies": [
@@ -19899,6 +19899,82 @@
         "saas docs template",
         "dark saas template"
       ]
+    },
+    {
+      "name": "Baseline Conference (Template)",
+      "path": "Tailwind/Templates/baseline-conference/",
+      "tech": "Tailwind CSS",
+      "category": "Templates",
+      "description": "Multi-page design & engineering conference website template in a bold Neo-Brutalist design system — six connected pages (home, speakers, schedule, venue, register, code of conduct) sharing one cream + black + bright-accent language with hard borders and offset shadows. Tailwind CDN + vanilla JS, fully responsive from 320px up.",
+      "variantsCount": 1,
+      "variants": [
+        {
+          "name": "Baseline Conference",
+          "path": "Tailwind/Templates/baseline-conference/",
+          "description": "Complete Neo-Brutalist conference template: home, speakers, schedule, venue, register, and code of conduct. Shared sticky navbar with mobile menu, shared footer with newsletter, hero with offset ticket card, speaker grid with track-filter chips (scoped JS), two-day schedule with day tabs (scoped JS), CSS-map venue illustration, ticketed register page with order summary and form validation, and a long-form code-of-conduct article with quick-nav.",
+          "styles": [
+            "neo-brutalism",
+            "conference",
+            "event",
+            "landing-page",
+            "tickets"
+          ],
+          "features": [
+            "6 connected pages sharing one Neo-Brutalist design system",
+            "shared sticky navbar with mobile menu (scoped vanilla JS)",
+            "shared footer with newsletter and social links",
+            "hero with oversized type and offset ticket card",
+            "speakers grid with filterable track chips (scoped JS)",
+            "two-day schedule with day tabs and session cards (scoped JS)",
+            "venue page with CSS-map illustration and travel info",
+            "ticketed register page with order summary and validation",
+            "code-of-conduct long-form article layout",
+            "fully responsive (mobile-first, 320px to 1920px+)",
+            "accessible: semantic HTML, ARIA, focus rings, reduced-motion safe"
+          ],
+          "tags": [
+            "conference",
+            "event",
+            "neo-brutalism",
+            "landing-page",
+            "schedule",
+            "tickets",
+            "template",
+            "tailwind"
+          ],
+          "files": [
+            "metadata.json",
+            "README.md",
+            "pages/index.html",
+            "pages/speakers.html",
+            "pages/schedule.html",
+            "pages/venue.html",
+            "pages/register.html",
+            "pages/conduct.html"
+          ]
+        }
+      ],
+      "tags": [
+        "conference",
+        "event",
+        "neo-brutalism",
+        "landing-page",
+        "schedule",
+        "tickets",
+        "template",
+        "tailwind",
+        "multipage"
+      ],
+      "searchTerms": [
+        "conference website template",
+        "event landing page",
+        "neo-brutalism template",
+        "design conference template",
+        "speaker schedule template",
+        "ticket registration page",
+        "tailwind event template",
+        "multi-page conference template"
+      ]
     }
   ],
   "plannedFamilies": {
@@ -20044,7 +20120,8 @@
         "Logos (Tailwind)",
         "Newsletter (Tailwind)",
         "404 (Tailwind)",
-        "AI SaaS Platform (Template)"
+        "AI SaaS Platform (Template)",
+        "Baseline Conference (Template)"
       ]
     },
     {
